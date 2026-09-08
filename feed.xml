@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Space Digest</title>
+    <link>https://thespacenavy.github.io/space-digest/</link>
+    <description>The podcasts worth your week, in a minute each.</description>
+    <language>en</language>
+    <lastBuildDate>Tue, 08 Sep 2026 21:59:59 +0000</lastBuildDate>
+    <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>You Are Not Data (Christopher West) on AI and the Soul | Ep. 595</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260907-you-are-not-data-christopher-west-on-ai-and-the-soul-ep-595/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260907-you-are-not-data-christopher-west-on-ai-and-the-soul-ep-595/</guid>
+      <pubDate>Tue, 08 Sep 2026 01:57:59 +0000</pubDate>
+      <description>AI may be powerful, but the episode argues that treating humans like machines destroys what makes love, bodies, and relationships human.</description>
+    </item>
+    <item>
+      <title>Answering 7 Arguments For Atheism | Joe Schmid | Last Call Ep. 30</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260903-answering-7-arguments-for-atheism-joe-schmid-last-call-ep-30/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260903-answering-7-arguments-for-atheism-joe-schmid-last-call-ep-30/</guid>
+      <pubDate>Tue, 08 Sep 2026 01:56:31 +0000</pubDate>
+      <description>The episode argues that suffering, hiddenness, cosmic order, and even religious disagreement can fit belief in God.</description>
+    </item>
+  </channel>
+</rss>
