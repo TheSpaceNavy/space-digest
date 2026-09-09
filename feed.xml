@@ -5,8 +5,15 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Sep 2026 00:14:24 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 02:03:56 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Why GPT-6 Astra Is So Significant and So Confounding</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260908-why-gpt-6-astra-is-so-significant-and-so-confounding/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260908-why-gpt-6-astra-is-so-significant-and-so-confounding/</guid>
+      <pubDate>Wed, 09 Sep 2026 02:03:56 +0000</pubDate>
+      <description>GPT-6 Astra may matter less as a better chatbot than as a new way to work with computers.</description>
+    </item>
     <item>
       <title>#2550 - Rick Springfield</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260908-2550-rick-springfield/</link>
@@ -20,6 +27,13 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260907-you-are-not-data-christopher-west-on-ai-and-the-soul-ep-595/</guid>
       <pubDate>Tue, 08 Sep 2026 01:57:59 +0000</pubDate>
       <description>AI may be powerful, but the episode argues that treating humans like machines destroys what makes love, bodies, and relationships human.</description>
+    </item>
+    <item>
+      <title>The Multiplayer AI Sprint: Build Your Team’s First Shared Agent</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260907-the-multiplayer-ai-sprint-build-your-teams-first-shared/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260907-the-multiplayer-ai-sprint-build-your-teams-first-shared/</guid>
+      <pubDate>Wed, 09 Sep 2026 02:03:45 +0000</pubDate>
+      <description>AI agents are moving from private helpers to shared teammates that can work inside the spaces teams already use.</description>
     </item>
     <item>
       <title>Air Force Veterans Abducted By Aliens Reunite After 50 Years [EMOTIONAL]</title>
