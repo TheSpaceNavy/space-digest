@@ -2,7 +2,7 @@
 <html lang="en">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>American Alchemy with Jesse Michels · Space Digest</title>
+<title>Every episode · Space Digest</title>
 <link rel="alternate" type="application/rss+xml" title="Space Digest" href="/space-digest/feed.xml">
 <style>
   :root { --ink:#1a1a1a; --soft:#5b5b5b; --line:#e2e0da; --paper:#fbfaf7; --mark:#7a3b2e; }
@@ -71,12 +71,80 @@
     <a href="/space-digest/"><p class="wordmark">Space Digest</p></a>
     <p class="tagline">The podcasts worth your week, in a minute each.</p>
   </header>
-  <h1>American Alchemy with Jesse Michels</h1>
-  <p class="meta">1 episode summarised</p>
-  <ul class="points">
-    <li><a href="/space-digest/episodes/american-alchemy-with-jesse-michels/20260907-air-force-veterans-abducted-by-aliens-reunite-after-50-years/">Air Force Veterans Abducted By Aliens Reunite After 50 Years [EMOTIONAL]</a>
-        <span class="at">7 Sep 2026 · 2h 47m</span></li>
+  <h1>Every episode</h1>
+  <p class="meta">4 summarised, newest first by the day the
+     episode came out.</p>
+
+  <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="american-alchemy-with-jesse-michels">American Alchemy with Jesse Michels <span class="at">1</span></button>
+      <button class="chip" data-show="pints-with-aquinas">Pints With Aquinas <span class="at">2</span></button>
+      <button class="chip" data-show="the-joe-rogan-experience">The Joe Rogan Experience <span class="at">1</span></button>
+    </div>
+  </div>
+
+  <ul class="episodes" id="list">
+    <li data-show="the-joe-rogan-experience" data-title="#2550 - rick springfield">
+      <a href="/space-digest/episodes/the-joe-rogan-experience/20260908-2550-rick-springfield/">#2550 - Rick Springfield</a>
+      <span class="at">8 Sep 2026 · The Joe Rogan Experience · 2h 19m</span>
+      <span class="why">Rick Springfield’s path to “Jesse’s Girl” ran through war, poverty, shyness, soap operas, and a stranger’s girlfriend.</span>
+    </li>
+    <li data-show="pints-with-aquinas" data-title="you are not data (christopher west) on ai and the soul | ep. 595">
+      <a href="/space-digest/episodes/pints-with-aquinas/20260907-you-are-not-data-christopher-west-on-ai-and-the-soul-ep-595/">You Are Not Data (Christopher West) on AI and the Soul | Ep. 595</a>
+      <span class="at">7 Sep 2026 · Pints With Aquinas · 2h 40m</span>
+      <span class="why">AI may be powerful, but the episode argues that treating humans like machines destroys what makes love, bodies, and relationships human.</span>
+    </li>
+    <li data-show="american-alchemy-with-jesse-michels" data-title="air force veterans abducted by aliens reunite after 50 years [emotional]">
+      <a href="/space-digest/episodes/american-alchemy-with-jesse-michels/20260907-air-force-veterans-abducted-by-aliens-reunite-after-50-years/">Air Force Veterans Abducted By Aliens Reunite After 50 Years [EMOTIONAL]</a>
+      <span class="at">7 Sep 2026 · American Alchemy with Jesse Michels · 2h 47m</span>
+      <span class="why">Two Air Force veterans reunite after 50 years and recover a story of missing time, strange beings, and alleged government interference.</span>
+    </li>
+    <li data-show="pints-with-aquinas" data-title="answering 7 arguments for atheism | joe schmid | last call ep. 30">
+      <a href="/space-digest/episodes/pints-with-aquinas/20260903-answering-7-arguments-for-atheism-joe-schmid-last-call-ep-30/">Answering 7 Arguments For Atheism | Joe Schmid | Last Call Ep. 30</a>
+      <span class="at">3 Sep 2026 · Pints With Aquinas · 29 min</span>
+      <span class="why">The episode argues that suffering, hiddenness, cosmic order, and even religious disagreement can fit belief in God.</span>
+    </li>
   </ul>
+  <p class="quiet" id="none" hidden>Nothing matches that.</p>
+
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '';
+
+    function apply() {
+      var seen = 0;
+      items.forEach(function (li) {
+        var ok = (!show || li.dataset.show === show) &&
+                 (!text || li.dataset.title.indexOf(text) !== -1);
+        li.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('.chips').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('.chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
   <footer>
     <p>Summaries are written by a machine from each episode's own words, and
        link back to the time they were said. Nothing here replaces listening.</p>
