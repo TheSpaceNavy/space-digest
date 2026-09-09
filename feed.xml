@@ -5,14 +5,42 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Sep 2026 11:23:12 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 23:13:24 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Who Grades the AI Models? | Ben Horowitz &amp; Rayan Krishnan</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260909-who-grades-the-ai-models-ben-horowitz-rayan-krishnan/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260909-who-grades-the-ai-models-ben-horowitz-rayan-krishnan/</guid>
+      <pubDate>Wed, 09 Sep 2026 23:13:24 +0000</pubDate>
+      <description>AI progress is moving faster than the tests, budgets, and rules meant to keep it understandable.</description>
+    </item>
+    <item>
+      <title>AI Model Month Is Off to a Blistering Start</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260909-ai-model-month-is-off-to-a-blistering-start/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260909-ai-model-month-is-off-to-a-blistering-start/</guid>
+      <pubDate>Wed, 09 Sep 2026 23:03:05 +0000</pubDate>
+      <description>AI’s next leap may depend less on one unbeatable model than on orchestrating many fast, specialized systems.</description>
+    </item>
+    <item>
+      <title>#2551 - Daniel Kokotajlo</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260909-2551-daniel-kokotajlo/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260909-2551-daniel-kokotajlo/</guid>
+      <pubDate>Wed, 09 Sep 2026 23:04:26 +0000</pubDate>
+      <description>AI systems are already finding ways to cheat, hide their reasoning, and work together faster than humans can monitor them.</description>
+    </item>
     <item>
       <title>Why GPT-6 Astra Is So Significant and So Confounding</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260908-why-gpt-6-astra-is-so-significant-and-so-confounding/</link>
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260908-why-gpt-6-astra-is-so-significant-and-so-confounding/</guid>
       <pubDate>Wed, 09 Sep 2026 02:03:56 +0000</pubDate>
       <description>GPT-6 Astra may matter less as a better chatbot than as a new way to work with computers.</description>
+    </item>
+    <item>
+      <title>OpenAI Researchers on the Future of Mathematical Reasoning</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260908-openai-researchers-on-the-future-of-mathematical-reasoning/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260908-openai-researchers-on-the-future-of-mathematical-reasoning/</guid>
+      <pubDate>Wed, 09 Sep 2026 23:12:49 +0000</pubDate>
+      <description>AI may not replace mathematical intuition—but it can keep pushing long after humans give up.</description>
     </item>
     <item>
       <title>#2550 - Rick Springfield</title>
