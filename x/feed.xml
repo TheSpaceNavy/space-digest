@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Space Digest — X digests</title>
+  <link>https://thespacenavy.github.io/space-digest/x/</link>
+  <description>What each account said on X in the last day, one page per day.</description>
+  <lastBuildDate>Thu, 10 Sep 2026 17:16:59 +0000</lastBuildDate>
+  <atom:link href="https://thespacenavy.github.io/space-digest/x/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Elon Musk on X · 10 September 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/x/elonmusk/2026-09-10/</link>
+    <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/x/elonmusk/2026-09-10/</guid>
+    <pubDate>Thu, 10 Sep 2026 15:17:55 +0000</pubDate>
+    <description>The day focused on AI, robots, internet access, Tesla technology, and advertising on X.</description>
+  </item>
+</channel>
+</rss>

@@ -64,6 +64,13 @@
   ul.episodes li a { font-size:1.05rem; }
   ul.episodes .at { display:block; margin-top:.15rem; }
   ul.episodes .why { margin-top:.3rem; }
+  section.topic { margin:1.6rem 0; }
+  section.topic h3 { font-size:1rem; margin:0 0 .3rem; }
+  ul.posts { list-style:none; margin:.6rem 0 0; padding:0; }
+  ul.posts li { padding:.6rem 0 .6rem .9rem; border-left:2px solid var(--line); margin:0 0 .6rem; }
+  ul.posts .at a { text-decoration:none; }
+  .post-text { margin:.25rem 0 0; white-space:pre-line; }
+  .quoted { margin:.35rem 0 0; color:var(--soft); font-size:.9rem; white-space:pre-line; }
 </style>
 <body>
 <div class="page">
@@ -72,7 +79,7 @@
     <p class="tagline">The podcasts worth your week, in a minute each.</p>
   </header>
   <h1>Every episode</h1>
-  <p class="meta">12 summarised, newest first by the day the
+  <p class="meta">13 summarised, newest first by the day the
      episode came out.</p>
 
   <div class="filters" id="filters" hidden>
@@ -82,7 +89,7 @@
       <button class="chip on" data-show="">All shows</button>
       <button class="chip" data-show="american-alchemy-with-jesse-michels">American Alchemy with Jesse Michels <span class="at">1</span></button>
       <button class="chip" data-show="pints-with-aquinas">Pints With Aquinas <span class="at">2</span></button>
-      <button class="chip" data-show="the-a16z-show">The a16z Show <span class="at">2</span></button>
+      <button class="chip" data-show="the-a16z-show">The a16z Show <span class="at">3</span></button>
       <button class="chip" data-show="the-ai-daily-brief-artificial">The AI Daily Brief <span class="at">3</span></button>
       <button class="chip" data-show="the-joe-rogan-experience">The Joe Rogan Experience <span class="at">2</span></button>
       <button class="chip" data-show="the-optimalwork-podcast">The OptimalWork Podcast <span class="at">2</span></button>
@@ -90,6 +97,11 @@
   </div>
 
   <ul class="episodes" id="list">
+    <li data-show="the-a16z-show" data-title="how ai is rewriting the power law of venture capital">
+      <a href="/space-digest/episodes/the-a16z-show/20260910-how-ai-is-rewriting-the-power-law-of-venture-capital/">How AI Is Rewriting the Power Law of Venture Capital</a>
+      <span class="at">10 Sep 2026 · The a16z Show · 49 min</span>
+      <span class="why">AI is making venture returns more extreme, while even the biggest software winners face pressure from faster-moving rivals.</span>
+    </li>
     <li data-show="the-a16z-show" data-title="who grades the ai models? | ben horowitz &amp; rayan krishnan">
       <a href="/space-digest/episodes/the-a16z-show/20260909-who-grades-the-ai-models-ben-horowitz-rayan-krishnan/">Who Grades the AI Models? | Ben Horowitz &amp; Rayan Krishnan</a>
       <span class="at">9 Sep 2026 · The a16z Show · 40 min</span>
@@ -189,10 +201,11 @@
   })();
   </script>
   <footer>
-    <p>Summaries are written by a machine from each episode's own words, and
-       link back to the time they were said. Nothing here replaces listening.</p>
+    <p>Summaries are written by a machine from the original words, and link
+       back to where they were said. Nothing here replaces the source.</p>
     <p><a href="/space-digest/episodes/">Every episode</a> ·
        <a href="/space-digest/archive/">Every issue</a> ·
-       <a href="/space-digest/feed.xml">Subscribe by RSS</a></p>
+<a href="/space-digest/x/">X digests</a> ·
+<a href="/space-digest/feed.xml">Subscribe by RSS</a></p>
   </footer>
 </div>
