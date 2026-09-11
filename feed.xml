@@ -5,14 +5,35 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 10 Sep 2026 21:15:23 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 00:24:29 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Remembering the Life &amp; Legacy of Charlie Kirk | Michael Knowles, Isabel Brown | Last Call Ep. 31</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260910-remembering-the-life-legacy-of-charlie-kirk-michael-knowles/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260910-remembering-the-life-legacy-of-charlie-kirk-michael-knowles/</guid>
+      <pubDate>Thu, 10 Sep 2026 23:11:37 +0000</pubDate>
+      <description>Charlie Kirk’s influence is portrayed as reaching beyond politics into faith, marriage, and the lives of thousands of families.</description>
+    </item>
     <item>
       <title>How AI Is Rewriting the Power Law of Venture Capital</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260910-how-ai-is-rewriting-the-power-law-of-venture-capital/</link>
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260910-how-ai-is-rewriting-the-power-law-of-venture-capital/</guid>
       <pubDate>Thu, 10 Sep 2026 11:10:26 +0000</pubDate>
       <description>AI is making venture returns more extreme, while even the biggest software winners face pressure from faster-moving rivals.</description>
+    </item>
+    <item>
+      <title>Anthropic Researcher Says AI Has Over a 10% Chance of Killing All Humans</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260910-anthropic-researcher-says-ai-has-over-a-10-chance-of-killing/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260910-anthropic-researcher-says-ai-has-over-a-10-chance-of-killing/</guid>
+      <pubDate>Thu, 10 Sep 2026 23:12:13 +0000</pubDate>
+      <description>Anthropic’s own safety warning puts a double-digit chance on AI causing human extinction within a decade.</description>
+    </item>
+    <item>
+      <title>#2552 - Ehsan Ahmad &amp; Deric Poston</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260910-2552-ehsan-ahmad-deric-poston/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260910-2552-ehsan-ahmad-deric-poston/</guid>
+      <pubDate>Thu, 10 Sep 2026 23:13:42 +0000</pubDate>
+      <description>A wide-ranging conversation argues that technology, shame, and isolation are quietly reshaping how people think and live.</description>
     </item>
     <item>
       <title>Who Grades the AI Models? | Ben Horowitz &amp; Rayan Krishnan</title>
@@ -78,11 +99,25 @@
       <description>Stonewalling feels protective, but cutting people off makes us less safe and less able to grow.</description>
     </item>
     <item>
+      <title>Can Open Source Keep AI Power From Concentrating?</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260907-can-open-source-keep-ai-power-from-concentrating/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260907-can-open-source-keep-ai-power-from-concentrating/</guid>
+      <pubDate>Fri, 11 Sep 2026 00:23:01 +0000</pubDate>
+      <description>Today’s AI power gap may be a temporary technology choice—not a permanent law of artificial intelligence.</description>
+    </item>
+    <item>
       <title>Air Force Veterans Abducted By Aliens Reunite After 50 Years [EMOTIONAL]</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/american-alchemy-with-jesse-michels/20260907-air-force-veterans-abducted-by-aliens-reunite-after-50-years/</link>
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/american-alchemy-with-jesse-michels/20260907-air-force-veterans-abducted-by-aliens-reunite-after-50-years/</guid>
       <pubDate>Wed, 09 Sep 2026 00:02:09 +0000</pubDate>
       <description>Two Air Force veterans reunite after 50 years and recover a story of missing time, strange beings, and alleged government interference.</description>
+    </item>
+    <item>
+      <title>How to Build an AI-Native Company Today</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260906-how-to-build-an-ai-native-company-today/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260906-how-to-build-an-ai-native-company-today/</guid>
+      <pubDate>Fri, 11 Sep 2026 00:23:13 +0000</pubDate>
+      <description>AI-native companies will not just add AI to old work; they will rebuild how work gets done.</description>
     </item>
     <item>
       <title>Answering 7 Arguments For Atheism | Joe Schmid | Last Call Ep. 30</title>

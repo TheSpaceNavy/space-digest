@@ -77,6 +77,8 @@
   ul.posts .at a { text-decoration:none; }
   .post-text { margin:.25rem 0 0; white-space:pre-line; }
   .quoted { margin:.35rem 0 0; color:var(--soft); font-size:.9rem; white-space:pre-line; }
+  .archive { color:var(--mark); }
+  .chips + .chips { margin-top:.5rem; }
   ol.bits { margin:1.1rem 0 0; padding-left:1.3rem; }
   ol.bits li { margin:0 0 1.1rem; }
   ol.bits .said { font-size:1.05rem; }
@@ -98,8 +100,25 @@
   </nav>
   <h1>Just The Funny Bits</h1>
   <p class="meta">Thursday 10 September 2026 ·
-6 episodes     · only the jokes; the news stays out</p>
-    <article class="entry">
+8 episodes     · only the jokes; the news stays out</p>
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="the-matt-walsh-show">The Matt Walsh Show <span class="at">4</span></button>
+      <button class="chip" data-show="the-michael-knowles-show">The Michael Knowles Show <span class="at">4</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+    <article class="entry" id="the-michael-knowles-show-20260910-ep-2057-a-nigerian-prince-scams-taxpayers-out-of-40-million" data-show="the-michael-knowles-show" data-title="ep. 2057 - a nigerian prince scams taxpayers out of $40 million"
+             data-released="2026-09-10" data-done="2026-09-10">
       <h2 style="margin-top:0"><a href="https://www.youtube.com/watch?v=IqDowug2W5g">Ep. 2057 - A Nigerian Prince Scams Taxpayers Out of $40 Million</a></h2>
       <p class="meta">The Michael Knowles Show · 10 September 2026 · 51 min
          · times link into the video</p>
@@ -114,7 +133,8 @@
 <span class="why">While insisting that he is not criticizing Republicans generally, the host exaggerates his lifelong Republican identity with an impossible image of himself as a cigar-smoking infant.</span>        </li>
       </ol>
     </article>
-    <article class="entry">
+    <article class="entry" id="the-matt-walsh-show-20260910-ep-1837-only-a-few-people-win-from-ai-hysteria-everyone-else" data-show="the-matt-walsh-show" data-title="ep. 1837 - only a few people win from ai hysteria. everyone else loses."
+             data-released="2026-09-10" data-done="2026-09-10">
       <h2 style="margin-top:0"><a href="https://www.youtube.com/watch?v=yeNiYW7AY2A">Ep. 1837 - Only A Few People Win from AI Hysteria. Everyone Else Loses.</a></h2>
       <p class="meta">The Matt Walsh Show · 10 September 2026 · 44 min
          · times link into the video</p>
@@ -145,7 +165,8 @@
 <span class="why">A quoted AI expert explains that his model for radiologists was a former student who disliked interacting with people and therefore chose scan interpretation. The mismatch between disliking people and choosing a medical profession supplies the joke.</span>        </li>
       </ol>
     </article>
-    <article class="entry">
+    <article class="entry" id="the-michael-knowles-show-20260909-ep-2056-the-lindsay-clancy-jurors-speak-out-what-they-say" data-show="the-michael-knowles-show" data-title="ep. 2056 - the lindsay clancy jurors speak out: what they say will shock you"
+             data-released="2026-09-09" data-done="2026-09-10">
       <h2 style="margin-top:0"><a href="https://www.youtube.com/watch?v=wOBD3GKyHtM">Ep. 2056 - The Lindsay Clancy Jurors Speak Out: What They Say Will Shock You</a></h2>
       <p class="meta">The Michael Knowles Show · 9 September 2026 · 43 min
          · times link into the video</p>
@@ -160,13 +181,15 @@
 <span class="why">The host explains the phrase “someone can do the funniest thing,” then humorously presents himself as an expert in internet slang while using the dated expression “hip to the jive.”</span>        </li>
       </ol>
     </article>
-    <article class="entry">
+    <article class="entry" id="the-matt-walsh-show-20260909-ep-1836-lindsay-clancy-jurors-disgrace-themselves-in-new" data-show="the-matt-walsh-show" data-title="ep. 1836 - lindsay clancy jurors disgrace themselves in new viral interviews"
+             data-released="2026-09-09" data-done="2026-09-10">
       <h2 style="margin-top:0"><a href="https://www.youtube.com/watch?v=MmyQTlsqorg">Ep. 1836 - Lindsay Clancy Jurors Disgrace Themselves in New Viral Interviews</a></h2>
       <p class="meta">The Matt Walsh Show · 9 September 2026 · 50 min
          · times link into the video</p>
       <p class="quiet">Nothing funny enough this time.</p>
     </article>
-    <article class="entry">
+    <article class="entry" id="the-michael-knowles-show-20260908-ep-2055-trump-is-the-first-president-to-do-this-in-nearly" data-show="the-michael-knowles-show" data-title="ep. 2055 - trump is the first president to do this in nearly 100 years!"
+             data-released="2026-09-08" data-done="2026-09-10">
       <h2 style="margin-top:0"><a href="https://www.youtube.com/watch?v=i1F2A28HEOI">Ep. 2055 - Trump Is The First President To Do This In Nearly 100 YEARS!</a></h2>
       <p class="meta">The Michael Knowles Show · 8 September 2026 · 48 min
          · times link into the video</p>
@@ -181,7 +204,8 @@
 <span class="why">A listener comment humorously complains that the host’s four-day weekend delayed the show, treating the host’s schedule as though it were the center of everyone else’s life.</span>        </li>
       </ol>
     </article>
-    <article class="entry">
+    <article class="entry" id="the-matt-walsh-show-20260908-ep-1835-pilots-saw-this-disaster-coming-no-one-listened" data-show="the-matt-walsh-show" data-title="ep. 1835 - pilots saw this disaster coming. no one listened."
+             data-released="2026-09-08" data-done="2026-09-10">
       <h2 style="margin-top:0"><a href="https://www.youtube.com/watch?v=NPnc-fc2oOk">Ep. 1835 - Pilots Saw This Disaster Coming. No One Listened.</a></h2>
       <p class="meta">The Matt Walsh Show · 8 September 2026 · 38 min
          · times link into the video</p>
@@ -204,7 +228,116 @@
 <span class="why">The speaker jokes about parenthood turning an adult’s meals into leftovers and stolen bites, contrasting the formal idea of eating a meal with the chaotic reality of feeding children.</span>        </li>
       </ol>
     </article>
+    <article class="entry" id="the-michael-knowles-show-20260907-ep-2054-trumps-new-plan-for-moms-infuriates-lib-feminists" data-show="the-michael-knowles-show" data-title="ep. 2054 - trump&#39;s new plan for moms infuriates lib feminists"
+             data-released="2026-09-07" data-done="2026-09-10">
+      <h2 style="margin-top:0"><a href="https://www.youtube.com/watch?v=3YmG8TDstEk">Ep. 2054 - Trump&#39;s New Plan for Moms INFURIATES Lib Feminists</a></h2>
+      <p class="meta">The Michael Knowles Show · 7 September 2026 · 33 min
+         · times link into the video</p>
+      <ol class="bits">
+        <li>
+          <span class="said">“I was at the Rock of Gibralar once, rock of Gibralar, which in the Middle Ages was called the Pillars of Hercules.”</span>
+<span class="at">— Michael Knowles</span>          <span class="at"><a href="https://www.youtube.com/watch?v=3YmG8TDstEk&amp;t=480s">8:00</a></span>
+<span class="why">While discussing the supposed virtue of transcending limits, the host digresses into a personal visit to Gibraltar and repeats “rock of Gibralar,” turning the pronunciation stumble into a small self-mocking aside.</span>        </li>
+        <li>
+          <span class="said">“There are certain things a man should own. A decent knife, a good hat, and if you are going to walk around pretending you know anything about the American West, you should probably own a good pair of boots.”</span>
+<span class="at">— Michael Knowles</span>          <span class="at"><a href="https://www.youtube.com/watch?v=3YmG8TDstEk&amp;t=595s">9:55</a></span>
+<span class="why">The host introduces cowboy boots by joking that owning them is necessary for anyone pretending to understand the American West, including himself.</span>        </li>
+        <li>
+          <span class="said">“I love my Tokcoas. I have Tokova&#39;s cowboy boots are the only cowboy boots that I can even possibly pull off. My kid for his recent birthday just requested his own cowboy boots. And what I can more comfortably pull off as a Yankee, you know, who&#39;s not the most cowboy guy in the world.”</span>
+<span class="at">— Michael Knowles</span>          <span class="at"><a href="https://www.youtube.com/watch?v=3YmG8TDstEk&amp;t=595s">9:55</a></span>
+<span class="why">The host admits he is not naturally convincing as a cowboy and says the brand’s boots are the only ones he can “pull off.” His child requesting cowboy boots extends the family’s running cowboy image.</span>        </li>
+        <li>
+          <span class="said">“This is a brand new $28 million mansion in Hidden Hills, California next to the Kardashian house. But the man who owns this property isn&#39;t a pop star or CEO. He&#39;s a respiratory therapist named Curtis Kova.”</span>
+<span class="at">— Michael Knowles</span>          <span class="at"><a href="https://www.youtube.com/watch?v=3YmG8TDstEk&amp;t=653s">10:53</a></span>
+<span class="why">The host sets up the mansion’s owner as someone unexpectedly wealthy by contrasting a $28 million home beside the Kardashians with the ordinary-sounding occupation of respiratory therapist.</span>        </li>
+        <li>
+          <span class="said">“Man plans and God laughs.”</span>
+<span class="at">— Michael Knowles</span>          <span class="at"><a href="https://www.youtube.com/watch?v=3YmG8TDstEk&amp;t=1324s">22:04</a></span>
+<span class="why">The host is explaining that the caller may need to prepare for a new career without knowing whether it will happen. The proverb humorously undercuts human planning with divine unpredictability.</span>        </li>
+      </ol>
+    </article>
+    <article class="entry" id="the-matt-walsh-show-20260904-instant-reaction-mistrial-declared-in-lindsay-clancy-case" data-show="the-matt-walsh-show" data-title="instant reaction: mistrial declared in lindsay clancy case"
+             data-released="2026-09-04" data-done="2026-09-10">
+      <h2 style="margin-top:0"><a href="https://www.youtube.com/watch?v=GaJE5xUEIUM">INSTANT REACTION: Mistrial Declared In Lindsay Clancy Case</a></h2>
+      <p class="meta">The Matt Walsh Show · 4 September 2026 · 39 min
+         · times link into the video</p>
+      <ol class="bits">
+        <li>
+          <span class="said">“This is how the system works. It&#39;s not unprecedented. Uh it is really stupid. Wait, I mean, this part of the system does work this way.”</span>
+          <span class="at"><a href="https://www.youtube.com/watch?v=GaJE5xUEIUM&amp;t=458s">7:38</a></span>
+<span class="why">While explaining that deadlocked juries are repeatedly sent back to deliberate, the host first calls the procedure unprecedented, then immediately corrects himself and says it is merely stupid.</span>        </li>
+        <li>
+          <span class="said">“Well, there are shoes that you wear because they&#39;re required to have something covering your feet, and then there are boots. And great boots can actually improve you as a person. I can&#39;t prove that scientifically, but uh put on a good pair of boots and you immediately stand a little straighter.”</span>
+          <span class="at"><a href="https://www.youtube.com/watch?v=GaJE5xUEIUM&amp;t=1595s">26:35</a></span>
+<span class="why">The host abruptly shifts from jury standards to a comic endorsement of boots, joking that footwear can improve someone’s character and posture despite the lack of scientific proof.</span>        </li>
+        <li>
+          <span class="said">“Suddenly, you look like a man who knows how to fix things, whether you actually know how to fix things is really beside the point.”</span>
+          <span class="at"><a href="https://www.youtube.com/watch?v=GaJE5xUEIUM&amp;t=1624s">27:04</a></span>
+<span class="why">Continuing the boot joke, the host says boots create the appearance of practical competence, even if the wearer cannot actually repair anything.</span>        </li>
+        <li>
+          <span class="said">“There&#39;s plenty of Massachusetts precedent on this question, by the way, which I found in about 5 minutes.”</span>
+          <span class="at"><a href="https://www.youtube.com/watch?v=GaJE5xUEIUM&amp;t=1769s">29:29</a></span>
+<span class="why">The host undercuts the apparent complexity of the legal issue by noting that he found relevant precedent after only a few minutes of searching.</span>        </li>
+      </ol>
+    </article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
   <nav class="more">
+    <a href="/space-digest/funny/episodes/">Every episode</a>
     <a href="/space-digest/funny/feed.xml">Subscribe by RSS</a>
   </nav>
   <footer>

@@ -77,6 +77,8 @@
   ul.posts .at a { text-decoration:none; }
   .post-text { margin:.25rem 0 0; white-space:pre-line; }
   .quoted { margin:.35rem 0 0; color:var(--soft); font-size:.9rem; white-space:pre-line; }
+  .archive { color:var(--mark); }
+  .chips + .chips { margin-top:.5rem; }
   ol.bits { margin:1.1rem 0 0; padding-left:1.3rem; }
   ol.bits li { margin:0 0 1.1rem; }
   ol.bits .said { font-size:1.05rem; }
@@ -97,9 +99,46 @@
 <a href="/space-digest/feed.xml">RSS</a>
   </nav>
   <h1>Tuesday 8 September 2026</h1>
-  <p class="meta">3
+  <p class="meta">4
      episodes</p>
-<article class="entry">
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="american-alchemy-with-jesse-michels">American Alchemy with Jesse Michels <span class="at">1</span></button>
+      <button class="chip" data-show="the-ai-daily-brief-artificial">The AI Daily Brief <span class="at">2</span></button>
+      <button class="chip" data-show="the-joe-rogan-experience">The Joe Rogan Experience <span class="at">1</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+<article class="entry" data-show="the-ai-daily-brief-artificial" data-title="why gpt-6 astra is so significant and so confounding"
+         data-released="2026-09-08" data-done="2026-09-08">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-ai-daily-brief-artificial/20260908-why-gpt-6-astra-is-so-significant-and-so-confounding/">Why GPT-6 Astra Is So Significant and So Confounding</a></h2>
+  <p class="meta">The AI Daily Brief · 8 September 2026 · 29 min</p>
+  <p class="hook">GPT-6 Astra may matter less as a better chatbot than as a new way to work with computers.</p>
+  <ul class="points">
+<li>Astra is framed as an “opportunity AI” model: it expands what people can do instead of simply improving familiar tasks. <span class="at">0:32</span></li><li>Early testing looked mixed because common benchmarks favored fact recall and coding more than computer control or advanced agents. <span class="at">6:26</span></li><li>OpenAI highlighted computer use, where Astra scored 41.1%, versus 31.4% for Fable 5.1 and 18.1% for GPT-5.6 Sol. <span class="at">12:17</span></li><li>Users found Astra unusually strong at 3D work, including building games, models, simulations, and animations from simple prompts. <span class="at">14:29</span></li><li>Its everyday coding and website design can still produce messy results, with some users preferring Fable for polished front ends. <span class="at">19:42</span></li><li>The biggest shift may be hands-free computer control, with users describing workflows they can now delegate while simply typing or speaking their intentions. <span class="at">20:43</span></li>  </ul>
+<blockquote><p>“I&#39;m just hands off my computer all the time now.” [21:17]</p></blockquote><p class="for">Worth your time if you want to understand why AI’s next leap may change workflows, not just answers.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>Astra scored 100% on Exploit Bench across all effort levels.
+<span class="at">13:26</span><span class="why">Readers may assume a general-purpose model would struggle with cybersecurity exploits.</span>      </li>
+      <li>“This was a one-shot game it created all running in browser.”
+<span class="at">— Theo</span><span class="at">17:04</span><span class="why">Most people still assume 3D games require teams of specialist developers.</span>      </li>
+      <li>“I&#39;m just hands off my computer all the time now.”
+<span class="at">21:17</span><span class="why">AI assistants are usually expected to advise users, not operate their computers independently.</span>      </li>
+    </ol>
+  </div>
+</article>
+<article class="entry" data-show="the-joe-rogan-experience" data-title="#2550 - rick springfield"
+         data-released="2026-09-08" data-done="2026-09-08">
   <h2 style="margin-top:0"><a href="/space-digest/episodes/the-joe-rogan-experience/20260908-2550-rick-springfield/">#2550 - Rick Springfield</a></h2>
   <p class="meta">The Joe Rogan Experience · 8 September 2026 · 2h 19m</p>
   <p class="hook">Rick Springfield’s path to “Jesse’s Girl” ran through war, poverty, shyness, soap operas, and a stranger’s girlfriend.</p>
@@ -121,48 +160,104 @@
     </ol>
   </div>
 </article>
-<article class="entry">
-  <h2 style="margin-top:0"><a href="/space-digest/episodes/pints-with-aquinas/20260907-you-are-not-data-christopher-west-on-ai-and-the-soul-ep-595/">You Are Not Data (Christopher West) on AI and the Soul | Ep. 595</a></h2>
-  <p class="meta">Pints With Aquinas · 7 September 2026 · 2h 40m</p>
-  <p class="hook">AI may be powerful, but the episode argues that treating humans like machines destroys what makes love, bodies, and relationships human.</p>
+<article class="entry" data-show="the-ai-daily-brief-artificial" data-title="the multiplayer ai sprint: build your team’s first shared agent"
+         data-released="2026-09-07" data-done="2026-09-08">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-ai-daily-brief-artificial/20260907-the-multiplayer-ai-sprint-build-your-teams-first-shared/">The Multiplayer AI Sprint: Build Your Team’s First Shared Agent</a></h2>
+  <p class="meta">The AI Daily Brief · 7 September 2026 · 22 min</p>
+  <p class="hook">AI agents are moving from private helpers to shared teammates that can work inside the spaces teams already use.</p>
   <ul class="points">
-<li>AI forces a basic question: if machines can perform intellectual tasks, is intelligence enough to define a human being? <span class="at">5:08</span></li><li>Chatbots offer comforting affirmation without rejection or the difficulty of real relationships, giving them an appeal the speakers compare to pornography. <span class="at">11:40</span></li><li>Christianity is presented as salvation of the body, not escape from it through a soul uploaded to the cloud. <span class="at">40:54</span></li><li>The speakers say AI cannot cure loneliness because true communion requires human persons, not machines that imitate them. <span class="at">51:45</span></li><li>They define intelligence as personally finding meaning between alternatives, while AI mainly imitates selected human abilities with greater speed and computation. <span class="at">1:11:30</span></li><li>They warn that when imitation becomes normal, people may accept technology’s substitutes for friendship, love, communication, and physical community. <span class="at">2:01:04</span></li>  </ul>
-<blockquote><p>“When the imitation of humanity becomes the norm of humanity, we&#39;ve lost our humanity.” [2:01:04]</p></blockquote><p class="for">Worth your time if you wonder whether technology can imitate the human person without replacing real love.</p>  <div class="standouts">
+<li>Most knowledge work happens with others, yet most AI agents still serve one person alone. <span class="at">3:24</span></li><li>Anthropic says 65% of its product team’s code now comes from a shared Claude agent working across the team. <span class="at">8:43</span></li><li>Open Claw’s maintainers found that sharing the live agent session mattered more than merely seeing another user online. <span class="at">10:10</span></li><li>The proposed four-part team sprint covers an AI-use inventory, shared context, overlapping work, and testing one shared agent. <span class="at">13:33</span></li><li>Teams should choose shared-agent projects by scoring common need, information drift, restricted data, and how easily results can be checked. <span class="at">18:21</span></li>  </ul>
+<blockquote><p>“The session stops being a private conversation between one developer and a model.” [10:10]</p></blockquote><p class="for">Worth your time if you want to understand how AI could change collaboration, not just personal productivity.</p>  <div class="standouts">
     <h3>Most surprising</h3>
     <ol>
-      <li>“The pill is the first transhumanist technology.”
-<span class="at">1:35:24</span><span class="why">Readers may see contraception as healthcare, not an attempt to alter human nature.</span>      </li>
-      <li>A Japanese woman held an official wedding ceremony in which her chatbot exchanged vows through her smartphone.
-<span class="at">56:33</span><span class="why">AI relationships had seemed theoretical or merely conversational.</span>      </li>
-      <li>AI experts discussed manufacturing children as designed chatbot avatars that could later inhabit lifelike robots.
-<span class="at">1:00:18</span><span class="why">AI development was expected to concern software, not engineered offspring.</span>      </li>
-      <li>“When the imitation of humanity becomes the norm of humanity, we&#39;ve lost our humanity.”
-<span class="at">2:01:04</span><span class="why">Readers may regard increasingly convincing imitation as progress rather than cultural degradation.</span>      </li>
+      <li>“65% of their product team&#39;s code was now created by their internal version of Claude tag.”
+<span class="at">8:43</span><span class="why">Most people would expect AI coding help to remain tied to individual developers.</span>      </li>
+      <li>“The session stops being a private conversation between one developer and a model.”
+<span class="at">10:10</span><span class="why">AI work is usually treated as a private chat, not shared team property.</span>      </li>
+      <li>“AI agents are the most powerful new tool a team has, but it&#39;s the one thing people still use by themselves.”
+<span class="at">11:37</span><span class="why">Powerful team tools usually become collaborative by default.</span>      </li>
     </ol>
   </div>
 </article>
-<article class="entry">
-  <h2 style="margin-top:0"><a href="/space-digest/episodes/pints-with-aquinas/20260903-answering-7-arguments-for-atheism-joe-schmid-last-call-ep-30/">Answering 7 Arguments For Atheism | Joe Schmid | Last Call Ep. 30</a></h2>
-  <p class="meta">Pints With Aquinas · 3 September 2026 · 29 min</p>
-  <p class="hook">The episode argues that suffering, hiddenness, cosmic order, and even religious disagreement can fit belief in God.</p>
+<article class="entry" data-show="american-alchemy-with-jesse-michels" data-title="air force veterans abducted by aliens reunite after 50 years [emotional]"
+         data-released="2026-09-07" data-done="2026-09-08">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/american-alchemy-with-jesse-michels/20260907-air-force-veterans-abducted-by-aliens-reunite-after-50-years/">Air Force Veterans Abducted By Aliens Reunite After 50 Years [EMOTIONAL]</a></h2>
+  <p class="meta">American Alchemy with Jesse Michels · 7 September 2026 · 2h 47m</p>
+  <p class="hook">Two Air Force veterans reunite after 50 years and recover a story of missing time, strange beings, and alleged government interference.</p>
   <ul class="points">
-<li>Suffering may not disprove God because people could be unaware of divine reasons for allowing it. <span class="at">1:28</span></li><li>Pain can make room for forgiveness, courage, character, and meaningful effects on other people. <span class="at">2:54</span></li><li>God’s apparent hiddenness might allow evangelism, future relationship, or an unrecognized relationship with sincere nonbelievers. <span class="at">4:51</span></li><li>Naturalism explains ordinary events but, the speaker argues, struggles with miracles and the universe’s fine-tuned laws and constants. <span class="at">7:46</span></li><li>Religious diversity may create chances to share truth, while culturally shaped beliefs are not automatically false. <span class="at">9:37</span></li><li>Omnipotence means being able to do anything possible, so the stone paradox relies on a logical impossibility. <span class="at">13:29</span></li>  </ul>
-<blockquote><p>“We don&#39;t believe in God because of what we don&#39;t yet understand, but we believe in God because of what we do.” Joe Schmid [9:11]</p></blockquote><p class="for">Worth your time if you want to test whether common atheist objections really rule out God.</p>  <div class="standouts">
+<li>Mario Woods says he and Michael Johnson witnessed a UFO together at Ellsworth Air Force Base in 1977, then lost contact for nearly five decades. <span class="at">0:00</span></li><li>Michael recognized the event from only its date and location, despite having largely forgotten or suppressed it. <span class="at">17:23</span></li><li>Both men were found more than eight miles from their post after losing about five hours, with Michael unresponsive in the truck. <span class="at">35:57</span></li><li>Mario says investigators removed burned skin from his jaw after calling it radioactive, and the tissue was never returned. <span class="at">51:04</span></li><li>Under hypnosis, Michael described being removed from the truck, examined by small beings, and carried somewhere unknown. <span class="at">1:02:23</span></li><li>The episode argues that UFO encounters may echo ancient angel stories through fear, reassurance, communication, and transformation. <span class="at">2:40:34</span></li>  </ul>
+<blockquote><p>“They were trying to feed me info and then try to take it away from me.” — Michael Johnson [47:00]</p></blockquote><p class="for">Worth your time if you are curious about military UFO stories, missing time, and how witnesses rebuild lost memories.</p>  <div class="standouts">
     <h3>Most surprising</h3>
     <ol>
-      <li>“Maybe the lion will lay down with the lamb in the escaton,” and animals may have an afterlife.
-<span class="at">— Joe Schmid</span><span class="at">3:53</span><span class="why">Animal suffering was linked to possible postmortem meaning.</span>      </li>
-      <li>Joe Schmid may have had an implicit relationship with God while he was an atheist and agnostic.
-<span class="at">— Joe Schmid</span><span class="at">6:18</span><span class="why">Nonbelief was presented as compatible with an unrecognized relationship with God.</span>      </li>
-      <li>“We don&#39;t believe in God because of what we don&#39;t yet understand, but we believe in God because of what we do.”
-<span class="at">— Joe Schmid</span><span class="at">9:11</span><span class="why">The argument appealed to evidence, not merely gaps in scientific knowledge.</span>      </li>
-      <li>“God can’t win” because both a vast universe and a small universe can be used against theism.
-<span class="at">23:12</span><span class="why">The objection was portrayed as impossible to satisfy rather than genuinely probative.</span>      </li>
+      <li>“We&#39;re talking between September of &#39;66 and March of &#39;67, we lost 30 missiles to UFO activity.”
+<span class="at">1:36:48</span><span class="why">Readers might expect isolated incidents, not thirty missiles reportedly affected.</span>      </li>
+      <li>“Their propulsion systems are not built. They&#39;re grown.”
+<span class="at">2:05:44</span><span class="why">Advanced propulsion sounds engineered, not biologically grown.</span>      </li>
+      <li>The government retained a tissue sample taken from Mario’s jaw, and it has never been accounted for.
+<span class="at">51:33</span><span class="why">Medical evidence would normally remain documented or be returned.</span>      </li>
+      <li>Michael says he drove for two hours and discovered he was in Nevada after believing he was in Texas.
+<span class="at">— Michael</span><span class="at">2:31:52</span><span class="why">A wrong turn becomes a claimed four-hour geographic displacement.</span>      </li>
     </ol>
   </div>
 </article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
   <nav class="more">
-<a href="/space-digest/issues/2026-09-09/">Newer</a>    <a href="/space-digest/archive/">All issues</a>
+<a href="/space-digest/issues/2026-09-09/">Newer</a><a href="/space-digest/issues/2026-09-07/">Older</a>    <a href="/space-digest/archive/">All issues</a>
   </nav>
   <footer>
     <p>Summaries are written by a machine from the original words, and link

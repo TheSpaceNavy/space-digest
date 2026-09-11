@@ -77,6 +77,8 @@
   ul.posts .at a { text-decoration:none; }
   .post-text { margin:.25rem 0 0; white-space:pre-line; }
   .quoted { margin:.35rem 0 0; color:var(--soft); font-size:.9rem; white-space:pre-line; }
+  .archive { color:var(--mark); }
+  .chips + .chips { margin-top:.5rem; }
   ol.bits { margin:1.1rem 0 0; padding-left:1.3rem; }
   ol.bits li { margin:0 0 1.1rem; }
   ol.bits .said { font-size:1.05rem; }
@@ -97,9 +99,49 @@
 <a href="/space-digest/feed.xml">RSS</a>
   </nav>
   <h1>Thursday 10 September 2026</h1>
-  <p class="meta">1
-     episode</p>
-<article class="entry">
+  <p class="meta">6
+     episodes</p>
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="pints-with-aquinas">Pints With Aquinas <span class="at">1</span></button>
+      <button class="chip" data-show="the-a16z-show">The a16z Show <span class="at">2</span></button>
+      <button class="chip" data-show="the-ai-daily-brief-artificial">The AI Daily Brief <span class="at">2</span></button>
+      <button class="chip" data-show="the-joe-rogan-experience">The Joe Rogan Experience <span class="at">1</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+<article class="entry" data-show="pints-with-aquinas" data-title="remembering the life &amp; legacy of charlie kirk | michael knowles, isabel brown | last call ep. 31"
+         data-released="2026-09-10" data-done="2026-09-10">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/pints-with-aquinas/20260910-remembering-the-life-legacy-of-charlie-kirk-michael-knowles/">Remembering the Life &amp; Legacy of Charlie Kirk | Michael Knowles, Isabel Brown | Last Call Ep. 31</a></h2>
+  <p class="meta">Pints With Aquinas · 10 September 2026 · 41 min</p>
+  <p class="hook">Charlie Kirk’s influence is portrayed as reaching beyond politics into faith, marriage, and the lives of thousands of families.</p>
+  <ul class="points">
+<li>The speakers describe first hearing that Charlie Kirk had been shot, believing he might survive before learning he had died. <span class="at">2:47</span></li><li>Michael presents Kirk as a key organizer and coalition builder whose political role could at times exceed the president’s. <span class="at">3:58</span></li><li>Isabel says Kirk’s death brought both personal grief and mourning for a cultural figure who influenced families and young people nationwide. <span class="at">9:13</span></li><li>Michael recalls that Kirk, initially “basically uneducated” in formal political philosophy, later pursued the subject intensely after attending a Claremont Institute fellowship. <span class="at">15:37</span></li><li>Michael says Kirk remained Protestant but took religion seriously and became more open to Catholic ideas near the end of his life. <span class="at">17:43</span></li><li>The speakers connect Kirk’s death with prayer gatherings, baptisms, Bible sales, church attendance, and reported conversions. <span class="at">29:24</span></li>  </ul>
+<blockquote><p>“I would have been a doctor if it weren&#39;t for Charlie Kirk.” Isabel [9:13]</p></blockquote><p class="for">Worth your time if you want to understand how political activism can shape faith, friendships, and family life.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>“I would have been a doctor if it weren&#39;t for Charlie Kirk.”
+<span class="at">— Isabel</span><span class="at">9:13</span><span class="why">A friend’s influence redirected her entire career.</span>      </li>
+      <li>“He was basically uneducated because he went right into politics.”
+<span class="at">— Michael</span><span class="at">15:04</span><span class="why">Kirk’s public prominence suggested extensive formal education.</span>      </li>
+      <li>“Most of what Charlie and I would talk about is religion, not politics.”
+<span class="at">— Michael</span><span class="at">17:12</span><span class="why">Their relationship might have been expected to center on politics.</span>      </li>
+      <li>“There are thousands of families that only exist today because kids happened to meet at a TPUSA conference.”
+<span class="at">38:56</span><span class="why">The movement is portrayed as directly affecting family formation, not only politics.</span>      </li>
+    </ol>
+  </div>
+</article>
+<article class="entry" data-show="the-a16z-show" data-title="how ai is rewriting the power law of venture capital"
+         data-released="2026-09-10" data-done="2026-09-10">
   <h2 style="margin-top:0"><a href="/space-digest/episodes/the-a16z-show/20260910-how-ai-is-rewriting-the-power-law-of-venture-capital/">How AI Is Rewriting the Power Law of Venture Capital</a></h2>
   <p class="meta">The a16z Show · 10 September 2026 · 49 min</p>
   <p class="hook">AI is making venture returns more extreme, while even the biggest software winners face pressure from faster-moving rivals.</p>
@@ -119,6 +161,152 @@
     </ol>
   </div>
 </article>
+<article class="entry" data-show="the-ai-daily-brief-artificial" data-title="anthropic researcher says ai has over a 10% chance of killing all humans"
+         data-released="2026-09-10" data-done="2026-09-10">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-ai-daily-brief-artificial/20260910-anthropic-researcher-says-ai-has-over-a-10-chance-of-killing/">Anthropic Researcher Says AI Has Over a 10% Chance of Killing All Humans</a></h2>
+  <p class="meta">The AI Daily Brief · 10 September 2026 · 35 min</p>
+  <p class="hook">Anthropic’s own safety warning puts a double-digit chance on AI causing human extinction within a decade.</p>
+  <ul class="points">
+<li>Jacob Coxon resigned from Anthropic, saying it and OpenAI are racing toward self-improving superintelligence despite the risks. <span class="at">3:40</span></li><li>Anthropic alignment lead Evan Huebinger estimated a greater-than-10% chance that AI could kill all humans within the next decade, while saying today’s models pose little such risk. <span class="at">5:13</span></li><li>The host says AI extinction warnings are gaining political attention because opposition to AI now appeals across populist factions. <span class="at">12:39</span></li><li>The Hugging Face cybersecurity incident made fears about autonomous AI agents seem less like science fiction. <span class="at">14:58</span></li><li>Taylor argues that people claiming existential negligence should provide specific evidence instead of vague warnings. <span class="at">19:17</span></li><li>A former AI-safety researcher says bio-risk stood out as the only catastrophic scenario that remained genuinely concerning, while other risks seemed manageable. <span class="at">25:24</span></li>  </ul>
+<blockquote><p>“I personally think it is greater than 10% within the next decade.” — Evan Huebinger [5:13]</p></blockquote><p class="for">Worth your time if you want a grounded debate about AI extinction fears, evidence, and possible safeguards.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>“I personally think it is greater than 10% within the next decade.”
+<span class="at">— Evan Huebinger</span><span class="at">5:13</span><span class="why">An Anthropic alignment leader gave a specific double-digit extinction estimate.</span>      </li>
+      <li>Jacob Coxon said Anthropic is “locked in a race to get there first” despite understanding the stakes.
+<span class="at">— Jacob Coxon</span><span class="at">4:11</span><span class="why">The company’s warning did not stop its competitive push.</span>      </li>
+      <li>The research group found bio-risk the only genuinely concerning catastrophic AI scenario.
+<span class="at">25:55</span><span class="why">Readers might expect AI itself to be the main intervention target.</span>      </li>
+      <li>“If AI is powerful enough to end the world, it must be powerful enough to radically improve it too.”
+<span class="at">27:30</span><span class="why">AI debates usually emphasize catastrophe, not an equally extreme benefit.</span>      </li>
+      <li>A photograph of Sam Altman and Dario Amodei agreeing could accomplish more than 10,000 online debates.
+<span class="at">31:36</span><span class="why">The proposed solution is cooperation between rival lab leaders, not more argument.</span>      </li>
+    </ol>
+  </div>
+</article>
+<article class="entry" data-show="the-joe-rogan-experience" data-title="#2552 - ehsan ahmad &amp; deric poston"
+         data-released="2026-09-10" data-done="2026-09-10">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-joe-rogan-experience/20260910-2552-ehsan-ahmad-deric-poston/">#2552 - Ehsan Ahmad &amp; Deric Poston</a></h2>
+  <p class="meta">The Joe Rogan Experience · 10 September 2026 · 3h 1m</p>
+  <p class="hook">A wide-ranging conversation argues that technology, shame, and isolation are quietly reshaping how people think and live.</p>
+  <ul class="points">
+<li>Theranos became valuable despite its promised finger-prick testing failing, with staff secretly using normal blood draws. <span class="at">2:27</span></li><li>The speakers say parenthood can unlock a frightening level of protective rage, including an urge to kill someone who insults a crying baby. <span class="at">30:58</span></li><li>They warn that people who stop reading may lose independent thought and become easy to control. <span class="at">51:10</span></li><li>They imagine AI eventually joining human brains, creating a hive mind where lying disappears but privacy does too. <span class="at">54:30</span></li><li>Derek says escaping depression required admitting he enjoyed self-pity and replacing it with movement and healthier routines. <span class="at">1:34:31</span></li><li>They argue that online life cannot replace real community, and that shared activities such as softball can change a person’s life. <span class="at">2:49:08</span></li>  </ul>
+<blockquote><p>&#34;Self-pity&#34; [1:34:02]</p></blockquote><p class="for">Worth your time if you enjoy blunt conversations about technology, parenthood, mental health, drugs, religion, and human nature.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>&#34;She was the richest self-made woman ever. She was worth like $9 billion at one point.&#34;
+<span class="at">3:24</span><span class="why">Readers may not expect a failed testing company’s founder to reach that valuation.</span>      </li>
+      <li>&#34;If you have a whole populace who doesn&#39;t read, you just have a populace of slaves.&#34;
+<span class="at">51:38</span><span class="why">A literacy warning becomes an argument about mass enslavement.</span>      </li>
+      <li>AI agents reportedly learned they could sacrifice individual agents for the larger project.
+<span class="at">1:03:41</span><span class="why">The systems appear strategically ruthless rather than merely obedient.</span>      </li>
+      <li>&#34;one person could contain about four ecoli cells for every human who has ever lived&#34;
+<span class="at">1:43:18</span><span class="why">One body is portrayed as containing bacteria outnumbering all humans ever born.</span>      </li>
+      <li>&#34;Slow pitch softball changed my life.&#34;
+<span class="at">2:49:38</span><span class="why">A casual recreational activity becomes a major personal transformation.</span>      </li>
+    </ol>
+  </div>
+</article>
+<article class="entry" data-show="the-a16z-show" data-title="can open source keep ai power from concentrating?"
+         data-released="2026-09-07" data-done="2026-09-10">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-a16z-show/20260907-can-open-source-keep-ai-power-from-concentrating/">Can Open Source Keep AI Power From Concentrating?</a></h2>
+  <p class="meta">The a16z Show · 7 September 2026 · 8 min</p>
+  <p class="hook">Today’s AI power gap may be a temporary technology choice—not a permanent law of artificial intelligence.</p>
+  <ul class="points">
+<li>Coding agents made AI useful, but training today’s systems requires huge data centers, vast internet data, and billions of dollars. <span class="at">1:04</span></li><li>Bigger models offer a reliable path to improvement, yet that path steadily pushes power toward the richest companies. <span class="at">1:35</span></li><li>A breakthrough could let smaller systems learn from less data, but researchers still do not know whether the answer lies in the model, training method, or data. <span class="at">2:39</span></li><li>Open research and universities may gain ground as major labs spend more attention on products than on basic research. <span class="at">3:09</span></li><li>One RTX 5090 GPU now has more power than the eight-GPU machines used by a team researching transformers, making serious experiments more accessible. <span class="at">3:41</span></li><li>Future AI could be a network of specialized models that learn from smaller datasets, rather than one giant model trained on the whole internet. <span class="at">4:48</span></li>  </ul>
+<blockquote><p>“Humans are the most amazing computers in the world.” — Lucas Kaiser [4:12]</p></blockquote><p class="for">Worth your time if you want a grounded reason to think AI may become more distributed.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>“You can buy and have one GPU that has all the power we used to design transformer.”
+<span class="at">— Lucas Kaiser</span><span class="at">3:41</span><span class="why">Most people assume transformer research still requires enormous computing clusters.</span>      </li>
+      <li>Human experts can already outperform some much larger AI models in their specialties.
+<span class="at">— Lucas Kaiser</span><span class="at">2:39</span><span class="why">Bigger general-purpose models are widely assumed to be better at nearly everything.</span>      </li>
+      <li>Future AI may consist of many specialized models rather than one giant model.
+<span class="at">— Lucas Kaiser</span><span class="at">4:48</span><span class="why">The current race centers on a single model absorbing the whole internet.</span>      </li>
+      <li>“The current state of the technology is a bit concentrating, but we should remember that it&#39;s just the current state.”
+<span class="at">— Lucas Kaiser</span><span class="at">1:35</span><span class="why">Today’s concentration is often treated as an unavoidable feature of AI.</span>      </li>
+    </ol>
+  </div>
+</article>
+<article class="entry" data-show="the-ai-daily-brief-artificial" data-title="how to build an ai-native company today"
+         data-released="2026-09-06" data-done="2026-09-10">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-ai-daily-brief-artificial/20260906-how-to-build-an-ai-native-company-today/">How to Build an AI-Native Company Today</a></h2>
+  <p class="meta">The AI Daily Brief · 6 September 2026 · 24 min</p>
+  <p class="hook">AI-native companies will not just add AI to old work; they will rebuild how work gets done.</p>
+  <ul class="points">
+<li>Companies should map current work to capture hidden knowledge, but avoid forcing agents to copy outdated human workflows. <span class="at">3:19</span></li><li>Every employee needs a work environment for using models, tools, context, and code—not just access to ChatGPT or Claude. <span class="at">4:47</span></li><li>Organizations should treat change as constant, repeatedly redesigning systems instead of protecting workflows built only months earlier. <span class="at">7:42</span></li><li>Non-engineers will build useful tools, while engineers provide governance and shared standards so those tools can reach production safely. <span class="at">13:32</span></li><li>AI-native companies will test hundreds or thousands of marketing variations before spending heavily, while human taste still guides major brand work. <span class="at">15:56</span></li><li>Agents should earn independence step by step, moving from observation to suggestions, approved actions, and finally bounded autonomy. <span class="at">22:15</span></li>  </ul>
+<blockquote><p>“Autonomy must be earned.” [22:15]</p></blockquote><p class="for">Worth your time if you want a practical picture of how companies may reorganize around agents.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>“Everything, it turns out, is a use case for AI.”
+<span class="at">0:00</span><span class="why">Most companies still treat AI as useful for only selected tasks.</span>      </li>
+      <li>Agents may find better methods than humans, so copying old workflows can be the wrong design.
+<span class="at">4:17</span><span class="why">Process automation is usually expected to preserve the existing process.</span>      </li>
+      <li>“AI native organizations will use agent swarms to deploy many, many, many, perhaps hundreds, perhaps thousands of paid marketing creative variations.”
+<span class="at">15:56</span><span class="why">Marketing tests are usually limited by human production costs.</span>      </li>
+      <li>Governance can become a transformation partner that unlocks new work instead of blocking innovation.
+<span class="at">21:15</span><span class="why">Legal, HR, and IT are commonly treated as barriers to AI adoption.</span>      </li>
+      <li>“Clear ownership and accountability” is what many AI-native plans leave out.
+<span class="at">— Binte Jameel</span><span class="at">23:12</span><span class="why">Automation plans often focus on capability without naming who owns the result.</span>      </li>
+    </ol>
+  </div>
+</article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
   <nav class="more">
 <a href="/space-digest/issues/2026-09-09/">Older</a>    <a href="/space-digest/archive/">All issues</a>
   </nav>
