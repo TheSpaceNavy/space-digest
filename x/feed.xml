@@ -4,8 +4,15 @@
   <title>Space Digest — X digests</title>
   <link>https://thespacenavy.github.io/space-digest/x/</link>
   <description>What each account said on X in the last day, one page per day.</description>
-  <lastBuildDate>Fri, 11 Sep 2026 02:19:14 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 11 Sep 2026 21:42:10 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/x/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Elon Musk on X · 11 September 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/x/elonmusk/2026-09-11/</link>
+    <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/x/elonmusk/2026-09-11/</guid>
+    <pubDate>Fri, 11 Sep 2026 12:00:41 +0000</pubDate>
+    <description>The day focused on Grok, space, Tesla self-driving, history, and a breakfast post.</description>
+  </item>
   <item>
     <title>Elon Musk on X · 10 September 2026</title>
     <link>https://thespacenavy.github.io/space-digest/x/elonmusk/2026-09-10/</link>

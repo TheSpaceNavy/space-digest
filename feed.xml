@@ -5,8 +5,15 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 11 Sep 2026 02:19:14 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 21:42:10 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>What It Takes to Build a Startup | Andrew Chen &amp; Matt Perault</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260911-what-it-takes-to-build-a-startup-andrew-chen-matt-perault/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260911-what-it-takes-to-build-a-startup-andrew-chen-matt-perault/</guid>
+      <pubDate>Fri, 11 Sep 2026 11:20:16 +0000</pubDate>
+      <description>Tiny startups now move faster than the systems meant to regulate them—and many founders start with no fixed idea.</description>
+    </item>
     <item>
       <title>Remembering the Life &amp; Legacy of Charlie Kirk | Michael Knowles, Isabel Brown | Last Call Ep. 31</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260910-remembering-the-life-legacy-of-charlie-kirk-michael-knowles/</link>
@@ -113,11 +120,25 @@
       <description>Two Air Force veterans reunite after 50 years and recover a story of missing time, strange beings, and alleged government interference.</description>
     </item>
     <item>
+      <title>Your AI Doctor Is Coming | Julie Yoo</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260906-your-ai-doctor-is-coming-julie-yoo/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260906-your-ai-doctor-is-coming-julie-yoo/</guid>
+      <pubDate>Fri, 11 Sep 2026 11:20:41 +0000</pubDate>
+      <description>Healthcare’s slow start with technology may let it leap straight into an AI-powered system built around patients.</description>
+    </item>
+    <item>
       <title>How to Build an AI-Native Company Today</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260906-how-to-build-an-ai-native-company-today/</link>
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260906-how-to-build-an-ai-native-company-today/</guid>
       <pubDate>Fri, 11 Sep 2026 00:23:13 +0000</pubDate>
       <description>AI-native companies will not just add AI to old work; they will rebuild how work gets done.</description>
+    </item>
+    <item>
+      <title>How AI Changed This Summer</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260904-how-ai-changed-this-summer/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260904-how-ai-changed-this-summer/</guid>
+      <pubDate>Fri, 11 Sep 2026 11:20:53 +0000</pubDate>
+      <description>AI’s summer shift was bigger than new models: agents, politics, costs, and cyber risks all moved into the mainstream.</description>
     </item>
     <item>
       <title>Answering 7 Arguments For Atheism | Joe Schmid | Last Call Ep. 30</title>

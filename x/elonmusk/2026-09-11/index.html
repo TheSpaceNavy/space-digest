@@ -2,7 +2,7 @@
 <html lang="en">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Just The Funny Bits · 11 September 2026 · Space Digest</title>
+<title>Elon Musk on X · 11 September 2026 · Space Digest</title>
 <link rel="alternate" type="application/rss+xml" title="Space Digest" href="/space-digest/feed.xml">
 <style>
   :root { --ink:#1a1a1a; --soft:#5b5b5b; --line:#e2e0da; --paper:#fbfaf7; --mark:#7a3b2e; }
@@ -96,100 +96,70 @@
     <a href="/space-digest/">Today</a>
     <a href="/space-digest/episodes/">Episodes</a>
     <a href="/space-digest/archive/">Issues</a>
-<a href="/space-digest/x/">X digests</a>
-<a href="/space-digest/funny/" class="on">Funny bits</a>
+<a href="/space-digest/x/" class="on">X digests</a>
+<a href="/space-digest/funny/">Funny bits</a>
 <a href="/space-digest/feed.xml">RSS</a>
   </nav>
-  <h1>Just The Funny Bits</h1>
+  <h1>Elon Musk on X</h1>
   <p class="meta">Friday 11 September 2026 ·
-1 episode     · only the jokes; the news stays out</p>
-      <div class="filters" id="filters" hidden>
-    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
-           aria-label="Search episode titles">
-    <div class="chips" data-role="show">
-      <button class="chip on" data-show="">All shows</button>
-      <button class="chip" data-show="the-ben-shapiro-show">The Ben Shapiro Show <span class="at">1</span></button>
-    </div>
-    <div class="chips" data-role="sort">
-      <span class="at">Sort</span>
-      <button class="chip on" data-sort="released">Newest released</button>
-      <button class="chip" data-sort="done">Just written up</button>
-    </div>
-  </div>
+     10 Sep 12:00 to 11 Sep 12:00 UTC ·
+5 posts, every one checked against X · 6 checks</p>
 
-    <div id="list">
-    <article class="entry" id="the-ben-shapiro-show-20260907-the-foreign-threats-everyones-ignoring" data-show="the-ben-shapiro-show" data-title="the foreign threats everyone&#39;s ignoring"
-             data-released="2026-09-07" data-done="2026-09-11T06:20">
-      <h2 style="margin-top:0"><a href="https://www.youtube.com/watch?v=mwyZygFjKBw">The Foreign Threats Everyone&#39;s Ignoring</a></h2>
-      <p class="meta">The Ben Shapiro Show · 7 September 2026 · 12 min
-         · times link into the video         · <span class="archive">Reached back for</span><span class="done"> · written up 11 September at 06:20</span></p>
-      <ol class="bits">
-        <li>
-          <span class="said">“Because you can&#39;t run endless guns and endless butter. And it turns out that butter is actually way more expensive than guns.”</span>
-          <span class="at"><a href="https://www.youtube.com/watch?v=mwyZygFjKBw&amp;t=260s">4:20</a></span>
-<span class="why">The host discusses Britain trading imperial power for domestic welfare and adapts the familiar “guns and butter” tradeoff into a literal-sounding comparison in which butter is unexpectedly costlier.</span>        </li>
-      </ol>
-    </article>
-    </div>
-      <p class="quiet" id="none" hidden>Nothing matches that.</p>
-  <script>
-  (function () {
-    var box = document.getElementById('filters');
-    var list = document.getElementById('list');
-    var none = document.getElementById('none');
-    if (!box || !list) return;
-    box.hidden = false;              // only shown when scripting works
-    var items = [].slice.call(list.children);
-    var show = '', text = '', sort = 'released';
+    <p class="hook">The day focused on Grok, space, Tesla self-driving, history, and a breakfast post.</p>
+    <p>Elon Musk endorsed an improvement to Grok Bot that lets users draft messages for approval before sending them. [<a href="https://x.com/elonmusk/status/2098038952284586282">1</a>] He agreed with a post about Europe needing a large rocket launched often to remain relevant in space. [<a href="https://x.com/elonmusk/status/2098039192223928680">2</a>]</p>
+    <p>He also praised Tesla’s self-driving system, called a Roman archaeological discovery cool, and reacted to a breakfast photo with a fire emoji. [<a href="https://x.com/elonmusk/status/2098043944383005119">3</a>, <a href="https://x.com/elonmusk/status/2098044284260016572">4</a>, <a href="https://x.com/elonmusk/status/2098052817391092113">5</a>]</p>
+    <blockquote><p>“Tesla self-driving is awesome”
+<a class="at" href="https://x.com/elonmusk/status/2098052817391092113">[5]</a></p></blockquote>
 
-    function apply() {
-      var key = sort === 'done' ? 'done' : 'released';
-      var other = key === 'done' ? 'released' : 'done';
-      items.sort(function (a, b) {
-        var x = a.dataset[key] || '', y = b.dataset[key] || '';
-        if (x !== y) return x < y ? 1 : -1;
-        x = a.dataset[other] || ''; y = b.dataset[other] || '';
-        return x === y ? 0 : (x < y ? 1 : -1);
-      });
-      items.forEach(function (el) { list.appendChild(el); });
-      list.classList.toggle('by-done', key === 'done');
-      var seen = 0;
-      items.forEach(function (el) {
-        var ok = (!show || el.dataset.show === show) &&
-                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
-        el.hidden = !ok;
-        if (ok) seen++;
-      });
-      none.hidden = seen > 0;
-    }
-    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
-      var b = ev.target.closest('.chip');
-      if (!b) return;
-      show = b.dataset.show;
-      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
-        c.classList.toggle('on', c === b);
-      });
-      apply();
-    });
-    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
-      var b = ev.target.closest('.chip');
-      if (!b) return;
-      sort = b.dataset.sort;
-      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
-        c.classList.toggle('on', c === b);
-      });
-      apply();
-    });
-    document.getElementById('q').addEventListener('input', function (ev) {
-      text = ev.target.value.trim().toLowerCase();
-      apply();
-    });
-  })();
-  </script>
+    <h2>The posts</h2>
+    <section class="topic">
+      <h3>Technology and Tesla</h3>
+<p class="why">Musk shared a Grok Bot feature for drafting messages before users approve them. [<a href="https://x.com/elonmusk/status/2098038952284586282">1</a>] He said Tesla self-driving is awesome and agreed that people who can afford it should use it. [<a href="https://x.com/elonmusk/status/2098052817391092113">5</a>]</p>      <ul class="posts">
+        <li id="p1">
+          <span class="at">[1] <a href="https://x.com/elonmusk/status/2098038952284586282">@elonmusk · 13:20 UTC</a>
+</span>
+          <p class="post-text">Grok @Bot</p>
+<p class="quoted">Quoting @bot: Some recent quality-of-life improvements to Grok Bot.
+
+You can ask your Bot to draft messages inline for you to approve before sending.</p>        </li>
+        <li id="p5">
+          <span class="at">[5] <a href="https://x.com/elonmusk/status/2098052817391092113">@elonmusk · 14:15 UTC</a>
+</span>
+          <p class="post-text">Tesla self-driving is awesome</p>
+<p class="quoted">Quoting @willchamberlain: I bought a Tesla in July and have basically retired from driving. 
+
+If you can afford to you should too. It’s the most dangerous thing you do every day and Tesla’s robots are better at it.</p>        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Space</h3>
+<p class="why">Musk agreed that Europe needs a large rocket and a high launch rate to remain relevant in space. [<a href="https://x.com/elonmusk/status/2098039192223928680">2</a>]</p>      <ul class="posts">
+        <li id="p2">
+          <span class="at">[2] <a href="https://x.com/elonmusk/status/2098039192223928680">@elonmusk · 13:21 UTC</a>
+· replying to @SciGuySpace</span>
+          <p class="post-text">True</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>History and Food</h3>
+<p class="why">Musk called Rome’s newly revealed Roman mosaic and fresco “Cool.” [<a href="https://x.com/elonmusk/status/2098043944383005119">3</a>] He reacted to a post about an American breakfast with a fire emoji. [<a href="https://x.com/elonmusk/status/2098044284260016572">4</a>]</p>      <ul class="posts">
+        <li id="p3">
+          <span class="at">[3] <a href="https://x.com/elonmusk/status/2098043944383005119">@elonmusk · 13:40 UTC</a>
+· replying to @CNN</span>
+          <p class="post-text">Cool</p>
+        </li>
+        <li id="p4">
+          <span class="at">[4] <a href="https://x.com/elonmusk/status/2098044284260016572">@elonmusk · 13:41 UTC</a>
+· replying to @rob2628</span>
+          <p class="post-text">🔥</p>
+        </li>
+      </ul>
+    </section>
 
   <nav class="more">
-<a href="/space-digest/funny/2026-09-10/">Older</a>    <a href="/space-digest/funny/episodes/">Every episode</a>
-    <a href="/space-digest/funny/feed.xml">Subscribe by RSS</a>
+    <a href="/space-digest/x/elonmusk/">Every day of Elon Musk on X</a>
+    <a href="/space-digest/x/">All X digests</a>
   </nav>
   <footer>
     <p>Summaries are written by a machine from the original words, and link

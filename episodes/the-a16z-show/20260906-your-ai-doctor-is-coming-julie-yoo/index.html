@@ -2,7 +2,7 @@
 <html lang="en">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Just The Funny Bits · 11 September 2026 · Space Digest</title>
+<title>Your AI Doctor Is Coming | Julie Yoo · Space Digest</title>
 <link rel="alternate" type="application/rss+xml" title="Space Digest" href="/space-digest/feed.xml">
 <style>
   :root { --ink:#1a1a1a; --soft:#5b5b5b; --line:#e2e0da; --paper:#fbfaf7; --mark:#7a3b2e; }
@@ -94,102 +94,34 @@
   </header>
   <nav class="top" aria-label="Sections">
     <a href="/space-digest/">Today</a>
-    <a href="/space-digest/episodes/">Episodes</a>
+    <a href="/space-digest/episodes/" class="on">Episodes</a>
     <a href="/space-digest/archive/">Issues</a>
 <a href="/space-digest/x/">X digests</a>
-<a href="/space-digest/funny/" class="on">Funny bits</a>
+<a href="/space-digest/funny/">Funny bits</a>
 <a href="/space-digest/feed.xml">RSS</a>
   </nav>
-  <h1>Just The Funny Bits</h1>
-  <p class="meta">Friday 11 September 2026 ·
-1 episode     · only the jokes; the news stays out</p>
-      <div class="filters" id="filters" hidden>
-    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
-           aria-label="Search episode titles">
-    <div class="chips" data-role="show">
-      <button class="chip on" data-show="">All shows</button>
-      <button class="chip" data-show="the-ben-shapiro-show">The Ben Shapiro Show <span class="at">1</span></button>
-    </div>
-    <div class="chips" data-role="sort">
-      <span class="at">Sort</span>
-      <button class="chip on" data-sort="released">Newest released</button>
-      <button class="chip" data-sort="done">Just written up</button>
-    </div>
+  <article class="entry" data-show="the-a16z-show" data-title="your ai doctor is coming | julie yoo"
+         data-released="2026-09-06" data-done="2026-09-11T06:20">
+<h1>Your AI Doctor Is Coming | Julie Yoo</h1>  <p class="meta">The a16z Show · 6 September 2026 · 27 min · <span class="archive">Reached back for</span><span class="done"> · written up 11 September at 06:20</span></p>
+  <p class="hook">Healthcare’s slow start with technology may let it leap straight into an AI-powered system built around patients.</p>
+  <ul class="points">
+<li>Healthcare went from paper files to electronic records when the government paid doctors tens of thousands of dollars to adopt them. <span class="at">1:36</span></li><li>Julie Yoo’s company tackled long waits by matching patients with unused appointment capacity, exposing a major gap between demand and doctors’ time. <span class="at">3:11</span></li><li>COVID forced changes to doctor licensing and payment rules, while AI made digital healthcare easier to build and adopt. <span class="at">5:55</span></li><li>Healthcare may leap over older workplace software because it never spent heavily on the layers other industries now have to replace. <span class="at">13:50</span></li><li>Doctors are adopting AI scribes on their own because the tools work, while patients use chatbots to avoid months-long waits or costly emergency rooms. <span class="at">14:56</span></li><li>The next step is moving from answers to lasting care: testing, treatment, referrals, and an ongoing relationship with an AI-supported doctor. <span class="at">18:37</span></li>  </ul>
+<blockquote><p>“It&#39;s a 15-year overnight success.” [5:21]</p></blockquote><p class="for">Worth your time if you want to understand where AI could make healthcare cheaper, faster, and more personal.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>Doctors are adopting AI tools without being paid to use them because they improve the job.
+<span class="at">— Julie Yoo</span><span class="at">14:56</span><span class="why">Healthcare technology adoption usually required government payments or a pandemic.</span>      </li>
+      <li>The average wait for a primary care appointment is still weeks or months, while doctors remain underused.
+<span class="at">— Julie Yoo</span><span class="at">3:11</span><span class="why">Long queues suggest the system has no spare capacity.</span>      </li>
+      <li>“I think all of us will genuinely have an AI doctor in our pocket for life.”
+<span class="at">— Julie Yoo</span><span class="at">25:33</span><span class="why">Healthcare is usually built around occasional visits, not lifelong personal support.</span>      </li>
+    </ol>
   </div>
-
-    <div id="list">
-    <article class="entry" id="the-ben-shapiro-show-20260907-the-foreign-threats-everyones-ignoring" data-show="the-ben-shapiro-show" data-title="the foreign threats everyone&#39;s ignoring"
-             data-released="2026-09-07" data-done="2026-09-11T06:20">
-      <h2 style="margin-top:0"><a href="https://www.youtube.com/watch?v=mwyZygFjKBw">The Foreign Threats Everyone&#39;s Ignoring</a></h2>
-      <p class="meta">The Ben Shapiro Show · 7 September 2026 · 12 min
-         · times link into the video         · <span class="archive">Reached back for</span><span class="done"> · written up 11 September at 06:20</span></p>
-      <ol class="bits">
-        <li>
-          <span class="said">“Because you can&#39;t run endless guns and endless butter. And it turns out that butter is actually way more expensive than guns.”</span>
-          <span class="at"><a href="https://www.youtube.com/watch?v=mwyZygFjKBw&amp;t=260s">4:20</a></span>
-<span class="why">The host discusses Britain trading imperial power for domestic welfare and adapts the familiar “guns and butter” tradeoff into a literal-sounding comparison in which butter is unexpectedly costlier.</span>        </li>
-      </ol>
-    </article>
-    </div>
-      <p class="quiet" id="none" hidden>Nothing matches that.</p>
-  <script>
-  (function () {
-    var box = document.getElementById('filters');
-    var list = document.getElementById('list');
-    var none = document.getElementById('none');
-    if (!box || !list) return;
-    box.hidden = false;              // only shown when scripting works
-    var items = [].slice.call(list.children);
-    var show = '', text = '', sort = 'released';
-
-    function apply() {
-      var key = sort === 'done' ? 'done' : 'released';
-      var other = key === 'done' ? 'released' : 'done';
-      items.sort(function (a, b) {
-        var x = a.dataset[key] || '', y = b.dataset[key] || '';
-        if (x !== y) return x < y ? 1 : -1;
-        x = a.dataset[other] || ''; y = b.dataset[other] || '';
-        return x === y ? 0 : (x < y ? 1 : -1);
-      });
-      items.forEach(function (el) { list.appendChild(el); });
-      list.classList.toggle('by-done', key === 'done');
-      var seen = 0;
-      items.forEach(function (el) {
-        var ok = (!show || el.dataset.show === show) &&
-                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
-        el.hidden = !ok;
-        if (ok) seen++;
-      });
-      none.hidden = seen > 0;
-    }
-    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
-      var b = ev.target.closest('.chip');
-      if (!b) return;
-      show = b.dataset.show;
-      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
-        c.classList.toggle('on', c === b);
-      });
-      apply();
-    });
-    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
-      var b = ev.target.closest('.chip');
-      if (!b) return;
-      sort = b.dataset.sort;
-      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
-        c.classList.toggle('on', c === b);
-      });
-      apply();
-    });
-    document.getElementById('q').addEventListener('input', function (ev) {
-      text = ev.target.value.trim().toLowerCase();
-      apply();
-    });
-  })();
-  </script>
+</article>
 
   <nav class="more">
-<a href="/space-digest/funny/2026-09-10/">Older</a>    <a href="/space-digest/funny/episodes/">Every episode</a>
-    <a href="/space-digest/funny/feed.xml">Subscribe by RSS</a>
+    <a href="/space-digest/shows/the-a16z-show/">More from The a16z Show</a>
+    <a href="/space-digest/issues/2026-09-11/">That day's issue</a>
   </nav>
   <footer>
     <p>Summaries are written by a machine from the original words, and link
