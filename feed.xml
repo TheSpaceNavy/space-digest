@@ -5,7 +5,7 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 12 Sep 2026 12:01:04 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 12:17:17 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Why Companies Are Becoming a Series of Loops | Anish Acharya on Lenny’s Podcast</title>
@@ -50,6 +50,13 @@
       <description>Anthropic’s own safety warning puts a double-digit chance on AI causing human extinction within a decade.</description>
     </item>
     <item>
+      <title>#338 Cardinal Burke - The New Testament</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260910-338-cardinal-burke-the-new-testament/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260910-338-cardinal-burke-the-new-testament/</guid>
+      <pubDate>Sat, 12 Sep 2026 12:06:27 +0000</pubDate>
+      <description>The episode argues that Christianity rests on a physical Resurrection and demands a radically different way of living.</description>
+    </item>
+    <item>
       <title>#2552 - Ehsan Ahmad &amp; Deric Poston</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260910-2552-ehsan-ahmad-deric-poston/</link>
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260910-2552-ehsan-ahmad-deric-poston/</guid>
@@ -90,6 +97,13 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260908-openai-researchers-on-the-future-of-mathematical-reasoning/</guid>
       <pubDate>Wed, 09 Sep 2026 23:12:49 +0000</pubDate>
       <description>AI may not replace mathematical intuition—but it can keep pushing long after humans give up.</description>
+    </item>
+    <item>
+      <title>#337 Cardinal Burke - The Old Testament</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260908-337-cardinal-burke-the-old-testament/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260908-337-cardinal-burke-the-old-testament/</guid>
+      <pubDate>Sat, 12 Sep 2026 12:05:25 +0000</pubDate>
+      <description>The Old Testament is framed as a long preparation for Jesus, not a separate or harsher religion.</description>
     </item>
     <item>
       <title>#2550 - Rick Springfield</title>
@@ -162,6 +176,13 @@
       <description>AI’s summer shift was bigger than new models: agents, politics, costs, and cyber risks all moved into the mainstream.</description>
     </item>
     <item>
+      <title>Fei Fei Li: The Race to Build World Models For AI</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260904-fei-fei-li-the-race-to-build-world-models-for-ai/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260904-fei-fei-li-the-race-to-build-world-models-for-ai/</guid>
+      <pubDate>Sat, 12 Sep 2026 12:07:25 +0000</pubDate>
+      <description>A model that once needed hundreds of images may soon build explorable worlds from just three.</description>
+    </item>
+    <item>
       <title>Answering 7 Arguments For Atheism | Joe Schmid | Last Call Ep. 30</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260903-answering-7-arguments-for-atheism-joe-schmid-last-call-ep-30/</link>
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260903-answering-7-arguments-for-atheism-joe-schmid-last-call-ep-30/</guid>
@@ -169,11 +190,46 @@
       <description>The episode argues that suffering, hiddenness, cosmic order, and even religious disagreement can fit belief in God.</description>
     </item>
     <item>
+      <title>Agentic Loops for Knowledge Workers</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260903-agentic-loops-for-knowledge-workers/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260903-agentic-loops-for-knowledge-workers/</guid>
+      <pubDate>Sat, 12 Sep 2026 12:09:14 +0000</pubDate>
+      <description>The next leap in AI may come from knowing when work is actually finished, not from better prompts.</description>
+    </item>
+    <item>
+      <title>#2549 - Jared Diamond</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260903-2549-jared-diamond/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260903-2549-jared-diamond/</guid>
+      <pubDate>Sat, 12 Sep 2026 12:10:12 +0000</pubDate>
+      <description>Leaders, languages, diseases, and nations often turn on accidents that look obvious only afterward.</description>
+    </item>
+    <item>
+      <title>Why I Had to Become Catholic (Georgia Howe) | Ep. 594</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260831-why-i-had-to-become-catholic-georgia-howe-ep-594/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260831-why-i-had-to-become-catholic-georgia-howe-ep-594/</guid>
+      <pubDate>Sat, 12 Sep 2026 12:14:04 +0000</pubDate>
+      <description>A viral political break led an emergency nurse through free will, resurrection, science, and finally Catholicism.</description>
+    </item>
+    <item>
       <title>[Rebroadcast] Professional Humility III: Critical Spirit</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-optimalwork-podcast/20260831-rebroadcast-professional-humility-iii-critical-spirit/</link>
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-optimalwork-podcast/20260831-rebroadcast-professional-humility-iii-critical-spirit/</guid>
       <pubDate>Wed, 09 Sep 2026 11:22:46 +0000</pubDate>
       <description>The urge to criticize someone may reveal the very flaw you have been avoiding in yourself.</description>
+    </item>
+    <item>
+      <title>Pentagon Whistleblower UNLOADS on Alien Hybrid Breeding Programs (ft. Matthew Brown)</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/american-alchemy-with-jesse-michels/20260829-pentagon-whistleblower-unloads-on-alien-hybrid-breeding/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/american-alchemy-with-jesse-michels/20260829-pentagon-whistleblower-unloads-on-alien-hybrid-breeding/</guid>
+      <pubDate>Sat, 12 Sep 2026 12:16:51 +0000</pubDate>
+      <description>A whistleblower’s account links hidden UAP programs to privatized technology, secret agreements, and possible threats to human autonomy.</description>
+    </item>
+    <item>
+      <title>[Rebroadcast] Professional Humility II: Defensiveness</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-optimalwork-podcast/20260824-rebroadcast-professional-humility-ii-defensiveness/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-optimalwork-podcast/20260824-rebroadcast-professional-humility-ii-defensiveness/</guid>
+      <pubDate>Sat, 12 Sep 2026 12:17:08 +0000</pubDate>
+      <description>Defensiveness protects a fragile self-image, while accepting shame turns criticism into a path for growth.</description>
     </item>
   </channel>
 </rss>
