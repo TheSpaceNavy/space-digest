@@ -5,8 +5,22 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 13 Sep 2026 12:02:04 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 13 Sep 2026 12:13:42 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>World Models, Robotics, and the Future of 3D AI</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260913-world-models-robotics-and-the-future-of-3d-ai/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260913-world-models-robotics-and-the-future-of-3d-ai/</guid>
+      <pubDate>Sun, 13 Sep 2026 12:11:48 +0000</pubDate>
+      <description>AI models may soon build explorable worlds from a few photos—and train robots inside them.</description>
+    </item>
+    <item>
+      <title>10 Ways to Think Bigger with Opportunity AI</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260913-10-ways-to-think-bigger-with-opportunity-ai/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260913-10-ways-to-think-bigger-with-opportunity-ai/</guid>
+      <pubDate>Sun, 13 Sep 2026 12:11:37 +0000</pubDate>
+      <description>AI’s next leap may be less about smarter models than talking to computers and giving agents lasting responsibility.</description>
+    </item>
     <item>
       <title>Why Companies Are Becoming a Series of Loops | Anish Acharya on Lenny’s Podcast</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260912-why-companies-are-becoming-a-series-of-loops-anish-acharya/</link>
