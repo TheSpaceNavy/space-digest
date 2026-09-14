@@ -5,8 +5,22 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 14 Sep 2026 00:16:55 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 13:04:38 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Greg Brockman on Why OpenAI Says We’re Entering the AGI Era</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260914-greg-brockman-on-why-openai-says-were-entering-the-agi-era/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260914-greg-brockman-on-why-openai-says-were-entering-the-agi-era/</guid>
+      <pubDate>Mon, 14 Sep 2026 13:03:09 +0000</pubDate>
+      <description>AI may be nearing a turning point where it discovers knowledge, finds security flaws, and erases routine computer work.</description>
+    </item>
+    <item>
+      <title>#339 Christian Craighead - The Uncensored Story of the Nairobi DusitD2 Attack</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260914-339-christian-craighead-the-uncensored-story-of-the-nairobi/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260914-339-christian-craighead-the-uncensored-story-of-the-nairobi/</guid>
+      <pubDate>Mon, 14 Sep 2026 13:02:26 +0000</pubDate>
+      <description>A lone rescuer entered Nairobi’s burning hotel, saved hundreds, and later paid a personal price for telling the story.</description>
+    </item>
     <item>
       <title>World Models, Robotics, and the Future of 3D AI</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260913-world-models-robotics-and-the-future-of-3d-ai/</link>
