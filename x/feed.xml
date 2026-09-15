@@ -4,8 +4,29 @@
   <title>Space Digest — X digests</title>
   <link>https://thespacenavy.github.io/space-digest/x/</link>
   <description>What each account said on X in the last day, one page per day.</description>
-  <lastBuildDate>Tue, 15 Sep 2026 01:17:45 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 15 Sep 2026 12:03:26 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/x/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Tesla on X · 15 September 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/x/tesla/2026-09-15/</link>
+    <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/x/tesla/2026-09-15/</guid>
+    <pubDate>Tue, 15 Sep 2026 12:02:11 +0000</pubDate>
+    <description>Tesla highlighted European Semi details, expanded charging availability, and showed supervised driving with Grok.</description>
+  </item>
+  <item>
+    <title>SpaceXAI on X · 15 September 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/x/spacex/2026-09-15/</link>
+    <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/x/spacex/2026-09-15/</guid>
+    <pubDate>Tue, 15 Sep 2026 12:03:24 +0000</pubDate>
+    <description>Starship Flight 14 moved to September 22, while new plans emerged for Flight 15 and AI satellites.</description>
+  </item>
+  <item>
+    <title>Elon Musk on X · 15 September 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/x/elonmusk/2026-09-15/</link>
+    <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/x/elonmusk/2026-09-15/</guid>
+    <pubDate>Tue, 15 Sep 2026 12:01:11 +0000</pubDate>
+    <description>The day focused on AI, high-performance computing, energy prices, gaming, and Tesla Semi charging.</description>
+  </item>
   <item>
     <title>Tesla on X · 14 September 2026</title>
     <link>https://thespacenavy.github.io/space-digest/x/tesla/2026-09-14/</link>

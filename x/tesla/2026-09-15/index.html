@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tesla on X · 15 September 2026 · Space Digest</title>
+<link rel="alternate" type="application/rss+xml" title="Space Digest" href="/space-digest/feed.xml">
+<style>
+  :root { --ink:#1a1a1a; --soft:#5b5b5b; --line:#e2e0da; --paper:#fbfaf7; --mark:#7a3b2e; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e8e6e1; --soft:#a09c94; --line:#33312d; --paper:#161513; --mark:#d99b7c; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink);
+         font:17px/1.65 Charter, Georgia, "Iowan Old Style", serif;
+         -webkit-text-size-adjust:100%; }
+  .page { max-width:38rem; margin:0 auto; padding:2.5rem 1.25rem 5rem; }
+  a { color:inherit; text-decoration-color:var(--line); text-underline-offset:3px; }
+  a:hover { text-decoration-color:var(--mark); }
+  header.masthead { border-bottom:2px solid var(--ink); padding-bottom:.6rem; margin-bottom:1rem; }
+  nav.top { display:flex; flex-wrap:wrap; gap:.2rem 1.4rem; margin:0 0 2rem;
+            font-size:.78rem; letter-spacing:.09em; text-transform:uppercase; }
+  nav.top a { color:var(--soft); text-decoration:none; padding:.25rem 0;
+              border-bottom:2px solid transparent; }
+  nav.top a:hover { color:var(--ink); }
+  nav.top a.on { color:var(--ink); border-bottom-color:var(--mark); }
+  header.masthead a { text-decoration:none; }
+  .wordmark { font-size:1.5rem; font-weight:700; letter-spacing:-.02em; margin:0; }
+  .tagline { color:var(--soft); font-size:.85rem; margin:.15rem 0 0; }
+  h1 { font-size:1.6rem; line-height:1.25; letter-spacing:-.015em; margin:0 0 .3rem; }
+  h2 { font-size:1.15rem; margin:2.5rem 0 .4rem; }
+  .meta { color:var(--soft); font-size:.82rem; margin:0 0 1.6rem; }
+  .hook { font-size:1.2rem; line-height:1.45; margin:0 0 1.2rem; }
+  article.entry { border-bottom:1px solid var(--line); padding-bottom:2rem; margin-bottom:2rem; }
+  article.entry:last-of-type { border-bottom:0; }
+  ul.points { list-style:none; margin:1.1rem 0; padding:0; }
+  ul.points li { margin:0 0 .7rem; padding-left:1rem; text-indent:-1rem; }
+  .at { color:var(--soft); font-size:.8rem; white-space:nowrap; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }
+  blockquote { margin:1.4rem 0; padding-left:1rem; border-left:3px solid var(--mark);
+               font-size:1.05rem; }
+  blockquote p { margin:0; }
+  .for { color:var(--soft); font-style:italic; }
+  .standouts { background:color-mix(in srgb, var(--mark) 7%, transparent);
+               border-radius:.4rem; padding:1rem 1.1rem; margin:1.6rem 0; }
+  .standouts h3 { margin:0 0 .6rem; font-size:.78rem; letter-spacing:.09em;
+                  text-transform:uppercase; color:var(--soft); font-weight:700; }
+  .standouts ol { margin:0; padding-left:1.15rem; }
+  .standouts li { margin:0 0 .7rem; }
+  .standouts li:last-child { margin-bottom:0; }
+  .why { display:block; color:var(--soft); font-size:.85rem; margin-top:.15rem; }
+  nav.more { margin-top:3rem; padding-top:1.2rem; border-top:1px solid var(--line);
+             color:var(--soft); font-size:.88rem; }
+  nav.more a { margin-right:1rem; }
+  footer { margin-top:3.5rem; padding-top:1.2rem; border-top:1px solid var(--line);
+           color:var(--soft); font-size:.8rem; }
+  .quiet { color:var(--soft); font-size:1.05rem; }
+  .filters { margin:1.5rem 0 2rem; }
+  .filters input { width:100%; padding:.55rem .7rem; font:inherit; font-size:.95rem;
+                   color:var(--ink); background:var(--paper);
+                   border:1px solid var(--line); border-radius:.35rem; }
+  .filters input:focus { outline:2px solid var(--mark); outline-offset:1px; }
+  .chips { display:flex; flex-wrap:wrap; gap:.4rem; margin-top:.7rem; }
+  .chip { font:inherit; font-size:.85rem; padding:.3rem .7rem; cursor:pointer;
+          color:var(--soft); background:transparent;
+          border:1px solid var(--line); border-radius:1rem; }
+  .chip:hover { border-color:var(--mark); color:var(--ink); }
+  .chip.on { background:var(--ink); border-color:var(--ink); color:var(--paper); }
+  .chip.on .at { color:var(--paper); opacity:.7; }
+  ul.episodes { list-style:none; margin:0; padding:0; }
+  ul.episodes li { padding:.85rem 0; border-bottom:1px solid var(--line); }
+  ul.episodes li a { font-size:1.05rem; }
+  ul.episodes .at { display:block; margin-top:.15rem; }
+  ul.episodes .why { margin-top:.3rem; }
+  section.topic { margin:1.6rem 0; }
+  section.topic h3 { font-size:1rem; margin:0 0 .3rem; }
+  ul.posts { list-style:none; margin:.6rem 0 0; padding:0; }
+  ul.posts li { padding:.6rem 0 .6rem .9rem; border-left:2px solid var(--line); margin:0 0 .6rem; }
+  ul.posts .at a { text-decoration:none; }
+  .post-text { margin:.25rem 0 0; white-space:pre-line; }
+  .quoted { margin:.35rem 0 0; color:var(--soft); font-size:.9rem; white-space:pre-line; }
+  .archive { color:var(--mark); }
+  .done { display:none; }
+  .by-done .done { display:inline; color:var(--mark); }
+  .chips + .chips { margin-top:.5rem; }
+  ol.bits { margin:1.1rem 0 0; padding-left:1.3rem; }
+  ol.bits li { margin:0 0 1.1rem; }
+  ol.bits .said { font-size:1.05rem; }
+  ol.bits .at a { text-decoration:none; border-bottom:1px dotted var(--soft); }
+</style>
+<body>
+<div class="page">
+  <header class="masthead">
+    <a href="/space-digest/"><p class="wordmark">Space Digest</p></a>
+    <p class="tagline">The podcasts worth your week, in a minute each.</p>
+  </header>
+  <nav class="top" aria-label="Sections">
+    <a href="/space-digest/">Today</a>
+    <a href="/space-digest/episodes/">Episodes</a>
+    <a href="/space-digest/archive/">Issues</a>
+<a href="/space-digest/x/" class="on">X digests</a>
+<a href="/space-digest/funny/">Funny bits</a>
+<a href="/space-digest/feed.xml">RSS</a>
+  </nav>
+  <h1>Tesla on X</h1>
+  <p class="meta">Tuesday 15 September 2026 ·
+     14 Sep 12:00 to 15 Sep 12:00 UTC ·
+9 posts, every one checked against X · 4 checks</p>
+
+    <p class="hook">Tesla highlighted European Semi details, expanded charging availability, and showed supervised driving with Grok.</p>
+    <p>Tesla shared European Semi details, including a truck control screen, charging options, and specifications such as range, charging power, and weight. [<a href="https://x.com/TheEVuniverse/status/2099493510986563782">1</a>, <a href="https://x.com/EFIEBER_ANDRE/status/2099521412096508219">2</a>, <a href="https://x.com/TeslaCharging/status/2099531391658815782">4</a>, <a href="https://x.com/NicoPliquett/status/2099574262562496559">9</a>]</p>
+    <p>A post said Tesla’s robotaxi fleet passed 1,000 vehicles, while Tesla showed a car using Grok for a trip to an ATM and back home. [<a href="https://x.com/PolymarketMoney/status/2099528348472848798">3</a>, <a href="https://x.com/wholemars/status/2099541333665095806">6</a>]</p>
+    <blockquote><p>“Use FSD, save up to $60/mo on Tesla Insurance.”
+<a class="at" href="https://x.com/SawyerMerritt/status/2099562627819086134">[8]</a></p></blockquote>
+
+    <h2>The posts</h2>
+    <section class="topic">
+      <h3>Tesla Semi</h3>
+<p class="why">The European Tesla Semi was shown with a control screen for truck functions, including lights, the latch, suspension level, tire pressure, seats, and windows. [<a href="https://x.com/TheEVuniverse/status/2099493510986563782">1</a>] Another post listed a 4680 battery, up to 550 kilometers of range at 40 tonnes, up to 800 kilowatts of charging, charging to about 60% in 30 minutes, energy use of about 1 kilowatt-hour per kilometer, weight below 9.1 tonnes, and a built-in 25-kilowatt supply for cooling units. [<a href="https://x.com/EFIEBER_ANDRE/status/2099521412096508219">2</a>, <a href="https://x.com/NicoPliquett/status/2099574262562496559">9</a>]</p>      <ul class="posts">
+        <li id="p1">
+          <span class="at">[1] <a href="https://x.com/TheEVuniverse/status/2099493510986563782">@TheEVuniverse · 13:40 UTC</a>
+</span>
+          <p class="post-text">Here is a look at one of the two user screens of the Tesla Semi in Europe. 
+
+You can really use it for all operations around the truck, from the lighting (including back of the cab!) to the latch, from the suspension level to the tire pressures.
+
+And ofc seat and window controls</p>
+        </li>
+        <li id="p2">
+          <span class="at">[2] <a href="https://x.com/EFIEBER_ANDRE/status/2099521412096508219">@EFIEBER_ANDRE · 15:31 UTC</a>
+</span>
+          <p class="post-text">Der Tesla Semi für Europa ist da. 🇪🇺
+
+Ich stand heute auf der IAA Transportation endlich direkt davor und auf Bildern kommt überhaupt nicht rüber, wie gewaltig dieses Ding ist.
+
+Noch spannender sind aber die Details, die man auf den ersten Blick gar nicht sieht: 4680-Akku, drei</p>
+        </li>
+        <li id="p9">
+          <span class="at">[9] <a href="https://x.com/NicoPliquett/status/2099574262562496559">@NicoPliquett · 19:01 UTC</a>
+</span>
+          <p class="post-text">Der Tesla Semi für Europa:
+- EU-Modell setzt auf Aero-Kameras
+- Keine durchgehende Lichtleiste vorne
+- Nur Standard-Range angekündigt (bis zu 550km bei 40t)
+- Max 800kW via MCS (ca 60% Ladung in 30 Min)
+- Ca 1 kWh/km
+- Leergewicht unter 9,1t
+- 25 kW integriert für Kühlaggregate
+-</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Semi Charging</h3>
+<p class="why">Tesla said businesses in Germany, the Netherlands, Belgium, France, and the United Kingdom can buy and install Semi chargers. The options include a 1.2-megawatt Megacharger for quick stops and a 125-kilowatt Basecharger for longer stays. [<a href="https://x.com/TeslaCharging/status/2099531391658815782">4</a>]</p>      <ul class="posts">
+        <li id="p4">
+          <span class="at">[4] <a href="https://x.com/TeslaCharging/status/2099531391658815782">@TeslaCharging · 16:11 UTC</a>
+</span>
+          <p class="post-text">Semi Charging for Business now available in
+
+- Germany 🇩🇪: https://www.tesla.com/de_de/semi-charging-for-business?redirect=no&amp;
+- Netherlands 🇳🇱: https://www.tesla.com/nl_nl/semi-charging-for-business?redirect=no&amp;
+- Belgium 🇧🇪: https://www.tesla.com/fr_be/semi-charging-for-business?redirect=no&amp; &amp; https://www.tesla.com/nl_be/semi-charging-for-business?redirect=no&amp;
+- France 🇫🇷: https://www.tesla.com/fr_fr/semi-charging-for-business?redirect=no&amp;
+- United Kingdom 🇬🇧: https://www.tesla.com/en_gb/semi-charging-for-business?redirect=no&amp;</p>
+<p class="quoted">Quoting @TeslaCharging: Businesses can purchase and install Semi chargers, powering electric trucking
+
+- 1.2 MW Megacharger for quick stops
+- 125 kW Basecharger for longer stays
+
+Learn more about Semi Charging for Business and pricing: https://www.tesla.com/semi-charging-for-business</p>        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Robotaxi and FSD</h3>
+<p class="why">Tesla’s robotaxi fleet reportedly passed 1,000 vehicles. [<a href="https://x.com/PolymarketMoney/status/2099528348472848798">3</a>] A Tesla owner said Grok navigated a Tesla to an ATM, parked there, then drove home and parked in the driveway. [<a href="https://x.com/wholemars/status/2099541333665095806">6</a>]</p>      <ul class="posts">
+        <li id="p3">
+          <span class="at">[3] <a href="https://x.com/PolymarketMoney/status/2099528348472848798">@PolymarketMoney · 15:59 UTC</a>
+</span>
+          <p class="post-text">BREAKING: Tesla’s Robotaxi fleet crosses 1,000 vehicles for the first time.</p>
+        </li>
+        <li id="p6">
+          <span class="at">[6] <a href="https://x.com/wholemars/status/2099541333665095806">@wholemars · 16:50 UTC</a>
+</span>
+          <p class="post-text">Yesterday I had to grab some cash from an ATM. 
+
+So I got in my Tesla and said “Hey Grok, take me to the ATM”. It navigated me there and parked right in front of the machine. 
+
+Then I said “Hey Grok, take me home” and it drove me home and parked in the driveway. I got out and was</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Optimus</h3>
+<p class="why">@TeslaAIBot said Optimus could be used in manufacturing, dangerous jobs, and homes, and could one day help prepare Mars for humans. [<a href="https://x.com/TeslaAIBot/status/2099541673483043065">7</a>]</p>      <ul class="posts">
+        <li id="p7">
+          <span class="at">[7] <a href="https://x.com/TeslaAIBot/status/2099541673483043065">@TeslaAIBot · 16:51 UTC</a>
+</span>
+          <p class="post-text">Optimus will be the most important product Tesla ever creates 👀
+
+Not only will it have uses in manufacturing and dangerous jobs, but inside of your home as well. 
+
+One day in the not so far future, Optimus will prepare Mars for humans 🔥</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Insurance</h3>
+<p class="why">Tesla began showing Tesla Insurance cost estimates in the FSD section of its vehicle ordering page in U.S. states where Tesla Insurance is available. The post said using FSD could save up to $60 per month on Tesla Insurance. [<a href="https://x.com/SawyerMerritt/status/2099562627819086134">8</a>]</p>      <ul class="posts">
+        <li id="p8">
+          <span class="at">[8] <a href="https://x.com/SawyerMerritt/status/2099562627819086134">@SawyerMerritt · 18:15 UTC</a>
+</span>
+          <p class="post-text">Tesla is now giving Tesla Insurance cost estimates directly in the FSD section on the vehicle ordering page in U.S. states where Tesla Insurance is available.
+
+“Use FSD, save up to $60/mo on Tesla Insurance.”</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Other</h3>
+      <ul class="posts">
+        <li id="p5">
+          <span class="at">[5] <a href="https://x.com/JernejVrtovec/status/2099535786609721807">@JernejVrtovec · 16:28 UTC</a>
+</span>
+          <p class="post-text">TESLIN FSD Sistem lahko prevzame krmiljenje, vožnjo skozi križišča, menjavo voznega pasu in številne druge manevre, pri tem pa voznik ves čas ohranja nadzor.
+
+Moj vtis? Sistem je varen, učinkovit in predvsem zanimiv pogled v prihodnost mobilnosti. Ne utrudi se, ne zaspi in lahko</p>
+        </li>
+      </ul>
+    </section>
+
+  <nav class="more">
+    <a href="/space-digest/x/tesla/">Every day of Tesla on X</a>
+    <a href="/space-digest/x/">All X digests</a>
+  </nav>
+  <footer>
+    <p>Summaries are written by a machine from the original words, and link
+       back to where they were said. Nothing here replaces the source.</p>
+    <p><a href="/space-digest/episodes/">Every episode</a> ·
+       <a href="/space-digest/archive/">Every issue</a> ·
+<a href="/space-digest/x/">X digests</a> ·
+<a href="/space-digest/funny/">Funny bits</a> ·
+<a href="/space-digest/feed.xml">Subscribe by RSS</a></p>
+  </footer>
+</div>
