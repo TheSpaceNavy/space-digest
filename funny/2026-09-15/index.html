@@ -102,9 +102,112 @@
   </nav>
   <h1>Just The Funny Bits</h1>
   <p class="meta">Tuesday 15 September 2026 ·
-A quiet day     · only the jokes; the news stays out</p>
-    <p class="quiet">No funny bits today. The shows on the list have not published
-       since the last page.</p>
+2 episodes     · only the jokes; the news stays out</p>
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="the-ben-shapiro-show">The Ben Shapiro Show <span class="at">1</span></button>
+      <button class="chip" data-show="the-michael-knowles-show">The Michael Knowles Show <span class="at">1</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+    <article class="entry" id="the-ben-shapiro-show-20260914-were-all-going-to-die-the-ai-panic-debunked" data-show="the-ben-shapiro-show" data-title="&#39;we&#39;re all going to die&#39;: the ai panic, debunked"
+             data-released="2026-09-14" data-done="2026-09-15T08:26">
+      <h2 style="margin-top:0"><a href="https://www.youtube.com/watch?v=sml4caUm1aY">&#39;We&#39;re All Going to Die&#39;: The AI Panic, Debunked</a></h2>
+      <p class="meta">The Ben Shapiro Show · 14 September 2026 · 44 min
+         · times link into the video<span class="done"> · written up 15 September at 08:26</span></p>
+      <ol class="bits">
+        <li>
+          <span class="said">“There are a lot of people out there who have predicted 25 of the last two recessions.”</span>
+          <span class="at"><a href="https://www.youtube.com/watch?v=sml4caUm1aY&amp;t=349s">5:49</a></span>
+<span class="why">The host is discussing people who make dire predictions that rarely happen. He humorously reverses the familiar “predicted the last several recessions” boast by claiming they predicted twenty-five of only two.</span>        </li>
+      </ol>
+    </article>
+    <article class="entry" id="the-michael-knowles-show-20260914-ep-2059-libs-freakout-the-lindsay-clancy-lone-juror-was-a" data-show="the-michael-knowles-show" data-title="ep. 2059 - libs freakout: the lindsay clancy lone juror was a black guy"
+             data-released="2026-09-14" data-done="2026-09-15T08:24">
+      <h2 style="margin-top:0"><a href="https://www.youtube.com/watch?v=bM3rmiY7lZU">Ep. 2059 - Libs FREAKOUT: The Lindsay Clancy Lone Juror Was A BLACK GUY</a></h2>
+      <p class="meta">The Michael Knowles Show · 14 September 2026 · 48 min
+         · times link into the video<span class="done"> · written up 15 September at 08:24</span></p>
+      <ol class="bits">
+        <li>
+          <span class="said">“She she says, you know, it was really impactful the testimony. Anytime you hear someone say the word impactful, you can basically disregard everything else they&#39;ve said.”</span>
+          <span class="at"><a href="https://www.youtube.com/watch?v=bM3rmiY7lZU&amp;t=576s">9:36</a></span>
+<span class="why">After quoting a juror’s use of “impactful,” the host mockingly treats the corporate-sounding word as evidence that the speaker’s entire statement can be dismissed.</span>        </li>
+        <li>
+          <span class="said">“Any any fun quote you can basically just attribute to GK Chesterton.”</span>
+          <span class="at"><a href="https://www.youtube.com/watch?v=bM3rmiY7lZU&amp;t=1642s">27:22</a></span>
+<span class="why">The host says he cannot remember whether Chesterton made an observation about Islam, then jokes that any amusing quotation can conveniently be credited to Chesterton.</span>        </li>
+        <li>
+          <span class="said">“some weird obelisk with like a a doodly-doo on top. I think that&#39;s the specific technical name is a doodly do.”</span>
+          <span class="at"><a href="https://www.youtube.com/watch?v=bM3rmiY7lZU&amp;t=1929s">32:09</a></span>
+<span class="why">While describing the Smithsonian’s outdoor sculpture, the host replaces a precise description of its shape with the deliberately silly phrase “doodly-doo.”</span>        </li>
+      </ol>
+    </article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      list.classList.toggle('by-done', key === 'done');
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
   <nav class="more">
 <a href="/space-digest/funny/2026-09-14/">Older</a>    <a href="/space-digest/funny/episodes/">Every episode</a>
     <a href="/space-digest/funny/feed.xml">Subscribe by RSS</a>

@@ -101,9 +101,101 @@
 <a href="/space-digest/feed.xml">RSS</a>
   </nav>
   <h1>Tuesday 15 September 2026</h1>
-  <p class="meta">A quiet day</p>
-    <p class="quiet">Nothing new today. The shows on the list have not published
-       since the last issue.</p>
+  <p class="meta">1
+     episode</p>
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="the-ai-daily-brief-artificial">The AI Daily Brief <span class="at">1</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+<article class="entry" data-show="the-ai-daily-brief-artificial" data-title="even other ai labs are rallying around anthropic’s slowdown proposal"
+         data-released="2026-09-14" data-done="2026-09-15T08:24">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-ai-daily-brief-artificial/20260914-even-other-ai-labs-are-rallying-around-anthropics-slowdown/">Even Other AI Labs Are Rallying Around Anthropic’s Slowdown Proposal</a></h2>
+  <p class="meta">The AI Daily Brief · 14 September 2026 · 37 min<span class="done"> · written up 15 September at 08:24</span></p>
+  <p class="hook">Anthropic’s call to slow frontier AI is winning allies, but critics see safety, power, and business interests tangled together.</p>
+  <ul class="points">
+<li>Amodei proposes slowing frontier AI development enough to make progress more manageable without stopping it. <span class="at">1:32</span></li><li>He says recursive self-improvement and a recent agent incident changed his view of AI risk. <span class="at">3:05</span></li><li>His plan uses independent evaluators, cooperation among democratic countries, and eventually talks with authoritarian governments. <span class="at">4:40</span></li><li>Amodei argues that one or two extra years could improve security, alignment, interpretability, and testing. <span class="at">6:49</span></li><li>OpenAI, Google DeepMind, Microsoft, and others backed the general idea, while critics warned it could shield incumbents or raise antitrust concerns. <span class="at">8:55</span></li><li>The debate turned toward practical deals on safety, incentives, international cooperation, and public messaging instead of broad doomsday warnings. <span class="at">34:35</span></li>  </ul>
+<blockquote><p>“in 6 to 12 months such a swarm could be capable of taking over the entire internet” — Dario Amodei [4:08]</p></blockquote><p class="for">Worth your time if you want to understand why AI safety can also look like a fight over power and competition.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>“in 6 to 12 months such a swarm could be capable of taking over the entire internet”
+<span class="at">— Dario Amodei</span><span class="at">4:08</span><span class="why">Current agent incidents may sound limited, not potentially internet-wide.</span>      </li>
+      <li>METER has evaluated Anthropic’s models and embedded researchers inside the company despite being proposed as an evaluator.
+<span class="at">15:51</span><span class="why">An independent referee may already have close ties to the company it would monitor.</span>      </li>
+      <li>“The labs will build Mac and Windows. The rest of us are building Linux. Everyone&#39;s going to do great.”
+<span class="at">— Will Brown</span><span class="at">23:55</span><span class="why">Fragmented AI ecosystems are presented as compatible, not inherently destabilizing.</span>      </li>
+      <li>“I was more worried about AI existential risk in 2022 than I am today, even though models are vastly more capable.”
+<span class="at">— Hoda Nade Albarj</span><span class="at">35:06</span><span class="why">Greater capability has coincided with less concern after alignment efforts changed her view.</span>      </li>
+    </ol>
+  </div>
+</article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      list.classList.toggle('by-done', key === 'done');
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
   <nav class="more">
 <a href="/space-digest/issues/2026-09-14/">Older</a>    <a href="/space-digest/archive/">All issues</a>
   </nav>
