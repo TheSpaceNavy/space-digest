@@ -5,7 +5,7 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Sep 2026 00:03:10 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 01:17:45 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Greg Brockman on Why OpenAI Says We’re Entering the AGI Era</title>
@@ -20,6 +20,20 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260914-339-christian-craighead-the-uncensored-story-of-the-nairobi/</guid>
       <pubDate>Mon, 14 Sep 2026 13:02:26 +0000</pubDate>
       <description>A lone rescuer entered Nairobi’s burning hotel, saved hundreds, and later paid a personal price for telling the story.</description>
+    </item>
+    <item>
+      <title>317. How a Good Decision Becomes an Action</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-optimalwork-podcast/20260914-317-how-a-good-decision-becomes-an-action/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-optimalwork-podcast/20260914-317-how-a-good-decision-becomes-an-action/</guid>
+      <pubDate>Tue, 15 Sep 2026 01:16:11 +0000</pubDate>
+      <description>Good decisions fail when curiosity stops, options shrink, or a clear intention never becomes a specific next step.</description>
+    </item>
+    <item>
+      <title>#2553 - Andrew Huberman</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260914-2553-andrew-huberman/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260914-2553-andrew-huberman/</guid>
+      <pubDate>Tue, 15 Sep 2026 01:13:25 +0000</pubDate>
+      <description>The episode argues that change comes less from knowledge than from attention, discomfort, surrender, and repeated practice.</description>
     </item>
     <item>
       <title>World Models, Robotics, and the Future of 3D AI</title>
