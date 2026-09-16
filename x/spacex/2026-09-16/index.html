@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SpaceXAI on X · 16 September 2026 · Space Digest</title>
+<link rel="alternate" type="application/rss+xml" title="Space Digest" href="/space-digest/feed.xml">
+<style>
+  :root { --ink:#1a1a1a; --soft:#5b5b5b; --line:#e2e0da; --paper:#fbfaf7; --mark:#7a3b2e; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e8e6e1; --soft:#a09c94; --line:#33312d; --paper:#161513; --mark:#d99b7c; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink);
+         font:17px/1.65 Charter, Georgia, "Iowan Old Style", serif;
+         -webkit-text-size-adjust:100%; }
+  .page { max-width:38rem; margin:0 auto; padding:2.5rem 1.25rem 5rem; }
+  a { color:inherit; text-decoration-color:var(--line); text-underline-offset:3px; }
+  a:hover { text-decoration-color:var(--mark); }
+  header.masthead { border-bottom:2px solid var(--ink); padding-bottom:.6rem; margin-bottom:1rem; }
+  nav.top { display:flex; flex-wrap:wrap; gap:.2rem 1.4rem; margin:0 0 2rem;
+            font-size:.78rem; letter-spacing:.09em; text-transform:uppercase; }
+  nav.top a { color:var(--soft); text-decoration:none; padding:.25rem 0;
+              border-bottom:2px solid transparent; }
+  nav.top a:hover { color:var(--ink); }
+  nav.top a.on { color:var(--ink); border-bottom-color:var(--mark); }
+  header.masthead a { text-decoration:none; }
+  .wordmark { font-size:1.5rem; font-weight:700; letter-spacing:-.02em; margin:0; }
+  .tagline { color:var(--soft); font-size:.85rem; margin:.15rem 0 0; }
+  h1 { font-size:1.6rem; line-height:1.25; letter-spacing:-.015em; margin:0 0 .3rem; }
+  h2 { font-size:1.15rem; margin:2.5rem 0 .4rem; }
+  .meta { color:var(--soft); font-size:.82rem; margin:0 0 1.6rem; }
+  .hook { font-size:1.2rem; line-height:1.45; margin:0 0 1.2rem; }
+  article.entry { border-bottom:1px solid var(--line); padding-bottom:2rem; margin-bottom:2rem; }
+  article.entry:last-of-type { border-bottom:0; }
+  ul.points { list-style:none; margin:1.1rem 0; padding:0; }
+  ul.points li { margin:0 0 .7rem; padding-left:1rem; text-indent:-1rem; }
+  .at { color:var(--soft); font-size:.8rem; white-space:nowrap; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }
+  blockquote { margin:1.4rem 0; padding-left:1rem; border-left:3px solid var(--mark);
+               font-size:1.05rem; }
+  blockquote p { margin:0; }
+  .for { color:var(--soft); font-style:italic; }
+  .standouts { background:color-mix(in srgb, var(--mark) 7%, transparent);
+               border-radius:.4rem; padding:1rem 1.1rem; margin:1.6rem 0; }
+  .standouts h3 { margin:0 0 .6rem; font-size:.78rem; letter-spacing:.09em;
+                  text-transform:uppercase; color:var(--soft); font-weight:700; }
+  .standouts ol { margin:0; padding-left:1.15rem; }
+  .standouts li { margin:0 0 .7rem; }
+  .standouts li:last-child { margin-bottom:0; }
+  .why { display:block; color:var(--soft); font-size:.85rem; margin-top:.15rem; }
+  nav.more { margin-top:3rem; padding-top:1.2rem; border-top:1px solid var(--line);
+             color:var(--soft); font-size:.88rem; }
+  nav.more a { margin-right:1rem; }
+  footer { margin-top:3.5rem; padding-top:1.2rem; border-top:1px solid var(--line);
+           color:var(--soft); font-size:.8rem; }
+  .quiet { color:var(--soft); font-size:1.05rem; }
+  .filters { margin:1.5rem 0 2rem; }
+  .filters input { width:100%; padding:.55rem .7rem; font:inherit; font-size:.95rem;
+                   color:var(--ink); background:var(--paper);
+                   border:1px solid var(--line); border-radius:.35rem; }
+  .filters input:focus { outline:2px solid var(--mark); outline-offset:1px; }
+  .chips { display:flex; flex-wrap:wrap; gap:.4rem; margin-top:.7rem; }
+  .chip { font:inherit; font-size:.85rem; padding:.3rem .7rem; cursor:pointer;
+          color:var(--soft); background:transparent;
+          border:1px solid var(--line); border-radius:1rem; }
+  .chip:hover { border-color:var(--mark); color:var(--ink); }
+  .chip.on { background:var(--ink); border-color:var(--ink); color:var(--paper); }
+  .chip.on .at { color:var(--paper); opacity:.7; }
+  ul.episodes { list-style:none; margin:0; padding:0; }
+  ul.episodes li { padding:.85rem 0; border-bottom:1px solid var(--line); }
+  ul.episodes li a { font-size:1.05rem; }
+  ul.episodes .at { display:block; margin-top:.15rem; }
+  ul.episodes .why { margin-top:.3rem; }
+  section.topic { margin:1.6rem 0; }
+  section.topic h3 { font-size:1rem; margin:0 0 .3rem; }
+  ul.posts { list-style:none; margin:.6rem 0 0; padding:0; }
+  ul.posts li { padding:.6rem 0 .6rem .9rem; border-left:2px solid var(--line); margin:0 0 .6rem; }
+  ul.posts .at a { text-decoration:none; }
+  .post-text { margin:.25rem 0 0; white-space:pre-line; }
+  .quoted { margin:.35rem 0 0; color:var(--soft); font-size:.9rem; white-space:pre-line; }
+  .translation { margin:.2rem 0 0; color:var(--soft); font-size:.9rem; font-style:italic;
+                 white-space:pre-line; }
+  .archive { color:var(--mark); }
+  .done { display:none; }
+  .by-done .done { display:inline; color:var(--mark); }
+  .chips + .chips { margin-top:.5rem; }
+  ol.bits { margin:1.1rem 0 0; padding-left:1.3rem; }
+  ol.bits li { margin:0 0 1.1rem; }
+  ol.bits .said { font-size:1.05rem; }
+  ol.bits .at a { text-decoration:none; border-bottom:1px dotted var(--soft); }
+</style>
+<body>
+<div class="page">
+  <header class="masthead">
+    <a href="/space-digest/"><p class="wordmark">Space Digest</p></a>
+    <p class="tagline">The podcasts worth your week, in a minute each.</p>
+  </header>
+  <nav class="top" aria-label="Sections">
+    <a href="/space-digest/">Today</a>
+    <a href="/space-digest/episodes/">Episodes</a>
+    <a href="/space-digest/archive/">Issues</a>
+<a href="/space-digest/x/" class="on">X digests</a>
+<a href="/space-digest/funny/">Funny bits</a>
+<a href="/space-digest/feed.xml">RSS</a>
+  </nav>
+  <h1>SpaceXAI on X</h1>
+  <p class="meta">Wednesday 16 September 2026 ·
+     15 Sep 12:00 to 16 Sep 12:00 UTC ·
+9 posts, every one checked against X · 5 checks</p>
+
+    <p class="hook">Starship Flight 14 dominated the day, with Starlink, aviation, education, and Grok subscription news also featured.</p>
+    <p>SpaceX said Starship Flight 14 could launch as early as September 22, pending regulatory approval, in the vehicle’s first planned attempt to reach orbit. [<a href="https://x.com/SpaceX/status/2099912172146995456">2</a>] Posts also described plans to deploy Starlink V3 satellites, but they gave different satellite counts and mission details.</p>
+    <p>Starlink was reported on 53 Emirates aircraft, while Zambia launched a three-year Starlink learning program for 70 schools and Peru planned Starlink service for 40,054 public schools. [<a href="https://x.com/cb_doge/status/2099992146212425876">5</a>, <a href="https://x.com/cb_doge/status/2099995060930785479">7</a>, <a href="https://x.com/cb_doge/status/2099998626022138242">8</a>] xAI’s SuperGrok subscription was described as costing $30 per month and as being priced below estimated computing costs. [<a href="https://x.com/0xzxcom/status/2100011226751447044">9</a>]</p>
+    <blockquote><p>“Starship is preparing to go to orbit.”
+<a class="at" href="https://x.com/SpaceX/status/2099912172146995456">[2]</a></p></blockquote>
+
+    <h2>The posts</h2>
+    <section class="topic">
+      <h3>Starship Flight 14</h3>
+<p class="why">SpaceX said Starship Flight 14 is targeting a launch as early as Tuesday, September 22, pending regulatory approval. [<a href="https://x.com/SpaceX/status/2099912172146995456">2</a>] The post says Starship is preparing to go to orbit. [<a href="https://x.com/SpaceX/status/2099912172146995456">2</a>]</p>      <ul class="posts">
+        <li id="p2">
+          <span class="at">[2] <a href="https://x.com/SpaceX/status/2099912172146995456">@SpaceX · 17:24 UTC</a>
+</span>
+          <p class="post-text">Starship is preparing to go to orbit. Flight 14 is targeting to launch as early as Tuesday, September 22, pending regulatory approval → https://spacex.com/launches/starship-flight-14</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Starlink aviation and education</h3>
+<p class="why">Emirates was reported to have Starlink on 53 aircraft, with 232 aircraft targeted. [<a href="https://x.com/cb_doge/status/2099992146212425876">5</a>] Zambia launched a Starlink-powered digital learning program for 70 schools, while Peru planned to connect 40,054 public schools by 2028. [<a href="https://x.com/cb_doge/status/2099992146212425876">5</a>, <a href="https://x.com/cb_doge/status/2099995060930785479">7</a>, <a href="https://x.com/cb_doge/status/2099998626022138242">8</a>]</p>      <ul class="posts">
+        <li id="p5">
+          <span class="at">[5] <a href="https://x.com/cb_doge/status/2099992146212425876">@cb_doge · 22:41 UTC</a>
+</span>
+          <p class="post-text">BREAKING: Emirates just announced that 53 aircraft are now equipped with @Starlink
+
+• Starlink installed on 14 aircraft per month
+• 232 aircraft targeted
+• 1M+ connections in the first 7 months
+• 1+ petabyte of data used
+• Over 2 Gbps of combined bandwidth on A380s
+• Free</p>
+        </li>
+        <li id="p7">
+          <span class="at">[7] <a href="https://x.com/cb_doge/status/2099995060930785479">@cb_doge · 22:53 UTC</a>
+</span>
+          <p class="post-text">BREAKING: The Government of Zambia has launched a three-year @Starlink powered digital learning programme for 70 schools. 🇿🇲
+
+• Will connect 70 schools to Starlink
+• Expand digital learning and skills
+• Bring internet to surrounding communities</p>
+        </li>
+        <li id="p8">
+          <span class="at">[8] <a href="https://x.com/cb_doge/status/2099998626022138242">@cb_doge · 23:07 UTC</a>
+</span>
+          <p class="post-text">BREAKING: Peru plans to use @Starlink to connect 40,054 public schools that currently have no internet.
+
+The project will reach remote, high-altitude and border regions, using solar power where needed. The goal is to connect 100% of Peru’s public schools by 2028.</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>xAI and Grok</h3>
+<p class="why">@grok invited one Grok Bot user, plus a guest, to a Starship launch after a contest about using @Bot at work. [<a href="https://x.com/grok/status/2099876430561632548">1</a>] SuperGrok was described as a $30-per-month subscription priced below estimated hosting and computing costs. [<a href="https://x.com/0xzxcom/status/2100011226751447044">9</a>]</p>      <ul class="posts">
+        <li id="p1">
+          <span class="at">[1] <a href="https://x.com/grok/status/2099876430561632548">@grok · 15:02 UTC</a>
+</span>
+          <p class="post-text">We’re inviting one Grok Bot user to a Starship launch. You could win the invite by sharing the ways you&#39;ve integrated @Bot into your work. The invite includes a plus one.
+
+How to submit and some examples we love:</p>
+        </li>
+        <li id="p9">
+          <span class="at">[9] <a href="https://x.com/0xzxcom/status/2100011226751447044">@0xzxcom · 23:57 UTC</a>
+</span>
+          <p class="post-text">xAI is heavily subsidizing its $30 per month SuperGrok subscription as a loss-leader, pricing it well below actual hosting and compute costs to capture market share.
+
+• A comparable 4vCPU/16GB cloud VM costs $71 to $142 per month on the open market, compared to GrokBot&#39;s $30</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Recognition</h3>
+<p class="why">The SpaceX Falcon 9 Booster Landing Team received the 2026 Neil Armstrong Space Prize at a ceremony in the nation’s capital. [<a href="https://x.com/LifeAtPurdue/status/2099994212200505828">6</a>]</p>      <ul class="posts">
+        <li id="p6">
+          <span class="at">[6] <a href="https://x.com/LifeAtPurdue/status/2099994212200505828">@LifeAtPurdue · 22:50 UTC</a>
+</span>
+          <p class="post-text">🏅 Surrounded by members of the Neil Armstrong family, Purdue Cradle of Astronauts, Purdue leadership and @NASAAdmin Jared Isaacman, the @SpaceX Falcon 9 Booster Landing Team received the 2026 Neil Armstrong Space Prize during a ceremony in the nation’s capital tonight. ⭐️</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Other</h3>
+      <ul class="posts">
+        <li id="p3">
+          <span class="at">[3] <a href="https://x.com/cb_doge/status/2099943015167258656">@cb_doge · 19:26 UTC</a>
+</span>
+          <p class="post-text">Starlink V3 — human for scale.</p>
+        </li>
+        <li id="p4">
+          <span class="at">[4] <a href="https://x.com/Mookafish/status/2099969331316523251">@Mookafish · 21:11 UTC</a>
+</span>
+          <p class="post-text">Starship gets caught — seen by a camera at the launch site</p>
+        </li>
+      </ul>
+    </section>
+
+  <nav class="more">
+    <a href="/space-digest/x/spacex/">Every day of SpaceXAI on X</a>
+    <a href="/space-digest/x/">All X digests</a>
+  </nav>
+  <footer>
+    <p>Summaries are written by a machine from the original words, and link
+       back to where they were said. Nothing here replaces the source.</p>
+    <p><a href="/space-digest/episodes/">Every episode</a> ·
+       <a href="/space-digest/archive/">Every issue</a> ·
+<a href="/space-digest/x/">X digests</a> ·
+<a href="/space-digest/funny/">Funny bits</a> ·
+<a href="/space-digest/feed.xml">Subscribe by RSS</a></p>
+  </footer>
+</div>

@@ -4,8 +4,29 @@
   <title>Space Digest — X digests</title>
   <link>https://thespacenavy.github.io/space-digest/x/</link>
   <description>What each account said on X in the last day, one page per day.</description>
-  <lastBuildDate>Wed, 16 Sep 2026 06:03:13 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 16 Sep 2026 12:04:11 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/x/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Tesla on X · 16 September 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/x/tesla/2026-09-16/</link>
+    <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/x/tesla/2026-09-16/</guid>
+    <pubDate>Wed, 16 Sep 2026 12:02:32 +0000</pubDate>
+    <description>Tesla focused on expanding the Semi in Europe, while Optimus production rumors and Roadster performance claims drew attention.</description>
+  </item>
+  <item>
+    <title>SpaceXAI on X · 16 September 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/x/spacex/2026-09-16/</link>
+    <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/x/spacex/2026-09-16/</guid>
+    <pubDate>Wed, 16 Sep 2026 12:04:08 +0000</pubDate>
+    <description>Starship Flight 14 dominated the day, with Starlink, aviation, education, and Grok subscription news also featured.</description>
+  </item>
+  <item>
+    <title>Elon Musk on X · 16 September 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/x/elonmusk/2026-09-16/</link>
+    <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/x/elonmusk/2026-09-16/</guid>
+    <pubDate>Wed, 16 Sep 2026 12:01:18 +0000</pubDate>
+    <description>Elon Musk focused on Grok Bot, Starship, energy, and autonomous technology.</description>
+  </item>
   <item>
     <title>Tesla on X · 15 September 2026</title>
     <link>https://thespacenavy.github.io/space-digest/x/tesla/2026-09-15/</link>
