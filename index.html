@@ -103,9 +103,103 @@
 <a href="/space-digest/feed.xml">RSS</a>
   </nav>
   <h1>Wednesday 16 September 2026</h1>
-  <p class="meta">A quiet day</p>
-    <p class="quiet">Nothing new today. The shows on the list have not published
-       since the last issue.</p>
+  <p class="meta">1
+     episode</p>
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="the-a16z-show">The a16z Show <span class="at">1</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+<article class="entry" data-show="the-a16z-show" data-title="the age of body futurism | ruby justice thelot"
+         data-released="2026-09-15" data-done="2026-09-16T08:47">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-a16z-show/20260915-the-age-of-body-futurism-ruby-justice-thelot/">The Age of Body Futurism | Ruby Justice Thelot</a></h2>
+  <p class="meta">The a16z Show · 15 September 2026 · 43 min<span class="done"> · written up 16 September at 08:47</span></p>
+  <p class="hook">Body optimization is spreading from elite beauty culture into everyday health, driven by drugs, data, and online imitation.</p>
+  <ul class="points">
+<li>Peptide culture grew in bodybuilding and America’s heartland before Silicon Valley helped professionalize and accelerate it. <span class="at">6:57</span></li><li>GLP drugs show how awareness can outrun adoption: 90% of Americans have heard of them, but only 11% use them. <span class="at">10:06</span></li><li>Online peptide conversations are mostly positive, focusing on weight loss, self-image, and bodybuilding, though safety concerns are growing. <span class="at">13:49</span></li><li>Wellness posts increasingly blur personal experience and advertising, making “day in my life” content part of promotion. <span class="at">15:32</span></li><li>Thinness shifted from a sign of wealth to a sign of virtue, intelligence, and bodily control, later reinforced by fashion. <span class="at">21:26</span></li><li>Wearables and health dashboards may expand body optimization while holistic practices return alongside measurement, not instead of it. <span class="at">37:52</span></li>  </ul>
+<blockquote><p>“There’s more content about not using your phone than people truly not using their phone.” — Ruby Justice the Low [17:04]</p></blockquote><p class="for">Worth your time if you want to understand why health trends spread beyond the people who start them.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>“90% of Americans have heard of GLPs, 11% are on GLPs.”
+<span class="at">10:06</span><span class="why">Awareness is dramatically broader than actual use.</span>      </li>
+      <li>England’s rising sugar supply helped make thinness a marker of male health rather than wealth.
+<span class="at">— Ruby Justice the Low</span><span class="at">19:46</span><span class="why">Earlier societies associated larger bodies with status and prosperity.</span>      </li>
+      <li>A blind sleep-score study found that people felt worse after receiving a negative score, even when their actual sleep was better.
+<span class="at">37:52</span><span class="why">Health scores can change how people feel, not merely measure them.</span>      </li>
+      <li>Some founders are developing wearables intended to make four hours of sleep feel equivalent to a full night’s rest.
+<span class="at">40:03</span><span class="why">Sleep technology may aim to compress sleep rather than improve its quality.</span>      </li>
+      <li>“People are just going to do increasingly like strange biohacky things.”
+<span class="at">39:30</span><span class="why">Body optimization may produce more unusual experiments, not more uniform beauty.</span>      </li>
+    </ol>
+  </div>
+</article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      list.classList.toggle('by-done', key === 'done');
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
   <nav class="more">
 <a href="/space-digest/issues/2026-09-15/">Older</a>    <a href="/space-digest/archive/">All issues</a>
   </nav>
