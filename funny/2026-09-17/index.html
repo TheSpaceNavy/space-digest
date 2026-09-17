@@ -104,9 +104,95 @@
   </nav>
   <h1>Just The Funny Bits</h1>
   <p class="meta">Thursday 17 September 2026 ·
-A quiet day     · only the jokes; the news stays out</p>
-    <p class="quiet">No funny bits today. The shows on the list have not published
-       since the last page.</p>
+1 episode     · only the jokes; the news stays out</p>
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="the-matt-walsh-show">The Matt Walsh Show <span class="at">1</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+    <article class="entry" id="the-matt-walsh-show-20260916-friendly-fire-run-hide-fight-infidels-useful-idiots-and-the" data-show="the-matt-walsh-show" data-title="friendly fire: run hide fight: infidels, useful idiots, and the jihadi coup"
+             data-released="2026-09-16" data-done="2026-09-17T09:45">
+      <h2 style="margin-top:0"><a href="https://www.dailywire.com/show/the-matt-walsh-show">Friendly Fire: Run Hide Fight: Infidels, Useful Idiots, and the Jihadi Coup</a></h2>
+      <p class="meta">The Matt Walsh Show · 16 September 2026 · 1h 4m
+         · times are from the podcast audio<span class="done"> · written up 17 September at 09:45</span></p>
+      <ol class="bits">
+        <li>
+          <span class="said">“Dallas Saunier is a maestro of violence. He is, he is maybe the leading connoisseur of onscreen violence working today.”</span>
+          <span class="at">11:59</span>
+<span class="why">The discussion shifts from the movie’s comedy to its graphic action. Calling the producer a “maestro” and “connoisseur” of onscreen violence treats cinematic brutality like a refined art or food specialty.</span>        </li>
+        <li>
+          <span class="said">“It&#39;s a documentary. That&#39;s my main criticism of this film.”</span>
+          <span class="at">49:44</span>
+<span class="why">A deliberately dramatic speech by a fictional Islamic State figure has just concluded. The speaker jokes that the film’s realism—that it is a documentary—would be its main flaw.</span>        </li>
+      </ol>
+    </article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      list.classList.toggle('by-done', key === 'done');
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
   <nav class="more">
 <a href="/space-digest/funny/2026-09-16/">Older</a>    <a href="/space-digest/funny/episodes/">Every episode</a>
     <a href="/space-digest/funny/feed.xml">Subscribe by RSS</a>
