@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tesla on X · 18 September 2026 · Space Digest</title>
+<link rel="alternate" type="application/rss+xml" title="Space Digest" href="/space-digest/feed.xml">
+<style>
+  :root { --ink:#1a1a1a; --soft:#5b5b5b; --line:#e2e0da; --paper:#fbfaf7; --mark:#7a3b2e; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e8e6e1; --soft:#a09c94; --line:#33312d; --paper:#161513; --mark:#d99b7c; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink);
+         font:17px/1.65 Charter, Georgia, "Iowan Old Style", serif;
+         -webkit-text-size-adjust:100%; }
+  .page { max-width:38rem; margin:0 auto; padding:2.5rem 1.25rem 5rem; }
+  a { color:inherit; text-decoration-color:var(--line); text-underline-offset:3px; }
+  a:hover { text-decoration-color:var(--mark); }
+  header.masthead { border-bottom:2px solid var(--ink); padding-bottom:.6rem; margin-bottom:1rem; }
+  nav.top { display:flex; flex-wrap:wrap; gap:.2rem 1.4rem; margin:0 0 2rem;
+            font-size:.78rem; letter-spacing:.09em; text-transform:uppercase; }
+  nav.top a { color:var(--soft); text-decoration:none; padding:.25rem 0;
+              border-bottom:2px solid transparent; }
+  nav.top a:hover { color:var(--ink); }
+  nav.top a.on { color:var(--ink); border-bottom-color:var(--mark); }
+  header.masthead a { text-decoration:none; }
+  .wordmark { font-size:1.5rem; font-weight:700; letter-spacing:-.02em; margin:0; }
+  .tagline { color:var(--soft); font-size:.85rem; margin:.15rem 0 0; }
+  h1 { font-size:1.6rem; line-height:1.25; letter-spacing:-.015em; margin:0 0 .3rem; }
+  h2 { font-size:1.15rem; margin:2.5rem 0 .4rem; }
+  .meta { color:var(--soft); font-size:.82rem; margin:0 0 1.6rem; }
+  .hook { font-size:1.2rem; line-height:1.45; margin:0 0 1.2rem; }
+  article.entry { border-bottom:1px solid var(--line); padding-bottom:2rem; margin-bottom:2rem; }
+  article.entry:last-of-type { border-bottom:0; }
+  ul.points { list-style:none; margin:1.1rem 0; padding:0; }
+  ul.points li { margin:0 0 .7rem; padding-left:1rem; text-indent:-1rem; }
+  .at { color:var(--soft); font-size:.8rem; white-space:nowrap; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }
+  blockquote { margin:1.4rem 0; padding-left:1rem; border-left:3px solid var(--mark);
+               font-size:1.05rem; }
+  blockquote p { margin:0; }
+  .for { color:var(--soft); font-style:italic; }
+  .standouts { background:color-mix(in srgb, var(--mark) 7%, transparent);
+               border-radius:.4rem; padding:1rem 1.1rem; margin:1.6rem 0; }
+  .standouts h3 { margin:0 0 .6rem; font-size:.78rem; letter-spacing:.09em;
+                  text-transform:uppercase; color:var(--soft); font-weight:700; }
+  .standouts ol { margin:0; padding-left:1.15rem; }
+  .standouts li { margin:0 0 .7rem; }
+  .standouts li:last-child { margin-bottom:0; }
+  .why { display:block; color:var(--soft); font-size:.85rem; margin-top:.15rem; }
+  nav.more { margin-top:3rem; padding-top:1.2rem; border-top:1px solid var(--line);
+             color:var(--soft); font-size:.88rem; }
+  nav.more a { margin-right:1rem; }
+  footer { margin-top:3.5rem; padding-top:1.2rem; border-top:1px solid var(--line);
+           color:var(--soft); font-size:.8rem; }
+  .quiet { color:var(--soft); font-size:1.05rem; }
+  .filters { margin:1.5rem 0 2rem; }
+  .filters input { width:100%; padding:.55rem .7rem; font:inherit; font-size:.95rem;
+                   color:var(--ink); background:var(--paper);
+                   border:1px solid var(--line); border-radius:.35rem; }
+  .filters input:focus { outline:2px solid var(--mark); outline-offset:1px; }
+  .chips { display:flex; flex-wrap:wrap; gap:.4rem; margin-top:.7rem; }
+  .chip { font:inherit; font-size:.85rem; padding:.3rem .7rem; cursor:pointer;
+          color:var(--soft); background:transparent;
+          border:1px solid var(--line); border-radius:1rem; }
+  .chip:hover { border-color:var(--mark); color:var(--ink); }
+  .chip.on { background:var(--ink); border-color:var(--ink); color:var(--paper); }
+  .chip.on .at { color:var(--paper); opacity:.7; }
+  ul.episodes { list-style:none; margin:0; padding:0; }
+  ul.episodes li { padding:.85rem 0; border-bottom:1px solid var(--line); }
+  ul.episodes li a { font-size:1.05rem; }
+  ul.episodes .at { display:block; margin-top:.15rem; }
+  ul.episodes .why { margin-top:.3rem; }
+  section.topic { margin:1.6rem 0; }
+  section.topic h3 { font-size:1rem; margin:0 0 .3rem; }
+  ul.posts { list-style:none; margin:.6rem 0 0; padding:0; }
+  ul.posts li { padding:.6rem 0 .6rem .9rem; border-left:2px solid var(--line); margin:0 0 .6rem; }
+  ul.posts .at a { text-decoration:none; }
+  .post-text { margin:.25rem 0 0; white-space:pre-line; }
+  .quoted { margin:.35rem 0 0; color:var(--soft); font-size:.9rem; white-space:pre-line; }
+  .translation { margin:.2rem 0 0; color:var(--soft); font-size:.9rem; font-style:italic;
+                 white-space:pre-line; }
+  .archive { color:var(--mark); }
+  .done { display:none; }
+  .by-done .done { display:inline; color:var(--mark); }
+  .chips + .chips { margin-top:.5rem; }
+  ol.bits { margin:1.1rem 0 0; padding-left:1.3rem; }
+  ol.bits li { margin:0 0 1.1rem; }
+  ol.bits .said { font-size:1.05rem; }
+  ol.bits .at a { text-decoration:none; border-bottom:1px dotted var(--soft); }
+</style>
+<body>
+<div class="page">
+  <header class="masthead">
+    <a href="/space-digest/"><p class="wordmark">Space Digest</p></a>
+    <p class="tagline">The podcasts worth your week, in a minute each.</p>
+  </header>
+  <nav class="top" aria-label="Sections">
+    <a href="/space-digest/">Today</a>
+    <a href="/space-digest/episodes/">Episodes</a>
+    <a href="/space-digest/archive/">Issues</a>
+<a href="/space-digest/x/" class="on">X digests</a>
+<a href="/space-digest/funny/">Funny bits</a>
+<a href="/space-digest/feed.xml">RSS</a>
+  </nav>
+  <h1>Tesla on X</h1>
+  <p class="meta">Friday 18 September 2026 ·
+     17 Sep 12:00 to 18 Sep 12:00 UTC ·
+16 posts, every one checked against X · 4 checks</p>
+
+    <p class="hook">Tesla posts highlighted Optimus production, a European Semi, AI5 chips, and new Cybercab-colored mugs.</p>
+    <p>Posts reported that Tesla teams were auditing robotics suppliers in China ahead of possible large-scale Optimus production, while another post said Optimus passed a bicycle-image CAPTCHA. [<a href="https://x.com/tslaming/status/2100582673597219242">2</a>, <a href="https://x.com/0xalfons/status/2100630911339418110">5</a>] A report also said Samsung had begun trial production of Tesla’s AI5 chip on a 2-nanometer process, with chips expected to reach Tesla in 2027. [<a href="https://x.com/cb_doge/status/2100667261489225992">8</a>]</p>
+    <p>The posts described a European Semi with 342 miles of range, 800 kilowatts of power, 40-ton hauling, and deliveries starting in 2027. [<a href="https://x.com/herbertong/status/2100591352862196041">3</a>] Another post said IMC Logistics was preparing to add 50 Tesla Semis to its California fleet. [<a href="https://x.com/XFreeze/status/2100703422819565890">13</a>] A $30 stainless-steel Tesla mug in Cybercab’s Gleaming Gold Metallic color was also announced. [<a href="https://x.com/niccruzpatane/status/2100659049897329128">6</a>]</p>
+    <blockquote><p>“123 kWh. That’s nine Powerwall 3s on wheels.”
+<a class="at" href="https://x.com/JeebsTX/status/2100555381613220286">[1]</a></p></blockquote>
+
+    <h2>The posts</h2>
+    <section class="topic">
+      <h3>Optimus</h3>
+<p class="why">A post described Optimus passing a CAPTCHA by identifying and marking images of bicycles. [<a href="https://x.com/0xalfons/status/2100630911339418110">5</a>] Another post reported a rumor that Tesla robotics executives were auditing suppliers in China ahead of large-scale production in October. [<a href="https://x.com/tslaming/status/2100582673597219242">2</a>]</p>      <ul class="posts">
+        <li id="p2">
+          <span class="at">[2] <a href="https://x.com/tslaming/status/2100582673597219242">@tslaming · 13:48 UTC</a>
+</span>
+          <p class="post-text">[ RUMOR ] 🇨🇳 Tesla robotics R&amp;D and production executives have arrived in China to begin the final round of factory audits across the Optimus supply chain, visiting suppliers in Shanghai, Hangzhou, Ningbo, and Xiamen ahead of large-scale mass production in October 🔥
+
+This rumor</p>
+        </li>
+        <li id="p5">
+          <span class="at">[5] <a href="https://x.com/0xalfons/status/2100630911339418110">@0xalfons · 17:00 UTC</a>
+</span>
+          <p class="post-text">🚨 TESLA ACABA DE HACER QUE UN ROBOT PASE UN CAPTCHA
+
+El mismo sistema que fue creado para demostrar:
+
+“NO ERES UN ROBOT”
+
+Acaba de ser superado por uno. 💀
+
+Optimus recibio el clasico reto:
+
+“selecciona todas las imagenes con bicicletas”
+
+las identifico.
+
+marco las correctas.</p>
+<p class="translation">In English: Tesla has just made a robot pass a CAPTCHA. Optimus received the classic challenge, “select all images with bicycles,” identified them, and marked the correct ones.</p>        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Semi</h3>
+<p class="why">@FutureAZA highlighted a European Semi with 342 miles of range, 800 kilowatts of power, 40-ton hauling, deliveries starting in 2027, camera-based mirrors, a shorter setup, and efficiency as low as 1.6. [<a href="https://x.com/herbertong/status/2100591352862196041">3</a>] IMC Logistics was reported to be preparing to add 50 Tesla Semis to its California fleet. [<a href="https://x.com/XFreeze/status/2100703422819565890">13</a>]</p>      <ul class="posts">
+        <li id="p3">
+          <span class="at">[3] <a href="https://x.com/herbertong/status/2100591352862196041">@herbertong · 14:23 UTC</a>
+</span>
+          <p class="post-text">🚨 Tesla just unveiled the European Semi, and the specs are serious.
+
+@FutureAZA highlights 342 miles of range, 800 kW of power, 40-ton hauling, and deliveries starting in 2027.
+
+The European version also gets camera-based mirrors, a shorter setup, and efficiency as low as 1.6</p>
+        </li>
+        <li id="p13">
+          <span class="at">[13] <a href="https://x.com/XFreeze/status/2100703422819565890">@XFreeze · 21:48 UTC</a>
+</span>
+          <p class="post-text">Tesla Semi is starting to move from pilot fleets into serious commercial deployment
+
+IMC Logistics, one of the largest marine drayage operators in the U.S., is preparing to add 50 Tesla Semis to its California fleet
+
+The deployment will include:
+
+• Standard-range Semis for</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Tesla AI5 chip</h3>
+<p class="why">Tesla’s AI5 chip reportedly entered trial production at Samsung’s Texas factory on an advanced 2-nanometer process, with mass-production checks underway and chips expected to reach Tesla in 2027. [<a href="https://x.com/cb_doge/status/2100667261489225992">8</a>]</p>      <ul class="posts">
+        <li id="p8">
+          <span class="at">[8] <a href="https://x.com/cb_doge/status/2100667261489225992">@cb_doge · 19:24 UTC</a>
+</span>
+          <p class="post-text">BREAKING: Tesla’s AI5 chip has entered trial production at Samsung’s new Taylor, Texas fab.
+
+• Advanced 2nm process
+• Wafers now being produced
+• Mass-production verification underway
+• Chips expected to reach Tesla in 2027</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Tesla merchandise</h3>
+<p class="why">A stainless-steel Tesla mug in Cybercab’s Gleaming Gold Metallic color was listed for $30, with other Tesla paint colors also available. [<a href="https://x.com/niccruzpatane/status/2100659049897329128">6</a>]</p>      <ul class="posts">
+        <li id="p6">
+          <span class="at">[6] <a href="https://x.com/niccruzpatane/status/2100659049897329128">@niccruzpatane · 18:52 UTC</a>
+</span>
+          <p class="post-text">You can now get a Stainless Steel Tesla Mug in the same color as Cybercab. 😎
+
+Cybercab’s color is called Gleaming Gold Metallic.
+
+It’s available in the shop now for $30. It comes in other Tesla paint colors as well.</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Tesla vehicles</h3>
+<p class="why">A post showed a close-up look at the exterior and interior of the Model Y L and called it spacious and beautiful. [<a href="https://x.com/LamarMK/status/2100676798195634386">9</a>] Another post said a Cybercab had waited almost three minutes to make an unprotected left turn.</p>      <ul class="posts">
+        <li id="p9">
+          <span class="at">[9] <a href="https://x.com/LamarMK/status/2100676798195634386">@LamarMK · 20:02 UTC</a>
+</span>
+          <p class="post-text">Here’s a full up-close look at the exterior and interior of the new Model Y L.
+
+It’s spacious and beautiful. Tesla did a great job with this one.
+
+Are you getting one?</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Other</h3>
+      <ul class="posts">
+        <li id="p1">
+          <span class="at">[1] <a href="https://x.com/JeebsTX/status/2100555381613220286">@JeebsTX · 12:00 UTC</a>
+</span>
+          <p class="post-text">The Cybertruck is the most misunderstood vehicle on the planet.
+
+People: “Elon promised a $40k truck.” 
+
+Cybertruck: “Do you even know what I’m packing?” 
+
+People: “Looks like a dumpster.” 
+
+Cybertruck: “123 kWh. That’s nine Powerwall 3s on wheels.”
+
+People: “What’s a Powerwall?”</p>
+        </li>
+        <li id="p4">
+          <span class="at">[4] <a href="https://x.com/aikisteve/status/2100617658374709506">@aikisteve · 16:07 UTC</a>
+</span>
+          <p class="post-text">After the negative press earlier this week, there is the fact that @Tesla FSD is 10x safer than human drivers in Belgium. And that is what matters: not a perfect system, but still avoiding accidents and saving lives. This is what minister @AnnickDeRidder also knows.</p>
+        </li>
+        <li id="p7">
+          <span class="at">[7] <a href="https://x.com/cybertruck/status/2100659813361553874">@cybertruck · 18:55 UTC</a>
+· replying to @tesla_na</span>
+          <p class="post-text">So close</p>
+        </li>
+        <li id="p10">
+          <span class="at">[10] <a href="https://x.com/farzyness/status/2100680626064003435">@farzyness · 20:17 UTC</a>
+</span>
+          <p class="post-text">Had the great pleasure of doing a live pod with @davelee in a Tesla Cybercab @robotaxi.
+
+It got SPICY.
+
+Enjoy!</p>
+        </li>
+        <li id="p11">
+          <span class="at">[11] <a href="https://x.com/Teslarati/status/2100683136224891335">@Teslarati · 20:27 UTC</a>
+</span>
+          <p class="post-text">🚨 THE ULTIMATE TESLA FOR PARENTS? 
+
+FULL REVIEW of the Tesla Model Y L</p>
+        </li>
+        <li id="p12">
+          <span class="at">[12] <a href="https://x.com/niccruzpatane/status/2100692656414187581">@niccruzpatane · 21:05 UTC</a>
+</span>
+          <p class="post-text">I’ve been saying this ever since FSD V14 dropped on HW4, $99/mo is a steal. 
+
+I hope Tesla keeps this price as long as possible to drive adoption, I don’t think there’s a better value proposition out there in subscriptions.
+
+Over 55% of new North America deliveries had FSD</p>
+<p class="quoted">Quoting @CernBasher: @Teslaconomics When you look at the annual subscription amount, FSD&#39;s $1,188 ranks as the highest on this list and Starlink&#39;s ~$792 is the second highest.
+
+This will make easier for Tesla and SpaceX to climb the ranks of the largest annual subscription revenue businesses.
+
+For example, to reach</p>        </li>
+        <li id="p14">
+          <span class="at">[14] <a href="https://x.com/Muskstaycalm/status/2100716225944785348">@Muskstaycalm · 22:39 UTC</a>
+</span>
+          <p class="post-text">Tomorrow my mom and I are heading to Tesla in Toronto to buy her new Model Y! I’m so excited for her. ❤️
+
+Now the big question is which one should she get?</p>
+        </li>
+        <li id="p15">
+          <span class="at">[15] <a href="https://x.com/nextbigfuture/status/2100716234409193621">@nextbigfuture · 22:39 UTC</a>
+</span>
+          <p class="post-text">1. Tesla Optimus could lose a robot demonstration—and still win humanoid robotics.
+
+Experts compare hands, walking and AI.
+
+But what happens when Elon changes the factories and the world around optimus robots ?
+
+The robot is only part of the competition.
+
+Here’s why the playing</p>
+        </li>
+        <li id="p16">
+          <span class="at">[16] <a href="https://x.com/TeslaAIBot/status/2100735890133754181">@TeslaAIBot · 23:57 UTC</a>
+</span>
+          <p class="post-text">Sydney Sweeney x Optimus 👀💃</p>
+        </li>
+      </ul>
+    </section>
+
+  <nav class="more">
+    <a href="/space-digest/x/tesla/">Every day of Tesla on X</a>
+    <a href="/space-digest/x/">All X digests</a>
+  </nav>
+  <footer>
+    <p>Summaries are written by a machine from the original words, and link
+       back to where they were said. Nothing here replaces the source.</p>
+    <p><a href="/space-digest/episodes/">Every episode</a> ·
+       <a href="/space-digest/archive/">Every issue</a> ·
+<a href="/space-digest/x/">X digests</a> ·
+<a href="/space-digest/funny/">Funny bits</a> ·
+<a href="/space-digest/feed.xml">Subscribe by RSS</a></p>
+  </footer>
+</div>
