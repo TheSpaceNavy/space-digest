@@ -104,9 +104,91 @@
   </nav>
   <h1>Just The Funny Bits</h1>
   <p class="meta">Friday 18 September 2026 ·
-A quiet day     · only the jokes; the news stays out</p>
-    <p class="quiet">No funny bits today. The shows on the list have not published
-       since the last page.</p>
+1 episode     · only the jokes; the news stays out</p>
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="the-matt-walsh-show">The Matt Walsh Show <span class="at">1</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+    <article class="entry" id="the-matt-walsh-show-20260917-ep-1841-fbi-dumps-bizarre-new-details-about-trump" data-show="the-matt-walsh-show" data-title="ep. 1841 - fbi dumps bizarre new details about trump assassination attempt. what else are they hiding?"
+             data-released="2026-09-17" data-done="2026-09-18T10:00">
+      <h2 style="margin-top:0"><a href="https://www.youtube.com/watch?v=UTBUUTD8goY">Ep. 1841 - FBI Dumps BIZARRE New Details About Trump Assassination Attempt. What Else Are They Hiding?</a></h2>
+      <p class="meta">The Matt Walsh Show · 17 September 2026 · 46 min
+         · times link into the video<span class="done"> · written up 18 September at 10:00</span></p>
+      <ol class="bits">
+        <li>
+          <span class="said">“Every so often, you ask an employee at a store where to find something, and instead of vaguely pointing toward an aisle somewhere, aisle 12, and disappearing, they actually walk you over and help you find it.”</span>
+          <span class="at"><a href="https://www.youtube.com/watch?v=UTBUUTD8goY&amp;t=779s">12:59</a></span>
+<span class="why">While explaining the value of initiative in hiring, the host describes the familiar stereotype of a store employee pointing vaguely toward an aisle and walking away. The exaggerated “aisle 12” scenario provides the comic setup for praising someone who actually helps.</span>        </li>
+      </ol>
+    </article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      list.classList.toggle('by-done', key === 'done');
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
   <nav class="more">
 <a href="/space-digest/funny/2026-09-17/">Older</a>    <a href="/space-digest/funny/episodes/">Every episode</a>
     <a href="/space-digest/funny/feed.xml">Subscribe by RSS</a>
