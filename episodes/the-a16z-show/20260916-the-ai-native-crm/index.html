@@ -2,7 +2,7 @@
 <html lang="en">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>17 September 2026 · Space Digest</title>
+<title>The AI-Native CRM · Space Digest</title>
 <link rel="alternate" type="application/rss+xml" title="Space Digest" href="/space-digest/feed.xml">
 <style>
   :root { --ink:#1a1a1a; --soft:#5b5b5b; --line:#e2e0da; --paper:#fbfaf7; --mark:#7a3b2e; }
@@ -95,35 +95,16 @@
     <p class="tagline">The podcasts worth your week, in a minute each.</p>
   </header>
   <nav class="top" aria-label="Sections">
-    <a href="/space-digest/" class="on">Today</a>
-    <a href="/space-digest/episodes/">Episodes</a>
+    <a href="/space-digest/">Today</a>
+    <a href="/space-digest/episodes/" class="on">Episodes</a>
     <a href="/space-digest/archive/">Issues</a>
 <a href="/space-digest/x/">X digests</a>
 <a href="/space-digest/funny/">Funny bits</a>
 <a href="/space-digest/feed.xml">RSS</a>
   </nav>
-  <h1>Thursday 17 September 2026</h1>
-  <p class="meta">1
-     episode</p>
-      <div class="filters" id="filters" hidden>
-    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
-           aria-label="Search episode titles">
-    <div class="chips" data-role="show">
-      <button class="chip on" data-show="">All shows</button>
-      <button class="chip" data-show="the-a16z-show">The a16z Show <span class="at">1</span></button>
-    </div>
-    <div class="chips" data-role="sort">
-      <span class="at">Sort</span>
-      <button class="chip on" data-sort="released">Newest released</button>
-      <button class="chip" data-sort="done">Just written up</button>
-    </div>
-  </div>
-
-    <div id="list">
-<article class="entry" data-show="the-a16z-show" data-title="the ai-native crm"
+  <article class="entry" data-show="the-a16z-show" data-title="the ai-native crm"
          data-released="2026-09-16" data-done="2026-09-17T21:54">
-  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-a16z-show/20260916-the-ai-native-crm/">The AI-Native CRM</a></h2>
-  <p class="meta">The a16z Show · 16 September 2026 · 53 min<span class="done"> · written up 17 September at 21:54</span></p>
+<h1>The AI-Native CRM</h1>  <p class="meta">The a16z Show · 16 September 2026 · 53 min<span class="done"> · written up 17 September at 21:54</span></p>
   <p class="hook">Lightfield argues that the next CRM should understand a company’s business before forcing it into fixed fields.</p>
   <ul class="points">
 <li>Tome grew explosively after launching alongside ChatGPT, reaching about two million users a month before its founders abandoned it. <span class="at">2:42</span></li><li>The team followed sales and marketing users into a deeper problem: company information was scattered across too many systems. <span class="at">5:20</span></li><li>After an unpaid assistant attracted users without creating pricing power, Lightfield rebuilt the CRM from first principles. <span class="at">7:23</span></li><li>Lightfield treats a chronological activity log as the main record, then uses it to update the usual CRM fields. <span class="at">11:29</span></li><li>The company discovered an unexpected use when its system helped someone with Alzheimer’s find a frontier treatment within days. <span class="at">18:06</span></li><li>Lightfield replaced complex sales sequences with conversational instructions that create workflows from a company’s business model. <span class="at">28:16</span></li>  </ul>
@@ -141,65 +122,10 @@
     </ol>
   </div>
 </article>
-    </div>
-      <p class="quiet" id="none" hidden>Nothing matches that.</p>
-  <script>
-  (function () {
-    var box = document.getElementById('filters');
-    var list = document.getElementById('list');
-    var none = document.getElementById('none');
-    if (!box || !list) return;
-    box.hidden = false;              // only shown when scripting works
-    var items = [].slice.call(list.children);
-    var show = '', text = '', sort = 'released';
-
-    function apply() {
-      var key = sort === 'done' ? 'done' : 'released';
-      var other = key === 'done' ? 'released' : 'done';
-      items.sort(function (a, b) {
-        var x = a.dataset[key] || '', y = b.dataset[key] || '';
-        if (x !== y) return x < y ? 1 : -1;
-        x = a.dataset[other] || ''; y = b.dataset[other] || '';
-        return x === y ? 0 : (x < y ? 1 : -1);
-      });
-      items.forEach(function (el) { list.appendChild(el); });
-      list.classList.toggle('by-done', key === 'done');
-      var seen = 0;
-      items.forEach(function (el) {
-        var ok = (!show || el.dataset.show === show) &&
-                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
-        el.hidden = !ok;
-        if (ok) seen++;
-      });
-      none.hidden = seen > 0;
-    }
-    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
-      var b = ev.target.closest('.chip');
-      if (!b) return;
-      show = b.dataset.show;
-      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
-        c.classList.toggle('on', c === b);
-      });
-      apply();
-    });
-    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
-      var b = ev.target.closest('.chip');
-      if (!b) return;
-      sort = b.dataset.sort;
-      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
-        c.classList.toggle('on', c === b);
-      });
-      apply();
-    });
-    document.getElementById('q').addEventListener('input', function (ev) {
-      text = ev.target.value.trim().toLowerCase();
-      apply();
-    });
-  })();
-  </script>
 
   <nav class="more">
-<a href="/space-digest/issues/2026-09-16/">Older</a>    <a href="/space-digest/archive/">All issues</a>
+    <a href="/space-digest/shows/the-a16z-show/">More from The a16z Show</a>
+    <a href="/space-digest/issues/2026-09-18/">That day's issue</a>
   </nav>
   <footer>
     <p>Summaries are written by a machine from the original words, and link

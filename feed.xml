@@ -5,8 +5,15 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 18 Sep 2026 00:04:20 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 02:55:50 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The AI-Native CRM</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260916-the-ai-native-crm/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260916-the-ai-native-crm/</guid>
+      <pubDate>Fri, 18 Sep 2026 02:54:58 +0000</pubDate>
+      <description>Lightfield argues that the next CRM should understand a company’s business before forcing it into fixed fields.</description>
+    </item>
     <item>
       <title>#2555 - Ron White</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260916-2555-ron-white/</link>

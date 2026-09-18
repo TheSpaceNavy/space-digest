@@ -103,9 +103,101 @@
 <a href="/space-digest/feed.xml">RSS</a>
   </nav>
   <h1>Thursday 17 September 2026</h1>
-  <p class="meta">A quiet day</p>
-    <p class="quiet">Nothing new today. The shows on the list have not published
-       since the last issue.</p>
+  <p class="meta">1
+     episode</p>
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="the-a16z-show">The a16z Show <span class="at">1</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+<article class="entry" data-show="the-a16z-show" data-title="the ai-native crm"
+         data-released="2026-09-16" data-done="2026-09-17T21:54">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-a16z-show/20260916-the-ai-native-crm/">The AI-Native CRM</a></h2>
+  <p class="meta">The a16z Show · 16 September 2026 · 53 min<span class="done"> · written up 17 September at 21:54</span></p>
+  <p class="hook">Lightfield argues that the next CRM should understand a company’s business before forcing it into fixed fields.</p>
+  <ul class="points">
+<li>Tome grew explosively after launching alongside ChatGPT, reaching about two million users a month before its founders abandoned it. <span class="at">2:42</span></li><li>The team followed sales and marketing users into a deeper problem: company information was scattered across too many systems. <span class="at">5:20</span></li><li>After an unpaid assistant attracted users without creating pricing power, Lightfield rebuilt the CRM from first principles. <span class="at">7:23</span></li><li>Lightfield treats a chronological activity log as the main record, then uses it to update the usual CRM fields. <span class="at">11:29</span></li><li>The company discovered an unexpected use when its system helped someone with Alzheimer’s find a frontier treatment within days. <span class="at">18:06</span></li><li>Lightfield replaced complex sales sequences with conversational instructions that create workflows from a company’s business model. <span class="at">28:16</span></li>  </ul>
+<blockquote><p>“Intelligence is greater than schema.” [15:34]</p></blockquote><p class="for">Worth your time if you wonder whether AI can replace rigid business software without losing useful structure.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>“None of us like the product.”
+<span class="at">— Keith Perez</span><span class="at">3:15</span><span class="why">Explosive growth usually suggests founders love what they built.</span>      </li>
+      <li>Lightfield helped someone with Alzheimer’s find frontier treatment within days.
+<span class="at">— Keith Perez</span><span class="at">18:06</span><span class="why">A CRM seems unlikely to guide someone toward experimental medical care.</span>      </li>
+      <li>“The worst three weeks of the company&#39;s life” followed a pricing model that brought signups but almost no usage.
+<span class="at">32:55</span><span class="why">Usage-based pricing seems like it should naturally match customer value.</span>      </li>
+      <li>A customer used Lightfield to discover it needed a mid-market product, then built an entirely new product line.
+<span class="at">49:11</span><span class="why">A CRM is expected to organize strategy, not reshape the product roadmap.</span>      </li>
+    </ol>
+  </div>
+</article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      list.classList.toggle('by-done', key === 'done');
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
   <nav class="more">
 <a href="/space-digest/issues/2026-09-16/">Older</a>    <a href="/space-digest/archive/">All issues</a>
   </nav>
