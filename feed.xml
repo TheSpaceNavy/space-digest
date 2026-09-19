@@ -5,8 +5,22 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 19 Sep 2026 00:03:04 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 03:07:23 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The Next Frontier of AI Video Is Control</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260917-the-next-frontier-of-ai-video-is-control/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260917-the-next-frontier-of-ai-video-is-control/</guid>
+      <pubDate>Sat, 19 Sep 2026 03:06:57 +0000</pubDate>
+      <description>The next leap in AI video may be control: directing scenes, characters, cameras, and edits as they unfold.</description>
+    </item>
+    <item>
+      <title>Jimmy Akin DESTROYS James White | Last Call Ep. 32</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260917-jimmy-akin-destroys-james-white-last-call-ep-32/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260917-jimmy-akin-destroys-james-white-last-call-ep-32/</guid>
+      <pubDate>Sat, 19 Sep 2026 03:06:23 +0000</pubDate>
+      <description>The episode argues that several famous anti-Catholic arguments rely on selective evidence, outdated scholarship, or a mistaken idea of the gospel.</description>
+    </item>
     <item>
       <title>#340 Byron Tau - The Government Doesn&#39;t Just Spy on You. It Buys You.</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260917-340-byron-tau-the-government-doesnt-just-spy-on-you-it-buys/</link>
@@ -342,20 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-optimalwork-podcast/20260831-rebroadcast-professional-humility-iii-critical-spirit/</guid>
       <pubDate>Wed, 09 Sep 2026 11:22:46 +0000</pubDate>
       <description>The urge to criticize someone may reveal the very flaw you have been avoiding in yourself.</description>
-    </item>
-    <item>
-      <title>Pentagon Whistleblower UNLOADS on Alien Hybrid Breeding Programs (ft. Matthew Brown)</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/american-alchemy-with-jesse-michels/20260829-pentagon-whistleblower-unloads-on-alien-hybrid-breeding/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/american-alchemy-with-jesse-michels/20260829-pentagon-whistleblower-unloads-on-alien-hybrid-breeding/</guid>
-      <pubDate>Sat, 12 Sep 2026 12:16:51 +0000</pubDate>
-      <description>A whistleblower’s account links hidden UAP programs to privatized technology, secret agreements, and possible threats to human autonomy.</description>
-    </item>
-    <item>
-      <title>[Rebroadcast] Professional Humility II: Defensiveness</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-optimalwork-podcast/20260824-rebroadcast-professional-humility-ii-defensiveness/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-optimalwork-podcast/20260824-rebroadcast-professional-humility-ii-defensiveness/</guid>
-      <pubDate>Sat, 12 Sep 2026 12:17:08 +0000</pubDate>
-      <description>Defensiveness protects a fragile self-image, while accepting shame turns criticism into a path for growth.</description>
     </item>
   </channel>
 </rss>
