@@ -4,8 +4,29 @@
   <title>Space Digest — X digests</title>
   <link>https://thespacenavy.github.io/space-digest/x/</link>
   <description>What each account said on X in the last day, one page per day.</description>
-  <lastBuildDate>Sat, 19 Sep 2026 06:02:49 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 19 Sep 2026 12:03:18 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/x/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Tesla on X · 19 September 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/x/tesla/2026-09-19/</link>
+    <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/x/tesla/2026-09-19/</guid>
+    <pubDate>Sat, 19 Sep 2026 12:01:55 +0000</pubDate>
+    <description>Tesla posts highlighted Semi performance, Roadster reservations, lower Model Y costs, and possible Optimus app support.</description>
+  </item>
+  <item>
+    <title>SpaceXAI on X · 19 September 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/x/spacex/2026-09-19/</link>
+    <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/x/spacex/2026-09-19/</guid>
+    <pubDate>Sat, 19 Sep 2026 12:03:16 +0000</pubDate>
+    <description>SpaceX secured three NASA missions while Starlink and Grok reported major growth and performance milestones.</description>
+  </item>
+  <item>
+    <title>Elon Musk on X · 19 September 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/x/elonmusk/2026-09-19/</link>
+    <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/x/elonmusk/2026-09-19/</guid>
+    <pubDate>Sat, 19 Sep 2026 12:01:02 +0000</pubDate>
+    <description>Starlink updates and predictions about AI’s economic growth and unusual future led Elon Musk’s posts.</description>
+  </item>
   <item>
     <title>Tesla on X · 18 September 2026</title>
     <link>https://thespacenavy.github.io/space-digest/x/tesla/2026-09-18/</link>
