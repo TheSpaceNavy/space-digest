@@ -5,8 +5,15 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 19 Sep 2026 12:03:18 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 15:18:00 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Why Everyone Is Getting Excited About Personal AI Agents</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260917-why-everyone-is-getting-excited-about-personal-ai-agents/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260917-why-everyone-is-getting-excited-about-personal-ai-agents/</guid>
+      <pubDate>Sat, 19 Sep 2026 15:17:22 +0000</pubDate>
+      <description>Personal AI agents may finally be crossing from tech insider toy to genuinely useful everyday assistant.</description>
+    </item>
     <item>
       <title>The Next Frontier of AI Video Is Control</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260917-the-next-frontier-of-ai-video-is-control/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260831-why-i-had-to-become-catholic-georgia-howe-ep-594/</guid>
       <pubDate>Sat, 12 Sep 2026 12:14:04 +0000</pubDate>
       <description>A viral political break led an emergency nurse through free will, resurrection, science, and finally Catholicism.</description>
-    </item>
-    <item>
-      <title>[Rebroadcast] Professional Humility III: Critical Spirit</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-optimalwork-podcast/20260831-rebroadcast-professional-humility-iii-critical-spirit/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-optimalwork-podcast/20260831-rebroadcast-professional-humility-iii-critical-spirit/</guid>
-      <pubDate>Wed, 09 Sep 2026 11:22:46 +0000</pubDate>
-      <description>The urge to criticize someone may reveal the very flaw you have been avoiding in yourself.</description>
     </item>
   </channel>
 </rss>

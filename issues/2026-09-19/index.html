@@ -103,9 +103,101 @@
 <a href="/space-digest/feed.xml">RSS</a>
   </nav>
   <h1>Saturday 19 September 2026</h1>
-  <p class="meta">A quiet day</p>
-    <p class="quiet">Nothing new today. The shows on the list have not published
-       since the last issue.</p>
+  <p class="meta">1
+     episode</p>
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="the-ai-daily-brief-artificial">The AI Daily Brief <span class="at">1</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+<article class="entry" data-show="the-ai-daily-brief-artificial" data-title="why everyone is getting excited about personal ai agents"
+         data-released="2026-09-17" data-done="2026-09-19T10:17">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-ai-daily-brief-artificial/20260917-why-everyone-is-getting-excited-about-personal-ai-agents/">Why Everyone Is Getting Excited About Personal AI Agents</a></h2>
+  <p class="meta">The AI Daily Brief · 17 September 2026 · 30 min<span class="done"> · written up 19 September at 10:17</span></p>
+  <p class="hook">Personal AI agents may finally be crossing from tech insider toy to genuinely useful everyday assistant.</p>
+  <ul class="points">
+<li>Consumer AI had lagged behind workplace use because shopping, travel, and other daily routines had barely changed. <span class="at">14:18</span></li><li>The shift followed better computer-use abilities, letting agents act across services without separate connections to each one. <span class="at">15:53</span></li><li>Meta’s Muse stood out by pursuing goals persistently, expanding simple requests into broader tasks, and revealing tools only when useful. <span class="at">19:15</span></li><li>AssistantBenchmark grew from three tested assistants to 108 in just over a week, with Muse leading at 9.1 despite incomplete scores. <span class="at">21:51</span></li><li>Consumer agents are also absorbing workplace tasks, as Anthropic merged Claude Chat and Cowork into one service that carries context across both. <span class="at">24:30</span></li><li>The episode argues that adoption may be reaching a turning point, though payments, logins, apps, and other systems still need redesigning for agents. <span class="at">28:37</span></li>  </ul>
+<blockquote><p>“Muse is genuinely magic.” [17:10]</p></blockquote><p class="for">Worth your time if you want practical examples of what personal AI agents can already do.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>Muse found an unauthorized Adobe charge that Chase had never flagged.
+<span class="at">17:42</span><span class="why">Readers might assume banks would catch suspicious recurring payments first.</span>      </li>
+      <li>AssistantBenchmark grew from three assistants to 108 in a little over a week.
+<span class="at">21:51</span><span class="why">The consumer-agent market appeared much smaller and less crowded.</span>      </li>
+      <li>“Most people look at a blank text box and have no idea what they should be asking AI to do.”
+<span class="at">— Greg Brockman</span><span class="at">22:54</span><span class="why">People often assume better models alone will drive consumer adoption.</span>      </li>
+      <li>Muse was number two on Apple’s US iPhone free app chart, behind ChatGPT.
+<span class="at">27:35</span><span class="why">Meta’s personal agent seemed unlikely to rival established AI apps so quickly.</span>      </li>
+    </ol>
+  </div>
+</article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      list.classList.toggle('by-done', key === 'done');
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
   <nav class="more">
 <a href="/space-digest/issues/2026-09-18/">Older</a>    <a href="/space-digest/archive/">All issues</a>
   </nav>
