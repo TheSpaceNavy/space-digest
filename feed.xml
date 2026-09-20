@@ -5,8 +5,29 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 20 Sep 2026 12:02:42 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 15:37:18 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>What Makes a Consumer AI Product Stick? | Josh Elman</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260919-what-makes-a-consumer-ai-product-stick-josh-elman/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260919-what-makes-a-consumer-ai-product-stick-josh-elman/</guid>
+      <pubDate>Sun, 20 Sep 2026 15:37:15 +0000</pubDate>
+      <description>AI may change daily life most by helping people create, connect, and choose—not by replacing them.</description>
+    </item>
+    <item>
+      <title>“An Alien Gave Me The True Purpose of the Pyramids!” -Geoffrey Drumm</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/american-alchemy-with-jesse-michels/20260919-an-alien-gave-me-the-true-purpose-of-the-pyramids-geoffrey/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/american-alchemy-with-jesse-michels/20260919-an-alien-gave-me-the-true-purpose-of-the-pyramids-geoffrey/</guid>
+      <pubDate>Sun, 20 Sep 2026 15:35:50 +0000</pubDate>
+      <description>A controversial theory recasts Egypt’s pyramids as chemical factories powered by lightning, water, and underground minerals.</description>
+    </item>
+    <item>
+      <title>The AI Challenges Businesses Are Actually Focused On Right Now</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260918-the-ai-challenges-businesses-are-actually-focused-on-right/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260918-the-ai-challenges-businesses-are-actually-focused-on-right/</guid>
+      <pubDate>Sun, 20 Sep 2026 15:34:22 +0000</pubDate>
+      <description>Businesses are less worried about AI ending humanity than about security, vendor lock-in, and keeping control of their data.</description>
+    </item>
     <item>
       <title>Databricks CEO on AI Pacing, Cyber Risk, and the Enterprise</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260918-databricks-ceo-on-ai-pacing-cyber-risk-and-the-enterprise/</link>
@@ -335,27 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260903-agentic-loops-for-knowledge-workers/</guid>
       <pubDate>Sat, 12 Sep 2026 12:09:14 +0000</pubDate>
       <description>The next leap in AI may come from knowing when work is actually finished, not from better prompts.</description>
-    </item>
-    <item>
-      <title>#336 Byron Boots - He Turned a Polaris RZR Into a Self-Driving Military Vehicle</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260903-336-byron-boots-he-turned-a-polaris-rzr-into-a-self-driving/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260903-336-byron-boots-he-turned-a-polaris-rzr-into-a-self-driving/</guid>
-      <pubDate>Mon, 14 Sep 2026 00:16:14 +0000</pubDate>
-      <description>The future battlefield may involve five people directing 500 autonomous vehicles instead of one soldier driving each one.</description>
-    </item>
-    <item>
-      <title>#2549 - Jared Diamond</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260903-2549-jared-diamond/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260903-2549-jared-diamond/</guid>
-      <pubDate>Sat, 12 Sep 2026 12:10:12 +0000</pubDate>
-      <description>Leaders, languages, diseases, and nations often turn on accidents that look obvious only afterward.</description>
-    </item>
-    <item>
-      <title>Why Fable 5.1 Is Worth the Upgrade</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260902-why-fable-5-1-is-worth-the-upgrade/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260902-why-fable-5-1-is-worth-the-upgrade/</guid>
-      <pubDate>Mon, 14 Sep 2026 00:16:54 +0000</pubDate>
-      <description>Fable 5.1 is the strongest model yet, but its real value depends on choosing the right jobs for it.</description>
     </item>
   </channel>
 </rss>
