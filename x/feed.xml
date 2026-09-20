@@ -4,8 +4,29 @@
   <title>Space Digest — X digests</title>
   <link>https://thespacenavy.github.io/space-digest/x/</link>
   <description>What each account said on X in the last day, one page per day.</description>
-  <lastBuildDate>Sun, 20 Sep 2026 06:02:44 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 20 Sep 2026 12:02:42 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/x/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Tesla on X · 20 September 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/x/tesla/2026-09-20/</link>
+    <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/x/tesla/2026-09-20/</guid>
+    <pubDate>Sun, 20 Sep 2026 12:01:54 +0000</pubDate>
+    <description>Tesla posts focused on Robotaxi plans, FSD updates, Roadster speculation, and new vehicle programs.</description>
+  </item>
+  <item>
+    <title>SpaceXAI on X · 20 September 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/x/spacex/2026-09-20/</link>
+    <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/x/spacex/2026-09-20/</guid>
+    <pubDate>Sun, 20 Sep 2026 12:02:40 +0000</pubDate>
+    <description>SpaceX’s Starlink Gen3 filing and plans for orbital AI computing led the day.</description>
+  </item>
+  <item>
+    <title>Elon Musk on X · 20 September 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/x/elonmusk/2026-09-20/</link>
+    <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/x/elonmusk/2026-09-20/</guid>
+    <pubDate>Sun, 20 Sep 2026 12:01:00 +0000</pubDate>
+    <description>Elon Musk posted about Uranus jokes, artificial intelligence, gaming, and the platform’s usage.</description>
+  </item>
   <item>
     <title>Tesla on X · 19 September 2026</title>
     <link>https://thespacenavy.github.io/space-digest/x/tesla/2026-09-19/</link>
