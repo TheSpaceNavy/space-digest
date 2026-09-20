@@ -5,8 +5,15 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 20 Sep 2026 00:03:11 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 03:23:24 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Databricks CEO on AI Pacing, Cyber Risk, and the Enterprise</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260918-databricks-ceo-on-ai-pacing-cyber-risk-and-the-enterprise/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260918-databricks-ceo-on-ai-pacing-cyber-risk-and-the-enterprise/</guid>
+      <pubDate>Sun, 20 Sep 2026 03:21:06 +0000</pubDate>
+      <description>AI is speeding up the work, but the bigger danger may be insecure systems—not runaway intelligence.</description>
+    </item>
     <item>
       <title>Why Everyone Is Getting Excited About Personal AI Agents</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260917-why-everyone-is-getting-excited-about-personal-ai-agents/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260902-why-fable-5-1-is-worth-the-upgrade/</guid>
       <pubDate>Mon, 14 Sep 2026 00:16:54 +0000</pubDate>
       <description>Fable 5.1 is the strongest model yet, but its real value depends on choosing the right jobs for it.</description>
-    </item>
-    <item>
-      <title>Why I Had to Become Catholic (Georgia Howe) | Ep. 594</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260831-why-i-had-to-become-catholic-georgia-howe-ep-594/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260831-why-i-had-to-become-catholic-georgia-howe-ep-594/</guid>
-      <pubDate>Sat, 12 Sep 2026 12:14:04 +0000</pubDate>
-      <description>A viral political break led an emergency nurse through free will, resurrection, science, and finally Catholicism.</description>
     </item>
   </channel>
 </rss>
