@@ -5,8 +5,22 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 21 Sep 2026 00:03:20 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 03:41:17 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Nas, Grandmaster Caz, Steve Stoute &amp; Ben Horowitz on Paying Hip-Hop’s Pioneers Their Due</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260920-nas-grandmaster-caz-steve-stoute-ben-horowitz-on-paying-hip/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260920-nas-grandmaster-caz-steve-stoute-ben-horowitz-on-paying-hip/</guid>
+      <pubDate>Mon, 21 Sep 2026 03:41:15 +0000</pubDate>
+      <description>Hip-hop’s pioneers were not just overlooked—they were sometimes one medical emergency away from disaster.</description>
+    </item>
+    <item>
+      <title>7 Ways How We Use AI Is Changing</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260920-7-ways-how-we-use-ai-is-changing/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260920-7-ways-how-we-use-ai-is-changing/</guid>
+      <pubDate>Mon, 21 Sep 2026 03:40:24 +0000</pubDate>
+      <description>AI is shifting from a tool you command into a teammate that remembers, delegates, listens, and works with others.</description>
+    </item>
     <item>
       <title>What Makes a Consumer AI Product Stick? | Josh Elman</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260919-what-makes-a-consumer-ai-product-stick-josh-elman/</link>
@@ -342,20 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260903-the-100b-niches-hiding-inside-payments/</guid>
       <pubDate>Sat, 12 Sep 2026 23:59:54 +0000</pubDate>
       <description>Payments look crowded, but the biggest opportunities may hide in problems people barely recognize as payments.</description>
-    </item>
-    <item>
-      <title>Answering 7 Arguments For Atheism | Joe Schmid | Last Call Ep. 30</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260903-answering-7-arguments-for-atheism-joe-schmid-last-call-ep-30/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260903-answering-7-arguments-for-atheism-joe-schmid-last-call-ep-30/</guid>
-      <pubDate>Tue, 08 Sep 2026 01:56:31 +0000</pubDate>
-      <description>The episode argues that suffering, hiddenness, cosmic order, and even religious disagreement can fit belief in God.</description>
-    </item>
-    <item>
-      <title>Agentic Loops for Knowledge Workers</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260903-agentic-loops-for-knowledge-workers/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260903-agentic-loops-for-knowledge-workers/</guid>
-      <pubDate>Sat, 12 Sep 2026 12:09:14 +0000</pubDate>
-      <description>The next leap in AI may come from knowing when work is actually finished, not from better prompts.</description>
     </item>
   </channel>
 </rss>
