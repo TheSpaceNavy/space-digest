@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SpaceXAI on X · 21 September 2026 · Space Digest</title>
+<link rel="alternate" type="application/rss+xml" title="Space Digest" href="/space-digest/feed.xml">
+<style>
+  :root { --ink:#1a1a1a; --soft:#5b5b5b; --line:#e2e0da; --paper:#fbfaf7; --mark:#7a3b2e; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e8e6e1; --soft:#a09c94; --line:#33312d; --paper:#161513; --mark:#d99b7c; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink);
+         font:17px/1.65 Charter, Georgia, "Iowan Old Style", serif;
+         -webkit-text-size-adjust:100%; }
+  .page { max-width:38rem; margin:0 auto; padding:2.5rem 1.25rem 5rem; }
+  a { color:inherit; text-decoration-color:var(--line); text-underline-offset:3px; }
+  a:hover { text-decoration-color:var(--mark); }
+  header.masthead { border-bottom:2px solid var(--ink); padding-bottom:.6rem; margin-bottom:1rem; }
+  nav.top { display:flex; flex-wrap:wrap; gap:.2rem 1.4rem; margin:0 0 2rem;
+            font-size:.78rem; letter-spacing:.09em; text-transform:uppercase; }
+  nav.top a { color:var(--soft); text-decoration:none; padding:.25rem 0;
+              border-bottom:2px solid transparent; }
+  nav.top a:hover { color:var(--ink); }
+  nav.top a.on { color:var(--ink); border-bottom-color:var(--mark); }
+  header.masthead a { text-decoration:none; }
+  .wordmark { font-size:1.5rem; font-weight:700; letter-spacing:-.02em; margin:0; }
+  .tagline { color:var(--soft); font-size:.85rem; margin:.15rem 0 0; }
+  h1 { font-size:1.6rem; line-height:1.25; letter-spacing:-.015em; margin:0 0 .3rem; }
+  h2 { font-size:1.15rem; margin:2.5rem 0 .4rem; }
+  .meta { color:var(--soft); font-size:.82rem; margin:0 0 1.6rem; }
+  .hook { font-size:1.2rem; line-height:1.45; margin:0 0 1.2rem; }
+  article.entry { border-bottom:1px solid var(--line); padding-bottom:2rem; margin-bottom:2rem; }
+  article.entry:last-of-type { border-bottom:0; }
+  ul.points { list-style:none; margin:1.1rem 0; padding:0; }
+  ul.points li { margin:0 0 .7rem; padding-left:1rem; text-indent:-1rem; }
+  .at { color:var(--soft); font-size:.8rem; white-space:nowrap; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }
+  blockquote { margin:1.4rem 0; padding-left:1rem; border-left:3px solid var(--mark);
+               font-size:1.05rem; }
+  blockquote p { margin:0; }
+  .for { color:var(--soft); font-style:italic; }
+  .standouts { background:color-mix(in srgb, var(--mark) 7%, transparent);
+               border-radius:.4rem; padding:1rem 1.1rem; margin:1.6rem 0; }
+  .standouts h3 { margin:0 0 .6rem; font-size:.78rem; letter-spacing:.09em;
+                  text-transform:uppercase; color:var(--soft); font-weight:700; }
+  .standouts ol { margin:0; padding-left:1.15rem; }
+  .standouts li { margin:0 0 .7rem; }
+  .standouts li:last-child { margin-bottom:0; }
+  .why { display:block; color:var(--soft); font-size:.85rem; margin-top:.15rem; }
+  nav.more { margin-top:3rem; padding-top:1.2rem; border-top:1px solid var(--line);
+             color:var(--soft); font-size:.88rem; }
+  nav.more a { margin-right:1rem; }
+  footer { margin-top:3.5rem; padding-top:1.2rem; border-top:1px solid var(--line);
+           color:var(--soft); font-size:.8rem; }
+  .quiet { color:var(--soft); font-size:1.05rem; }
+  .filters { margin:1.5rem 0 2rem; }
+  .filters input { width:100%; padding:.55rem .7rem; font:inherit; font-size:.95rem;
+                   color:var(--ink); background:var(--paper);
+                   border:1px solid var(--line); border-radius:.35rem; }
+  .filters input:focus { outline:2px solid var(--mark); outline-offset:1px; }
+  .chips { display:flex; flex-wrap:wrap; gap:.4rem; margin-top:.7rem; }
+  .chip { font:inherit; font-size:.85rem; padding:.3rem .7rem; cursor:pointer;
+          color:var(--soft); background:transparent;
+          border:1px solid var(--line); border-radius:1rem; }
+  .chip:hover { border-color:var(--mark); color:var(--ink); }
+  .chip.on { background:var(--ink); border-color:var(--ink); color:var(--paper); }
+  .chip.on .at { color:var(--paper); opacity:.7; }
+  ul.episodes { list-style:none; margin:0; padding:0; }
+  ul.episodes li { padding:.85rem 0; border-bottom:1px solid var(--line); }
+  ul.episodes li a { font-size:1.05rem; }
+  ul.episodes .at { display:block; margin-top:.15rem; }
+  ul.episodes .why { margin-top:.3rem; }
+  section.topic { margin:1.6rem 0; }
+  section.topic h3 { font-size:1rem; margin:0 0 .3rem; }
+  ul.posts { list-style:none; margin:.6rem 0 0; padding:0; }
+  ul.posts li { padding:.6rem 0 .6rem .9rem; border-left:2px solid var(--line); margin:0 0 .6rem; }
+  ul.posts .at a { text-decoration:none; }
+  .post-text { margin:.25rem 0 0; white-space:pre-line; }
+  .quoted { margin:.35rem 0 0; color:var(--soft); font-size:.9rem; white-space:pre-line; }
+  .translation { margin:.2rem 0 0; color:var(--soft); font-size:.9rem; font-style:italic;
+                 white-space:pre-line; }
+  .archive { color:var(--mark); }
+  .done { display:none; }
+  .by-done .done { display:inline; color:var(--mark); }
+  .chips + .chips { margin-top:.5rem; }
+  ol.bits { margin:1.1rem 0 0; padding-left:1.3rem; }
+  ol.bits li { margin:0 0 1.1rem; }
+  ol.bits .said { font-size:1.05rem; }
+  ol.bits .at a { text-decoration:none; border-bottom:1px dotted var(--soft); }
+</style>
+<body>
+<div class="page">
+  <header class="masthead">
+    <a href="/space-digest/"><p class="wordmark">Space Digest</p></a>
+    <p class="tagline">The podcasts worth your week, in a minute each.</p>
+  </header>
+  <nav class="top" aria-label="Sections">
+    <a href="/space-digest/">Today</a>
+    <a href="/space-digest/episodes/">Episodes</a>
+    <a href="/space-digest/archive/">Issues</a>
+<a href="/space-digest/x/" class="on">X digests</a>
+<a href="/space-digest/funny/">Funny bits</a>
+<a href="/space-digest/feed.xml">RSS</a>
+  </nav>
+  <h1>SpaceXAI on X</h1>
+  <p class="meta">Monday 21 September 2026 ·
+     20 Sep 12:00 to 21 Sep 12:00 UTC ·
+11 posts, every one checked against X · 5 checks</p>
+
+    <p class="hook">Starship Flight 14 plans, Starlink’s growing capabilities, and a Falcon 9 launch booking led the day.</p>
+    <p>Starship Flight 14 was reported as targeting September 28, with a first orbit and 26 Starlink V3 satellites planned; Booster 21 was expected to move to Pad 2 for preflight work. [<a href="https://x.com/Ledge_Andary/status/2101723755299156023">4</a>] Another post said SpaceX had released a Flight 14 update and a third documentary episode, pending regulatory approval.</p>
+    <p>Starlink was reported to have scored 4.47 out of 5 for customer satisfaction in a CNET study, ahead of two named internet services. [<a href="https://x.com/BassonBrain/status/2101732988505706706">5</a>] Posts also described a planned Starlink V3 satellite with about 10 Tbps in both directions, a path to more than 100 Tbps, and 250 kW of power for onboard computing. [<a href="https://x.com/REEVE_media/status/2101792121703244093">8</a>]</p>
+    <p>Intuitive Machines CEO Steve Altemus said IM-3 is scheduled for a January-to-March 2027 launch on a SpaceX Falcon 9. [<a href="https://x.com/TOPDOGE007/status/2101794783014306272">9</a>] Another post said Starlink supported a remote robotic kidney-cancer surgery in Africa. [<a href="https://x.com/cb_doge/status/2101773398850646266">7</a>]</p>
+    <blockquote><p>&#34;Each satellite could deliver ~10 Tbps in both directions, with a path to 100+ Tbps&#34;
+<a class="at" href="https://x.com/REEVE_media/status/2101792121703244093">[8]</a></p></blockquote>
+
+    <h2>The posts</h2>
+    <section class="topic">
+      <h3>Starship Flight 14</h3>
+<p class="why">Flight 14 was described as targeting September 28, with a first orbit and 26 Starlink V3 satellites planned. Booster 21 was expected to roll to Pad 2 for preflight operations, and SpaceX had released a mission update and documentary episode. [<a href="https://x.com/Ledge_Andary/status/2101723755299156023">4</a>]</p>      <ul class="posts">
+        <li id="p4">
+          <span class="at">[4] <a href="https://x.com/Ledge_Andary/status/2101723755299156023">@Ledge_Andary · 17:22 UTC</a>
+</span>
+          <p class="post-text">Starship Flight 14 is getting more interesting... NET Sept 28, first orbit + 26 Starlink V3s.
+
+That’s a real mission, not just another hop. The payload plan matters.</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Starlink performance and uses</h3>
+<p class="why">Starlink was reported to have a 4.47 out of 5 satisfaction score in a CNET study, ahead of T-Mobile Home Internet and Verizon Fios. [<a href="https://x.com/BassonBrain/status/2101732988505706706">5</a>] Another post said Starlink supported a remote robotic surgery in Africa, while a traveler praised its performance on a plane. [<a href="https://x.com/cb_doge/status/2101773398850646266">7</a>, <a href="https://x.com/ArtemisConsort/status/2101813351227719860">11</a>]</p>      <ul class="posts">
+        <li id="p5">
+          <span class="at">[5] <a href="https://x.com/BassonBrain/status/2101732988505706706">@BassonBrain · 17:59 UTC</a>
+</span>
+          <p class="post-text">STARLINK IS NOW COMPETING WITH THE BEST-RATED ISPs 🔥
+
+The latest CNET People’s Picks study gives Starlink an overall satisfaction score of 4.47 out of 5, 
+
+compared with 4.20 for T-Mobile Home Internet and 4.16 for Verizon Fios. 
+
+The reliability result is even more interesting:</p>
+        </li>
+        <li id="p7">
+          <span class="at">[7] <a href="https://x.com/cb_doge/status/2101773398850646266">@cb_doge · 20:40 UTC</a>
+</span>
+          <p class="post-text">BREAKING: Starlink just helped make medical history in Africa! 🇳🇬
+
+Using a Starlink internet connection, a surgeon near Lagos remotely controlled a robot to remove a cancerous kidney from a patient in Abuja, around 500 km away, in West Africa’s first tele-robotic surgery.</p>
+        </li>
+        <li id="p11">
+          <span class="at">[11] <a href="https://x.com/ArtemisConsort/status/2101813351227719860">@ArtemisConsort · 23:18 UTC</a>
+</span>
+          <p class="post-text">Currently on my first flight with starlink and yeah, I don’t want to travel any other way. I didn’t get the hype but it really is drastically better than other plane wifi.</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Starlink V3 computing</h3>
+<p class="why">A post said each Starlink V3 satellite could provide about 10 Tbps in both directions, with a path to more than 100 Tbps, use 250 kW, and carry a SpaceX-designed NVIDIA Vera Rubin NVL72 computer. [<a href="https://x.com/REEVE_media/status/2101792121703244093">8</a>]</p>      <ul class="posts">
+        <li id="p8">
+          <span class="at">[8] <a href="https://x.com/REEVE_media/status/2101792121703244093">@REEVE_media · 21:54 UTC</a>
+</span>
+          <p class="post-text">Elon Musk just dropped a wild Starlink Gen3 update. 🚀
+
+Each satellite could deliver ~10 Tbps in both directions, with a path to 100+ Tbps — while running 250 kW and carrying a SpaceX-designed NVIDIA Vera Rubin NVL72 computer.
+
+AI compute in orbit. 🌎🛰️
+The future is moving FAST.</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Falcon 9 launch</h3>
+<p class="why">Intuitive Machines CEO Steve Altemus said IM-3 is scheduled for a January-to-March 2027 launch on a SpaceX Falcon 9. [<a href="https://x.com/TOPDOGE007/status/2101794783014306272">9</a>]</p>      <ul class="posts">
+        <li id="p9">
+          <span class="at">[9] <a href="https://x.com/TOPDOGE007/status/2101794783014306272">@TOPDOGE007 · 22:05 UTC</a>
+</span>
+          <p class="post-text">🚨 DOGE-1 @SPACEX MISSION UPDATE 🚨 
+
+Intuitive Machines CEO Steve Altemus has confirmed IM-3 is targeting a Jan–Mar 2027 launch window aboard a SpaceX Falcon 9.
+
+“We are scheduled in the launch window January through March for Mission 3 of next year on a SpaceX Falcon 9.”</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Starship economics</h3>
+<p class="why">One post shared an estimate that a single Starship launch could eventually produce about $1 billion in connectivity revenue. [<a href="https://x.com/herbertong/status/2101669351778902086">1</a>] Another said Starship Flight 14 would be the last flight before an attempt to catch the vehicle. [<a href="https://x.com/teslaownersSV/status/2101717053124297145">2</a>] A separate post offered a location and discount code for watching Flight 14. [<a href="https://x.com/FelixSchlang/status/2101718084750844328">3</a>] One post described Starlink laser terminals locking onto a target the size of a dinner plate from 4,000 km away while both ends move at orbital speed. [<a href="https://x.com/JConcilus/status/2101744804463796230">6</a>, <a href="https://x.com/LunarCitizens/status/2101800013198508083">10</a>]</p>      <ul class="posts">
+        <li id="p1">
+          <span class="at">[1] <a href="https://x.com/herbertong/status/2101669351778902086">@herbertong · 13:46 UTC</a>
+</span>
+          <p class="post-text">🚨 Cathie Wood’s Starship math gets crazy very quickly!
+
+Larry Goldberg  @TeslaLarry breaks down ARK’s estimate that a single Starship launch could eventually generate around $1 BILLION in connectivity revenue.
+
+Now combine that with Elon’s goal of 10,000 Starship flights per</p>
+        </li>
+        <li id="p2">
+          <span class="at">[2] <a href="https://x.com/teslaownersSV/status/2101717053124297145">@teslaownersSV · 16:56 UTC</a>
+</span>
+          <p class="post-text">WHY STARSHIP
+
+REUSABILITY IS THE BREAKTHROUGH.
+CATCH → RE-FLY → MULTIPLANETARY.
+
+Most people still think rockets are fireworks.
+
+That&#39;s only half the story.
+
+Elon:
+
+&#34;We&#39;ve got Flight 14 coming up of Starship, and this will be the last flight before we attempt to catch the</p>
+        </li>
+        <li id="p3">
+          <span class="at">[3] <a href="https://x.com/FelixSchlang/status/2101718084750844328">@FelixSchlang · 17:00 UTC</a>
+</span>
+          <p class="post-text">Notice a difference in our Starbase LIVE cams? Crystal-clear view of Massey&#39;s! 😍
+
+We&#39;re proud to announce our new collaboration with @RocketRanchTX!
+
+If you&#39;re still looking for a place to watch Starship Flight 14:
+
+➡️https://rocketranchstarbase.com
+$50 OFF! Use code WAI50 at checkout!</p>
+        </li>
+        <li id="p6">
+          <span class="at">[6] <a href="https://x.com/JConcilus/status/2101744804463796230">@JConcilus · 18:46 UTC</a>
+</span>
+          <p class="post-text">Flight 14 Splash Down Watch 🚀💦⛴️🌎🇨🇱
+
+Is Armada 86 03 doing Starship Ship 41 splashdown support? Visited Brownsville for two days &amp; then headed toward the NOTAM zone off Chile. Hours before launch delay was announced she took a sudden zig to the Callao anchorage. We’ll watch!🧐</p>
+        </li>
+        <li id="p10">
+          <span class="at">[10] <a href="https://x.com/LunarCitizens/status/2101800013198508083">@LunarCitizens · 22:25 UTC</a>
+</span>
+          <p class="post-text">Starlink laser terminals.
+
+Imagine this thing locking onto a target the size of a dinner plate, 4,000 km away, while both ends are moving at orbital speed.</p>
+        </li>
+      </ul>
+    </section>
+
+  <nav class="more">
+    <a href="/space-digest/x/spacex/">Every day of SpaceXAI on X</a>
+    <a href="/space-digest/x/">All X digests</a>
+  </nav>
+  <footer>
+    <p>Summaries are written by a machine from the original words, and link
+       back to where they were said. Nothing here replaces the source.</p>
+    <p><a href="/space-digest/episodes/">Every episode</a> ·
+       <a href="/space-digest/archive/">Every issue</a> ·
+<a href="/space-digest/x/">X digests</a> ·
+<a href="/space-digest/funny/">Funny bits</a> ·
+<a href="/space-digest/feed.xml">Subscribe by RSS</a></p>
+  </footer>
+</div>

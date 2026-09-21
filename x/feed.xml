@@ -4,8 +4,29 @@
   <title>Space Digest — X digests</title>
   <link>https://thespacenavy.github.io/space-digest/x/</link>
   <description>What each account said on X in the last day, one page per day.</description>
-  <lastBuildDate>Mon, 21 Sep 2026 06:03:11 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 21 Sep 2026 12:03:37 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/x/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Tesla on X · 21 September 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/x/tesla/2026-09-21/</link>
+    <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/x/tesla/2026-09-21/</guid>
+    <pubDate>Mon, 21 Sep 2026 12:02:23 +0000</pubDate>
+    <description>Tesla posts pointed to Semi pricing, Optimus production preparation, and rising Robotaxi demand.</description>
+  </item>
+  <item>
+    <title>SpaceXAI on X · 21 September 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/x/spacex/2026-09-21/</link>
+    <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/x/spacex/2026-09-21/</guid>
+    <pubDate>Mon, 21 Sep 2026 12:03:34 +0000</pubDate>
+    <description>Starship Flight 14 plans, Starlink’s growing capabilities, and a Falcon 9 launch booking led the day.</description>
+  </item>
+  <item>
+    <title>Elon Musk on X · 21 September 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/x/elonmusk/2026-09-21/</link>
+    <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/x/elonmusk/2026-09-21/</guid>
+    <pubDate>Mon, 21 Sep 2026 12:00:46 +0000</pubDate>
+    <description>Elon Musk highlighted tunnel travel, Tesla video evidence, AI, robots, and a game.</description>
+  </item>
   <item>
     <title>Tesla on X · 20 September 2026</title>
     <link>https://thespacenavy.github.io/space-digest/x/tesla/2026-09-20/</link>
