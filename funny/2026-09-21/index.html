@@ -104,9 +104,108 @@
   </nav>
   <h1>Just The Funny Bits</h1>
   <p class="meta">Monday 21 September 2026 ·
-A quiet day     · only the jokes; the news stays out</p>
-    <p class="quiet">No funny bits today. The shows on the list have not published
-       since the last page.</p>
+2 episodes     · only the jokes; the news stays out</p>
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="the-ben-shapiro-show">The Ben Shapiro Show <span class="at">1</span></button>
+      <button class="chip" data-show="the-joe-rogan-experience">The Joe Rogan Experience <span class="at">1</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+    <article class="entry" id="the-ben-shapiro-show-20260903-a-new-mom-was-killed-in-broad-daylight-in-nyc-the-reaction" data-show="the-ben-shapiro-show" data-title="a new mom was killed in broad daylight in nyc. the reaction is worse."
+             data-released="2026-09-03" data-done="2026-09-21T10:59">
+      <h2 style="margin-top:0"><a href="https://www.youtube.com/watch?v=Cft1X_svOT8">A New Mom Was Killed in Broad Daylight in NYC. The Reaction Is Worse.</a></h2>
+      <p class="meta">The Ben Shapiro Show · 3 September 2026 · 11 min
+         · times are from the podcast audio         · <span class="archive">Reached back for, from the archive</span><span class="done"> · written up 21 September at 10:59</span></p>
+      <ol class="bits">
+        <li>
+          <span class="said">“By the time you call them back, you called your competitor. They&#39;ve gotten a quote. They booked the appointment. They left them a five-star review. They followed them on Instagram. They&#39;re best friends now. They&#39;re spending Thanksgiving together.”</span>
+          <span class="at">5:14</span>
+<span class="why">In describing how quickly customers supposedly move on after a missed call, the host escalates from ordinary business actions to instant best-friendship and spending Thanksgiving together.</span>        </li>
+      </ol>
+    </article>
+    <article class="entry" id="the-joe-rogan-experience-20260902-jre-mma-show-185-with-ethyn-ewing" data-show="the-joe-rogan-experience" data-title="jre mma show #185 with ethyn ewing"
+             data-released="2026-09-02" data-done="2026-09-21T11:03">
+      <h2 style="margin-top:0"><a href="https://www.youtube.com/watch?v=efwqfxt717Q">JRE MMA Show #185 with Ethyn Ewing</a></h2>
+      <p class="meta">The Joe Rogan Experience · 2 September 2026 · 2h 37m
+         · times link into the video         · <span class="archive">Reached back for, from the archive</span><span class="done"> · written up 21 September at 11:03</span></p>
+      <ol class="bits">
+        <li>
+          <span class="said">“I was doing uh food eating championship training. was killing uh double doubles and 3x3s.”</span>
+          <span class="at"><a href="https://www.youtube.com/watch?v=efwqfxt717Q&amp;t=2015s">33:35</a></span>
+<span class="why">Asked whether he had been training before accepting a fight on two days’ notice, the fighter jokes that his preparation consisted of competitive fast-food eating rather than combat training.</span>        </li>
+        <li>
+          <span class="said">“I&#39;m like, &#34;It&#39;s better to the body. I mean, you could land it to the face, but you know, I don&#39;t really see very many guys do it. It&#39;s much more wrong.&#34; &gt;&gt; Yeah, [laughter]”</span>
+          <span class="at"><a href="https://www.youtube.com/watch?v=efwqfxt717Q&amp;t=2907s">48:27</a></span>
+<span class="why">Recalling a discussion about front kicks, the speaker accidentally says “wrong” instead of “rare,” creating a malapropism that prompts laughter.</span>        </li>
+      </ol>
+    </article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      list.classList.toggle('by-done', key === 'done');
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
   <nav class="more">
 <a href="/space-digest/funny/2026-09-20/">Older</a>    <a href="/space-digest/funny/episodes/">Every episode</a>
     <a href="/space-digest/funny/feed.xml">Subscribe by RSS</a>
