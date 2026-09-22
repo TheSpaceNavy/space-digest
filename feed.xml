@@ -5,14 +5,28 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Sep 2026 00:03:34 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 04:11:59 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>AI Safety Language Is Destroying the Debate | Steven Sinofsky</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260921-ai-safety-language-is-destroying-the-debate-steven-sinofsky/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260921-ai-safety-language-is-destroying-the-debate-steven-sinofsky/</guid>
+      <pubDate>Tue, 22 Sep 2026 04:10:20 +0000</pubDate>
+      <description>Calling AI “misaligned” can hide ordinary software bugs—and make safety laws less useful.</description>
+    </item>
     <item>
       <title>#341 Katarina Szulc - Cartels Are Recruiting Drone Operators From the Ukraine War</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260921-341-katarina-szulc-cartels-are-recruiting-drone-operators/</link>
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260921-341-katarina-szulc-cartels-are-recruiting-drone-operators/</guid>
       <pubDate>Mon, 21 Sep 2026 15:58:29 +0000</pubDate>
       <description>Mexico’s cartels reach into jobs, politics, trafficking and technology—and are now drawing recruits from the Ukraine war.</description>
+    </item>
+    <item>
+      <title>318: Prudence, Fast and Slow</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-optimalwork-podcast/20260921-318-prudence-fast-and-slow/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-optimalwork-podcast/20260921-318-prudence-fast-and-slow/</guid>
+      <pubDate>Tue, 22 Sep 2026 04:10:05 +0000</pubDate>
+      <description>Your first instinct can help—but only if you treat it as a question, not an answer.</description>
     </item>
     <item>
       <title>Nas, Grandmaster Caz, Steve Stoute &amp; Ben Horowitz on Paying Hip-Hop’s Pioneers Their Due</title>
@@ -342,20 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260905-aaron-levie-on-why-open-ai-wins/</guid>
       <pubDate>Sat, 12 Sep 2026 11:44:21 +0000</pubDate>
       <description>Open AI may spread innovation widely—even as closed labs capture most of the money.</description>
-    </item>
-    <item>
-      <title>How AI Changed This Summer</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260904-how-ai-changed-this-summer/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260904-how-ai-changed-this-summer/</guid>
-      <pubDate>Fri, 11 Sep 2026 11:20:53 +0000</pubDate>
-      <description>AI’s summer shift was bigger than new models: agents, politics, costs, and cyber risks all moved into the mainstream.</description>
-    </item>
-    <item>
-      <title>Fei Fei Li: The Race to Build World Models For AI</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260904-fei-fei-li-the-race-to-build-world-models-for-ai/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260904-fei-fei-li-the-race-to-build-world-models-for-ai/</guid>
-      <pubDate>Sat, 12 Sep 2026 12:07:25 +0000</pubDate>
-      <description>A model that once needed hundreds of images may soon build explorable worlds from just three.</description>
     </item>
   </channel>
 </rss>
