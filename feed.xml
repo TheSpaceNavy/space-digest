@@ -5,8 +5,29 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Sep 2026 12:03:50 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 16:22:12 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Why a16z is Building a New School for the AI Era | Ben Horowitz</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260922-why-a16z-is-building-a-new-school-for-the-ai-era-ben/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260922-why-a16z-is-building-a-new-school-for-the-ai-era-ben/</guid>
+      <pubDate>Tue, 22 Sep 2026 16:22:09 +0000</pubDate>
+      <description>The AI era may make hands-on building, not college lectures, the fastest route to useful skills.</description>
+    </item>
+    <item>
+      <title>Yes, The Internet is Killing Islam (GodLogic) | Ep. 597</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260921-yes-the-internet-is-killing-islam-godlogic-ep-597/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260921-yes-the-internet-is-killing-islam-godlogic-ep-597/</guid>
+      <pubDate>Tue, 22 Sep 2026 16:20:35 +0000</pubDate>
+      <description>The episode argues that the internet is exposing contradictions in Islam faster than religious authorities can answer them.</description>
+    </item>
+    <item>
+      <title>The State of the AI Debate</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260921-the-state-of-the-ai-debate/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260921-the-state-of-the-ai-debate/</guid>
+      <pubDate>Tue, 22 Sep 2026 16:19:05 +0000</pubDate>
+      <description>China and the US are entering AI talks with sharply different ideas about what “safety” means.</description>
+    </item>
     <item>
       <title>AI Safety Language Is Destroying the Debate | Steven Sinofsky</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260921-ai-safety-language-is-destroying-the-debate-steven-sinofsky/</link>
@@ -335,27 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/american-alchemy-with-jesse-michels/20260907-air-force-veterans-abducted-by-aliens-reunite-after-50-years/</guid>
       <pubDate>Wed, 09 Sep 2026 00:02:09 +0000</pubDate>
       <description>Two Air Force veterans reunite after 50 years and recover a story of missing time, strange beings, and alleged government interference.</description>
-    </item>
-    <item>
-      <title>Your AI Doctor Is Coming | Julie Yoo</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260906-your-ai-doctor-is-coming-julie-yoo/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260906-your-ai-doctor-is-coming-julie-yoo/</guid>
-      <pubDate>Fri, 11 Sep 2026 11:20:41 +0000</pubDate>
-      <description>Healthcare’s slow start with technology may let it leap straight into an AI-powered system built around patients.</description>
-    </item>
-    <item>
-      <title>How to Build an AI-Native Company Today</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260906-how-to-build-an-ai-native-company-today/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260906-how-to-build-an-ai-native-company-today/</guid>
-      <pubDate>Fri, 11 Sep 2026 00:23:13 +0000</pubDate>
-      <description>AI-native companies will not just add AI to old work; they will rebuild how work gets done.</description>
-    </item>
-    <item>
-      <title>Aaron Levie on Why Open AI Wins</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260905-aaron-levie-on-why-open-ai-wins/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260905-aaron-levie-on-why-open-ai-wins/</guid>
-      <pubDate>Sat, 12 Sep 2026 11:44:21 +0000</pubDate>
-      <description>Open AI may spread innovation widely—even as closed labs capture most of the money.</description>
     </item>
   </channel>
 </rss>
