@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SpaceXAI · X · 22 September 2026 · Space Digest</title>
+<link rel="alternate" type="application/rss+xml" title="Space Digest" href="/space-digest/feed.xml">
+<style>
+  :root { --ink:#1a1a1a; --soft:#5b5b5b; --line:#e2e0da; --paper:#fbfaf7; --mark:#7a3b2e; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e8e6e1; --soft:#a09c94; --line:#33312d; --paper:#161513; --mark:#d99b7c; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink);
+         font:17px/1.65 Charter, Georgia, "Iowan Old Style", serif;
+         -webkit-text-size-adjust:100%; }
+  .page { max-width:38rem; margin:0 auto; padding:2.5rem 1.25rem 5rem; }
+  a { color:inherit; text-decoration-color:var(--line); text-underline-offset:3px; }
+  a:hover { text-decoration-color:var(--mark); }
+  header.masthead { border-bottom:2px solid var(--ink); padding-bottom:.6rem; margin-bottom:1rem; }
+  nav.top { display:flex; flex-wrap:wrap; gap:.2rem 1.4rem; margin:0 0 2rem;
+            font-size:.78rem; letter-spacing:.09em; text-transform:uppercase; }
+  nav.top a { color:var(--soft); text-decoration:none; padding:.25rem 0;
+              border-bottom:2px solid transparent; }
+  nav.top a:hover { color:var(--ink); }
+  nav.top a.on { color:var(--ink); border-bottom-color:var(--mark); }
+  header.masthead a { text-decoration:none; }
+  .wordmark { font-size:1.5rem; font-weight:700; letter-spacing:-.02em; margin:0; }
+  .tagline { color:var(--soft); font-size:.85rem; margin:.15rem 0 0; }
+  h1 { font-size:1.6rem; line-height:1.25; letter-spacing:-.015em; margin:0 0 .3rem; }
+  h2 { font-size:1.15rem; margin:2.5rem 0 .4rem; }
+  .meta { color:var(--soft); font-size:.82rem; margin:0 0 1.6rem; }
+  .hook { font-size:1.2rem; line-height:1.45; margin:0 0 1.2rem; }
+  article.entry { border-bottom:1px solid var(--line); padding-bottom:2rem; margin-bottom:2rem; }
+  article.entry:last-of-type { border-bottom:0; }
+  ul.points { list-style:none; margin:1.1rem 0; padding:0; }
+  ul.points li { margin:0 0 .7rem; padding-left:1rem; text-indent:-1rem; }
+  .at { color:var(--soft); font-size:.8rem; white-space:nowrap; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }
+  blockquote { margin:1.4rem 0; padding-left:1rem; border-left:3px solid var(--mark);
+               font-size:1.05rem; }
+  blockquote p { margin:0; }
+  .for { color:var(--soft); font-style:italic; }
+  .standouts { background:color-mix(in srgb, var(--mark) 7%, transparent);
+               border-radius:.4rem; padding:1rem 1.1rem; margin:1.6rem 0; }
+  .standouts h3 { margin:0 0 .6rem; font-size:.78rem; letter-spacing:.09em;
+                  text-transform:uppercase; color:var(--soft); font-weight:700; }
+  .standouts ol { margin:0; padding-left:1.15rem; }
+  .standouts li { margin:0 0 .7rem; }
+  .standouts li:last-child { margin-bottom:0; }
+  .why { display:block; color:var(--soft); font-size:.85rem; margin-top:.15rem; }
+  nav.more { margin-top:3rem; padding-top:1.2rem; border-top:1px solid var(--line);
+             color:var(--soft); font-size:.88rem; }
+  nav.more a { margin-right:1rem; }
+  footer { margin-top:3.5rem; padding-top:1.2rem; border-top:1px solid var(--line);
+           color:var(--soft); font-size:.8rem; }
+  .quiet { color:var(--soft); font-size:1.05rem; }
+  .filters { margin:1.5rem 0 2rem; }
+  .filters input { width:100%; padding:.55rem .7rem; font:inherit; font-size:.95rem;
+                   color:var(--ink); background:var(--paper);
+                   border:1px solid var(--line); border-radius:.35rem; }
+  .filters input:focus { outline:2px solid var(--mark); outline-offset:1px; }
+  .chips { display:flex; flex-wrap:wrap; gap:.4rem; margin-top:.7rem; }
+  .chip { font:inherit; font-size:.85rem; padding:.3rem .7rem; cursor:pointer;
+          color:var(--soft); background:transparent;
+          border:1px solid var(--line); border-radius:1rem; }
+  .chip:hover { border-color:var(--mark); color:var(--ink); }
+  .chip.on { background:var(--ink); border-color:var(--ink); color:var(--paper); }
+  .chip.on .at { color:var(--paper); opacity:.7; }
+  ul.episodes { list-style:none; margin:0; padding:0; }
+  ul.episodes li { padding:.85rem 0; border-bottom:1px solid var(--line); }
+  ul.episodes li a { font-size:1.05rem; }
+  ul.episodes .at { display:block; margin-top:.15rem; }
+  ul.episodes .why { margin-top:.3rem; }
+  section.topic { margin:1.6rem 0; }
+  section.topic h3 { font-size:1rem; margin:0 0 .3rem; }
+  ul.posts { list-style:none; margin:.6rem 0 0; padding:0; }
+  ul.posts li { padding:.6rem 0 .6rem .9rem; border-left:2px solid var(--line); margin:0 0 .6rem; }
+  ul.posts .at a { text-decoration:none; }
+  .post-text { margin:.25rem 0 0; white-space:pre-line; }
+  .quoted { margin:.35rem 0 0; color:var(--soft); font-size:.9rem; white-space:pre-line; }
+  .translation { margin:.2rem 0 0; color:var(--soft); font-size:.9rem; font-style:italic;
+                 white-space:pre-line; }
+  /* Tightbeam: the same head on every beam page, so the kinds read as one. */
+  .eyebrow { margin:0 0 .35rem; font-size:.78rem; letter-spacing:.09em;
+             text-transform:uppercase; color:var(--soft); }
+  .eyebrow a { color:inherit; text-decoration:none; }
+  .eyebrow a:hover { color:var(--ink); }
+  .sep { margin:0 .4rem; color:var(--line); }
+  .badge { display:inline-block; margin-left:.5rem; padding:.05rem .45rem;
+           border:1px solid var(--mark); border-radius:1rem; color:var(--mark);
+           font-size:.68rem; letter-spacing:.08em; text-transform:uppercase;
+           vertical-align:.1em; white-space:nowrap; }
+  h1 .label, h2 .label { font-weight:400; color:var(--soft); }
+  .beam-card h2 { font-size:1.3rem; letter-spacing:-.01em; }
+  .numbers { margin:1.4rem 0; padding:.2rem 0 .2rem 1rem; border-left:3px solid var(--line); }
+  .numbers p { margin:.35rem 0; }
+  .numbers .fig { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; color:var(--mark); }
+  .points-src { display:block; color:var(--soft); font-size:.72rem; letter-spacing:.08em;
+                text-transform:uppercase; margin-top:.15rem; }
+  a.button { display:inline-block; margin:.6rem 0 0; padding:.45rem .9rem;
+             border:1px solid var(--mark); border-radius:.3rem; color:var(--mark);
+             text-decoration:none; font-size:.92rem; }
+  a.button:hover { background:var(--mark); color:var(--paper); }
+  .archive { color:var(--mark); }
+  .done { display:none; }
+  .by-done .done { display:inline; color:var(--mark); }
+  .chips + .chips { margin-top:.5rem; }
+  ol.bits { margin:1.1rem 0 0; padding-left:1.3rem; }
+  ol.bits li { margin:0 0 1.1rem; }
+  ol.bits .said { font-size:1.05rem; }
+  ol.bits .at a { text-decoration:none; border-bottom:1px dotted var(--soft); }
+</style>
+<body>
+<div class="page">
+  <header class="masthead">
+    <a href="/space-digest/"><p class="wordmark">Space Digest</p></a>
+    <p class="tagline">The podcasts worth your week, in a minute each.</p>
+  </header>
+  <nav class="top" aria-label="Sections">
+    <a href="/space-digest/">Today</a>
+    <a href="/space-digest/episodes/">Episodes</a>
+    <a href="/space-digest/archive/">Issues</a>
+<a href="/space-digest/tightbeam/" class="on">Tightbeam</a>
+<a href="/space-digest/funny/">Funny bits</a>
+<a href="/space-digest/feed.xml">RSS</a>
+  </nav>
+  <p class="eyebrow">
+<a href="/space-digest/tightbeam/spacex/">SpaceXAI</a>  <span class="badge badge-x">X</span>
+</p>
+
+  <h1>Tuesday 22 September 2026</h1>
+  <p class="meta">21 Sep 12:00 to 22 Sep 12:00 UTC ·
+12 posts, every one checked against X · 5 checks</p>
+
+    <p class="hook">Starship Flight 14 moved toward its first orbital launch with operational Starlink V3 satellites, while Grok 4.7 launched.</p>
+    <p>@SpaceXAI announced Grok 4.7 as an improvement over Grok 4.6 at the same price and speed. [<a href="https://x.com/SpaceXAI/status/2102069815225586149">2</a>] Reports said it scored 46 on the Artificial Analysis Intelligence Index and placed SpaceXAI third for agent coding. [<a href="https://x.com/elonmusk/status/2102082011233931762">4</a>] Artificial Analysis said it ranked just behind Anthropic models on its Briefcase test at about half the cost per task of Opus 5. [<a href="https://x.com/ArtificialAnlys/status/2102170392924492207">7</a>]</p>
+    <p>Booster 21 reached Starbase Pad 2, about a week before the planned Starship Flight 14 launch. [<a href="https://x.com/elonmusk/status/2102068280156414171">1</a>] The flight is planned to carry 26 operational Starlink V3 satellites into orbit, which would be Starship’s first orbital launch with an operational payload. [<a href="https://x.com/elonmusk/status/2102068280156414171">1</a>] Two European Starfall contracts involve Starship flights in 2028 and 2029. [<a href="https://x.com/NASASpaceflight/status/2102080671631974738">3</a>]</p>
+    <blockquote><p>“Grok 4.7 is here.”
+<a class="at" href="https://x.com/SpaceXAI/status/2102069815225586149">[2]</a></p></blockquote>
+
+    <h2>The posts</h2>
+    <section class="topic">
+      <h3>Starship Flight 14</h3>
+<p class="why">@elonmusk said Booster 21 moved to the pad and that the first Starship launch to orbit is planned in seven days with operational Starlink V3 satellites. [<a href="https://x.com/elonmusk/status/2102068280156414171">1</a>] The flight is planned to deploy 26 satellites that will join the Starlink constellation.</p>      <ul class="posts">
+        <li id="p1">
+          <span class="at">[1] <a href="https://x.com/elonmusk/status/2102068280156414171">@elonmusk · 16:11 UTC</a>
+</span>
+          <p class="post-text">In 7 days, the first Starship launch to orbit will be carrying Starlink V3 satellites intended for operational use</p>
+<p class="quoted">Quoting @SpaceX: Booster 21 moved to the pad at Starbase</p>        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Grok 4.7</h3>
+<p class="why">@SpaceXAI announced Grok 4.7 at the same price and speed as Grok 4.6. [<a href="https://x.com/SpaceXAI/status/2102069815225586149">2</a>] @elonmusk shared results saying it scored 46 on the Artificial Analysis Intelligence Index and placed SpaceXAI third for agent coding. [<a href="https://x.com/elonmusk/status/2102082011233931762">4</a>] Artificial Analysis said Grok 4.7 ranked just behind Anthropic models on its Briefcase test at about half of Opus 5’s cost per task. [<a href="https://x.com/ArtificialAnlys/status/2102170392924492207">7</a>]</p>      <ul class="posts">
+        <li id="p2">
+          <span class="at">[2] <a href="https://x.com/SpaceXAI/status/2102069815225586149">@SpaceXAI · 16:17 UTC</a>
+</span>
+          <p class="post-text">Grok 4.7 is here.
+
+It&#39;s a notable improvement over Grok 4.6 at the same price and speed.</p>
+        </li>
+        <li id="p4">
+          <span class="at">[4] <a href="https://x.com/elonmusk/status/2102082011233931762">@elonmusk · 17:06 UTC</a>
+</span>
+          <p class="post-text">Grok 4.7 places @SpaceXAI as third, after Anthropic &amp; OpenAI, for agentic coding. 
+
+When factoring in that Grok is significantly faster &amp; lower cost, it’s a great choice for your everyday workhorse.</p>
+<p class="quoted">Quoting @ArtificialAnlys: Grok 4.7 scores 46 on the Artificial Analysis Intelligence Index to bring SpaceXAI into the top 4 AI labs. Coding Agent Index performance has also improved, overtaking GPT-5.6 Sol
+
+Grok 4.7 scores +2 points over Grok 4.6 on the Intelligence Index, with strong performance on</p>        </li>
+        <li id="p7">
+          <span class="at">[7] <a href="https://x.com/ArtificialAnlys/status/2102170392924492207">@ArtificialAnlys · 22:57 UTC</a>
+</span>
+          <p class="post-text">Grok 4.7 is behind only Anthropic models on AA-Briefcase, ranking just behind Opus 5 at ~50% of its Cost per Task
+
+Grok 4.7’s improvements over Grok 4.6 are clear in AA-Briefcase-Lite, our public due diligence scenario where models are tasked with building market models and</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Starship contracts and research</h3>
+<p class="why">@NASASpaceflight reported two European Starfall contracts involving Starship flights in 2028 and 2029. [<a href="https://x.com/NASASpaceflight/status/2102080671631974738">3</a>] @cb_doge said Exolaunch booked a 2029 Starfall mission to carry pharmaceutical, biotechnology, and advanced-material research into microgravity and back to Earth. [<a href="https://x.com/cb_doge/status/2102177677872599070">9</a>]</p>      <ul class="posts">
+        <li id="p3">
+          <span class="at">[3] <a href="https://x.com/NASASpaceflight/status/2102080671631974738">@NASASpaceflight · 17:01 UTC</a>
+</span>
+          <p class="post-text">Two Starfall contracts from Europe involving Starship flights in 2028 and 2029.
+
+https://www.nasaspaceflight.com/2026/09/exolaunch-space-cargo-starship-starfall/</p>
+        </li>
+        <li id="p9">
+          <span class="at">[9] <a href="https://x.com/cb_doge/status/2102177677872599070">@cb_doge · 23:26 UTC</a>
+</span>
+          <p class="post-text">BREAKING: SpaceX secures another major Starship deal.
+
+Exolaunch has booked a 2029 Starfall mission on Starship to carry pharma, biotech and advanced-material research into microgravity and safely back to Earth.
+
+The Starship era is getting closer with every new deal.</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Starlink access</h3>
+<p class="why">@cb_doge said Starlink connected two more schools in Zimbabwe after kits were donated to Hartley No. 1 Primary and Zvamaida Primary schools. [<a href="https://x.com/cb_doge/status/2102174382898720889">8</a>]</p>      <ul class="posts">
+        <li id="p8">
+          <span class="at">[8] <a href="https://x.com/cb_doge/status/2102174382898720889">@cb_doge · 23:13 UTC</a>
+</span>
+          <p class="post-text">BREAKING: Starlink connects two more schools in Zimbabwe 🇿🇼
+
+Chegutu West MP Shakemore Timburwa donated Starlink kits to Hartley No. 1 Primary &amp; Zvamaida Primary schools. Students in urban and rural areas can now access online learning tools.
+
+Starlink is closing the digital gap.</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Community cleanup</h3>
+<p class="why">@StarbaseTX said 985 volunteers removed 2,880 pounds of trash from Boca Chica Beach during International Coastal Cleanup Day. [<a href="https://x.com/StarbaseTX/status/2102178898997870786">10</a>]</p>      <ul class="posts">
+        <li id="p10">
+          <span class="at">[10] <a href="https://x.com/StarbaseTX/status/2102178898997870786">@StarbaseTX · 23:31 UTC</a>
+</span>
+          <p class="post-text">Saturday was a good day for Boca Chica Beach.
+
+985 volunteers came out for International Coastal Cleanup Day and removed 2,880 lbs of trash from our shoreline.
+
+Thank you to @SpaceX, @TXAdoptABeach, and Cameron County, and to every friend, family member, and neighbor who came out</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Other</h3>
+<p class="why">@StarshipGazer reported that Starship 41 moved outside megabay 2 and that a satellite loading system moved inside to load the first 26 operational Starlink V3 satellites. @LunarCitizens described a possible future launch network with two pads in Texas, three in Florida, and 10 planned pads in Louisiana. [<a href="https://x.com/LunarCitizens/status/2102185145461809523">12</a>]</p>      <ul class="posts">
+        <li id="p12">
+          <span class="at">[12] <a href="https://x.com/LunarCitizens/status/2102185145461809523">@LunarCitizens · 23:56 UTC</a>
+</span>
+          <p class="post-text">SpaceX’s eventual Starship launch network:
+
+Starbase, Texas: 2 pads
+Florida: 3 pads
+Starbase Louisiana: 10 planned pads
+
+Now imagine just three pads reaching an average cadence of one Starship launch per month in 2027.
+
+That would mean 36 launches a year.
+
+At 80 tonnes to LEO per</p>
+        </li>
+        <li id="p5">
+          <span class="at">[5] <a href="https://x.com/cb_doge/status/2102105111187321280">@cb_doge · 18:38 UTC</a>
+</span>
+          <p class="post-text">BREAKING: Grok 4.7 dominates the Legal Agent Benchmark. 
+
+It scored 19.6% on realistic, long-term legal tasks, beating every other model tested. That is nearly 3× Fable 5.1.
+
+Another major win for Grok 4.7 and SpaceXAI.</p>
+        </li>
+        <li id="p6">
+          <span class="at">[6] <a href="https://x.com/MTSlive/status/2102161470238892269">@MTSlive · 22:22 UTC</a>
+</span>
+          <p class="post-text">SITUATION EXPLAINED: Grok 4.7 beats GPT-6 Astra on real-world tasks, and it&#39;s 5x cheaper.
+
+• Same price as 4.6, $2 input and $6 output per million tokens, well under Sol, Fable, and Astra
+• A new larger base model, which Elon has put at 2.1 trillion parameters, up from 1.5</p>
+<p class="quoted">Quoting @SpaceXAI: Grok 4.7 is here.
+
+It&#39;s a notable improvement over Grok 4.6 at the same price and speed.</p>        </li>
+        <li id="p11">
+          <span class="at">[11] <a href="https://x.com/marsrepublica/status/2102179235766968347">@marsrepublica · 23:32 UTC</a>
+</span>
+          <p class="post-text">In just the last 90 days:
+
+1. Grok 4.3 — barely top 10. “xAI is dead beyond compute leases.”
+
+2. Grok 4.5 — massive comeback. “Maybe a chance. But Grok will never catch up to the frontier.”
+
+3. Grok 4.6 — they’re frontier. “Still not top 3.”
+
+4. Grok 4.7 — now top 3 in frontier</p>
+        </li>
+      </ul>
+    </section>
+
+  <nav class="more">
+    <a href="/space-digest/tightbeam/spacex/">Every page from SpaceXAI</a>
+    <a href="/space-digest/tightbeam/">All of the Tightbeam</a>
+  </nav>
+  <footer>
+    <p>Summaries are written by a machine from the original words, and link
+       back to where they were said. Nothing here replaces the source.</p>
+    <p><a href="/space-digest/episodes/">Every episode</a> ·
+       <a href="/space-digest/archive/">Every issue</a> ·
+<a href="/space-digest/tightbeam/">Tightbeam</a> ·
+<a href="/space-digest/funny/">Funny bits</a> ·
+<a href="/space-digest/feed.xml">Subscribe by RSS</a></p>
+  </footer>
+</div>

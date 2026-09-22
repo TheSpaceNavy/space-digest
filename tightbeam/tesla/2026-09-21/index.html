@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tesla · X · 21 September 2026 · Space Digest</title>
+<link rel="alternate" type="application/rss+xml" title="Space Digest" href="/space-digest/feed.xml">
+<style>
+  :root { --ink:#1a1a1a; --soft:#5b5b5b; --line:#e2e0da; --paper:#fbfaf7; --mark:#7a3b2e; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e8e6e1; --soft:#a09c94; --line:#33312d; --paper:#161513; --mark:#d99b7c; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink);
+         font:17px/1.65 Charter, Georgia, "Iowan Old Style", serif;
+         -webkit-text-size-adjust:100%; }
+  .page { max-width:38rem; margin:0 auto; padding:2.5rem 1.25rem 5rem; }
+  a { color:inherit; text-decoration-color:var(--line); text-underline-offset:3px; }
+  a:hover { text-decoration-color:var(--mark); }
+  header.masthead { border-bottom:2px solid var(--ink); padding-bottom:.6rem; margin-bottom:1rem; }
+  nav.top { display:flex; flex-wrap:wrap; gap:.2rem 1.4rem; margin:0 0 2rem;
+            font-size:.78rem; letter-spacing:.09em; text-transform:uppercase; }
+  nav.top a { color:var(--soft); text-decoration:none; padding:.25rem 0;
+              border-bottom:2px solid transparent; }
+  nav.top a:hover { color:var(--ink); }
+  nav.top a.on { color:var(--ink); border-bottom-color:var(--mark); }
+  header.masthead a { text-decoration:none; }
+  .wordmark { font-size:1.5rem; font-weight:700; letter-spacing:-.02em; margin:0; }
+  .tagline { color:var(--soft); font-size:.85rem; margin:.15rem 0 0; }
+  h1 { font-size:1.6rem; line-height:1.25; letter-spacing:-.015em; margin:0 0 .3rem; }
+  h2 { font-size:1.15rem; margin:2.5rem 0 .4rem; }
+  .meta { color:var(--soft); font-size:.82rem; margin:0 0 1.6rem; }
+  .hook { font-size:1.2rem; line-height:1.45; margin:0 0 1.2rem; }
+  article.entry { border-bottom:1px solid var(--line); padding-bottom:2rem; margin-bottom:2rem; }
+  article.entry:last-of-type { border-bottom:0; }
+  ul.points { list-style:none; margin:1.1rem 0; padding:0; }
+  ul.points li { margin:0 0 .7rem; padding-left:1rem; text-indent:-1rem; }
+  .at { color:var(--soft); font-size:.8rem; white-space:nowrap; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }
+  blockquote { margin:1.4rem 0; padding-left:1rem; border-left:3px solid var(--mark);
+               font-size:1.05rem; }
+  blockquote p { margin:0; }
+  .for { color:var(--soft); font-style:italic; }
+  .standouts { background:color-mix(in srgb, var(--mark) 7%, transparent);
+               border-radius:.4rem; padding:1rem 1.1rem; margin:1.6rem 0; }
+  .standouts h3 { margin:0 0 .6rem; font-size:.78rem; letter-spacing:.09em;
+                  text-transform:uppercase; color:var(--soft); font-weight:700; }
+  .standouts ol { margin:0; padding-left:1.15rem; }
+  .standouts li { margin:0 0 .7rem; }
+  .standouts li:last-child { margin-bottom:0; }
+  .why { display:block; color:var(--soft); font-size:.85rem; margin-top:.15rem; }
+  nav.more { margin-top:3rem; padding-top:1.2rem; border-top:1px solid var(--line);
+             color:var(--soft); font-size:.88rem; }
+  nav.more a { margin-right:1rem; }
+  footer { margin-top:3.5rem; padding-top:1.2rem; border-top:1px solid var(--line);
+           color:var(--soft); font-size:.8rem; }
+  .quiet { color:var(--soft); font-size:1.05rem; }
+  .filters { margin:1.5rem 0 2rem; }
+  .filters input { width:100%; padding:.55rem .7rem; font:inherit; font-size:.95rem;
+                   color:var(--ink); background:var(--paper);
+                   border:1px solid var(--line); border-radius:.35rem; }
+  .filters input:focus { outline:2px solid var(--mark); outline-offset:1px; }
+  .chips { display:flex; flex-wrap:wrap; gap:.4rem; margin-top:.7rem; }
+  .chip { font:inherit; font-size:.85rem; padding:.3rem .7rem; cursor:pointer;
+          color:var(--soft); background:transparent;
+          border:1px solid var(--line); border-radius:1rem; }
+  .chip:hover { border-color:var(--mark); color:var(--ink); }
+  .chip.on { background:var(--ink); border-color:var(--ink); color:var(--paper); }
+  .chip.on .at { color:var(--paper); opacity:.7; }
+  ul.episodes { list-style:none; margin:0; padding:0; }
+  ul.episodes li { padding:.85rem 0; border-bottom:1px solid var(--line); }
+  ul.episodes li a { font-size:1.05rem; }
+  ul.episodes .at { display:block; margin-top:.15rem; }
+  ul.episodes .why { margin-top:.3rem; }
+  section.topic { margin:1.6rem 0; }
+  section.topic h3 { font-size:1rem; margin:0 0 .3rem; }
+  ul.posts { list-style:none; margin:.6rem 0 0; padding:0; }
+  ul.posts li { padding:.6rem 0 .6rem .9rem; border-left:2px solid var(--line); margin:0 0 .6rem; }
+  ul.posts .at a { text-decoration:none; }
+  .post-text { margin:.25rem 0 0; white-space:pre-line; }
+  .quoted { margin:.35rem 0 0; color:var(--soft); font-size:.9rem; white-space:pre-line; }
+  .translation { margin:.2rem 0 0; color:var(--soft); font-size:.9rem; font-style:italic;
+                 white-space:pre-line; }
+  /* Tightbeam: the same head on every beam page, so the kinds read as one. */
+  .eyebrow { margin:0 0 .35rem; font-size:.78rem; letter-spacing:.09em;
+             text-transform:uppercase; color:var(--soft); }
+  .eyebrow a { color:inherit; text-decoration:none; }
+  .eyebrow a:hover { color:var(--ink); }
+  .sep { margin:0 .4rem; color:var(--line); }
+  .badge { display:inline-block; margin-left:.5rem; padding:.05rem .45rem;
+           border:1px solid var(--mark); border-radius:1rem; color:var(--mark);
+           font-size:.68rem; letter-spacing:.08em; text-transform:uppercase;
+           vertical-align:.1em; white-space:nowrap; }
+  h1 .label, h2 .label { font-weight:400; color:var(--soft); }
+  .beam-card h2 { font-size:1.3rem; letter-spacing:-.01em; }
+  .numbers { margin:1.4rem 0; padding:.2rem 0 .2rem 1rem; border-left:3px solid var(--line); }
+  .numbers p { margin:.35rem 0; }
+  .numbers .fig { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; color:var(--mark); }
+  .points-src { display:block; color:var(--soft); font-size:.72rem; letter-spacing:.08em;
+                text-transform:uppercase; margin-top:.15rem; }
+  a.button { display:inline-block; margin:.6rem 0 0; padding:.45rem .9rem;
+             border:1px solid var(--mark); border-radius:.3rem; color:var(--mark);
+             text-decoration:none; font-size:.92rem; }
+  a.button:hover { background:var(--mark); color:var(--paper); }
+  .archive { color:var(--mark); }
+  .done { display:none; }
+  .by-done .done { display:inline; color:var(--mark); }
+  .chips + .chips { margin-top:.5rem; }
+  ol.bits { margin:1.1rem 0 0; padding-left:1.3rem; }
+  ol.bits li { margin:0 0 1.1rem; }
+  ol.bits .said { font-size:1.05rem; }
+  ol.bits .at a { text-decoration:none; border-bottom:1px dotted var(--soft); }
+</style>
+<body>
+<div class="page">
+  <header class="masthead">
+    <a href="/space-digest/"><p class="wordmark">Space Digest</p></a>
+    <p class="tagline">The podcasts worth your week, in a minute each.</p>
+  </header>
+  <nav class="top" aria-label="Sections">
+    <a href="/space-digest/">Today</a>
+    <a href="/space-digest/episodes/">Episodes</a>
+    <a href="/space-digest/archive/">Issues</a>
+<a href="/space-digest/tightbeam/" class="on">Tightbeam</a>
+<a href="/space-digest/funny/">Funny bits</a>
+<a href="/space-digest/feed.xml">RSS</a>
+  </nav>
+  <p class="eyebrow">
+<a href="/space-digest/tightbeam/tesla/">Tesla</a>  <span class="badge badge-x">X</span>
+</p>
+
+  <h1>Monday 21 September 2026</h1>
+  <p class="meta">20 Sep 12:00 to 21 Sep 12:00 UTC ·
+9 posts, every one checked against X · 5 checks</p>
+
+    <p class="hook">Tesla posts pointed to Semi pricing, Optimus production preparation, and rising Robotaxi demand.</p>
+    <p>Tesla Semi pricing was discussed at $290,000, or $50,000 after California incentives for qualifying small fleets. [<a href="https://x.com/JeebsTX/status/2101763324866101661">5</a>] Tesla’s last three fully new vehicles—the Semi, Cybercab, and Cybertruck—do not use a liquid paint shop. [<a href="https://x.com/SawyerMerritt/status/2101698029786984890">4</a>]</p>
+    <p>Posts reported that Tesla had begun factory audits in China linked to its Optimus supply chain, while another post claimed Tesla ordered supplies for 5,000 Optimus units. [<a href="https://x.com/tslaming/status/2101658464342982711">2</a>] In Houston, Robotaxi wait times were reported at 20 to 30 minutes, up from single-digit waits in August. [<a href="https://x.com/RobotaxiRadar/status/2101803074352488554">8</a>]</p>
+    <blockquote><p>&#34;$50K after California incentives for qualifying small fleets.&#34;
+<a class="at" href="https://x.com/JeebsTX/status/2101763324866101661">[5]</a></p></blockquote>
+
+    <h2>The posts</h2>
+    <section class="topic">
+      <h3>Tesla Semi</h3>
+<p class="why">Tesla Semi pricing was reported at $290,000, or $50,000 after California incentives for qualifying small fleets. [<a href="https://x.com/JeebsTX/status/2101763324866101661">5</a>] The Semi was also described as powder coated, unlike vehicles that use a liquid paint shop. [<a href="https://x.com/SawyerMerritt/status/2101698029786984890">4</a>]</p>      <ul class="posts">
+        <li id="p4">
+          <span class="at">[4] <a href="https://x.com/SawyerMerritt/status/2101698029786984890">@SawyerMerritt · 15:40 UTC</a>
+</span>
+          <p class="post-text">The last three fully new vehicles that @Tesla has launched don’t use a liquid paint shop:
+
+• Tesla Semi (Powder coated)
+• Cybercab (Reaction Injection Molding)
+• Cybertruck (Bare stainless steel)</p>
+        </li>
+        <li id="p5">
+          <span class="at">[5] <a href="https://x.com/JeebsTX/status/2101763324866101661">@JeebsTX · 20:00 UTC</a>
+</span>
+          <p class="post-text">$290K Tesla Semi.
+
+$50K after California incentives for qualifying small fleets.
+
+Not a typo.
+
+That’s Model Y money.
+
+I seriously want to move to California just for the Tesla Semi. lol</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Optimus</h3>
+<p class="why">A report said Tesla began factory audits in Ningbo as part of work involving Optimus suppliers. [<a href="https://x.com/tslaming/status/2101658464342982711">2</a>] Another post said Tesla ordered supplies for 5,000 Optimus units.</p>      <ul class="posts">
+        <li id="p2">
+          <span class="at">[2] <a href="https://x.com/tslaming/status/2101658464342982711">@tslaming · 13:03 UTC</a>
+</span>
+          <p class="post-text">[ ANALYSIS ] 🇨🇳 A Tesla team reportedly began its China supplier sweep in Ningbo, launching factory audits aimed at Optimus mass production the following day.
+
+Why did Ningbo emerge as a key stop in Tesla’s reported supplier sweep?
+
+Because building an impressive walking</p>
+<p class="translation">In English: A Chinese financial news outlet reported that Tesla sent a team to Ningbo on September 16 and began a new round of factory audits.</p><p class="quoted">Quoting @tslaming: GOOD NEWS 🇨🇳 Chinese news outlet 21财经 just published an article which should confirm that the rumor is true 🔥
+
+According to the reporters who got the news from supply chain sources, a Tesla team arrived in Ningbo on September 16 and launched a new round of factory audits today</p>        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Robotaxi</h3>
+<p class="why">A Houston Robotaxi user reported wait times of 20 to 30 minutes, compared with single-digit waits in August. [<a href="https://x.com/RobotaxiRadar/status/2101803074352488554">8</a>]</p>      <ul class="posts">
+        <li id="p8">
+          <span class="at">[8] <a href="https://x.com/RobotaxiRadar/status/2101803074352488554">@RobotaxiRadar · 22:37 UTC</a>
+</span>
+          <p class="post-text">Houston Robotaxi wait times were single digits in August.
+
+Today, it’s 20-30 minutes ⏱️
+
+Demand for the Robotaxi service is increasing, but the number of vehicles and geofence size has remained flat
+
+A good problem to have, but Tesla needs to add more quickly to not lose</p>
+<p class="quoted">Quoting @butala_aryan: I spent this weekend in the Houston @Robotaxi geofence after 4 weeks. It has consistently been showing 20-30 minute wait times, whereas in August, wait times were single digit.
+
+I presume this is a side effect of more people starting to use the service, and the amount of fleet</p>        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Tesla Model Y</h3>
+<p class="why">A post compared used Model Y Performance prices of $56,000 to $58,000 with a new price of $57,990, which includes a four-year, 50,000-mile warranty and 3.99% financing. [<a href="https://x.com/DennisCW_/status/2101782773459771546">7</a>]</p>      <ul class="posts">
+        <li id="p7">
+          <span class="at">[7] <a href="https://x.com/DennisCW_/status/2101782773459771546">@DennisCW_ · 21:17 UTC</a>
+</span>
+          <p class="post-text">Pricing for these Tesla Model Y Performance(s) for sale make no sense!
+
+$56k - $58k for a Used One 
+
+A Brand New one is $57,990 
+-Full 4 Year / 50k warranty
+-3.99% financing</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Tesla Supercharging</h3>
+<p class="why">One driver reported using 453 charging stations and 624 charging sessions over 74,720 miles, consuming 22,800 kilowatt-hours during one free year of Supercharging. [<a href="https://x.com/cybrtrkguy/status/2101803181462192556">9</a>]</p>      <ul class="posts">
+        <li id="p9">
+          <span class="at">[9] <a href="https://x.com/cybrtrkguy/status/2101803181462192556">@cybrtrkguy · 22:38 UTC</a>
+</span>
+          <p class="post-text">David Moss Supercharged 22,800kWh in his one year of Free Supercharging.  
+
+That’s $9,940.80 not billed to his Tesla Account over 12 months and 75,000 miles. 
+
+🤯🤯🤯</p>
+<p class="quoted">Quoting @DavidMoss: My Last Free Tesla Supercharging Session:
+
+Back in Dallas, TX to see @scotsrule08 
+
+453 Unique Stations
+624 Charging Sessions 
+22,800 kWh
+74,720 Miles
+1 Free Year Of Charging</p>        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Other</h3>
+<p class="why">A Tesla Optimus update said its collection had grown to 302 unique folders, including 299 Optimus folders and three academy folders. [<a href="https://x.com/arthur_win8/status/2101681579655340058">3</a>] A Tesla was credited with recording video that helped a judge find its owner not guilty nearly two years after his arrest. [<a href="https://x.com/elonmusk/status/2101766776325595530">6</a>]</p>      <ul class="posts">
+        <li id="p3">
+          <span class="at">[3] <a href="https://x.com/arthur_win8/status/2101681579655340058">@arthur_win8 · 14:35 UTC</a>
+</span>
+          <p class="post-text">Tesla Optimus
+Updated 2026-09-20
+Sources: Tesla Optimus + Optimus academy bookmark folders (302 unique). Not Digital Optimus.
+
+NEW TODAY
+- Folder grew to 302 unique (Optimus 299 + academy 3, overlap 0). 2 new vs yesterday (300).
+- Testers (TeslaZoa, Sep 20): Bloomberg — Tesla</p>
+        </li>
+        <li id="p6">
+          <span class="at">[6] <a href="https://x.com/elonmusk/status/2101766776325595530">@elonmusk · 20:13 UTC</a>
+</span>
+          <p class="post-text">A Tesla saves its owner from prison!</p>
+<p class="quoted">Quoting @cb_doge: Tesla helped save a man from jail.
+
+Kevin Finley was arrested at gunpoint for allegedly fleeing police. His Tesla captured the key moments, showing why he never saw the unmarked police car.
+
+Nearly two years later, the judge watched the video and found him not guilty.</p>        </li>
+        <li id="p1">
+          <span class="at">[1] <a href="https://x.com/moondough/status/2101650954990858578">@moondough · 12:33 UTC</a>
+</span>
+          <p class="post-text">Tesla Signal — Sep 20, 2026
+
+1/ Elon just put Semi back on the timeline: “Tesla has a Semi 😂” quoting @tesla_semi’s Top Gear factory tour of a *production* truck.
+Top Gear’s line: “Maybe the most significant Tesla since the Model 3.”
+Fact check on the energy math Tesla Semi</p>
+<p class="quoted">Quoting @elonmusk: Tesla has a Semi 😂</p>        </li>
+      </ul>
+    </section>
+
+  <nav class="more">
+    <a href="/space-digest/tightbeam/tesla/">Every page from Tesla</a>
+    <a href="/space-digest/tightbeam/">All of the Tightbeam</a>
+  </nav>
+  <footer>
+    <p>Summaries are written by a machine from the original words, and link
+       back to where they were said. Nothing here replaces the source.</p>
+    <p><a href="/space-digest/episodes/">Every episode</a> ·
+       <a href="/space-digest/archive/">Every issue</a> ·
+<a href="/space-digest/tightbeam/">Tightbeam</a> ·
+<a href="/space-digest/funny/">Funny bits</a> ·
+<a href="/space-digest/feed.xml">Subscribe by RSS</a></p>
+  </footer>
+</div>

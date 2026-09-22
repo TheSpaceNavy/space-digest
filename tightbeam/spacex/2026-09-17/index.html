@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SpaceXAI · X · 17 September 2026 · Space Digest</title>
+<link rel="alternate" type="application/rss+xml" title="Space Digest" href="/space-digest/feed.xml">
+<style>
+  :root { --ink:#1a1a1a; --soft:#5b5b5b; --line:#e2e0da; --paper:#fbfaf7; --mark:#7a3b2e; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e8e6e1; --soft:#a09c94; --line:#33312d; --paper:#161513; --mark:#d99b7c; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink);
+         font:17px/1.65 Charter, Georgia, "Iowan Old Style", serif;
+         -webkit-text-size-adjust:100%; }
+  .page { max-width:38rem; margin:0 auto; padding:2.5rem 1.25rem 5rem; }
+  a { color:inherit; text-decoration-color:var(--line); text-underline-offset:3px; }
+  a:hover { text-decoration-color:var(--mark); }
+  header.masthead { border-bottom:2px solid var(--ink); padding-bottom:.6rem; margin-bottom:1rem; }
+  nav.top { display:flex; flex-wrap:wrap; gap:.2rem 1.4rem; margin:0 0 2rem;
+            font-size:.78rem; letter-spacing:.09em; text-transform:uppercase; }
+  nav.top a { color:var(--soft); text-decoration:none; padding:.25rem 0;
+              border-bottom:2px solid transparent; }
+  nav.top a:hover { color:var(--ink); }
+  nav.top a.on { color:var(--ink); border-bottom-color:var(--mark); }
+  header.masthead a { text-decoration:none; }
+  .wordmark { font-size:1.5rem; font-weight:700; letter-spacing:-.02em; margin:0; }
+  .tagline { color:var(--soft); font-size:.85rem; margin:.15rem 0 0; }
+  h1 { font-size:1.6rem; line-height:1.25; letter-spacing:-.015em; margin:0 0 .3rem; }
+  h2 { font-size:1.15rem; margin:2.5rem 0 .4rem; }
+  .meta { color:var(--soft); font-size:.82rem; margin:0 0 1.6rem; }
+  .hook { font-size:1.2rem; line-height:1.45; margin:0 0 1.2rem; }
+  article.entry { border-bottom:1px solid var(--line); padding-bottom:2rem; margin-bottom:2rem; }
+  article.entry:last-of-type { border-bottom:0; }
+  ul.points { list-style:none; margin:1.1rem 0; padding:0; }
+  ul.points li { margin:0 0 .7rem; padding-left:1rem; text-indent:-1rem; }
+  .at { color:var(--soft); font-size:.8rem; white-space:nowrap; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }
+  blockquote { margin:1.4rem 0; padding-left:1rem; border-left:3px solid var(--mark);
+               font-size:1.05rem; }
+  blockquote p { margin:0; }
+  .for { color:var(--soft); font-style:italic; }
+  .standouts { background:color-mix(in srgb, var(--mark) 7%, transparent);
+               border-radius:.4rem; padding:1rem 1.1rem; margin:1.6rem 0; }
+  .standouts h3 { margin:0 0 .6rem; font-size:.78rem; letter-spacing:.09em;
+                  text-transform:uppercase; color:var(--soft); font-weight:700; }
+  .standouts ol { margin:0; padding-left:1.15rem; }
+  .standouts li { margin:0 0 .7rem; }
+  .standouts li:last-child { margin-bottom:0; }
+  .why { display:block; color:var(--soft); font-size:.85rem; margin-top:.15rem; }
+  nav.more { margin-top:3rem; padding-top:1.2rem; border-top:1px solid var(--line);
+             color:var(--soft); font-size:.88rem; }
+  nav.more a { margin-right:1rem; }
+  footer { margin-top:3.5rem; padding-top:1.2rem; border-top:1px solid var(--line);
+           color:var(--soft); font-size:.8rem; }
+  .quiet { color:var(--soft); font-size:1.05rem; }
+  .filters { margin:1.5rem 0 2rem; }
+  .filters input { width:100%; padding:.55rem .7rem; font:inherit; font-size:.95rem;
+                   color:var(--ink); background:var(--paper);
+                   border:1px solid var(--line); border-radius:.35rem; }
+  .filters input:focus { outline:2px solid var(--mark); outline-offset:1px; }
+  .chips { display:flex; flex-wrap:wrap; gap:.4rem; margin-top:.7rem; }
+  .chip { font:inherit; font-size:.85rem; padding:.3rem .7rem; cursor:pointer;
+          color:var(--soft); background:transparent;
+          border:1px solid var(--line); border-radius:1rem; }
+  .chip:hover { border-color:var(--mark); color:var(--ink); }
+  .chip.on { background:var(--ink); border-color:var(--ink); color:var(--paper); }
+  .chip.on .at { color:var(--paper); opacity:.7; }
+  ul.episodes { list-style:none; margin:0; padding:0; }
+  ul.episodes li { padding:.85rem 0; border-bottom:1px solid var(--line); }
+  ul.episodes li a { font-size:1.05rem; }
+  ul.episodes .at { display:block; margin-top:.15rem; }
+  ul.episodes .why { margin-top:.3rem; }
+  section.topic { margin:1.6rem 0; }
+  section.topic h3 { font-size:1rem; margin:0 0 .3rem; }
+  ul.posts { list-style:none; margin:.6rem 0 0; padding:0; }
+  ul.posts li { padding:.6rem 0 .6rem .9rem; border-left:2px solid var(--line); margin:0 0 .6rem; }
+  ul.posts .at a { text-decoration:none; }
+  .post-text { margin:.25rem 0 0; white-space:pre-line; }
+  .quoted { margin:.35rem 0 0; color:var(--soft); font-size:.9rem; white-space:pre-line; }
+  .translation { margin:.2rem 0 0; color:var(--soft); font-size:.9rem; font-style:italic;
+                 white-space:pre-line; }
+  /* Tightbeam: the same head on every beam page, so the kinds read as one. */
+  .eyebrow { margin:0 0 .35rem; font-size:.78rem; letter-spacing:.09em;
+             text-transform:uppercase; color:var(--soft); }
+  .eyebrow a { color:inherit; text-decoration:none; }
+  .eyebrow a:hover { color:var(--ink); }
+  .sep { margin:0 .4rem; color:var(--line); }
+  .badge { display:inline-block; margin-left:.5rem; padding:.05rem .45rem;
+           border:1px solid var(--mark); border-radius:1rem; color:var(--mark);
+           font-size:.68rem; letter-spacing:.08em; text-transform:uppercase;
+           vertical-align:.1em; white-space:nowrap; }
+  h1 .label, h2 .label { font-weight:400; color:var(--soft); }
+  .beam-card h2 { font-size:1.3rem; letter-spacing:-.01em; }
+  .numbers { margin:1.4rem 0; padding:.2rem 0 .2rem 1rem; border-left:3px solid var(--line); }
+  .numbers p { margin:.35rem 0; }
+  .numbers .fig { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; color:var(--mark); }
+  .points-src { display:block; color:var(--soft); font-size:.72rem; letter-spacing:.08em;
+                text-transform:uppercase; margin-top:.15rem; }
+  a.button { display:inline-block; margin:.6rem 0 0; padding:.45rem .9rem;
+             border:1px solid var(--mark); border-radius:.3rem; color:var(--mark);
+             text-decoration:none; font-size:.92rem; }
+  a.button:hover { background:var(--mark); color:var(--paper); }
+  .archive { color:var(--mark); }
+  .done { display:none; }
+  .by-done .done { display:inline; color:var(--mark); }
+  .chips + .chips { margin-top:.5rem; }
+  ol.bits { margin:1.1rem 0 0; padding-left:1.3rem; }
+  ol.bits li { margin:0 0 1.1rem; }
+  ol.bits .said { font-size:1.05rem; }
+  ol.bits .at a { text-decoration:none; border-bottom:1px dotted var(--soft); }
+</style>
+<body>
+<div class="page">
+  <header class="masthead">
+    <a href="/space-digest/"><p class="wordmark">Space Digest</p></a>
+    <p class="tagline">The podcasts worth your week, in a minute each.</p>
+  </header>
+  <nav class="top" aria-label="Sections">
+    <a href="/space-digest/">Today</a>
+    <a href="/space-digest/episodes/">Episodes</a>
+    <a href="/space-digest/archive/">Issues</a>
+<a href="/space-digest/tightbeam/" class="on">Tightbeam</a>
+<a href="/space-digest/funny/">Funny bits</a>
+<a href="/space-digest/feed.xml">RSS</a>
+  </nav>
+  <p class="eyebrow">
+<a href="/space-digest/tightbeam/spacex/">SpaceXAI</a>  <span class="badge badge-x">X</span>
+</p>
+
+  <h1>Thursday 17 September 2026</h1>
+  <p class="meta">16 Sep 12:00 to 17 Sep 12:00 UTC ·
+10 posts, every one checked against X · 5 checks</p>
+
+    <p class="hook">Starship reuse, Starlink expansion, and SpaceX’s rising launch ambitions shaped the day.</p>
+    <p>Starlink launched mobile service in Panama with Más Móvil, supporting messaging apps, maps, and SMS in places without cellphone coverage. [<a href="https://x.com/Starlink/status/2100312938116718736">1</a>] Ron Baron predicted that Starlink could reach 300 million customers, use 100,000 satellites, and generate $1 trillion in yearly revenue within 10 years. [<a href="https://x.com/cb_doge/status/2100316870742364214">2</a>]</p>
+    <p>SpaceX highlighted Starship’s reusable design, while reports said Flight 14 could launch as early as September 22 if regulators approve it. [<a href="https://x.com/cb_doge/status/2100323638197264475">3</a>, <a href="https://x.com/SpaceX/status/2100334792646549729">6</a>, <a href="https://x.com/defense_civil25/status/2100364989827854833">9</a>] SpaceX’s Falcon 9 landing team received the Neil Armstrong Space Prize, according to the quoted post. [<a href="https://x.com/Gwynne_Shotwell/status/2100333066417844697">5</a>]</p>
+    <blockquote><p>“A fully and rapidly reusable rocket will fundamentally change how humanity accesses outer space.”
+<a class="at" href="https://x.com/SpaceX/status/2100334792646549729">[6]</a></p></blockquote>
+
+    <h2>The posts</h2>
+    <section class="topic">
+      <h3>Starlink expansion and forecasts</h3>
+<p class="why">Starlink mobile service is now available in Panama through Más Móvil, with messaging, maps, and SMS available in areas that previously had no cellphone signal. [<a href="https://x.com/Starlink/status/2100312938116718736">1</a>] Ron Baron predicted 300 million Starlink customers, 100,000 satellites, and $1 trillion in annual revenue within 10 years. [<a href="https://x.com/cb_doge/status/2100316870742364214">2</a>]</p>      <ul class="posts">
+        <li id="p1">
+          <span class="at">[1] <a href="https://x.com/Starlink/status/2100312938116718736">@Starlink · 19:56 UTC</a>
+</span>
+          <p class="post-text">Starlink Mobile is now available in Panama with @MasMovilPanama. For the first time, people and communities can stay connected via messaging apps, maps and SMS in places that previously had no cellphone signal 🛰️📱</p>
+<p class="quoted">Quoting @MasMovilPanama: 🇵🇦🛰️ La conectividad en Panamá llega más lejos. 
+ 
+Con +Más @Starlink , llevamos conectividad satelital directa al celular a zonas rurales, remotas y marítimas, ampliando las posibilidades de comunicación donde la cobertura móvil tradicional enfrenta mayores desafíos 📱🌊⛰️</p><p class="translation">In English: With Más Starlink, satellite-to-phone connectivity is reaching rural, remote, and maritime areas in Panama, helping people stay connected where regular mobile coverage is limited.</p>        </li>
+        <li id="p2">
+          <span class="at">[2] <a href="https://x.com/cb_doge/status/2100316870742364214">@cb_doge · 20:12 UTC</a>
+</span>
+          <p class="post-text">BREAKING: Ron Baron says SpaceX could be worth $15 trillion in 10 years, and Starlink alone could generate $1 trillion in annual revenue.
+
+“Starlink is the internet for the entire planet.”
+
+He predicts Starlink could reach 300M customers and use 100,000 satellites.</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Starship and launch costs</h3>
+<p class="why">Ron Baron said Starship could reduce launch costs to $100–$150 per kilogram, compared with $18,700 per kilogram in 2010. [<a href="https://x.com/cb_doge/status/2100323638197264475">3</a>] SpaceX presented Starship as a fully and rapidly reusable rocket designed to change access to space. [<a href="https://x.com/SpaceX/status/2100334792646549729">6</a>] A report said Flight 14 could launch as early as Tuesday, September 22, pending regulatory approval. [<a href="https://x.com/defense_civil25/status/2100364989827854833">9</a>]</p>      <ul class="posts">
+        <li id="p3">
+          <span class="at">[3] <a href="https://x.com/cb_doge/status/2100323638197264475">@cb_doge · 20:39 UTC</a>
+</span>
+          <p class="post-text">BREAKING: Ron Baron says SpaceX’s Starship could cut launch costs from $18,700 per kg in 2010 to just $100-$150.
+
+“They can get to space more cheaply than anyone else. The big enabler is our new rocket. It’s the largest ever of anything. That’s how come we get the cost so low.”</p>
+        </li>
+        <li id="p6">
+          <span class="at">[6] <a href="https://x.com/SpaceX/status/2100334792646549729">@SpaceX · 21:23 UTC</a>
+</span>
+          <p class="post-text">A fully and rapidly reusable rocket will fundamentally change how humanity accesses outer space. “The Holy Grail of Rocketry” continues the ongoing Starship series with a look back at the scrappy days of SpaceX engineers proving reuse was possible and takes you onboard a</p>
+        </li>
+        <li id="p9">
+          <span class="at">[9] <a href="https://x.com/defense_civil25/status/2100364989827854833">@defense_civil25 · 23:23 UTC</a>
+</span>
+          <p class="post-text">🚨Update: Starship is preparing to go to orbit. Flight 14 is targeting to launch as early as Tuesday, September 22, pending regulatory approval from the STARBASE in Boca Chica, Texas!</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Falcon 9 recognition</h3>
+<p class="why">Gwynne Shotwell said she was proud of the Falcon 9 landing team and the wider SpaceX team after the team received the first Neil Armstrong Space Prize. [<a href="https://x.com/Gwynne_Shotwell/status/2100333066417844697">5</a>]</p>      <ul class="posts">
+        <li id="p5">
+          <span class="at">[5] <a href="https://x.com/Gwynne_Shotwell/status/2100333066417844697">@Gwynne_Shotwell · 21:16 UTC</a>
+</span>
+          <p class="post-text">I’m so proud of  the entire Falcon 9 team (ok the whole SpaceX team)!   Landing a rocket (over 10 years ago) paved the way for Falcon to change the game on getting payloads to orbit.   Falcon 9 is a mostly reusable system that is far more reliable, far more economical and far</p>
+<p class="quoted">Quoting @BassonBrain: SpaceX&#39;s Falcon 9 Booster Landing Team awarded 1st-ever Neil Armstrong Space Prize! 🔥
+
+Purdue awards the prize to “those whose contributions to space in the preceding decade are deemed the most consequential for humanity,” according to the prize’s website.
+
+Falcon 9 was the</p>        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Grok marketing demonstration</h3>
+<p class="why">@joshkim said @SpaceXAI would show on September 17 how Grok can build complete marketing campaigns, including product audits, landing pages, and paid-campaign analysis. [<a href="https://x.com/joshkim/status/2100345926170911003">7</a>]</p>      <ul class="posts">
+        <li id="p7">
+          <span class="at">[7] <a href="https://x.com/joshkim/status/2100345926170911003">@joshkim · 22:07 UTC</a>
+</span>
+          <p class="post-text">I work on the Marketing team here at @SpaceXAI
+
+tomorrow, 9/17 at 2:30pm PT, I&#39;m going to show how we use Grok @bot to build end-to-end campaigns from scratch, including:
+
+• auditing a new product
+• shipping landing pages
+• building and analyzing paid campaigns
+
+register to</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Starship production</h3>
+<p class="why">A video showed Starship heat tiles being made from silica powder into finished thermal-protection tiles, with an automated process intended to support mass production. [<a href="https://x.com/FelixSchlang/status/2100373724771823781">10</a>]</p>      <ul class="posts">
+        <li id="p10">
+          <span class="at">[10] <a href="https://x.com/FelixSchlang/status/2100373724771823781">@FelixSchlang · 23:58 UTC</a>
+</span>
+          <p class="post-text">OMG... 🔥
+
+The journey of a SpaceX Starship heat tile from silica powder to a finished TPS (Thermal Protection System) tile.
+
+SpaceX needs new approaches for a mass-produced Starship fleet. The heat tile bakery is fully automated to keep up with demand.
+
+📸Video Credit: SpaceX</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Other</h3>
+      <ul class="posts">
+        <li id="p4">
+          <span class="at">[4] <a href="https://x.com/NASASpaceflight/status/2100327896514441234">@NASASpaceflight · 20:56 UTC</a>
+</span>
+          <p class="post-text">Test Flight or Operational Mission? - Starship Flight 14 - Countdown to Launch https://x.com/i/broadcasts/1OGwbnOpBgEKB</p>
+        </li>
+        <li id="p8">
+          <span class="at">[8] <a href="https://x.com/ThomasSowell/status/2100358820652544168">@ThomasSowell · 22:59 UTC</a>
+</span>
+          <p class="post-text">Elon Musk explains why SpaceX removed the landing legs from the Starship booster.
+
+Instead of carrying heavy recovery hardware into space, the booster will be caught by the launch tower when it returns.
+
+Legs add mass to every launch. The tower stays on the</p>
+        </li>
+      </ul>
+    </section>
+
+  <nav class="more">
+    <a href="/space-digest/tightbeam/spacex/">Every page from SpaceXAI</a>
+    <a href="/space-digest/tightbeam/">All of the Tightbeam</a>
+  </nav>
+  <footer>
+    <p>Summaries are written by a machine from the original words, and link
+       back to where they were said. Nothing here replaces the source.</p>
+    <p><a href="/space-digest/episodes/">Every episode</a> ·
+       <a href="/space-digest/archive/">Every issue</a> ·
+<a href="/space-digest/tightbeam/">Tightbeam</a> ·
+<a href="/space-digest/funny/">Funny bits</a> ·
+<a href="/space-digest/feed.xml">Subscribe by RSS</a></p>
+  </footer>
+</div>

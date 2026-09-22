@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tesla · X · 13 September 2026 · Space Digest</title>
+<link rel="alternate" type="application/rss+xml" title="Space Digest" href="/space-digest/feed.xml">
+<style>
+  :root { --ink:#1a1a1a; --soft:#5b5b5b; --line:#e2e0da; --paper:#fbfaf7; --mark:#7a3b2e; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e8e6e1; --soft:#a09c94; --line:#33312d; --paper:#161513; --mark:#d99b7c; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink);
+         font:17px/1.65 Charter, Georgia, "Iowan Old Style", serif;
+         -webkit-text-size-adjust:100%; }
+  .page { max-width:38rem; margin:0 auto; padding:2.5rem 1.25rem 5rem; }
+  a { color:inherit; text-decoration-color:var(--line); text-underline-offset:3px; }
+  a:hover { text-decoration-color:var(--mark); }
+  header.masthead { border-bottom:2px solid var(--ink); padding-bottom:.6rem; margin-bottom:1rem; }
+  nav.top { display:flex; flex-wrap:wrap; gap:.2rem 1.4rem; margin:0 0 2rem;
+            font-size:.78rem; letter-spacing:.09em; text-transform:uppercase; }
+  nav.top a { color:var(--soft); text-decoration:none; padding:.25rem 0;
+              border-bottom:2px solid transparent; }
+  nav.top a:hover { color:var(--ink); }
+  nav.top a.on { color:var(--ink); border-bottom-color:var(--mark); }
+  header.masthead a { text-decoration:none; }
+  .wordmark { font-size:1.5rem; font-weight:700; letter-spacing:-.02em; margin:0; }
+  .tagline { color:var(--soft); font-size:.85rem; margin:.15rem 0 0; }
+  h1 { font-size:1.6rem; line-height:1.25; letter-spacing:-.015em; margin:0 0 .3rem; }
+  h2 { font-size:1.15rem; margin:2.5rem 0 .4rem; }
+  .meta { color:var(--soft); font-size:.82rem; margin:0 0 1.6rem; }
+  .hook { font-size:1.2rem; line-height:1.45; margin:0 0 1.2rem; }
+  article.entry { border-bottom:1px solid var(--line); padding-bottom:2rem; margin-bottom:2rem; }
+  article.entry:last-of-type { border-bottom:0; }
+  ul.points { list-style:none; margin:1.1rem 0; padding:0; }
+  ul.points li { margin:0 0 .7rem; padding-left:1rem; text-indent:-1rem; }
+  .at { color:var(--soft); font-size:.8rem; white-space:nowrap; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }
+  blockquote { margin:1.4rem 0; padding-left:1rem; border-left:3px solid var(--mark);
+               font-size:1.05rem; }
+  blockquote p { margin:0; }
+  .for { color:var(--soft); font-style:italic; }
+  .standouts { background:color-mix(in srgb, var(--mark) 7%, transparent);
+               border-radius:.4rem; padding:1rem 1.1rem; margin:1.6rem 0; }
+  .standouts h3 { margin:0 0 .6rem; font-size:.78rem; letter-spacing:.09em;
+                  text-transform:uppercase; color:var(--soft); font-weight:700; }
+  .standouts ol { margin:0; padding-left:1.15rem; }
+  .standouts li { margin:0 0 .7rem; }
+  .standouts li:last-child { margin-bottom:0; }
+  .why { display:block; color:var(--soft); font-size:.85rem; margin-top:.15rem; }
+  nav.more { margin-top:3rem; padding-top:1.2rem; border-top:1px solid var(--line);
+             color:var(--soft); font-size:.88rem; }
+  nav.more a { margin-right:1rem; }
+  footer { margin-top:3.5rem; padding-top:1.2rem; border-top:1px solid var(--line);
+           color:var(--soft); font-size:.8rem; }
+  .quiet { color:var(--soft); font-size:1.05rem; }
+  .filters { margin:1.5rem 0 2rem; }
+  .filters input { width:100%; padding:.55rem .7rem; font:inherit; font-size:.95rem;
+                   color:var(--ink); background:var(--paper);
+                   border:1px solid var(--line); border-radius:.35rem; }
+  .filters input:focus { outline:2px solid var(--mark); outline-offset:1px; }
+  .chips { display:flex; flex-wrap:wrap; gap:.4rem; margin-top:.7rem; }
+  .chip { font:inherit; font-size:.85rem; padding:.3rem .7rem; cursor:pointer;
+          color:var(--soft); background:transparent;
+          border:1px solid var(--line); border-radius:1rem; }
+  .chip:hover { border-color:var(--mark); color:var(--ink); }
+  .chip.on { background:var(--ink); border-color:var(--ink); color:var(--paper); }
+  .chip.on .at { color:var(--paper); opacity:.7; }
+  ul.episodes { list-style:none; margin:0; padding:0; }
+  ul.episodes li { padding:.85rem 0; border-bottom:1px solid var(--line); }
+  ul.episodes li a { font-size:1.05rem; }
+  ul.episodes .at { display:block; margin-top:.15rem; }
+  ul.episodes .why { margin-top:.3rem; }
+  section.topic { margin:1.6rem 0; }
+  section.topic h3 { font-size:1rem; margin:0 0 .3rem; }
+  ul.posts { list-style:none; margin:.6rem 0 0; padding:0; }
+  ul.posts li { padding:.6rem 0 .6rem .9rem; border-left:2px solid var(--line); margin:0 0 .6rem; }
+  ul.posts .at a { text-decoration:none; }
+  .post-text { margin:.25rem 0 0; white-space:pre-line; }
+  .quoted { margin:.35rem 0 0; color:var(--soft); font-size:.9rem; white-space:pre-line; }
+  .translation { margin:.2rem 0 0; color:var(--soft); font-size:.9rem; font-style:italic;
+                 white-space:pre-line; }
+  /* Tightbeam: the same head on every beam page, so the kinds read as one. */
+  .eyebrow { margin:0 0 .35rem; font-size:.78rem; letter-spacing:.09em;
+             text-transform:uppercase; color:var(--soft); }
+  .eyebrow a { color:inherit; text-decoration:none; }
+  .eyebrow a:hover { color:var(--ink); }
+  .sep { margin:0 .4rem; color:var(--line); }
+  .badge { display:inline-block; margin-left:.5rem; padding:.05rem .45rem;
+           border:1px solid var(--mark); border-radius:1rem; color:var(--mark);
+           font-size:.68rem; letter-spacing:.08em; text-transform:uppercase;
+           vertical-align:.1em; white-space:nowrap; }
+  h1 .label, h2 .label { font-weight:400; color:var(--soft); }
+  .beam-card h2 { font-size:1.3rem; letter-spacing:-.01em; }
+  .numbers { margin:1.4rem 0; padding:.2rem 0 .2rem 1rem; border-left:3px solid var(--line); }
+  .numbers p { margin:.35rem 0; }
+  .numbers .fig { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; color:var(--mark); }
+  .points-src { display:block; color:var(--soft); font-size:.72rem; letter-spacing:.08em;
+                text-transform:uppercase; margin-top:.15rem; }
+  a.button { display:inline-block; margin:.6rem 0 0; padding:.45rem .9rem;
+             border:1px solid var(--mark); border-radius:.3rem; color:var(--mark);
+             text-decoration:none; font-size:.92rem; }
+  a.button:hover { background:var(--mark); color:var(--paper); }
+  .archive { color:var(--mark); }
+  .done { display:none; }
+  .by-done .done { display:inline; color:var(--mark); }
+  .chips + .chips { margin-top:.5rem; }
+  ol.bits { margin:1.1rem 0 0; padding-left:1.3rem; }
+  ol.bits li { margin:0 0 1.1rem; }
+  ol.bits .said { font-size:1.05rem; }
+  ol.bits .at a { text-decoration:none; border-bottom:1px dotted var(--soft); }
+</style>
+<body>
+<div class="page">
+  <header class="masthead">
+    <a href="/space-digest/"><p class="wordmark">Space Digest</p></a>
+    <p class="tagline">The podcasts worth your week, in a minute each.</p>
+  </header>
+  <nav class="top" aria-label="Sections">
+    <a href="/space-digest/">Today</a>
+    <a href="/space-digest/episodes/">Episodes</a>
+    <a href="/space-digest/archive/">Issues</a>
+<a href="/space-digest/tightbeam/" class="on">Tightbeam</a>
+<a href="/space-digest/funny/">Funny bits</a>
+<a href="/space-digest/feed.xml">RSS</a>
+  </nav>
+  <p class="eyebrow">
+<a href="/space-digest/tightbeam/tesla/">Tesla</a>  <span class="badge badge-x">X</span>
+</p>
+
+  <h1>Sunday 13 September 2026</h1>
+  <p class="meta">12 Sep 12:00 to 13 Sep 12:00 UTC ·
+13 posts, every one checked against X · 3 checks</p>
+
+    <p class="hook">Tesla’s biggest news was a teased October 1 Roadster unveiling, alongside Cybercab and Robotaxi updates.</p>
+    <p>Tesla teased its next-generation Roadster with an October 1 date and the words “Where we’re going...” [<a href="https://x.com/Tesla/status/2098843535730725124">2</a>, <a href="https://x.com/teslaownersSV/status/2098866767036883073">8</a>] Tesla also said “Go for launch,” while one post reported that reservation holders received emails naming Waco, Texas. [<a href="https://x.com/Tesla/status/2098843535730725124">2</a>, <a href="https://x.com/teslaownersSV/status/2098866767036883073">8</a>]</p>
+    <p>Posts described Cybercab as launched and reported more than 1 million unsupervised Robotaxi miles across six U.S. cities. [<a href="https://x.com/herbertong/status/2098844844672295182">3</a>, <a href="https://x.com/wholemars/status/2098864846595064002">7</a>] A video of a gold Tesla taxi driving without anyone behind the wheel drew attention, and another post said Cybercab is available only through the Robotaxi App. [<a href="https://x.com/SawyerMerritt/status/2098917535340961953">11</a>, <a href="https://x.com/EricETesla/status/2098918875425575061">12</a>]</p>
+    <blockquote><p>“Go for launch”
+<a class="at" href="https://x.com/Tesla/status/2098843535730725124">[2]</a></p></blockquote>
+
+    <h2>The posts</h2>
+    <section class="topic">
+      <h3>Roadster unveiling</h3>
+<p class="why">Tesla teased the next-generation Roadster for October 1, with reservation-holder emails naming Waco, Texas. [<a href="https://x.com/Tesla/status/2098843535730725124">2</a>, <a href="https://x.com/teslaownersSV/status/2098866767036883073">8</a>]</p>      <ul class="posts">
+        <li id="p2">
+          <span class="at">[2] <a href="https://x.com/Tesla/status/2098843535730725124">@Tesla · 18:37 UTC</a>
+</span>
+          <p class="post-text">Go for launch</p>
+        </li>
+        <li id="p8">
+          <span class="at">[8] <a href="https://x.com/teslaownersSV/status/2098866767036883073">@teslaownersSV · 20:10 UTC</a>
+</span>
+          <p class="post-text">Details on the Tesla Roadster unveil. 
+
+Reservation holders are getting emails. 
+
+10/1 Waco Texas.</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Cybercab and Robotaxi</h3>
+<p class="why">Tesla was described as having launched Cybercab, while Robotaxi was reported to have passed 1 million unsupervised miles across six U.S. cities. [<a href="https://x.com/herbertong/status/2098844844672295182">3</a>, <a href="https://x.com/wholemars/status/2098864846595064002">7</a>] Posts also highlighted a gold driverless taxi and said Cybercab is available only through the Robotaxi App. [<a href="https://x.com/SawyerMerritt/status/2098917535340961953">11</a>, <a href="https://x.com/EricETesla/status/2098918875425575061">12</a>]</p>      <ul class="posts">
+        <li id="p3">
+          <span class="at">[3] <a href="https://x.com/herbertong/status/2098844844672295182">@herbertong · 18:43 UTC</a>
+</span>
+          <p class="post-text">🚨 Tesla had a ridiculously busy week, and @robotaxi was probably the biggest story!
+
+Tesla crossed 1 million unsupervised Robotaxi miles, up from just 380K at the Q2 call, with roughly 200 vehicles now running across six U.S. cities.
+
+Cybercab pricing in Austin is already</p>
+        </li>
+        <li id="p7">
+          <span class="at">[7] <a href="https://x.com/wholemars/status/2098864846595064002">@wholemars · 20:02 UTC</a>
+</span>
+          <p class="post-text">I’ve never seen Tesla execute like this before. 
+
+Cybercab is launched, Roadster is getting unveiled, Semi is starting volume production… 
+
+All very different vehicles, but each exceptional in their own way. 2026 is the start of a new era for Tesla.</p>
+        </li>
+        <li id="p11">
+          <span class="at">[11] <a href="https://x.com/SawyerMerritt/status/2098917535340961953">@SawyerMerritt · 23:31 UTC</a>
+</span>
+          <p class="post-text">IShowSpeed has 175 million followers across all platforms. Millions of people watched this livestream today, which means he likely just introduced the Cybercab to millions of people for the first time. Dude was mindblown there was no steering wheel and it was driving itself lol.</p>
+<p class="quoted">Quoting @IShowSpeedHQ: 🚨| WATCH: Speed can’t BELIEVE he just spotted a GOLD Tesla taxi driving around Texas with NO ONE behind the wheel 👀🤯</p>        </li>
+        <li id="p12">
+          <span class="at">[12] <a href="https://x.com/EricETesla/status/2098918875425575061">@EricETesla · 23:37 UTC</a>
+</span>
+          <p class="post-text">Cybercab exclusively on Robotaxi App</p>
+<p class="quoted">Quoting @IShowSpeedHQ: 🚨| WATCH: Speed can’t BELIEVE he just spotted a GOLD Tesla taxi driving around Texas with NO ONE behind the wheel 👀🤯</p>        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Tesla’s wider product activity</h3>
+<p class="why">One post listed Cybercab, Robotaxi, the Roadster, Semi volume production, a $16.8 billion Terafab, Megapack 3 production, Model Y L, and Optimus among Tesla’s 2026 developments. [<a href="https://x.com/BenWilkins1217/status/2098860616198893799">5</a>, <a href="https://x.com/niccruzpatane/status/2098870390302945489">9</a>]</p>      <ul class="posts">
+        <li id="p5">
+          <span class="at">[5] <a href="https://x.com/BenWilkins1217/status/2098860616198893799">@BenWilkins1217 · 19:45 UTC</a>
+· replying to @Tesla</span>
+          <p class="post-text">in 2026 so far 🚀⚡️:
+
+• Cybercab launches in Austin
+• Robotaxi reaches 6 U.S. cities
+• Next-Gen Roadster launch set for 10/1
+• Semi rollout set for 9/24
+• $16.8B Terafab announced 
+• Megapack 3 production starts
+• 1 million Unsupervised FSD miles
+
+What a year 👏🏻.</p>
+        </li>
+        <li id="p9">
+          <span class="at">[9] <a href="https://x.com/niccruzpatane/status/2098870390302945489">@niccruzpatane · 20:24 UTC</a>
+</span>
+          <p class="post-text">Tesla is ON FIRE right now. 
+
+• Launched Paid Robotaxi Service 15 months ago. 
+• Launched Cybercab, the first mass-produced vehicle with no steering wheel or pedals
+• Next-Gen Tesla Roadster Go For Launch on October 1st
+• Launched Model Y L in China, and the U.S. 
+• Optimus</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Optimus</h3>
+<p class="why">A tracking post said the Optimus and Optimus academy folders had grown to 285 unique entries, including three new entries that day. [<a href="https://x.com/arthur_win8/status/2098754775776895060">1</a>] Another post called Optimus Tesla’s “biggest product ever” and said it is coming soon. [<a href="https://x.com/Optimus_RH/status/2098921928366911979">13</a>]</p>      <ul class="posts">
+        <li id="p1">
+          <span class="at">[1] <a href="https://x.com/arthur_win8/status/2098754775776895060">@arthur_win8 · 12:45 UTC</a>
+</span>
+          <p class="post-text">TESLA OPTIMUS
+Updated 2026-09-12
+Sources: Tesla Optimus + Optimus academy bookmark folders (285 unique). Not Digital Optimus.
+
+NEW TODAY
+- Folder grew to 285 unique (Optimus 282 + academy 3, overlap 0). 3 new vs yesterday (282).
+- Testers (Optimus (Optimus_RH)): Elon: Optimus</p>
+        </li>
+        <li id="p13">
+          <span class="at">[13] <a href="https://x.com/Optimus_RH/status/2098921928366911979">@Optimus_RH · 23:49 UTC</a>
+</span>
+          <p class="post-text">How it feels being a $TSLA investor after seeing the successful Cybercab launch, Roadster coming soon, and the biggest product ever, Optimus, also coming soon
+
+Never bet against Elon Musk</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Other</h3>
+      <ul class="posts">
+        <li id="p4">
+          <span class="at">[4] <a href="https://x.com/cb_doge/status/2098859781079576962">@cb_doge · 19:42 UTC</a>
+</span>
+          <p class="post-text">Elon Musk on the Tesla Roadster unveil:
+
+“I guarantee this demo will be unforgettable. Peter Thiel said the future was supposed to have flying cars, but we don’t. I think if Peter wants a flying car, he should be able to buy one. It may be the most memorable product unveil ever.”</p>
+<p class="quoted">Quoting @joerogan: Let’s fucking goooooo!  3+ hours with the great rocket man @elonmusk 
+
+https://open.spotify.com/episode/6vBr2kDnmrUu17xdiRVbXR?si=6UIZOyjgQ6GXOKZInC2n0g</p>        </li>
+        <li id="p6">
+          <span class="at">[6] <a href="https://x.com/jeremiahjones/status/2098861015752380711">@jeremiahjones · 19:47 UTC</a>
+</span>
+          <p class="post-text">My roadster predictions
+
+Range: ~300 miles
+0-60: 1-1.5 seconds
+60-130: 3 seconds
+1/4: Low 8s (I’m personally hoping for 7s)
+
+Price: $200k+ From my understanding there will be 3 trims. Base tri motor, quad motor, quad with spacex pack but ig we’ll see soon enough</p>
+<p class="quoted">Quoting @Tesla: Go for launch</p>        </li>
+        <li id="p10">
+          <span class="at">[10] <a href="https://x.com/cb_doge/status/2098892857591611606">@cb_doge · 21:53 UTC</a>
+</span>
+          <p class="post-text">Technically, Elon Musk’s original Tesla Roadster is still flying through space right now.</p>
+        </li>
+      </ul>
+    </section>
+
+  <nav class="more">
+    <a href="/space-digest/tightbeam/tesla/">Every page from Tesla</a>
+    <a href="/space-digest/tightbeam/">All of the Tightbeam</a>
+  </nav>
+  <footer>
+    <p>Summaries are written by a machine from the original words, and link
+       back to where they were said. Nothing here replaces the source.</p>
+    <p><a href="/space-digest/episodes/">Every episode</a> ·
+       <a href="/space-digest/archive/">Every issue</a> ·
+<a href="/space-digest/tightbeam/">Tightbeam</a> ·
+<a href="/space-digest/funny/">Funny bits</a> ·
+<a href="/space-digest/feed.xml">Subscribe by RSS</a></p>
+  </footer>
+</div>
