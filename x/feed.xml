@@ -4,8 +4,29 @@
   <title>Space Digest — X digests</title>
   <link>https://thespacenavy.github.io/space-digest/x/</link>
   <description>What each account said on X in the last day, one page per day.</description>
-  <lastBuildDate>Tue, 22 Sep 2026 06:02:31 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 22 Sep 2026 12:03:51 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/x/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Tesla on X · 22 September 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/x/tesla/2026-09-22/</link>
+    <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/x/tesla/2026-09-22/</guid>
+    <pubDate>Tue, 22 Sep 2026 12:01:59 +0000</pubDate>
+    <description>Tesla’s biggest updates involved Optimus production, sold-out U.S. models, FSD features, and Megapack approval for AI factories.</description>
+  </item>
+  <item>
+    <title>SpaceXAI on X · 22 September 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/x/spacex/2026-09-22/</link>
+    <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/x/spacex/2026-09-22/</guid>
+    <pubDate>Tue, 22 Sep 2026 12:03:48 +0000</pubDate>
+    <description>Starship Flight 14 moved toward its first orbital launch with operational Starlink V3 satellites, while Grok 4.7 launched.</description>
+  </item>
+  <item>
+    <title>Elon Musk on X · 22 September 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/x/elonmusk/2026-09-22/</link>
+    <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/x/elonmusk/2026-09-22/</guid>
+    <pubDate>Tue, 22 Sep 2026 12:00:44 +0000</pubDate>
+    <description>Elon Musk highlighted Starship’s upcoming launch and Grok 4.7’s capabilities.</description>
+  </item>
   <item>
     <title>Tesla on X · 21 September 2026</title>
     <link>https://thespacenavy.github.io/space-digest/x/tesla/2026-09-21/</link>
