@@ -96,6 +96,14 @@
   .numbers .fig { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; color:var(--mark); }
   .points-src { display:block; color:var(--soft); font-size:.72rem; letter-spacing:.08em;
                 text-transform:uppercase; margin-top:.15rem; }
+  .strip { margin:0 0 2.2rem; padding:.9rem 0 .2rem; border-top:1px solid var(--line);
+           border-bottom:1px solid var(--line); }
+  .strip h2 { margin:0 0 .5rem; font-size:.78rem; letter-spacing:.09em;
+              text-transform:uppercase; color:var(--soft); }
+  .strip ul { list-style:none; margin:0 0 .7rem; padding:0; }
+  .strip li { margin:0 0 .55rem; }
+  .strip .who { display:block; font-size:.82rem; color:var(--soft); }
+  .strip a { font-size:.98rem; }
   a.button { display:inline-block; margin:.6rem 0 0; padding:.45rem .9rem;
              border:1px solid var(--mark); border-radius:.3rem; color:var(--mark);
              text-decoration:none; font-size:.92rem; }
@@ -126,6 +134,18 @@
   <h1>Monday 14 September 2026</h1>
   <p class="meta">4
      episodes</p>
+
+  <div class="strip">
+    <h2>On the Tightbeam</h2>
+    <ul>
+      <li><span class="who">Elon Musk<span class="badge badge-x">X</span></span>
+          <a href="/space-digest/tightbeam/elonmusk/2026-09-14/">Elon Musk endorsed gaming, AI, Tesla, SpaceX, and a live Grok Bot product-building event.</a></li>
+      <li><span class="who">Tesla<span class="badge badge-x">X</span></span>
+          <a href="/space-digest/tightbeam/tesla/2026-09-14/">Tesla highlighted a new Roadster date, Cybertruck charging gains, safety results, and possible investment in India.</a></li>
+      <li><span class="who">SpaceXAI<span class="badge badge-x">X</span></span>
+          <a href="/space-digest/tightbeam/spacex/2026-09-14/">SpaceX marked Falcon’s 700th mission while posts highlighted possible space-based AI computers and Starlink’s reach.</a></li>
+    </ul>
+  </div>
       <div class="filters" id="filters" hidden>
     <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
            aria-label="Search episode titles">
