@@ -5,7 +5,7 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 23 Sep 2026 00:02:35 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 04:28:04 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Why a16z is Building a New School for the AI Era | Ben Horowitz</title>
@@ -13,6 +13,20 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260922-why-a16z-is-building-a-new-school-for-the-ai-era-ben/</guid>
       <pubDate>Tue, 22 Sep 2026 16:22:09 +0000</pubDate>
       <description>The AI era may make hands-on building, not college lectures, the fastest route to useful skills.</description>
+    </item>
+    <item>
+      <title>Agent Wars!</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260922-agent-wars/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260922-agent-wars/</guid>
+      <pubDate>Wed, 23 Sep 2026 04:26:37 +0000</pubDate>
+      <description>Meta’s Muse has made personal agents mainstream, forcing platforms to choose between welcoming them and protecting their own businesses.</description>
+    </item>
+    <item>
+      <title>#2556 - Siddharth Kara</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260922-2556-siddharth-kara/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260922-2556-siddharth-kara/</guid>
+      <pubDate>Wed, 23 Sep 2026 04:24:26 +0000</pubDate>
+      <description>The clean-tech race is tied to slavery, while past abolition shows how change can still win.</description>
     </item>
     <item>
       <title>Yes, The Internet is Killing Islam (GodLogic) | Ep. 597</title>
@@ -342,20 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-optimalwork-podcast/20260907-rebroadcast-professional-humility-iv-stonewalling/</guid>
       <pubDate>Wed, 09 Sep 2026 11:22:56 +0000</pubDate>
       <description>Stonewalling feels protective, but cutting people off makes us less safe and less able to grow.</description>
-    </item>
-    <item>
-      <title>Can Open Source Keep AI Power From Concentrating?</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260907-can-open-source-keep-ai-power-from-concentrating/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260907-can-open-source-keep-ai-power-from-concentrating/</guid>
-      <pubDate>Fri, 11 Sep 2026 00:23:01 +0000</pubDate>
-      <description>Today’s AI power gap may be a temporary technology choice—not a permanent law of artificial intelligence.</description>
-    </item>
-    <item>
-      <title>Air Force Veterans Abducted By Aliens Reunite After 50 Years [EMOTIONAL]</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/american-alchemy-with-jesse-michels/20260907-air-force-veterans-abducted-by-aliens-reunite-after-50-years/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/american-alchemy-with-jesse-michels/20260907-air-force-veterans-abducted-by-aliens-reunite-after-50-years/</guid>
-      <pubDate>Wed, 09 Sep 2026 00:02:09 +0000</pubDate>
-      <description>Two Air Force veterans reunite after 50 years and recover a story of missing time, strange beings, and alleged government interference.</description>
     </item>
   </channel>
 </rss>
