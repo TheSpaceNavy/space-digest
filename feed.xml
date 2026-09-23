@@ -5,8 +5,22 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 23 Sep 2026 18:02:16 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 23:31:19 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Shawn Ryan&#39;s Everyday Carry: 2026 Edition</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260923-shawn-ryans-everyday-carry-2026-edition/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260923-shawn-ryans-everyday-carry-2026-edition/</guid>
+      <pubDate>Wed, 23 Sep 2026 23:30:58 +0000</pubDate>
+      <description>His everyday carry blends sobriety tokens, emergency currency, privacy tools, medical gear, and a new pistol.</description>
+    </item>
+    <item>
+      <title>Amjad Masad on Rethinking College for the AI Era</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260923-amjad-masad-on-rethinking-college-for-the-ai-era/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260923-amjad-masad-on-rethinking-college-for-the-ai-era/</guid>
+      <pubDate>Wed, 23 Sep 2026 23:30:15 +0000</pubDate>
+      <description>College may matter less as a credential than as protected time to explore, build, and become useful.</description>
+    </item>
     <item>
       <title>Why a16z is Building a New School for the AI Era | Ben Horowitz</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260922-why-a16z-is-building-a-new-school-for-the-ai-era-ben/</link>
@@ -342,20 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260907-you-are-not-data-christopher-west-on-ai-and-the-soul-ep-595/</guid>
       <pubDate>Tue, 08 Sep 2026 01:57:59 +0000</pubDate>
       <description>AI may be powerful, but the episode argues that treating humans like machines destroys what makes love, bodies, and relationships human.</description>
-    </item>
-    <item>
-      <title>The Multiplayer AI Sprint: Build Your Team’s First Shared Agent</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260907-the-multiplayer-ai-sprint-build-your-teams-first-shared/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260907-the-multiplayer-ai-sprint-build-your-teams-first-shared/</guid>
-      <pubDate>Wed, 09 Sep 2026 02:03:45 +0000</pubDate>
-      <description>AI agents are moving from private helpers to shared teammates that can work inside the spaces teams already use.</description>
-    </item>
-    <item>
-      <title>[Rebroadcast] Professional Humility IV: Stonewalling</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-optimalwork-podcast/20260907-rebroadcast-professional-humility-iv-stonewalling/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-optimalwork-podcast/20260907-rebroadcast-professional-humility-iv-stonewalling/</guid>
-      <pubDate>Wed, 09 Sep 2026 11:22:56 +0000</pubDate>
-      <description>Stonewalling feels protective, but cutting people off makes us less safe and less able to grow.</description>
     </item>
   </channel>
 </rss>
