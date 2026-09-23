@@ -4,8 +4,15 @@
   <title>Space Digest — Just The Funny Bits</title>
   <link>https://thespacenavy.github.io/space-digest/funny/</link>
   <description>Only the jokes from the shows on the list, with a link to each one.</description>
-  <lastBuildDate>Wed, 23 Sep 2026 16:26:45 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 23 Sep 2026 16:46:35 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/funny/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>The White House: President Trump Delivers Remarks, Sep. 22, 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/funny/2026-09-23/</link>
+    <guid isPermaLink="false">funny:the-white-house/20260922-president-trump-delivers-remarks-sep-22-2026</guid>
+    <pubDate>Wed, 23 Sep 2026 16:46:09 +0000</pubDate>
+    <description>1 funny bit: “The only thing that isn&#39;t gone is inflation, which is destroying their country and is now well over 300 percent.”</description>
+  </item>
   <item>
     <title>The Michael Knowles Show: Ep. 2065 - How They Legally Killed An 83-Year-Old Grandmother</title>
     <link>https://thespacenavy.github.io/space-digest/funny/2026-09-22/</link>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">funny:the-joe-rogan-experience/20260902-jre-mma-show-185-with-ethyn-ewing</guid>
     <pubDate>Mon, 21 Sep 2026 16:03:37 +0000</pubDate>
     <description>2 funny bits: “I was doing uh food eating championship training. was killing uh double doubles and 3x3s.”</description>
-  </item>
-  <item>
-    <title>The Michael Knowles Show: Ep. 2051 - Lindsay Clancy Verdict in Jeopardy After Jury Deadlock</title>
-    <link>https://thespacenavy.github.io/space-digest/funny/2026-09-12/</link>
-    <guid isPermaLink="false">funny:the-michael-knowles-show/20260902-ep-2051-lindsay-clancy-verdict-in-jeopardy-after-jury</guid>
-    <pubDate>Sat, 12 Sep 2026 12:12:50 +0000</pubDate>
-    <description>2 funny bits: “When you&#39;re renting, the water heater breaks, you call somebody. When you own the house, the water heater breaks, you call yourself. Congratulations, you&#39;re a homeowner. Isn&#39;t that so great?”</description>
   </item>
 </channel>
 </rss>
