@@ -4,8 +4,29 @@
   <title>Space Digest — Tightbeam</title>
   <link>https://thespacenavy.github.io/space-digest/tightbeam/</link>
   <description>A narrow beam on each person and subject worth following.</description>
-  <lastBuildDate>Wed, 23 Sep 2026 06:02:01 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 23 Sep 2026 12:03:17 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/tightbeam/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>SpaceXAI · 23 September 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/tightbeam/spacex/2026-09-23/</link>
+    <guid isPermaLink="false">tightbeam:spacex/2026-09-23</guid>
+    <pubDate>Wed, 23 Sep 2026 12:03:14 +0000</pubDate>
+    <description>Starship preparations, Grok updates, Starlink education work, and a Crew-13 launch date led the day.</description>
+  </item>
+  <item>
+    <title>Tesla · 23 September 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/tightbeam/tesla/2026-09-23/</link>
+    <guid isPermaLink="false">tightbeam:tesla/2026-09-23</guid>
+    <pubDate>Wed, 23 Sep 2026 12:02:22 +0000</pubDate>
+    <description>Tesla’s biggest news was a 2,500-truck order, alongside updates on Optimus, Cybercab, FSD, and the next Roadster.</description>
+  </item>
+  <item>
+    <title>Elon Musk · 23 September 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-09-23/</link>
+    <guid isPermaLink="false">tightbeam:elonmusk/2026-09-23</guid>
+    <pubDate>Wed, 23 Sep 2026 12:01:14 +0000</pubDate>
+    <description>Elon Musk discussed AI progress, Tesla’s Grok features, space settlement, and other technology topics.</description>
+  </item>
   <item>
     <title>Peter Diamandis · The Two-Hour School Day</title>
     <link>https://thespacenavy.github.io/space-digest/tightbeam/diamandis/2026-09-21-the-two-hour-school-day/</link>

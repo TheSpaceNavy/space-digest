@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SpaceXAI · X · 23 September 2026 · Space Digest</title>
+<link rel="alternate" type="application/rss+xml" title="Space Digest" href="/space-digest/feed.xml">
+<style>
+  :root { --ink:#1a1a1a; --soft:#5b5b5b; --line:#e2e0da; --paper:#fbfaf7; --mark:#7a3b2e; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e8e6e1; --soft:#a09c94; --line:#33312d; --paper:#161513; --mark:#d99b7c; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink);
+         font:17px/1.65 Charter, Georgia, "Iowan Old Style", serif;
+         -webkit-text-size-adjust:100%; }
+  .page { max-width:38rem; margin:0 auto; padding:2.5rem 1.25rem 5rem; }
+  a { color:inherit; text-decoration-color:var(--line); text-underline-offset:3px; }
+  a:hover { text-decoration-color:var(--mark); }
+  header.masthead { border-bottom:2px solid var(--ink); padding-bottom:.6rem; margin-bottom:1rem; }
+  nav.top { display:flex; flex-wrap:wrap; gap:.2rem 1.4rem; margin:0 0 2rem;
+            font-size:.78rem; letter-spacing:.09em; text-transform:uppercase; }
+  nav.top a { color:var(--soft); text-decoration:none; padding:.25rem 0;
+              border-bottom:2px solid transparent; }
+  nav.top a:hover { color:var(--ink); }
+  nav.top a.on { color:var(--ink); border-bottom-color:var(--mark); }
+  header.masthead a { text-decoration:none; }
+  .wordmark { font-size:1.5rem; font-weight:700; letter-spacing:-.02em; margin:0; }
+  .tagline { color:var(--soft); font-size:.85rem; margin:.15rem 0 0; }
+  h1 { font-size:1.6rem; line-height:1.25; letter-spacing:-.015em; margin:0 0 .3rem; }
+  h2 { font-size:1.15rem; margin:2.5rem 0 .4rem; }
+  .meta { color:var(--soft); font-size:.82rem; margin:0 0 1.6rem; }
+  .hook { font-size:1.2rem; line-height:1.45; margin:0 0 1.2rem; }
+  article.entry { border-bottom:1px solid var(--line); padding-bottom:2rem; margin-bottom:2rem; }
+  article.entry:last-of-type { border-bottom:0; }
+  ul.points { list-style:none; margin:1.1rem 0; padding:0; }
+  ul.points li { margin:0 0 .7rem; padding-left:1rem; text-indent:-1rem; }
+  .at { color:var(--soft); font-size:.8rem; white-space:nowrap; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }
+  blockquote { margin:1.4rem 0; padding-left:1rem; border-left:3px solid var(--mark);
+               font-size:1.05rem; }
+  blockquote p { margin:0; }
+  .for { color:var(--soft); font-style:italic; }
+  .standouts { background:color-mix(in srgb, var(--mark) 7%, transparent);
+               border-radius:.4rem; padding:1rem 1.1rem; margin:1.6rem 0; }
+  .standouts h3 { margin:0 0 .6rem; font-size:.78rem; letter-spacing:.09em;
+                  text-transform:uppercase; color:var(--soft); font-weight:700; }
+  .standouts ol { margin:0; padding-left:1.15rem; }
+  .standouts li { margin:0 0 .7rem; }
+  .standouts li:last-child { margin-bottom:0; }
+  .why { display:block; color:var(--soft); font-size:.85rem; margin-top:.15rem; }
+  nav.more { margin-top:3rem; padding-top:1.2rem; border-top:1px solid var(--line);
+             color:var(--soft); font-size:.88rem; }
+  nav.more a { margin-right:1rem; }
+  footer { margin-top:3.5rem; padding-top:1.2rem; border-top:1px solid var(--line);
+           color:var(--soft); font-size:.8rem; }
+  .quiet { color:var(--soft); font-size:1.05rem; }
+  .filters { margin:1.5rem 0 2rem; }
+  .filters input { width:100%; padding:.55rem .7rem; font:inherit; font-size:.95rem;
+                   color:var(--ink); background:var(--paper);
+                   border:1px solid var(--line); border-radius:.35rem; }
+  .filters input:focus { outline:2px solid var(--mark); outline-offset:1px; }
+  .chips { display:flex; flex-wrap:wrap; gap:.4rem; margin-top:.7rem; }
+  .chip { font:inherit; font-size:.85rem; padding:.3rem .7rem; cursor:pointer;
+          color:var(--soft); background:transparent;
+          border:1px solid var(--line); border-radius:1rem; }
+  .chip:hover { border-color:var(--mark); color:var(--ink); }
+  .chip.on { background:var(--ink); border-color:var(--ink); color:var(--paper); }
+  .chip.on .at { color:var(--paper); opacity:.7; }
+  ul.episodes { list-style:none; margin:0; padding:0; }
+  ul.episodes li { padding:.85rem 0; border-bottom:1px solid var(--line); }
+  ul.episodes li a { font-size:1.05rem; }
+  ul.episodes .at { display:block; margin-top:.15rem; }
+  ul.episodes .why { margin-top:.3rem; }
+  section.topic { margin:1.6rem 0; }
+  section.topic h3 { font-size:1rem; margin:0 0 .3rem; }
+  ul.posts { list-style:none; margin:.6rem 0 0; padding:0; }
+  ul.posts li { padding:.6rem 0 .6rem .9rem; border-left:2px solid var(--line); margin:0 0 .6rem; }
+  ul.posts .at a { text-decoration:none; }
+  .post-text { margin:.25rem 0 0; white-space:pre-line; }
+  .quoted { margin:.35rem 0 0; color:var(--soft); font-size:.9rem; white-space:pre-line; }
+  .translation { margin:.2rem 0 0; color:var(--soft); font-size:.9rem; font-style:italic;
+                 white-space:pre-line; }
+  /* Tightbeam: the same head on every beam page, so the kinds read as one. */
+  .eyebrow { margin:0 0 .35rem; font-size:.78rem; letter-spacing:.09em;
+             text-transform:uppercase; color:var(--soft); }
+  .eyebrow a { color:inherit; text-decoration:none; }
+  .eyebrow a:hover { color:var(--ink); }
+  .sep { margin:0 .4rem; color:var(--line); }
+  .badge { display:inline-block; margin-left:.5rem; padding:.05rem .45rem;
+           border:1px solid var(--mark); border-radius:1rem; color:var(--mark);
+           font-size:.68rem; letter-spacing:.08em; text-transform:uppercase;
+           vertical-align:.1em; white-space:nowrap; }
+  h1 .label, h2 .label { font-weight:400; color:var(--soft); }
+  .beam-card h2 { font-size:1.3rem; letter-spacing:-.01em; }
+  .numbers { margin:1.4rem 0; padding:.2rem 0 .2rem 1rem; border-left:3px solid var(--line); }
+  .numbers p { margin:.35rem 0; }
+  .numbers .fig { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; color:var(--mark); }
+  .points-src { display:block; color:var(--soft); font-size:.72rem; letter-spacing:.08em;
+                text-transform:uppercase; margin-top:.15rem; }
+  .strip { margin:0 0 2.2rem; padding:.9rem 0 .2rem; border-top:1px solid var(--line);
+           border-bottom:1px solid var(--line); }
+  .strip h2 { margin:0 0 .5rem; font-size:.78rem; letter-spacing:.09em;
+              text-transform:uppercase; color:var(--soft); }
+  .strip ul { list-style:none; margin:0 0 .7rem; padding:0; }
+  .strip li { margin:0 0 .55rem; }
+  .strip .who { display:block; font-size:.82rem; color:var(--soft); }
+  .strip a { font-size:.98rem; }
+  a.button { display:inline-block; margin:.6rem 0 0; padding:.45rem .9rem;
+             border:1px solid var(--mark); border-radius:.3rem; color:var(--mark);
+             text-decoration:none; font-size:.92rem; }
+  a.button:hover { background:var(--mark); color:var(--paper); }
+  .archive { color:var(--mark); }
+  .done { display:none; }
+  .by-done .done { display:inline; color:var(--mark); }
+  .chips + .chips { margin-top:.5rem; }
+  ol.bits { margin:1.1rem 0 0; padding-left:1.3rem; }
+  ol.bits li { margin:0 0 1.1rem; }
+  ol.bits .said { font-size:1.05rem; }
+  ol.bits .at a { text-decoration:none; border-bottom:1px dotted var(--soft); }
+</style>
+<body>
+<div class="page">
+  <header class="masthead">
+    <a href="/space-digest/"><p class="wordmark">Space Digest</p></a>
+    <p class="tagline">The podcasts worth your week, in a minute each.</p>
+  </header>
+  <nav class="top" aria-label="Sections">
+    <a href="/space-digest/">Today</a>
+    <a href="/space-digest/episodes/">Episodes</a>
+    <a href="/space-digest/archive/">Issues</a>
+<a href="/space-digest/tightbeam/" class="on">Tightbeam</a>
+<a href="/space-digest/funny/">Funny bits</a>
+<a href="/space-digest/feed.xml">RSS</a>
+  </nav>
+  <p class="eyebrow">
+<a href="/space-digest/tightbeam/spacex/">SpaceXAI</a>  <span class="badge badge-x">X</span>
+</p>
+
+  <h1>Wednesday 23 September 2026</h1>
+  <p class="meta">22 Sep 12:00 to 23 Sep 12:00 UTC ·
+11 posts, every one checked against X · 5 checks</p>
+
+    <p class="hook">Starship preparations, Grok updates, Starlink education work, and a Crew-13 launch date led the day.</p>
+    <p>The Federal Aviation Administration posted a notice for a Starship launch rehearsal as soon as September 23. Another post said Flight 14 could happen as soon as Monday and would be Starship’s first operational orbital flight. [<a href="https://x.com/StarshipGazer/status/2102430876219191471">1</a>, <a href="https://x.com/AJamesMcCarthy/status/2102511675354312816">5</a>]</p>
+    <p>Grok Build added Grok 4.7, improved recovery and navigation, and new controls. Grok Bot also passed 400,000 users in its first month. [<a href="https://x.com/cb_doge/status/2102448328638382234">2</a>, <a href="https://x.com/Kalshi/status/2102525850155663737">7</a>] SpaceX and NASA targeted October 1 for Crew-13’s launch to the International Space Station. [<a href="https://x.com/SpaceX/status/2102524630019768625">6</a>]</p>
+    <p>Starlink said it helped rural schools in Argentina get reliable internet, including video calls from classrooms. Another post described education projects in Uganda and elsewhere. [<a href="https://x.com/Starlink/status/2102530379521634744">9</a>, <a href="https://x.com/XFreeze/status/2102543695388049472">10</a>]</p>
+    <blockquote><p>&#34;Starlink is becoming a global education infrastructure layer&#34;
+<a class="at" href="https://x.com/XFreeze/status/2102543695388049472">[10]</a></p></blockquote>
+
+    <h2>The posts</h2>
+    <section class="topic">
+      <h3>Starship</h3>
+<p class="why">The FAA notice described a Starship launch rehearsal as soon as September 23. Another post said Flight 14 could launch as soon as Monday and be Starship’s first operational orbital flight. [<a href="https://x.com/StarshipGazer/status/2102430876219191471">1</a>, <a href="https://x.com/AJamesMcCarthy/status/2102511675354312816">5</a>]</p>      <ul class="posts">
+        <li id="p1">
+          <span class="at">[1] <a href="https://x.com/StarshipGazer/status/2102430876219191471">@StarshipGazer · 16:12 UTC</a>
+</span>
+          <p class="post-text">FAA has posted a Temporary Flight Restrictions notice stating that there will be a Starship Space Launch Rehearsal as soon as tomorrow Sept. 23rd: 
+https://notams.aim.faa.gov/notamSearch/createNotamPdf?transactionid=82508932</p>
+        </li>
+        <li id="p5">
+          <span class="at">[5] <a href="https://x.com/AJamesMcCarthy/status/2102511675354312816">@AJamesMcCarthy · 21:33 UTC</a>
+</span>
+          <p class="post-text">Hot staging is one of the most incredible things to witness during these launches. This is the best shot I&#39;ve captured of that moment- during flight 5. 
+
+Flight 14 is as soon as Monday. The first operational orbital flight of Starship. It&#39;s been quite a long road to get here.</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Grok</h3>
+<p class="why">Grok Build released Grok 4.7 with better crash recovery, prompt handling, navigation, configuration reliability, subagent performance, and new controls. Grok Bot passed 400,000 users in its first month. [<a href="https://x.com/cb_doge/status/2102448328638382234">2</a>, <a href="https://x.com/Kalshi/status/2102525850155663737">7</a>]</p>      <ul class="posts">
+        <li id="p2">
+          <span class="at">[2] <a href="https://x.com/cb_doge/status/2102448328638382234">@cb_doge · 17:21 UTC</a>
+</span>
+          <p class="post-text">BREAKING: SpaceXAI just released a major Grok Build update, with Grok 4.7 now available in Grok Build.
+
+The update improves crash recovery, prompt handling, navigation, configuration reliability and overall subagent performance. It also adds new subagent controls, configurable</p>
+        </li>
+        <li id="p7">
+          <span class="at">[7] <a href="https://x.com/Kalshi/status/2102525850155663737">@Kalshi · 22:30 UTC</a>
+</span>
+          <p class="post-text">JUST IN: SpaceXAI&#39;s Grok Bot agent surpasses 400,000 users in its first month, up 24% in the past week</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Starlink</h3>
+<p class="why">A Starlink post said 6,000 kits would support rural schools in Argentina, where students and teachers had used Starlink for classroom video calls. Another post listed education projects, including one in Uganda reaching more than 10,000 students and 200 teachers. [<a href="https://x.com/Starlink/status/2102530379521634744">9</a>, <a href="https://x.com/XFreeze/status/2102543695388049472">10</a>]</p>      <ul class="posts">
+        <li id="p9">
+          <span class="at">[9] <a href="https://x.com/Starlink/status/2102530379521634744">@Starlink · 22:48 UTC</a>
+</span>
+          <p class="post-text">Students and teachers across rural schools in Argentina used Starlink to join a video call with @MinCapHum_Ar, experiencing high-speed internet in their classrooms for the first time. 
+
+Previously, they had to travel ~30km to get online and now have reliable connectivity to</p>
+<p class="quoted">Quoting @Starlink: Starlink with @MinCapHum_Ar and @ENACOMArgentina will provide 6,000 kits to rural schools in Argentina, giving thousands of students and teachers fast, reliable internet.
+
+Teachers can build lesson plans with digital resources, while students can join online classes, use digital</p>        </li>
+        <li id="p10">
+          <span class="at">[10] <a href="https://x.com/XFreeze/status/2102543695388049472">@XFreeze · 23:40 UTC</a>
+</span>
+          <p class="post-text">Starlink is becoming a global education infrastructure layer
+
+The U.S. State Department named Starlink as a technology partner in the Fostering the Future Together initiative
+
+Projects include:
+
+• Uganda — an education pilot reaching 10,000+ students and 200 teachers
+
+• Papua</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Launch Schedule</h3>
+<p class="why">SpaceX and NASA targeted October 1 as the earliest launch date for Crew-13 to the International Space Station. [<a href="https://x.com/SpaceX/status/2102524630019768625">6</a>]</p>      <ul class="posts">
+        <li id="p6">
+          <span class="at">[6] <a href="https://x.com/SpaceX/status/2102524630019768625">@SpaceX · 22:25 UTC</a>
+</span>
+          <p class="post-text">Targeting no earlier than Thursday, October 1 for Falcon 9’s launch of @NASA’s Crew-13 mission to the @Space_Station → https://spacex.com/launches/crew13</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Other</h3>
+<p class="why">A post said S44’s nose cone and payload bay had moved toward Mega Bay 2. Another described a new SpaceX building with about 29 loading docks. [<a href="https://x.com/Truthful_ast/status/2102483485638402157">4</a>, <a href="https://x.com/AshleyKillip/status/2102544009109680427">11</a>]</p>      <ul class="posts">
+        <li id="p4">
+          <span class="at">[4] <a href="https://x.com/Truthful_ast/status/2102483485638402157">@Truthful_ast · 19:41 UTC</a>
+</span>
+          <p class="post-text">No one is prepared for Starship V3’s launch cadence.</p>
+<p class="quoted">Quoting @lewisknaggs42: S44 Nose cone &amp; Payload bay rolled out in front of the gigabay and is going to go into Mega Bay 2.
+
+Credit: @LabPadre</p>        </li>
+        <li id="p11">
+          <span class="at">[11] <a href="https://x.com/AshleyKillip/status/2102544009109680427">@AshleyKillip · 23:42 UTC</a>
+</span>
+          <p class="post-text">Another huge structure being built for SpaceX on the corner of Quicksilver Ave and Boca Chica Blvd ( Blue arrows). 
+Roughly 29 loading docks seen on flyover photos indicating a lot of inward/outward goods to this facility.
+
+Great photo from @MarcusHouse @lifeatstagezero</p>
+        </li>
+        <li id="p3">
+          <span class="at">[3] <a href="https://x.com/JoeTegtmeyer/status/2102462602106327097">@JoeTegtmeyer · 18:18 UTC</a>
+</span>
+          <p class="post-text">Elon just said Gen3 Starlink is 250kW &amp; carries a Vera Rubin NVL72. But, that does not mean Starlink V3 &amp; Starmind are the same satellite.
+One bus. Two payloads. Two orbits. One Starship dispenser &amp; the real trick is how SpaceX solved the payload problem! https://x.com/i/article/2102423861950119936</p>
+        </li>
+        <li id="p8">
+          <span class="at">[8] <a href="https://x.com/outerspacetoday/status/2102527359589261654">@outerspacetoday · 22:36 UTC</a>
+</span>
+          <p class="post-text">JUST IN: SpaceX is currently the only one of the Pentagon’s three national-security launch providers actively flying missions, as ULA and Blue Origin work through separate rocket groundings.
+
+ULA’s Vulcan has not launched in more than seven months following a solid-rocket booster</p>
+        </li>
+      </ul>
+    </section>
+
+  <nav class="more">
+    <a href="/space-digest/tightbeam/spacex/">Every page from SpaceXAI</a>
+    <a href="/space-digest/tightbeam/">All of the Tightbeam</a>
+  </nav>
+  <footer>
+    <p>Summaries are written by a machine from the original words, and link
+       back to where they were said. Nothing here replaces the source.</p>
+    <p><a href="/space-digest/episodes/">Every episode</a> ·
+       <a href="/space-digest/archive/">Every issue</a> ·
+<a href="/space-digest/tightbeam/">Tightbeam</a> ·
+<a href="/space-digest/funny/">Funny bits</a> ·
+<a href="/space-digest/feed.xml">Subscribe by RSS</a></p>
+  </footer>
+</div>
