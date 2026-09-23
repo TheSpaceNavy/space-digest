@@ -133,9 +133,91 @@
   </nav>
   <h1>Just The Funny Bits</h1>
   <p class="meta">Wednesday 23 September 2026 ·
-A quiet day     · only the jokes; the news stays out</p>
-    <p class="quiet">No funny bits today. The shows on the list have not published
-       since the last page.</p>
+1 episode     · only the jokes; the news stays out</p>
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="the-ben-shapiro-show">The Ben Shapiro Show <span class="at">1</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+    <article class="entry" id="the-ben-shapiro-show-20260916-friendly-fire-run-hide-fight-infidels-edition" data-show="the-ben-shapiro-show" data-title="friendly fire - run hide fight infidels edition"
+             data-released="2026-09-16" data-done="2026-09-23T11:25">
+      <h2 style="margin-top:0"><a href="https://www.youtube.com/watch?v=KLcNK-U3lMs">Friendly Fire - Run Hide Fight Infidels Edition</a></h2>
+      <p class="meta">The Ben Shapiro Show · 16 September 2026 · 1h 13m
+         · times link into the video<span class="done"> · written up 23 September at 11:25</span></p>
+      <ol class="bits">
+        <li>
+          <span class="said">“He&#39;s faced with a tremendous challenge in a computer where he has to dismantle a a terrible thing that&#39;s going to happen to his computer and he&#39;s doing it and his girlfriend says to him, &#39;Why do you know how to do this?&#39; And he says, &#39;I&#39;m Asian.&#39;”</span>
+<span class="at">— Drew</span>          <span class="at"><a href="https://www.youtube.com/watch?v=KLcNK-U3lMs&amp;t=1248s">20:48</a></span>
+<span class="why">The speaker recounts a deliberately broad stereotype joke in the movie: an Asian character explains his unexpected computer skills with the one-word answer “I’m Asian.”</span>        </li>
+      </ol>
+    </article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      list.classList.toggle('by-done', key === 'done');
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
   <nav class="more">
 <a href="/space-digest/funny/2026-09-22/">Older</a>    <a href="/space-digest/funny/episodes/">Every episode</a>
     <a href="/space-digest/funny/feed.xml">Subscribe by RSS</a>
