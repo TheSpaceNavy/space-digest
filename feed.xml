@@ -5,7 +5,7 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 24 Sep 2026 00:02:33 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 05:41:04 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Shawn Ryan&#39;s Everyday Carry: 2026 Edition</title>
@@ -15,11 +15,25 @@
       <description>His everyday carry blends sobriety tokens, emergency currency, privacy tools, medical gear, and a new pistol.</description>
     </item>
     <item>
+      <title>Opus 5.5 vs GPT-6 Sol and Luna</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260923-opus-5-5-vs-gpt-6-sol-and-luna/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260923-opus-5-5-vs-gpt-6-sol-and-luna/</guid>
+      <pubDate>Thu, 24 Sep 2026 05:33:11 +0000</pubDate>
+      <description>Opus 5.5 appears to beat GPT-6 on capability, while GPT-6 makes advanced AI much cheaper.</description>
+    </item>
+    <item>
       <title>Amjad Masad on Rethinking College for the AI Era</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260923-amjad-masad-on-rethinking-college-for-the-ai-era/</link>
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260923-amjad-masad-on-rethinking-college-for-the-ai-era/</guid>
       <pubDate>Wed, 23 Sep 2026 23:30:15 +0000</pubDate>
       <description>College may matter less as a credential than as protected time to explore, build, and become useful.</description>
+    </item>
+    <item>
+      <title>#2557 - Yakov Smirnoff</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260923-2557-yakov-smirnoff/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260923-2557-yakov-smirnoff/</guid>
+      <pubDate>Thu, 24 Sep 2026 05:38:29 +0000</pubDate>
+      <description>Yakov Smirnoff rebuilt his career after the Soviet collapse—and later advised Ronald Reagan on jokes for Soviet leaders.</description>
     </item>
     <item>
       <title>Why a16z is Building a New School for the AI Era | Ben Horowitz</title>
@@ -342,20 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260908-337-cardinal-burke-the-old-testament/</guid>
       <pubDate>Sat, 12 Sep 2026 12:05:25 +0000</pubDate>
       <description>The Old Testament is framed as a long preparation for Jesus, not a separate or harsher religion.</description>
-    </item>
-    <item>
-      <title>#2550 - Rick Springfield</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260908-2550-rick-springfield/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260908-2550-rick-springfield/</guid>
-      <pubDate>Tue, 08 Sep 2026 22:48:09 +0000</pubDate>
-      <description>Rick Springfield’s path to “Jesse’s Girl” ran through war, poverty, shyness, soap operas, and a stranger’s girlfriend.</description>
-    </item>
-    <item>
-      <title>You Are Not Data (Christopher West) on AI and the Soul | Ep. 595</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260907-you-are-not-data-christopher-west-on-ai-and-the-soul-ep-595/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260907-you-are-not-data-christopher-west-on-ai-and-the-soul-ep-595/</guid>
-      <pubDate>Tue, 08 Sep 2026 01:57:59 +0000</pubDate>
-      <description>AI may be powerful, but the episode argues that treating humans like machines destroys what makes love, bodies, and relationships human.</description>
     </item>
   </channel>
 </rss>

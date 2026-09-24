@@ -4,8 +4,15 @@
   <title>Space Digest — Just The Funny Bits</title>
   <link>https://thespacenavy.github.io/space-digest/funny/</link>
   <description>Only the jokes from the shows on the list, with a link to each one.</description>
-  <lastBuildDate>Thu, 24 Sep 2026 00:02:33 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 24 Sep 2026 05:41:05 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/funny/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>The Joe Rogan Experience: #2557 - Yakov Smirnoff</title>
+    <link>https://thespacenavy.github.io/space-digest/funny/2026-09-24/</link>
+    <guid isPermaLink="false">funny:the-joe-rogan-experience/20260923-2557-yakov-smirnoff</guid>
+    <pubDate>Thu, 24 Sep 2026 05:40:37 +0000</pubDate>
+    <description>1 funny bit: “he said YaKob let&#39;s save time for one another uh you&#39;ll get on that show when the hell freezes over I swear and I so I start watching weather channel”</description>
+  </item>
   <item>
     <title>The White House: President Trump Delivers Remarks, Sep. 22, 2026</title>
     <link>https://thespacenavy.github.io/space-digest/funny/2026-09-23/</link>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">funny:the-andrew-klavan-show/20260902-the-alarming-link-between-online-dating-and-declining-birth</guid>
     <pubDate>Mon, 14 Sep 2026 13:04:36 +0000</pubDate>
     <description>1 funny bit: “I mean I&#39;m out like in the backyard like chasing deer and bringing them down with my teeth”</description>
-  </item>
-  <item>
-    <title>The Joe Rogan Experience: JRE MMA Show #185 with Ethyn Ewing</title>
-    <link>https://thespacenavy.github.io/space-digest/funny/2026-09-21/</link>
-    <guid isPermaLink="false">funny:the-joe-rogan-experience/20260902-jre-mma-show-185-with-ethyn-ewing</guid>
-    <pubDate>Mon, 21 Sep 2026 16:03:37 +0000</pubDate>
-    <description>2 funny bits: “I was doing uh food eating championship training. was killing uh double doubles and 3x3s.”</description>
   </item>
 </channel>
 </rss>
