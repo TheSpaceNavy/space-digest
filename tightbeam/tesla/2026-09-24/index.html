@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tesla · X · 24 September 2026 · Space Digest</title>
+<link rel="alternate" type="application/rss+xml" title="Space Digest" href="/space-digest/feed.xml">
+<style>
+  :root { --ink:#1a1a1a; --soft:#5b5b5b; --line:#e2e0da; --paper:#fbfaf7; --mark:#7a3b2e; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e8e6e1; --soft:#a09c94; --line:#33312d; --paper:#161513; --mark:#d99b7c; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink);
+         font:17px/1.65 Charter, Georgia, "Iowan Old Style", serif;
+         -webkit-text-size-adjust:100%; }
+  .page { max-width:38rem; margin:0 auto; padding:2.5rem 1.25rem 5rem; }
+  a { color:inherit; text-decoration-color:var(--line); text-underline-offset:3px; }
+  a:hover { text-decoration-color:var(--mark); }
+  header.masthead { border-bottom:2px solid var(--ink); padding-bottom:.6rem; margin-bottom:1rem; }
+  nav.top { display:flex; flex-wrap:wrap; gap:.2rem 1.4rem; margin:0 0 2rem;
+            font-size:.78rem; letter-spacing:.09em; text-transform:uppercase; }
+  nav.top a { color:var(--soft); text-decoration:none; padding:.25rem 0;
+              border-bottom:2px solid transparent; }
+  nav.top a:hover { color:var(--ink); }
+  nav.top a.on { color:var(--ink); border-bottom-color:var(--mark); }
+  header.masthead a { text-decoration:none; }
+  .wordmark { font-size:1.5rem; font-weight:700; letter-spacing:-.02em; margin:0; }
+  .tagline { color:var(--soft); font-size:.85rem; margin:.15rem 0 0; }
+  h1 { font-size:1.6rem; line-height:1.25; letter-spacing:-.015em; margin:0 0 .3rem; }
+  h2 { font-size:1.15rem; margin:2.5rem 0 .4rem; }
+  .meta { color:var(--soft); font-size:.82rem; margin:0 0 1.6rem; }
+  .hook { font-size:1.2rem; line-height:1.45; margin:0 0 1.2rem; }
+  article.entry { border-bottom:1px solid var(--line); padding-bottom:2rem; margin-bottom:2rem; }
+  article.entry:last-of-type { border-bottom:0; }
+  ul.points { list-style:none; margin:1.1rem 0; padding:0; }
+  ul.points li { margin:0 0 .7rem; padding-left:1rem; text-indent:-1rem; }
+  .at { color:var(--soft); font-size:.8rem; white-space:nowrap; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }
+  blockquote { margin:1.4rem 0; padding-left:1rem; border-left:3px solid var(--mark);
+               font-size:1.05rem; }
+  blockquote p { margin:0; }
+  .for { color:var(--soft); font-style:italic; }
+  .standouts { background:color-mix(in srgb, var(--mark) 7%, transparent);
+               border-radius:.4rem; padding:1rem 1.1rem; margin:1.6rem 0; }
+  .standouts h3 { margin:0 0 .6rem; font-size:.78rem; letter-spacing:.09em;
+                  text-transform:uppercase; color:var(--soft); font-weight:700; }
+  .standouts ol { margin:0; padding-left:1.15rem; }
+  .standouts li { margin:0 0 .7rem; }
+  .standouts li:last-child { margin-bottom:0; }
+  .why { display:block; color:var(--soft); font-size:.85rem; margin-top:.15rem; }
+  nav.more { margin-top:3rem; padding-top:1.2rem; border-top:1px solid var(--line);
+             color:var(--soft); font-size:.88rem; }
+  nav.more a { margin-right:1rem; }
+  footer { margin-top:3.5rem; padding-top:1.2rem; border-top:1px solid var(--line);
+           color:var(--soft); font-size:.8rem; }
+  .quiet { color:var(--soft); font-size:1.05rem; }
+  .filters { margin:1.5rem 0 2rem; }
+  .filters input { width:100%; padding:.55rem .7rem; font:inherit; font-size:.95rem;
+                   color:var(--ink); background:var(--paper);
+                   border:1px solid var(--line); border-radius:.35rem; }
+  .filters input:focus { outline:2px solid var(--mark); outline-offset:1px; }
+  .chips { display:flex; flex-wrap:wrap; gap:.4rem; margin-top:.7rem; }
+  .chip { font:inherit; font-size:.85rem; padding:.3rem .7rem; cursor:pointer;
+          color:var(--soft); background:transparent;
+          border:1px solid var(--line); border-radius:1rem; }
+  .chip:hover { border-color:var(--mark); color:var(--ink); }
+  .chip.on { background:var(--ink); border-color:var(--ink); color:var(--paper); }
+  .chip.on .at { color:var(--paper); opacity:.7; }
+  ul.episodes { list-style:none; margin:0; padding:0; }
+  ul.episodes li { padding:.85rem 0; border-bottom:1px solid var(--line); }
+  ul.episodes li a { font-size:1.05rem; }
+  ul.episodes .at { display:block; margin-top:.15rem; }
+  ul.episodes .why { margin-top:.3rem; }
+  section.topic { margin:1.6rem 0; }
+  section.topic h3 { font-size:1rem; margin:0 0 .3rem; }
+  ul.posts { list-style:none; margin:.6rem 0 0; padding:0; }
+  ul.posts li { padding:.6rem 0 .6rem .9rem; border-left:2px solid var(--line); margin:0 0 .6rem; }
+  ul.posts .at a { text-decoration:none; }
+  .post-text { margin:.25rem 0 0; white-space:pre-line; }
+  .quoted { margin:.35rem 0 0; color:var(--soft); font-size:.9rem; white-space:pre-line; }
+  .translation { margin:.2rem 0 0; color:var(--soft); font-size:.9rem; font-style:italic;
+                 white-space:pre-line; }
+  /* Tightbeam: the same head on every beam page, so the kinds read as one. */
+  .eyebrow { margin:0 0 .35rem; font-size:.78rem; letter-spacing:.09em;
+             text-transform:uppercase; color:var(--soft); }
+  .eyebrow a { color:inherit; text-decoration:none; }
+  .eyebrow a:hover { color:var(--ink); }
+  .sep { margin:0 .4rem; color:var(--line); }
+  .badge { display:inline-block; margin-left:.5rem; padding:.05rem .45rem;
+           border:1px solid var(--mark); border-radius:1rem; color:var(--mark);
+           font-size:.68rem; letter-spacing:.08em; text-transform:uppercase;
+           vertical-align:.1em; white-space:nowrap; }
+  h1 .label, h2 .label { font-weight:400; color:var(--soft); }
+  .beam-card h2 { font-size:1.3rem; letter-spacing:-.01em; }
+  .numbers { margin:1.4rem 0; padding:.2rem 0 .2rem 1rem; border-left:3px solid var(--line); }
+  .numbers p { margin:.35rem 0; }
+  .numbers .fig { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; color:var(--mark); }
+  .points-src { display:block; color:var(--soft); font-size:.72rem; letter-spacing:.08em;
+                text-transform:uppercase; margin-top:.15rem; }
+  .strip { margin:0 0 2.2rem; padding:.9rem 0 .2rem; border-top:1px solid var(--line);
+           border-bottom:1px solid var(--line); }
+  .strip h2 { margin:0 0 .5rem; font-size:.78rem; letter-spacing:.09em;
+              text-transform:uppercase; color:var(--soft); }
+  .strip ul { list-style:none; margin:0 0 .7rem; padding:0; }
+  .strip li { margin:0 0 .55rem; }
+  .strip .who { display:block; font-size:.82rem; color:var(--soft); }
+  .strip a { font-size:.98rem; }
+  a.button { display:inline-block; margin:.6rem 0 0; padding:.45rem .9rem;
+             border:1px solid var(--mark); border-radius:.3rem; color:var(--mark);
+             text-decoration:none; font-size:.92rem; }
+  a.button:hover { background:var(--mark); color:var(--paper); }
+  .archive { color:var(--mark); }
+  .done { display:none; }
+  .by-done .done { display:inline; color:var(--mark); }
+  .chips + .chips { margin-top:.5rem; }
+  ol.bits { margin:1.1rem 0 0; padding-left:1.3rem; }
+  ol.bits li { margin:0 0 1.1rem; }
+  ol.bits .said { font-size:1.05rem; }
+  ol.bits .at a { text-decoration:none; border-bottom:1px dotted var(--soft); }
+</style>
+<body>
+<div class="page">
+  <header class="masthead">
+    <a href="/space-digest/"><p class="wordmark">Space Digest</p></a>
+    <p class="tagline">The podcasts worth your week, in a minute each.</p>
+  </header>
+  <nav class="top" aria-label="Sections">
+    <a href="/space-digest/">Today</a>
+    <a href="/space-digest/episodes/">Episodes</a>
+    <a href="/space-digest/archive/">Issues</a>
+<a href="/space-digest/tightbeam/" class="on">Tightbeam</a>
+<a href="/space-digest/funny/">Funny bits</a>
+<a href="/space-digest/feed.xml">RSS</a>
+  </nav>
+  <p class="eyebrow">
+<a href="/space-digest/tightbeam/tesla/">Tesla</a>  <span class="badge badge-x">X</span>
+</p>
+
+  <h1>Thursday 24 September 2026</h1>
+  <p class="meta">23 Sep 12:00 to 24 Sep 12:00 UTC ·
+15 posts, every one checked against X · 5 checks</p>
+
+    <p class="hook">Tesla highlighted Cybercab efficiency, Optimus developments, and the upcoming Semi rollout.</p>
+    <p>Tesla said Cybercab is its most efficient certified and built electric vehicle, with a drive unit producing 219 horsepower and made every 10 seconds. [<a href="https://x.com/niccruzpatane/status/2102776113999347722">4</a>] Another post said Cybercab uses about twice as many miles per kilowatt-hour as Waymo’s platform. [<a href="https://x.com/niccruzpatane/status/2102771228021071957">3</a>]</p>
+    <p>Tesla reportedly upgraded three Chinese Optimus suppliers to certified mass-production partners. [<a href="https://x.com/tslaming/status/2102737684548714652">1</a>] Posts also reported possible Optimus V3 leaks and introduced Optimus Gen 3. [<a href="https://x.com/CyberRobooo/status/2102786432121381326">5</a>, <a href="https://x.com/JOBhakdi/status/2102825150785945807">9</a>, <a href="https://x.com/TeslaAIBot/status/2102890231749878215">13</a>] Tesla’s Semi rollout was one day away. [<a href="https://x.com/JoeTegtmeyer/status/2102787298836246632">6</a>, <a href="https://x.com/jngies/status/2102907671372526040">14</a>]</p>
+    <p>Tesla Model 3 and Model Y ranked near the top of a Canadian electric-vehicle comparison, while Model 3 had the lowest public charging cost at $7.28 per 100 kilometers. [<a href="https://x.com/SawyerMerritt/status/2102768871128150327">2</a>] A software update including Full Self-Driving V14.3.10 was rolling out to about 5,500 more vehicles. [<a href="https://x.com/teslascope/status/2102865265461489722">10</a>]</p>
+    <blockquote><p>&#34;Cybercab is the most efficient EV ever certified &amp; built&#34;
+<a class="at" href="https://x.com/niccruzpatane/status/2102776113999347722">[4]</a></p></blockquote>
+
+    <h2>The posts</h2>
+    <section class="topic">
+      <h3>Cybercab and Robotaxi</h3>
+<p class="why">Cybercab was described as Tesla’s most efficient certified and built electric vehicle. Its drive unit was said to produce 219 horsepower, be six times more efficient per mile than a Toyota Corolla’s, and be made every 10 seconds. [<a href="https://x.com/niccruzpatane/status/2102776113999347722">4</a>] Another post said the Robotaxi platform is 40% more efficient than Model Y and 91% more efficient than Waymo’s Gen 5 platform. [<a href="https://x.com/niccruzpatane/status/2102771228021071957">3</a>] Tesla also said the first Cybercab using its in-house cathode material had been made at its first cathode plant in the Americas. [<a href="https://x.com/robotaxi/status/2102870359511105606">11</a>] A rider praised an Austin Robotaxi for its smooth, comfortable ride and roomy interior. [<a href="https://x.com/longmier/status/2102910347044868231">15</a>]</p>      <ul class="posts">
+        <li id="p3">
+          <span class="at">[3] <a href="https://x.com/niccruzpatane/status/2102771228021071957">@niccruzpatane · 14:45 UTC</a>
+</span>
+          <p class="post-text">Tesla created a Robotaxi platform that’s 40% more efficient than a Model Y, and 91% more efficient than Waymo’s Gen 5 platform (I-Pace).
+
+Cybercab gets around twice the miles per kWh Waymo does. And that’s before they add their computer and sensors.</p>
+        </li>
+        <li id="p4">
+          <span class="at">[4] <a href="https://x.com/niccruzpatane/status/2102776113999347722">@niccruzpatane · 15:04 UTC</a>
+</span>
+          <p class="post-text">I had the chance to check out the Tesla Cybercab’s drive unit up close, and man, what an engineering masterpiece.
+
+It’s so compact. This little drive unit produces 219 hp, which is 50 more hp than a Toyota Corolla, while being 6x more efficient per mile.</p>
+<p class="quoted">Quoting @TeslaRecruiting: Cybercab is the most efficient EV ever certified &amp; built, and we’re producing a drive unit every 10 seconds 
+
+Join the team https://www.tesla.com/careers/search/?site=US&amp;query=Powertrain</p>        </li>
+        <li id="p11">
+          <span class="at">[11] <a href="https://x.com/robotaxi/status/2102870359511105606">@robotaxi · 21:18 UTC</a>
+</span>
+          <p class="post-text">First Cybercab made using our in-house cathode material – from the first cathode plant in the Americas</p>
+        </li>
+        <li id="p15">
+          <span class="at">[15] <a href="https://x.com/longmier/status/2102910347044868231">@longmier · 23:57 UTC</a>
+</span>
+          <p class="post-text">This was a really smooth ride in Austin, thanks @robotaxi , @Tesla .
+
+Low jerk and jounce, and better than any Uber, Lyft, Blacklane driver I’ve ever had. Super roomy and comfy. 
+
+Hoping the regulatory or navigation is approved for freeway driving and the map expands quickly.</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Optimus</h3>
+<p class="why">Tesla reportedly moved Tuopu Group, Joyson Electronic, and Zhejiang Sanhua Intelligent Controls from tentative to certified mass-production partners for Optimus. [<a href="https://x.com/tslaming/status/2102737684548714652">1</a>] Posts reported possible Optimus V3 renderings from the Tesla Android app and called the design more human-like. [<a href="https://x.com/CyberRobooo/status/2102786432121381326">5</a>, <a href="https://x.com/JOBhakdi/status/2102825150785945807">9</a>] Another post introduced Optimus Gen 3. [<a href="https://x.com/TeslaAIBot/status/2102890231749878215">13</a>]</p>      <ul class="posts">
+        <li id="p1">
+          <span class="at">[1] <a href="https://x.com/tslaming/status/2102737684548714652">@tslaming · 12:31 UTC</a>
+</span>
+          <p class="post-text">UPDATE 🇨🇳 Tesla has reportedly completed its first round of factory audits for Optimus, upgrading 3 Chinese suppliers from &#34;tentative&#34; to &#34;certified mass production partners&#34;: Tuopu Group, Joyson Electronic, and Zhejiang Sanhua Intelligent Controls 🔥
+
+🏭 Tuopu Group: supplies</p>
+        </li>
+        <li id="p5">
+          <span class="at">[5] <a href="https://x.com/CyberRobooo/status/2102786432121381326">@CyberRobooo · 15:45 UTC</a>
+</span>
+          <p class="post-text">Has Optimus v3 leaked early?
+
+These are renderings reportedly found within the APK file of the Tesla Android app.
+
+v3 has undergone a near-total redesign; it looks very human-like --from its overall form and body contours to its arms, hands, and legs.
+
+However, this does not</p>
+        </li>
+        <li id="p9">
+          <span class="at">[9] <a href="https://x.com/JOBhakdi/status/2102825150785945807">@JOBhakdi · 18:19 UTC</a>
+</span>
+          <p class="post-text">Tesla Optimus V3 LEAKED: Everything We Know https://x.com/i/broadcasts/1qKDzWQPgRAJV</p>
+        </li>
+        <li id="p13">
+          <span class="at">[13] <a href="https://x.com/TeslaAIBot/status/2102890231749878215">@TeslaAIBot · 22:37 UTC</a>
+</span>
+          <p class="post-text">Introducing, Optimus Gen 3 👀🔥</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Vehicles and Software</h3>
+<p class="why">The Model 3 and Model Y ranked near the top of CAA’s 2026 Canadian EV Circuit comparison, and the Model 3 recorded a public charging cost of $7.28 per 100 kilometers. [<a href="https://x.com/SawyerMerritt/status/2102768871128150327">2</a>] A Tesla Model Y L cargo test was described as real consumer testing. [<a href="https://x.com/itskyleconner/status/2102880337512784032">12</a>] Tesla software update 2026.27.11 was reported to be reaching about 5,500 additional vehicles and included Full Self-Driving V14.3.10 for eligible AI4 vehicles. [<a href="https://x.com/teslascope/status/2102865265461489722">10</a>]</p>      <ul class="posts">
+        <li id="p2">
+          <span class="at">[2] <a href="https://x.com/SawyerMerritt/status/2102768871128150327">@SawyerMerritt · 14:35 UTC</a>
+</span>
+          <p class="post-text">The Tesla Model 3 and Model Y have finished near the top of a new Canadian EV comparison, with both vehicles ranking among the most energy-efficient and recording the lowest public charging costs in CAA’s 2026 EV Circuit. 
+
+The Model 3 recorded the lowest cost at $7.28 per 100 km</p>
+        </li>
+        <li id="p10">
+          <span class="at">[10] <a href="https://x.com/teslascope/status/2102865265461489722">@teslascope · 20:58 UTC</a>
+</span>
+          <p class="post-text">Tesla software update 2026.27.11 is now rolling out to ~5,500 additional vehicles within the last five minutes based on available fleet data.
+
+This update includes Full Self-Driving V14.3.10 for eligible AI4 vehicles (96%).</p>
+<p class="quoted">Quoting @teslascope: We noticed a new Tesla software update 2026.27.11 on Cybertruck AWD (2024) in Arizona, United States. View the rollout of this update here: https://teslascope.com/software/2026.27.11</p>        </li>
+        <li id="p12">
+          <span class="at">[12] <a href="https://x.com/itskyleconner/status/2102880337512784032">@itskyleconner · 21:58 UTC</a>
+</span>
+          <p class="post-text">Tesla Model Y L capacity test 
+
+(cargo, not battery)
+
+@OOSScot conducting real consumer testing</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Tesla Semi</h3>
+<p class="why">A Tesla Semi was displayed at Tesla’s Texas headquarters one day before the Giga Nevada rollout event. [<a href="https://x.com/JoeTegtmeyer/status/2102787298836246632">6</a>] Another post shared a 24-hour countdown to the rollout. [<a href="https://x.com/jngies/status/2102907671372526040">14</a>]</p>      <ul class="posts">
+        <li id="p6">
+          <span class="at">[6] <a href="https://x.com/JoeTegtmeyer/status/2102787298836246632">@JoeTegtmeyer · 15:48 UTC</a>
+</span>
+          <p class="post-text">On the day before the big @tesla_semi Rollout event at Giga Nevada, one is on prominent display at the @Tesla World Headquarters here at Giga Texas today!
+
+Looks really good &amp; this is going to change freight transportation in more ways than most understand, starting tomorrow!</p>
+        </li>
+        <li id="p14">
+          <span class="at">[14] <a href="https://x.com/jngies/status/2102907671372526040">@jngies · 23:47 UTC</a>
+</span>
+          <p class="post-text">24 hour countdown!!!!
+
+https://livestream.tesla.com/
+
+#rollout @tesla_semi</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Police Vehicles</h3>
+<p class="why">Police from multiple agencies tested UP.FIT Model Y and Cybertruck patrol cars on a pursuit test track in San Diego. [<a href="https://x.com/UpfitTesla/status/2102790412775899464">7</a>]</p>      <ul class="posts">
+        <li id="p7">
+          <span class="at">[7] <a href="https://x.com/UpfitTesla/status/2102790412775899464">@UpfitTesla · 16:01 UTC</a>
+</span>
+          <p class="post-text">Real officers put @Tesla police cars to the test on a pursuit test track in San Diego.
+
+Police from multiple agencies took https://UP.FIT Model Y and Cybertruck patrol cars through EVOC training. 
+
+With 5-star safety and $60K+ saved per car over five years, can they</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Other</h3>
+      <ul class="posts">
+        <li id="p8">
+          <span class="at">[8] <a href="https://x.com/teslaownersSV/status/2102794701548229095">@teslaownersSV · 16:18 UTC</a>
+</span>
+          <p class="post-text">Elon Musk: Now we’re going to look at the computer for the Cybercab. The computer will be somewhat overspecified, but I think there’s a major opportunity here.
+
+Similar to Amazon Web Services, if the car is driving for 50 hours a week, that leaves more than 100 hours where the</p>
+        </li>
+      </ul>
+    </section>
+
+  <nav class="more">
+    <a href="/space-digest/tightbeam/tesla/">Every page from Tesla</a>
+    <a href="/space-digest/tightbeam/">All of the Tightbeam</a>
+  </nav>
+  <footer>
+    <p>Summaries are written by a machine from the original words, and link
+       back to where they were said. Nothing here replaces the source.</p>
+    <p><a href="/space-digest/episodes/">Every episode</a> ·
+       <a href="/space-digest/archive/">Every issue</a> ·
+<a href="/space-digest/tightbeam/">Tightbeam</a> ·
+<a href="/space-digest/funny/">Funny bits</a> ·
+<a href="/space-digest/feed.xml">Subscribe by RSS</a></p>
+  </footer>
+</div>
