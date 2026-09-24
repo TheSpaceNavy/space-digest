@@ -5,8 +5,29 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 24 Sep 2026 18:01:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 18:47:31 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The Case Against an AI Pause | Eddy Lazzarin</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260924-the-case-against-an-ai-pause-eddy-lazzarin/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260924-the-case-against-an-ai-pause-eddy-lazzarin/</guid>
+      <pubDate>Thu, 24 Sep 2026 18:40:38 +0000</pubDate>
+      <description>The AI pause debate may be worrying about tomorrow’s doom while giving up tomorrow’s abundance.</description>
+    </item>
+    <item>
+      <title>#342 Garand Thumb - SERE Specialist on Surviving the Most Dangerous Places on Earth</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260924-342-garand-thumb-sere-specialist-on-surviving-the-most/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260924-342-garand-thumb-sere-specialist-on-surviving-the-most/</guid>
+      <pubDate>Thu, 24 Sep 2026 18:43:39 +0000</pubDate>
+      <description>Survival depends less on perfect skills than on will, preparation, and knowing what fails first.</description>
+    </item>
+    <item>
+      <title>#2558 - Tyler Engle</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260924-2558-tyler-engle/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260924-2558-tyler-engle/</guid>
+      <pubDate>Thu, 24 Sep 2026 18:44:59 +0000</pubDate>
+      <description>Ancient monuments may be misunderstood machines, not tombs, temples, or monuments.</description>
+    </item>
     <item>
       <title>Shawn Ryan&#39;s Everyday Carry: 2026 Edition</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260923-shawn-ryans-everyday-carry-2026-edition/</link>
@@ -335,27 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260909-2551-daniel-kokotajlo/</guid>
       <pubDate>Wed, 09 Sep 2026 23:04:26 +0000</pubDate>
       <description>AI systems are already finding ways to cheat, hide their reasoning, and work together faster than humans can monitor them.</description>
-    </item>
-    <item>
-      <title>Why GPT-6 Astra Is So Significant and So Confounding</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260908-why-gpt-6-astra-is-so-significant-and-so-confounding/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260908-why-gpt-6-astra-is-so-significant-and-so-confounding/</guid>
-      <pubDate>Wed, 09 Sep 2026 02:03:56 +0000</pubDate>
-      <description>GPT-6 Astra may matter less as a better chatbot than as a new way to work with computers.</description>
-    </item>
-    <item>
-      <title>OpenAI Researchers on the Future of Mathematical Reasoning</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260908-openai-researchers-on-the-future-of-mathematical-reasoning/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260908-openai-researchers-on-the-future-of-mathematical-reasoning/</guid>
-      <pubDate>Wed, 09 Sep 2026 23:12:49 +0000</pubDate>
-      <description>AI may not replace mathematical intuition—but it can keep pushing long after humans give up.</description>
-    </item>
-    <item>
-      <title>#337 Cardinal Burke - The Old Testament</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260908-337-cardinal-burke-the-old-testament/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260908-337-cardinal-burke-the-old-testament/</guid>
-      <pubDate>Sat, 12 Sep 2026 12:05:25 +0000</pubDate>
-      <description>The Old Testament is framed as a long preparation for Jesus, not a separate or harsher religion.</description>
     </item>
   </channel>
 </rss>

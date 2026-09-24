@@ -4,8 +4,15 @@
   <title>Space Digest — Just The Funny Bits</title>
   <link>https://thespacenavy.github.io/space-digest/funny/</link>
   <description>Only the jokes from the shows on the list, with a link to each one.</description>
-  <lastBuildDate>Thu, 24 Sep 2026 18:01:51 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 24 Sep 2026 18:47:32 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/funny/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>The Joe Rogan Experience: #2558 - Tyler Engle</title>
+    <link>https://thespacenavy.github.io/space-digest/funny/2026-09-24/</link>
+    <guid isPermaLink="false">funny:the-joe-rogan-experience/20260924-2558-tyler-engle</guid>
+    <pubDate>Thu, 24 Sep 2026 18:47:03 +0000</pubDate>
+    <description>8 funny bits: “I was &gt;&gt; so I was hanging off of buildings listening to Graham and everybody and like &gt;&gt; I would want to hear creeks and things. I would want [laughter] if something starts giving out. I would want to be like razor sharp. I&#39;d want to have suction cups on my hands.”</description>
+  </item>
   <item>
     <title>The Joe Rogan Experience: #2557 - Yakov Smirnoff</title>
     <link>https://thespacenavy.github.io/space-digest/funny/2026-09-24/</link>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">funny:the-michael-knowles-show/20260902-youve-been-lied-to-major-issues-solved-with-this-simple</guid>
     <pubDate>Mon, 14 Sep 2026 00:16:41 +0000</pubDate>
     <description>1 funny bit: “&gt;&gt; I need to go get my tongue snipped? &gt;&gt; Oh, 100%. &gt;&gt; Oh, this is All right. [laughter] This is why I don&#39;t go to the dentist.”</description>
-  </item>
-  <item>
-    <title>The Andrew Klavan Show: The Alarming Link Between Online Dating and Declining Birth Rates w/Karol Markowicz</title>
-    <link>https://thespacenavy.github.io/space-digest/funny/2026-09-14/</link>
-    <guid isPermaLink="false">funny:the-andrew-klavan-show/20260902-the-alarming-link-between-online-dating-and-declining-birth</guid>
-    <pubDate>Mon, 14 Sep 2026 13:04:36 +0000</pubDate>
-    <description>1 funny bit: “I mean I&#39;m out like in the backyard like chasing deer and bringing them down with my teeth”</description>
   </item>
 </channel>
 </rss>
