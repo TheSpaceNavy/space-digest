@@ -5,8 +5,22 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 25 Sep 2026 18:02:24 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 20:11:01 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The Reputation Graph of Silicon Valley | Introducing Cosign</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260925-the-reputation-graph-of-silicon-valley-introducing-cosign/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260925-the-reputation-graph-of-silicon-valley-introducing-cosign/</guid>
+      <pubDate>Fri, 25 Sep 2026 20:03:02 +0000</pubDate>
+      <description>The next great career signal may be who respected people believe in—not where someone went to school.</description>
+    </item>
+    <item>
+      <title>How People Are Actually Using Jev</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260925-how-people-are-actually-using-jev/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260925-how-people-are-actually-using-jev/</guid>
+      <pubDate>Fri, 25 Sep 2026 20:02:02 +0000</pubDate>
+      <description>JEV’s real breakthrough is not smarter writing, but cheap, instant judgment across massive piles of information.</description>
+    </item>
     <item>
       <title>The Case Against an AI Pause | Eddy Lazzarin</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260924-the-case-against-an-ai-pause-eddy-lazzarin/</link>
@@ -342,20 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260910-338-cardinal-burke-the-new-testament/</guid>
       <pubDate>Sat, 12 Sep 2026 12:06:27 +0000</pubDate>
       <description>The episode argues that Christianity rests on a physical Resurrection and demands a radically different way of living.</description>
-    </item>
-    <item>
-      <title>#2552 - Ehsan Ahmad &amp; Deric Poston</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260910-2552-ehsan-ahmad-deric-poston/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260910-2552-ehsan-ahmad-deric-poston/</guid>
-      <pubDate>Thu, 10 Sep 2026 23:13:42 +0000</pubDate>
-      <description>A wide-ranging conversation argues that technology, shame, and isolation are quietly reshaping how people think and live.</description>
-    </item>
-    <item>
-      <title>Who Grades the AI Models? | Ben Horowitz &amp; Rayan Krishnan</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260909-who-grades-the-ai-models-ben-horowitz-rayan-krishnan/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260909-who-grades-the-ai-models-ben-horowitz-rayan-krishnan/</guid>
-      <pubDate>Wed, 09 Sep 2026 23:13:24 +0000</pubDate>
-      <description>AI progress is moving faster than the tests, budgets, and rules meant to keep it understandable.</description>
     </item>
   </channel>
 </rss>

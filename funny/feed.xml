@@ -4,8 +4,15 @@
   <title>Space Digest — Just The Funny Bits</title>
   <link>https://thespacenavy.github.io/space-digest/funny/</link>
   <description>Only the jokes from the shows on the list, with a link to each one.</description>
-  <lastBuildDate>Fri, 25 Sep 2026 18:02:24 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 25 Sep 2026 20:11:01 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/funny/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>The Andrew Klavan Show: Ep. 1297 - What America Do You Want?</title>
+    <link>https://thespacenavy.github.io/space-digest/funny/2026-09-25/</link>
+    <guid isPermaLink="false">funny:the-andrew-klavan-show/20260925-ep-1297-what-america-do-you-want</guid>
+    <pubDate>Fri, 25 Sep 2026 20:10:57 +0000</pubDate>
+    <description>4 funny bits: “They fly to a luxury hotel, close the curtains, and become unconscious in a more expensive zip code.”</description>
+  </item>
   <item>
     <title>The Andrew Klavan Show: The Greatest Detective Novels of All Time Ranked</title>
     <link>https://thespacenavy.github.io/space-digest/funny/2026-09-25/</link>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">funny:the-ben-shapiro-show/20260903-a-new-mom-was-killed-in-broad-daylight-in-nyc-the-reaction</guid>
     <pubDate>Mon, 21 Sep 2026 15:59:17 +0000</pubDate>
     <description>1 funny bit: “By the time you call them back, you called your competitor. They&#39;ve gotten a quote. They booked the appointment. They left them a five-star review. They followed them on Instagram. They&#39;re best friends now. They&#39;re spending Thanksgiving together.”</description>
-  </item>
-  <item>
-    <title>The Joe Rogan Experience: #2549 - Jared Diamond</title>
-    <link>https://thespacenavy.github.io/space-digest/funny/2026-09-12/</link>
-    <guid isPermaLink="false">funny:the-joe-rogan-experience/20260903-2549-jared-diamond</guid>
-    <pubDate>Sat, 12 Sep 2026 12:11:55 +0000</pubDate>
-    <description>6 funny bits: “out of sight, out of mind came back invisible idiot.”</description>
   </item>
 </channel>
 </rss>
