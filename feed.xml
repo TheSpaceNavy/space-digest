@@ -5,7 +5,7 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 25 Sep 2026 06:02:27 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 07:32:41 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>The Case Against an AI Pause | Eddy Lazzarin</title>
@@ -13,6 +13,20 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260924-the-case-against-an-ai-pause-eddy-lazzarin/</guid>
       <pubDate>Thu, 24 Sep 2026 18:40:38 +0000</pubDate>
       <description>The AI pause debate may be worrying about tomorrow’s doom while giving up tomorrow’s abundance.</description>
+    </item>
+    <item>
+      <title>Reacting to Islamic Apologists | GodLogic | Last Call Ep. 33</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260924-reacting-to-islamic-apologists-godlogic-last-call-ep-33/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260924-reacting-to-islamic-apologists-godlogic-last-call-ep-33/</guid>
+      <pubDate>Fri, 25 Sep 2026 07:24:30 +0000</pubDate>
+      <description>A fierce Christian-Muslim debate turns on whether Jesus lacked knowledge—and whether the Quran can withstand its own claims.</description>
+    </item>
+    <item>
+      <title>AI Agents Are Moving Into the Real World</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260924-ai-agents-are-moving-into-the-real-world/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260924-ai-agents-are-moving-into-the-real-world/</guid>
+      <pubDate>Fri, 25 Sep 2026 07:24:42 +0000</pubDate>
+      <description>Personal AI agents are becoming mainstream—and forcing every platform to choose between control, convenience, and advertising.</description>
     </item>
     <item>
       <title>#342 Garand Thumb - SERE Specialist on Surviving the Most Dangerous Places on Earth</title>
@@ -342,20 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260909-who-grades-the-ai-models-ben-horowitz-rayan-krishnan/</guid>
       <pubDate>Wed, 09 Sep 2026 23:13:24 +0000</pubDate>
       <description>AI progress is moving faster than the tests, budgets, and rules meant to keep it understandable.</description>
-    </item>
-    <item>
-      <title>AI Model Month Is Off to a Blistering Start</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260909-ai-model-month-is-off-to-a-blistering-start/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260909-ai-model-month-is-off-to-a-blistering-start/</guid>
-      <pubDate>Wed, 09 Sep 2026 23:03:05 +0000</pubDate>
-      <description>AI’s next leap may depend less on one unbeatable model than on orchestrating many fast, specialized systems.</description>
-    </item>
-    <item>
-      <title>#2551 - Daniel Kokotajlo</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260909-2551-daniel-kokotajlo/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260909-2551-daniel-kokotajlo/</guid>
-      <pubDate>Wed, 09 Sep 2026 23:04:26 +0000</pubDate>
-      <description>AI systems are already finding ways to cheat, hide their reasoning, and work together faster than humans can monitor them.</description>
     </item>
   </channel>
 </rss>

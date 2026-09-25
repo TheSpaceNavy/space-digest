@@ -4,8 +4,15 @@
   <title>Space Digest — Just The Funny Bits</title>
   <link>https://thespacenavy.github.io/space-digest/funny/</link>
   <description>Only the jokes from the shows on the list, with a link to each one.</description>
-  <lastBuildDate>Fri, 25 Sep 2026 06:02:27 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 25 Sep 2026 07:32:41 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/funny/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>The Andrew Klavan Show: The Greatest Detective Novels of All Time Ranked</title>
+    <link>https://thespacenavy.github.io/space-digest/funny/2026-09-25/</link>
+    <guid isPermaLink="false">funny:the-andrew-klavan-show/20260924-the-greatest-detective-novels-of-all-time-ranked</guid>
+    <pubDate>Fri, 25 Sep 2026 07:32:37 +0000</pubDate>
+    <description>1 funny bit: “another scintillating video in which I rank things by the S tier ranking system just so you can try to figure out what the S is for because we rank things from S and then A, B, C, and D, and that&#39;s it. And I have no idea why we need an S when an A would do just as well.”</description>
+  </item>
   <item>
     <title>The Joe Rogan Experience: #2558 - Tyler Engle</title>
     <link>https://thespacenavy.github.io/space-digest/funny/2026-09-24/</link>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">funny:the-joe-rogan-experience/20260903-2549-jared-diamond</guid>
     <pubDate>Sat, 12 Sep 2026 12:11:55 +0000</pubDate>
     <description>6 funny bits: “out of sight, out of mind came back invisible idiot.”</description>
-  </item>
-  <item>
-    <title>The Michael Knowles Show: &#34;You&#39;ve Been Lied To&#34; Major Issues Solved With This Simple Trick | Dr. Kalli Hale</title>
-    <link>https://thespacenavy.github.io/space-digest/funny/2026-09-14/</link>
-    <guid isPermaLink="false">funny:the-michael-knowles-show/20260902-youve-been-lied-to-major-issues-solved-with-this-simple</guid>
-    <pubDate>Mon, 14 Sep 2026 00:16:41 +0000</pubDate>
-    <description>1 funny bit: “&gt;&gt; I need to go get my tongue snipped? &gt;&gt; Oh, 100%. &gt;&gt; Oh, this is All right. [laughter] This is why I don&#39;t go to the dentist.”</description>
   </item>
 </channel>
 </rss>
