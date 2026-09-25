@@ -4,8 +4,29 @@
   <title>Space Digest — Tightbeam</title>
   <link>https://thespacenavy.github.io/space-digest/tightbeam/</link>
   <description>A narrow beam on each person and subject worth following.</description>
-  <lastBuildDate>Fri, 25 Sep 2026 07:32:41 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 25 Sep 2026 12:01:15 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/tightbeam/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>SpaceXAI · 25 September 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/tightbeam/spacex/2026-09-25/</link>
+    <guid isPermaLink="false">tightbeam:spacex/2026-09-25</guid>
+    <pubDate>Fri, 25 Sep 2026 12:01:10 +0000</pubDate>
+    <description>Starship Flight 14 moved closer to launch as Starlink expanded service and SpaceX prepared a satellite mission for Google AI chips.</description>
+  </item>
+  <item>
+    <title>Tesla · 25 September 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/tightbeam/tesla/2026-09-25/</link>
+    <guid isPermaLink="false">tightbeam:tesla/2026-09-25</guid>
+    <pubDate>Fri, 25 Sep 2026 12:00:54 +0000</pubDate>
+    <description>Tesla’s Semi factory opened, while new Optimus Gen 3 details and factory supply deals drew attention.</description>
+  </item>
+  <item>
+    <title>Elon Musk · 25 September 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-09-25/</link>
+    <guid isPermaLink="false">tightbeam:elonmusk/2026-09-25</guid>
+    <pubDate>Fri, 25 Sep 2026 12:00:25 +0000</pubDate>
+    <description>Elon Musk focused on technology, artificial intelligence, space computing, and X’s algorithm.</description>
+  </item>
   <item>
     <title>Peter Diamandis · What Counts as a Moat in the Age of AI?</title>
     <link>https://thespacenavy.github.io/space-digest/tightbeam/diamandis/2026-09-24-what-counts-as-a-moat-in-the-age-of-ai/</link>

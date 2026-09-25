@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tesla · X · 25 September 2026 · Space Digest</title>
+<link rel="alternate" type="application/rss+xml" title="Space Digest" href="/space-digest/feed.xml">
+<style>
+  :root { --ink:#1a1a1a; --soft:#5b5b5b; --line:#e2e0da; --paper:#fbfaf7; --mark:#7a3b2e; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e8e6e1; --soft:#a09c94; --line:#33312d; --paper:#161513; --mark:#d99b7c; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink);
+         font:17px/1.65 Charter, Georgia, "Iowan Old Style", serif;
+         -webkit-text-size-adjust:100%; }
+  .page { max-width:38rem; margin:0 auto; padding:2.5rem 1.25rem 5rem; }
+  a { color:inherit; text-decoration-color:var(--line); text-underline-offset:3px; }
+  a:hover { text-decoration-color:var(--mark); }
+  header.masthead { border-bottom:2px solid var(--ink); padding-bottom:.6rem; margin-bottom:1rem; }
+  nav.top { display:flex; flex-wrap:wrap; gap:.2rem 1.4rem; margin:0 0 2rem;
+            font-size:.78rem; letter-spacing:.09em; text-transform:uppercase; }
+  nav.top a { color:var(--soft); text-decoration:none; padding:.25rem 0;
+              border-bottom:2px solid transparent; }
+  nav.top a:hover { color:var(--ink); }
+  nav.top a.on { color:var(--ink); border-bottom-color:var(--mark); }
+  header.masthead a { text-decoration:none; }
+  .wordmark { font-size:1.5rem; font-weight:700; letter-spacing:-.02em; margin:0; }
+  .tagline { color:var(--soft); font-size:.85rem; margin:.15rem 0 0; }
+  h1 { font-size:1.6rem; line-height:1.25; letter-spacing:-.015em; margin:0 0 .3rem; }
+  h2 { font-size:1.15rem; margin:2.5rem 0 .4rem; }
+  .meta { color:var(--soft); font-size:.82rem; margin:0 0 1.6rem; }
+  .hook { font-size:1.2rem; line-height:1.45; margin:0 0 1.2rem; }
+  article.entry { border-bottom:1px solid var(--line); padding-bottom:2rem; margin-bottom:2rem; }
+  article.entry:last-of-type { border-bottom:0; }
+  ul.points { list-style:none; margin:1.1rem 0; padding:0; }
+  ul.points li { margin:0 0 .7rem; padding-left:1rem; text-indent:-1rem; }
+  .at { color:var(--soft); font-size:.8rem; white-space:nowrap; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }
+  blockquote { margin:1.4rem 0; padding-left:1rem; border-left:3px solid var(--mark);
+               font-size:1.05rem; }
+  blockquote p { margin:0; }
+  .for { color:var(--soft); font-style:italic; }
+  .standouts { background:color-mix(in srgb, var(--mark) 7%, transparent);
+               border-radius:.4rem; padding:1rem 1.1rem; margin:1.6rem 0; }
+  .standouts h3 { margin:0 0 .6rem; font-size:.78rem; letter-spacing:.09em;
+                  text-transform:uppercase; color:var(--soft); font-weight:700; }
+  .standouts ol { margin:0; padding-left:1.15rem; }
+  .standouts li { margin:0 0 .7rem; }
+  .standouts li:last-child { margin-bottom:0; }
+  .why { display:block; color:var(--soft); font-size:.85rem; margin-top:.15rem; }
+  nav.more { margin-top:3rem; padding-top:1.2rem; border-top:1px solid var(--line);
+             color:var(--soft); font-size:.88rem; }
+  nav.more a { margin-right:1rem; }
+  footer { margin-top:3.5rem; padding-top:1.2rem; border-top:1px solid var(--line);
+           color:var(--soft); font-size:.8rem; }
+  .quiet { color:var(--soft); font-size:1.05rem; }
+  .filters { margin:1.5rem 0 2rem; }
+  .filters input { width:100%; padding:.55rem .7rem; font:inherit; font-size:.95rem;
+                   color:var(--ink); background:var(--paper);
+                   border:1px solid var(--line); border-radius:.35rem; }
+  .filters input:focus { outline:2px solid var(--mark); outline-offset:1px; }
+  .chips { display:flex; flex-wrap:wrap; gap:.4rem; margin-top:.7rem; }
+  .chip { font:inherit; font-size:.85rem; padding:.3rem .7rem; cursor:pointer;
+          color:var(--soft); background:transparent;
+          border:1px solid var(--line); border-radius:1rem; }
+  .chip:hover { border-color:var(--mark); color:var(--ink); }
+  .chip.on { background:var(--ink); border-color:var(--ink); color:var(--paper); }
+  .chip.on .at { color:var(--paper); opacity:.7; }
+  ul.episodes { list-style:none; margin:0; padding:0; }
+  ul.episodes li { padding:.85rem 0; border-bottom:1px solid var(--line); }
+  ul.episodes li a { font-size:1.05rem; }
+  ul.episodes .at { display:block; margin-top:.15rem; }
+  ul.episodes .why { margin-top:.3rem; }
+  section.topic { margin:1.6rem 0; }
+  section.topic h3 { font-size:1rem; margin:0 0 .3rem; }
+  ul.posts { list-style:none; margin:.6rem 0 0; padding:0; }
+  ul.posts li { padding:.6rem 0 .6rem .9rem; border-left:2px solid var(--line); margin:0 0 .6rem; }
+  ul.posts .at a { text-decoration:none; }
+  .post-text { margin:.25rem 0 0; white-space:pre-line; }
+  .quoted { margin:.35rem 0 0; color:var(--soft); font-size:.9rem; white-space:pre-line; }
+  .translation { margin:.2rem 0 0; color:var(--soft); font-size:.9rem; font-style:italic;
+                 white-space:pre-line; }
+  /* Tightbeam: the same head on every beam page, so the kinds read as one. */
+  .eyebrow { margin:0 0 .35rem; font-size:.78rem; letter-spacing:.09em;
+             text-transform:uppercase; color:var(--soft); }
+  .eyebrow a { color:inherit; text-decoration:none; }
+  .eyebrow a:hover { color:var(--ink); }
+  .sep { margin:0 .4rem; color:var(--line); }
+  .badge { display:inline-block; margin-left:.5rem; padding:.05rem .45rem;
+           border:1px solid var(--mark); border-radius:1rem; color:var(--mark);
+           font-size:.68rem; letter-spacing:.08em; text-transform:uppercase;
+           vertical-align:.1em; white-space:nowrap; }
+  h1 .label, h2 .label { font-weight:400; color:var(--soft); }
+  .beam-card h2 { font-size:1.3rem; letter-spacing:-.01em; }
+  .numbers { margin:1.4rem 0; padding:.2rem 0 .2rem 1rem; border-left:3px solid var(--line); }
+  .numbers p { margin:.35rem 0; }
+  .numbers .fig { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; color:var(--mark); }
+  .points-src { display:block; color:var(--soft); font-size:.72rem; letter-spacing:.08em;
+                text-transform:uppercase; margin-top:.15rem; }
+  .strip { margin:0 0 2.2rem; padding:.9rem 0 .2rem; border-top:1px solid var(--line);
+           border-bottom:1px solid var(--line); }
+  .strip h2 { margin:0 0 .5rem; font-size:.78rem; letter-spacing:.09em;
+              text-transform:uppercase; color:var(--soft); }
+  .strip ul { list-style:none; margin:0 0 .7rem; padding:0; }
+  .strip li { margin:0 0 .55rem; }
+  .strip .who { display:block; font-size:.82rem; color:var(--soft); }
+  .strip a { font-size:.98rem; }
+  a.button { display:inline-block; margin:.6rem 0 0; padding:.45rem .9rem;
+             border:1px solid var(--mark); border-radius:.3rem; color:var(--mark);
+             text-decoration:none; font-size:.92rem; }
+  a.button:hover { background:var(--mark); color:var(--paper); }
+  .archive { color:var(--mark); }
+  .done { display:none; }
+  .by-done .done { display:inline; color:var(--mark); }
+  .chips + .chips { margin-top:.5rem; }
+  ol.bits { margin:1.1rem 0 0; padding-left:1.3rem; }
+  ol.bits li { margin:0 0 1.1rem; }
+  ol.bits .said { font-size:1.05rem; }
+  ol.bits .at a { text-decoration:none; border-bottom:1px dotted var(--soft); }
+</style>
+<body>
+<div class="page">
+  <header class="masthead">
+    <a href="/space-digest/"><p class="wordmark">Space Digest</p></a>
+    <p class="tagline">The podcasts worth your week, in a minute each.</p>
+  </header>
+  <nav class="top" aria-label="Sections">
+    <a href="/space-digest/">Today</a>
+    <a href="/space-digest/episodes/">Episodes</a>
+    <a href="/space-digest/archive/">Issues</a>
+<a href="/space-digest/tightbeam/" class="on">Tightbeam</a>
+<a href="/space-digest/funny/">Funny bits</a>
+<a href="/space-digest/feed.xml">RSS</a>
+  </nav>
+  <p class="eyebrow">
+<a href="/space-digest/tightbeam/tesla/">Tesla</a>  <span class="badge badge-x">X</span>
+</p>
+
+  <h1>Friday 25 September 2026</h1>
+  <p class="meta">24 Sep 12:00 to 25 Sep 12:00 UTC ·
+10 posts, every one checked against X · 4 checks</p>
+
+    <p class="hook">Tesla’s Semi factory opened, while new Optimus Gen 3 details and factory supply deals drew attention.</p>
+    <p>Tesla opened its Nevada Semi factory and held a rollout event, with customer-branded trucks shown for companies including PepsiCo, DHL, and US Foods. The factory is designed for up to 50,000 trucks per year. [<a href="https://x.com/teslacarsonly/status/2103110886273814590">1</a>, <a href="https://x.com/tslaming/status/2103149962070806891">2</a>]</p>
+    <p>Tesla certified three suppliers to mass-produce Optimus parts, including actuators, sensors, and thermal systems. New app assets reportedly showed Gen 3 hands with 22 degrees of freedom and black-and-gold panels. [<a href="https://x.com/teslacarsonly/status/2103110886273814590">1</a>, <a href="https://x.com/afrikha44/status/2103210359888949430">7</a>]</p>
+    <p>A post also described an Optimus Gen 3 robot vacuuming a hotel room and wiping a vanity. [<a href="https://x.com/xQu1q/status/2103257636565405914">9</a>]</p>
+    <blockquote><p>&#34;GOOD NEWS 🚛 A big wave of major companies is set to take delivery of Tesla Semis today&#34;
+<a class="at" href="https://x.com/tslaming/status/2103149962070806891">[2]</a></p></blockquote>
+
+    <h2>The posts</h2>
+    <section class="topic">
+      <h3>Tesla Semi</h3>
+<p class="why">Tesla opened its Nevada Semi factory and presented customer-branded trucks for companies including PepsiCo, DHL, US Foods, Einride, Nevoya, ABF Freight, WattEV, and others. [<a href="https://x.com/tslaming/status/2103149962070806891">2</a>]</p>      <ul class="posts">
+        <li id="p2">
+          <span class="at">[2] <a href="https://x.com/tslaming/status/2103149962070806891">@tslaming · 15:50 UTC</a>
+</span>
+          <p class="post-text">GOOD NEWS 🚛 A big wave of major companies is set to take delivery of Tesla Semis today at the @Tesla Semi Rollout event 🔥
+
+Customer-branded trucks from DHL, PepsiCo, US Foods, Einride, Nevoya, ABF Freight, WattEV and others have already been spotted lined up at Tesla’s Nevada</p>
+<p class="quoted">Quoting @HinrichsZane: Tesla Semi Pre-Reveal Revealed!
+
+Excited to share this segment of the drone flight one day prior to the Tesla Semi Reveal event.
+
+They have added branding to several Tesla new generation semis. 
+
+Including:
+Pepsico
+US Foods
+Einride
+LTS
+Nevoya
+OK Produce
+ABF Freight
+DHL 
+WattEV</p>        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Optimus</h3>
+<p class="why">Tesla certified Tuopu Group, Ningbo Joyson Electronic, and Zhejiang Sanhua Intelligent Controls to mass-produce Optimus actuators, sensors, and thermal systems. [<a href="https://x.com/teslacarsonly/status/2103110886273814590">1</a>] New Tesla app assets reportedly showed Optimus Gen 3 hands with 22 degrees of freedom and black-and-gold panels, while another post described the robot vacuuming and cleaning a hotel room. [<a href="https://x.com/afrikha44/status/2103210359888949430">7</a>, <a href="https://x.com/xQu1q/status/2103257636565405914">9</a>]</p>      <ul class="posts">
+        <li id="p1">
+          <span class="at">[1] <a href="https://x.com/teslacarsonly/status/2103110886273814590">@teslacarsonly · 13:14 UTC</a>
+</span>
+          <p class="post-text">BREAKING: Tesla certified Tuopu Group, Ningbo Joyson Electronic, and Zhejiang Sanhua Intelligent Controls to mass-produce actuators, sensors, and thermal systems as it readies Optimus for mass-scale production.</p>
+        </li>
+        <li id="p7">
+          <span class="at">[7] <a href="https://x.com/afrikha44/status/2103210359888949430">@afrikha44 · 19:50 UTC</a>
+</span>
+          <p class="post-text">New Optimus Gen 3 assets surfaced in Tesla&#39;s own app update: hands with 22 degrees of freedom, matte black and gold panels, product-grade fit. Fremont&#39;s old Model S and X lines are being converted to build it. That last part is the tell I take seriously.</p>
+        </li>
+        <li id="p9">
+          <span class="at">[9] <a href="https://x.com/xQu1q/status/2103257636565405914">@xQu1q · 22:57 UTC</a>
+</span>
+          <p class="post-text">A HUMANOID LABELED TESLA OPTIMUS GEN 3 VACUUMS A HOTEL ROOM, THEN WIPES DOWN THE VANITY.
+
+it pushes the vacuum head across the patterned rug at a walking pace, not a shuffle — weight forward, arm extended, working the machine like something with a job to do instead of a demo prop</p>
+<p class="quoted">Quoting @xQu1q: https://x.com/i/article/2092272404944871424</p>        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Model Y and Cybercab production</h3>
+<p class="why">A new external vertical conveyor at Giga Texas was described as moving large castings between floors and reducing the need to store them. [<a href="https://x.com/RobotaxiRadar/status/2103157803074379784">3</a>]</p>      <ul class="posts">
+        <li id="p3">
+          <span class="at">[3] <a href="https://x.com/RobotaxiRadar/status/2103157803074379784">@RobotaxiRadar · 16:21 UTC</a>
+</span>
+          <p class="post-text">Tesla is speeding up Cybercab production even further 😯
+
+✏️ An external Vertical Reciprocating Conveyor (VRC) is being installed at Giga Texas
+
+✏️ Think of it as a freight elevator for huge vehicle parts
+
+🟢 Moves large castings between floors
+
+🟢 Cuts the need to store castings</p>
+<p class="quoted">Quoting @JoeTegtmeyer: Changes at Giga Texas never stop &amp; this one is a big efficiency boost that will improve Model Y &amp; Cybercab production.
+
+There is a new External Vertical Reciprocating Conveyor (VRC) going up on the east side of Giga Texas Body-in-White ()BIW. 
+
+What is a VRC? It is an industrial</p>        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Full Self-Driving</h3>
+<p class="why">@Tesla shared a post showing FSD Supervised handling narrow, steep streets in old Slovenian villages. [<a href="https://x.com/Tesla/status/2103202395669098571">6</a>]</p>      <ul class="posts">
+        <li id="p6">
+          <span class="at">[6] <a href="https://x.com/Tesla/status/2103202395669098571">@Tesla · 19:18 UTC</a>
+</span>
+          <p class="post-text">Just a normal day for FSD Supervised</p>
+<p class="quoted">Quoting @JSkocaj: Tesla FSD (Supervised) handles the extremely narrow and steep streets of Slovenia’s old village centres with ease. 🇸🇮
+
+@teslaeurope @Tesla @TeslaOwnersSLO</p>        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Tesla merchandise</h3>
+<p class="why">Tesla added four Semi clothing items: two shirts priced at $40 each, a snapback hat priced at $35, and a children’s shirt priced at $30. [<a href="https://x.com/SawyerMerritt/status/2103198666626638178">5</a>]</p>      <ul class="posts">
+        <li id="p5">
+          <span class="at">[5] <a href="https://x.com/SawyerMerritt/status/2103198666626638178">@SawyerMerritt · 19:03 UTC</a>
+</span>
+          <p class="post-text">Tesla has added four new Tesla Semi apparel items to its shop.
+
+• Semi Wireframe Tee: $40
+• Semi Instant Torque Tee: $40
+• Semi Snapback Hat: $35
+• Kids Semi It’s a Beast Tee: $30
+
+Shop: https://shop.tesla.com/category/apparel/men</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Other</h3>
+      <ul class="posts">
+        <li id="p4">
+          <span class="at">[4] <a href="https://x.com/johnkonrad/status/2103171064373059780">@johnkonrad · 17:13 UTC</a>
+</span>
+          <p class="post-text">So I lease a new car every three years (yeah, I know) and I always pick a different make and model. Honestly, that’s half the fun of leasing.
+
+Except Tesla’s Full Self-Driving has gotten so good that, for the first time, I decided to trade my Model Y for… another Model Y.
+
+ONE</p>
+        </li>
+        <li id="p8">
+          <span class="at">[8] <a href="https://x.com/MotorTrend/status/2103212911158055073">@MotorTrend · 20:00 UTC</a>
+</span>
+          <p class="post-text">Compare every Tesla Model Y, including RWD, Dual Motor, Long Range, Performance, and the new Model Y L. See specs, pricing, range, features, and our pick for the best value. https://www.motortrend.com/reviews/tesla-model-y-trim-comparison-top-pick?taid=6ab58147d1581a0001749169&amp;utm_campaign=true_anthem&amp;utm_medium=social&amp;utm_source=twitter&amp;utm_type=organic</p>
+        </li>
+        <li id="p10">
+          <span class="at">[10] <a href="https://x.com/ubergizmo/status/2103262217353175172">@ubergizmo · 23:16 UTC</a>
+</span>
+          <p class="post-text">Leaked Tesla Optimus Humanoid Robot Gen 3 Cleaner Look https://www.ubergizmo.com/2026/09/leaked-tesla-optimus-humanoid-robot-gen-3-cleaner-look/?taid=6ab5af333a03d10001617d79&amp;utm_campaign=trueAnthem%3A+Trending+Content&amp;utm_medium=trueAnthem&amp;utm_source=twitter</p>
+        </li>
+      </ul>
+    </section>
+
+  <nav class="more">
+    <a href="/space-digest/tightbeam/tesla/">Every page from Tesla</a>
+    <a href="/space-digest/tightbeam/">All of the Tightbeam</a>
+  </nav>
+  <footer>
+    <p>Summaries are written by a machine from the original words, and link
+       back to where they were said. Nothing here replaces the source.</p>
+    <p><a href="/space-digest/episodes/">Every episode</a> ·
+       <a href="/space-digest/archive/">Every issue</a> ·
+<a href="/space-digest/tightbeam/">Tightbeam</a> ·
+<a href="/space-digest/funny/">Funny bits</a> ·
+<a href="/space-digest/feed.xml">Subscribe by RSS</a></p>
+  </footer>
+</div>
