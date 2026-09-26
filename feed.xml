@@ -5,8 +5,15 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 26 Sep 2026 18:02:19 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 21:29:32 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Aaron Levie, Steven Sinofsky &amp; Martin Casado: How Do You Secure a World of AI Agents?</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260926-aaron-levie-steven-sinofsky-martin-casado-how-do-you-secure/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260926-aaron-levie-steven-sinofsky-martin-casado-how-do-you-secure/</guid>
+      <pubDate>Sat, 26 Sep 2026 21:20:45 +0000</pubDate>
+      <description>AI security may matter less as a prediction problem than as a demand to rebuild computing itself.</description>
+    </item>
     <item>
       <title>The Reputation Graph of Silicon Valley | Introducing Cosign</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260925-the-reputation-graph-of-silicon-valley-introducing-cosign/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260910-anthropic-researcher-says-ai-has-over-a-10-chance-of-killing/</guid>
       <pubDate>Thu, 10 Sep 2026 23:12:13 +0000</pubDate>
       <description>Anthropic’s own safety warning puts a double-digit chance on AI causing human extinction within a decade.</description>
-    </item>
-    <item>
-      <title>#338 Cardinal Burke - The New Testament</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260910-338-cardinal-burke-the-new-testament/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260910-338-cardinal-burke-the-new-testament/</guid>
-      <pubDate>Sat, 12 Sep 2026 12:06:27 +0000</pubDate>
-      <description>The episode argues that Christianity rests on a physical Resurrection and demands a radically different way of living.</description>
     </item>
   </channel>
 </rss>
