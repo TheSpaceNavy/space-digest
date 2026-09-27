@@ -4,8 +4,29 @@
   <title>Space Digest — Tightbeam</title>
   <link>https://thespacenavy.github.io/space-digest/tightbeam/</link>
   <description>A narrow beam on each person and subject worth following.</description>
-  <lastBuildDate>Sun, 27 Sep 2026 10:07:33 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 27 Sep 2026 12:03:24 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/tightbeam/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>SpaceXAI · 27 September 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/tightbeam/spacex/2026-09-27/</link>
+    <guid isPermaLink="false">tightbeam:spacex/2026-09-27</guid>
+    <pubDate>Sun, 27 Sep 2026 12:03:18 +0000</pubDate>
+    <description>SpaceX launched USSF-385 and received approval for Starship Flight 14’s first orbital attempt with 26 Starlink V3 satellites.</description>
+  </item>
+  <item>
+    <title>Tesla · 27 September 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/tightbeam/tesla/2026-09-27/</link>
+    <guid isPermaLink="false">tightbeam:tesla/2026-09-27</guid>
+    <pubDate>Sun, 27 Sep 2026 12:02:08 +0000</pubDate>
+    <description>Tesla’s biggest news was rapid robotaxi growth, a new Roadster wing patent, and fresh Optimus hiring and design details.</description>
+  </item>
+  <item>
+    <title>Elon Musk · 27 September 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-09-27/</link>
+    <guid isPermaLink="false">tightbeam:elonmusk/2026-09-27</guid>
+    <pubDate>Sun, 27 Sep 2026 12:00:49 +0000</pubDate>
+    <description>Elon Musk discussed artificial intelligence, space production, Mars, and financial tools.</description>
+  </item>
   <item>
     <title>SpaceXAI · 26 September 2026</title>
     <link>https://thespacenavy.github.io/space-digest/tightbeam/spacex/2026-09-26/</link>

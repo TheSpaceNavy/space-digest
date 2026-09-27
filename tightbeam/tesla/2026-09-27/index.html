@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tesla · X · 27 September 2026 · Space Digest</title>
+<link rel="alternate" type="application/rss+xml" title="Space Digest" href="/space-digest/feed.xml">
+<style>
+  :root { --ink:#1a1a1a; --soft:#5b5b5b; --line:#e2e0da; --paper:#fbfaf7; --mark:#7a3b2e; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e8e6e1; --soft:#a09c94; --line:#33312d; --paper:#161513; --mark:#d99b7c; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink);
+         font:17px/1.65 Charter, Georgia, "Iowan Old Style", serif;
+         -webkit-text-size-adjust:100%; }
+  .page { max-width:38rem; margin:0 auto; padding:2.5rem 1.25rem 5rem; }
+  a { color:inherit; text-decoration-color:var(--line); text-underline-offset:3px; }
+  a:hover { text-decoration-color:var(--mark); }
+  header.masthead { border-bottom:2px solid var(--ink); padding-bottom:.6rem; margin-bottom:1rem; }
+  nav.top { display:flex; flex-wrap:wrap; gap:.2rem 1.4rem; margin:0 0 2rem;
+            font-size:.78rem; letter-spacing:.09em; text-transform:uppercase; }
+  nav.top a { color:var(--soft); text-decoration:none; padding:.25rem 0;
+              border-bottom:2px solid transparent; }
+  nav.top a:hover { color:var(--ink); }
+  nav.top a.on { color:var(--ink); border-bottom-color:var(--mark); }
+  header.masthead a { text-decoration:none; }
+  .wordmark { font-size:1.5rem; font-weight:700; letter-spacing:-.02em; margin:0; }
+  .tagline { color:var(--soft); font-size:.85rem; margin:.15rem 0 0; }
+  h1 { font-size:1.6rem; line-height:1.25; letter-spacing:-.015em; margin:0 0 .3rem; }
+  h2 { font-size:1.15rem; margin:2.5rem 0 .4rem; }
+  .meta { color:var(--soft); font-size:.82rem; margin:0 0 1.6rem; }
+  .hook { font-size:1.2rem; line-height:1.45; margin:0 0 1.2rem; }
+  article.entry { border-bottom:1px solid var(--line); padding-bottom:2rem; margin-bottom:2rem; }
+  article.entry:last-of-type { border-bottom:0; }
+  ul.points { list-style:none; margin:1.1rem 0; padding:0; }
+  ul.points li { margin:0 0 .7rem; padding-left:1rem; text-indent:-1rem; }
+  .at { color:var(--soft); font-size:.8rem; white-space:nowrap; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }
+  blockquote { margin:1.4rem 0; padding-left:1rem; border-left:3px solid var(--mark);
+               font-size:1.05rem; }
+  blockquote p { margin:0; }
+  .for { color:var(--soft); font-style:italic; }
+  .standouts { background:color-mix(in srgb, var(--mark) 7%, transparent);
+               border-radius:.4rem; padding:1rem 1.1rem; margin:1.6rem 0; }
+  .standouts h3 { margin:0 0 .6rem; font-size:.78rem; letter-spacing:.09em;
+                  text-transform:uppercase; color:var(--soft); font-weight:700; }
+  .standouts ol { margin:0; padding-left:1.15rem; }
+  .standouts li { margin:0 0 .7rem; }
+  .standouts li:last-child { margin-bottom:0; }
+  .why { display:block; color:var(--soft); font-size:.85rem; margin-top:.15rem; }
+  nav.more { margin-top:3rem; padding-top:1.2rem; border-top:1px solid var(--line);
+             color:var(--soft); font-size:.88rem; }
+  nav.more a { margin-right:1rem; }
+  footer { margin-top:3.5rem; padding-top:1.2rem; border-top:1px solid var(--line);
+           color:var(--soft); font-size:.8rem; }
+  .quiet { color:var(--soft); font-size:1.05rem; }
+  .filters { margin:1.5rem 0 2rem; }
+  .filters input { width:100%; padding:.55rem .7rem; font:inherit; font-size:.95rem;
+                   color:var(--ink); background:var(--paper);
+                   border:1px solid var(--line); border-radius:.35rem; }
+  .filters input:focus { outline:2px solid var(--mark); outline-offset:1px; }
+  .chips { display:flex; flex-wrap:wrap; gap:.4rem; margin-top:.7rem; }
+  .chip { font:inherit; font-size:.85rem; padding:.3rem .7rem; cursor:pointer;
+          color:var(--soft); background:transparent;
+          border:1px solid var(--line); border-radius:1rem; }
+  .chip:hover { border-color:var(--mark); color:var(--ink); }
+  .chip.on { background:var(--ink); border-color:var(--ink); color:var(--paper); }
+  .chip.on .at { color:var(--paper); opacity:.7; }
+  ul.episodes { list-style:none; margin:0; padding:0; }
+  ul.episodes li { padding:.85rem 0; border-bottom:1px solid var(--line); }
+  ul.episodes li a { font-size:1.05rem; }
+  ul.episodes .at { display:block; margin-top:.15rem; }
+  ul.episodes .why { margin-top:.3rem; }
+  section.topic { margin:1.6rem 0; }
+  section.topic h3 { font-size:1rem; margin:0 0 .3rem; }
+  ul.posts { list-style:none; margin:.6rem 0 0; padding:0; }
+  ul.posts li { padding:.6rem 0 .6rem .9rem; border-left:2px solid var(--line); margin:0 0 .6rem; }
+  ul.posts .at a { text-decoration:none; }
+  .post-text { margin:.25rem 0 0; white-space:pre-line; }
+  .quoted { margin:.35rem 0 0; color:var(--soft); font-size:.9rem; white-space:pre-line; }
+  .translation { margin:.2rem 0 0; color:var(--soft); font-size:.9rem; font-style:italic;
+                 white-space:pre-line; }
+  /* Tightbeam: the same head on every beam page, so the kinds read as one. */
+  .eyebrow { margin:0 0 .35rem; font-size:.78rem; letter-spacing:.09em;
+             text-transform:uppercase; color:var(--soft); }
+  .eyebrow a { color:inherit; text-decoration:none; }
+  .eyebrow a:hover { color:var(--ink); }
+  .sep { margin:0 .4rem; color:var(--line); }
+  .badge { display:inline-block; margin-left:.5rem; padding:.05rem .45rem;
+           border:1px solid var(--mark); border-radius:1rem; color:var(--mark);
+           font-size:.68rem; letter-spacing:.08em; text-transform:uppercase;
+           vertical-align:.1em; white-space:nowrap; }
+  h1 .label, h2 .label { font-weight:400; color:var(--soft); }
+  .beam-card h2 { font-size:1.3rem; letter-spacing:-.01em; }
+  .numbers { margin:1.4rem 0; padding:.2rem 0 .2rem 1rem; border-left:3px solid var(--line); }
+  .numbers p { margin:.35rem 0; }
+  .numbers .fig { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; color:var(--mark); }
+  .points-src { display:block; color:var(--soft); font-size:.72rem; letter-spacing:.08em;
+                text-transform:uppercase; margin-top:.15rem; }
+  .strip { margin:0 0 2.2rem; padding:.9rem 0 .2rem; border-top:1px solid var(--line);
+           border-bottom:1px solid var(--line); }
+  .strip h2 { margin:0 0 .5rem; font-size:.78rem; letter-spacing:.09em;
+              text-transform:uppercase; color:var(--soft); }
+  .strip ul { list-style:none; margin:0 0 .7rem; padding:0; }
+  .strip li { margin:0 0 .55rem; }
+  .strip .who { display:block; font-size:.82rem; color:var(--soft); }
+  .strip a { font-size:.98rem; }
+  a.button { display:inline-block; margin:.6rem 0 0; padding:.45rem .9rem;
+             border:1px solid var(--mark); border-radius:.3rem; color:var(--mark);
+             text-decoration:none; font-size:.92rem; }
+  a.button:hover { background:var(--mark); color:var(--paper); }
+  .archive { color:var(--mark); }
+  .done { display:none; }
+  .by-done .done { display:inline; color:var(--mark); }
+  .chips + .chips { margin-top:.5rem; }
+  ol.bits { margin:1.1rem 0 0; padding-left:1.3rem; }
+  ol.bits li { margin:0 0 1.1rem; }
+  ol.bits .said { font-size:1.05rem; }
+  ol.bits .at a { text-decoration:none; border-bottom:1px dotted var(--soft); }
+</style>
+<body>
+<div class="page">
+  <header class="masthead">
+    <a href="/space-digest/"><p class="wordmark">Space Digest</p></a>
+    <p class="tagline">The podcasts worth your week, in a minute each.</p>
+  </header>
+  <nav class="top" aria-label="Sections">
+    <a href="/space-digest/">Today</a>
+    <a href="/space-digest/episodes/">Episodes</a>
+    <a href="/space-digest/archive/">Issues</a>
+<a href="/space-digest/tightbeam/" class="on">Tightbeam</a>
+<a href="/space-digest/funny/">Funny bits</a>
+<a href="/space-digest/feed.xml">RSS</a>
+  </nav>
+  <p class="eyebrow">
+<a href="/space-digest/tightbeam/tesla/">Tesla</a>  <span class="badge badge-x">X</span>
+</p>
+
+  <h1>Sunday 27 September 2026</h1>
+  <p class="meta">26 Sep 12:00 to 27 Sep 12:00 UTC ·
+11 posts, every one checked against X · 5 checks</p>
+
+    <p class="hook">Tesla’s biggest news was rapid robotaxi growth, a new Roadster wing patent, and fresh Optimus hiring and design details.</p>
+    <p>A patent describes a next-generation Roadster rear wing that sits flush in the rear deck and rises in under three seconds, with 400–500 kilograms of downforce reported by @seanmmitchell. Tesla’s Texas robotaxi registry reached 489 vehicles, including 126 Cybercabs, according to @herbertong. [<a href="https://x.com/herbertong/status/2103920791465123971">5</a>]</p>
+    <p>Tesla’s Semi and Cybercab reportedly share a thermal system with the same compressor, coolant pumps, and heat exchangers. [<a href="https://x.com/niccruzpatane/status/2103910851677761976">3</a>] The Nevada Semi factory opened with a stated design capacity of 50,000 trucks per year, and customer deliveries have started. [<a href="https://x.com/herbertong/status/2103920791465123971">5</a>] Tesla also showed a Zen Gray Model Y interior in Germany. [<a href="https://x.com/niccruzpatane/status/2103956257602257303">7</a>]</p>
+    <p>A new Tesla AI employee said they joined the company to work on Optimus. [<a href="https://x.com/shivanshpatel35/status/2103964714762178646">8</a>] A Tesla Android app discovery reportedly showed a cleaner, factory-ready Optimus Gen 3 design, while a new internship posting points to Optimus hardware work for winter and spring 2027. [<a href="https://x.com/chloebennettce/status/2103972706647744555">9</a>, <a href="https://x.com/TeslaZoa/status/2103987867156693458">11</a>]</p>
+
+    <h2>The posts</h2>
+    <section class="topic">
+      <h3>Robotaxi fleet growth</h3>
+<p class="why">@Tesla announced to Austin users that its Cybercab robotaxi fleet had doubled. The Texas robotaxi registry reached 489 vehicles, including 126 Cybercabs. [<a href="https://x.com/herbertong/status/2103920791465123971">5</a>]</p>      <ul class="posts">
+        <li id="p5">
+          <span class="at">[5] <a href="https://x.com/herbertong/status/2103920791465123971">@herbertong · 18:53 UTC</a>
+</span>
+          <p class="post-text">Tesla and SpaceX just packed a lot of execution into one week!
+
+Tesla’s Texas Robotaxi registry climbed to 489 vehicles, including 126 Cybercabs.
+
+The Nevada Semi factory officially opened with 50,000 trucks/year design capacity and customer deliveries already starting.
+
+Possible</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Roadster rear wing</h3>
+<p class="why">A Tesla patent describes an active rear wing for the next-generation Roadster that hides flush in the rear deck, rises in under three seconds, and is reported to provide 400–500 kilograms of downforce.</p>      <ul class="posts">
+        <li id="p1">
+          <span class="at">[1] <a href="https://x.com/JeebsTX/status/2103834805058031648">@JeebsTX · 13:11 UTC</a>
+</span>
+          <p class="post-text">UPDATE: A Tesla patent dropped 7 days before the Roadster reveal. The numbers are wild.
+
+Filing: US 2026/0285418 A1
+“Deployable and Active Rear Wing Assembly with Safety Features”
+Inventors: David Lemire &amp; James Michael Arthur Crook
+Published Sep 24, 2026
+
+What it actually</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Semi and battery production</h3>
+<p class="why">The Tesla Semi and Cybercab reportedly use the same thermal-system design, including the compressor, coolant pumps, and heat exchangers. [<a href="https://x.com/niccruzpatane/status/2103910851677761976">3</a>] @JoeTegtmeyer said Tesla’s lithium plant reached milestones, including using locally produced lithium hydroxide monohydrate to make cathode materials at the Texas cathode facility. [<a href="https://x.com/JoeTegtmeyer/status/2103911761036648464">4</a>]</p>      <ul class="posts">
+        <li id="p3">
+          <span class="at">[3] <a href="https://x.com/niccruzpatane/status/2103910851677761976">@niccruzpatane · 18:13 UTC</a>
+</span>
+          <p class="post-text">The Tesla Semi’s thermal system is shared with Cybercab.
+
+Tesla designed them together. Same compressor, coolant pumps, and heat exchangers. One architecture for their biggest vehicle and their most efficient one.</p>
+<p class="quoted">Quoting @sdamico: many companies are extremely lucky that this only ships inside a truck</p>        </li>
+        <li id="p4">
+          <span class="at">[4] <a href="https://x.com/JoeTegtmeyer/status/2103911761036648464">@JoeTegtmeyer · 18:17 UTC</a>
+</span>
+          <p class="post-text">The @Tesla Lithium plant is looking pretty good today and the team here has made some massive milestones recently, with the Lithium Day even in July, the announcement that the LiOH monohydrate produced ere is now being used to make cathode materials at the Giga Texas Cathode</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Optimus development</h3>
+<p class="why">A new Tesla AI employee said they joined Tesla to work on Optimus and build robots for real-world work. [<a href="https://x.com/shivanshpatel35/status/2103964714762178646">8</a>] Renders found in Tesla’s Android app reportedly show a cleaner, factory-ready Optimus Gen 3 design. [<a href="https://x.com/chloebennettce/status/2103972706647744555">9</a>] Tesla is hiring for an Optimus hardware program role covering design, testing, validation, and industrialization for winter and spring 2027. [<a href="https://x.com/TeslaZoa/status/2103987867156693458">11</a>]</p>      <ul class="posts">
+        <li id="p8">
+          <span class="at">[8] <a href="https://x.com/shivanshpatel35/status/2103964714762178646">@shivanshpatel35 · 21:47 UTC</a>
+</span>
+          <p class="post-text">I’ve defended my PhD in Computer Science from @UofIllinois and joined @Tesla_AI to work on @Tesla_Optimus!
+
+Grateful to my advisors, Lana Lazebnik and @YunzhuLiYZ, and everyone who supported me. 
+
+Excited to keep building robots that can work in the real world.</p>
+        </li>
+        <li id="p9">
+          <span class="at">[9] <a href="https://x.com/chloebennettce/status/2103972706647744555">@chloebennettce · 22:19 UTC</a>
+</span>
+          <p class="post-text">Tesla Optimus Gen 3 shows off a cleaner, factory-ready design in new app discovery
+
+Renders hidden inside Tesla&#39;s Android app show Optimus Gen 3&#39;s design before any official reveal.</p>
+        </li>
+        <li id="p11">
+          <span class="at">[11] <a href="https://x.com/TeslaZoa/status/2103987867156693458">@TeslaZoa · 23:19 UTC</a>
+</span>
+          <p class="post-text">Tesla is ramping up Optimus hardware hiring for Winter/Spring 2027. 🤖
+
+The Robotics Technical Program Manager Intern will help coordinate Optimus hardware development from design and testing to validation and industrialization.
+
+The role includes managing development schedules,</p>
+        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Model Y interior</h3>
+<p class="why">A post showed a new Model Y with a Zen Gray interior in Germany and said it may be replacing the original white interior. [<a href="https://x.com/niccruzpatane/status/2103956257602257303">7</a>]</p>      <ul class="posts">
+        <li id="p7">
+          <span class="at">[7] <a href="https://x.com/niccruzpatane/status/2103956257602257303">@niccruzpatane · 21:13 UTC</a>
+</span>
+          <p class="post-text">Here’s the new Tesla Zen Grey Interior in a Model Y Premium AWD. 
+
+Seems like Tesla is slowly phasing out the original pure white interior. I think this one looks much more premium.</p>
+<p class="quoted">Quoting @EFIEBER_ANDRE: 🚨 Zen Grau ist in Deutschland 🇩🇪 angekommen.
+
+Ralf hat mir gerade frische Bilder von einem der neuen Model Y mit Zen-Grau-Interieur geschickt.
+
+Ich war anfangs tatsächlich etwas skeptisch – vor allem, weil der klassische weiße Innenraum damit wegfällt. Den fand ich beim Model Y</p><p class="translation">In English: Zen Gray has arrived in Germany. Ralf sent me fresh pictures of one of the new Model Ys with a Zen Gray interior. I was initially skeptical because the classic white interior is gone, but this looks more premium.</p>        </li>
+      </ul>
+    </section>
+    <section class="topic">
+      <h3>Other</h3>
+      <ul class="posts">
+        <li id="p2">
+          <span class="at">[2] <a href="https://x.com/cb_doge/status/2103852945834213654">@cb_doge · 14:23 UTC</a>
+</span>
+          <p class="post-text">Tesla patrol cars are winning over US police officers.
+
+Officers from several US law enforcement agencies tested Tesla Model Y and Cybertruck patrol vehicles at the San Diego Sheriff’s training track. Many were driving a Tesla for the first time.
+
+Their reactions said everything:</p>
+        </li>
+        <li id="p6">
+          <span class="at">[6] <a href="https://x.com/GerberKawasaki/status/2103942522963722444">@GerberKawasaki · 20:19 UTC</a>
+</span>
+          <p class="post-text">Happy to say my second tesla robotaxi ride was perfect. Map didn&#39;t change and pick up and ride was an A. Very cool. Way better than taking uber. I do like the robotaxi. $TSLA $UBER</p>
+        </li>
+        <li id="p10">
+          <span class="at">[10] <a href="https://x.com/WorldlyReviewer/status/2103973565980983652">@WorldlyReviewer · 22:22 UTC</a>
+</span>
+          <p class="post-text">Uber vs Tesla robotaxi on a Saturday evening in Austin. Here are the effects of the doubled fleet size for robotaxi. This is an insanely better experience than last Saturday with hour plus waits. The prices are still a tad bit higher but that is ok</p>
+        </li>
+      </ul>
+    </section>
+
+  <nav class="more">
+    <a href="/space-digest/tightbeam/tesla/">Every page from Tesla</a>
+    <a href="/space-digest/tightbeam/">All of the Tightbeam</a>
+  </nav>
+  <footer>
+    <p>Summaries are written by a machine from the original words, and link
+       back to where they were said. Nothing here replaces the source.</p>
+    <p><a href="/space-digest/episodes/">Every episode</a> ·
+       <a href="/space-digest/archive/">Every issue</a> ·
+<a href="/space-digest/tightbeam/">Tightbeam</a> ·
+<a href="/space-digest/funny/">Funny bits</a> ·
+<a href="/space-digest/feed.xml">Subscribe by RSS</a></p>
+  </footer>
+</div>
