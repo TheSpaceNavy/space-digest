@@ -5,8 +5,22 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 27 Sep 2026 18:02:32 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 22:54:48 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The Rise of the AI Moderates</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260927-the-rise-of-the-ai-moderates/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260927-the-rise-of-the-ai-moderates/</guid>
+      <pubDate>Sun, 27 Sep 2026 22:47:11 +0000</pubDate>
+      <description>AI may change society less through superintelligence than through ordinary systems that spread faster than safeguards.</description>
+    </item>
+    <item>
+      <title>Building a Team at AI Speed | Harvey’s Maggie Landers</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260927-building-a-team-at-ai-speed-harveys-maggie-landers/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260927-building-a-team-at-ai-speed-harveys-maggie-landers/</guid>
+      <pubDate>Sun, 27 Sep 2026 22:47:45 +0000</pubDate>
+      <description>Harvey is growing at AI speed without giving up autonomy, openness, or the pressure to move unusually fast.</description>
+    </item>
     <item>
       <title>Aaron Levie, Steven Sinofsky &amp; Martin Casado: How Do You Secure a World of AI Agents?</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260926-aaron-levie-steven-sinofsky-martin-casado-how-do-you-secure/</link>
@@ -342,20 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260910-remembering-the-life-legacy-of-charlie-kirk-michael-knowles/</guid>
       <pubDate>Thu, 10 Sep 2026 23:11:37 +0000</pubDate>
       <description>Charlie Kirk’s influence is portrayed as reaching beyond politics into faith, marriage, and the lives of thousands of families.</description>
-    </item>
-    <item>
-      <title>How AI Is Rewriting the Power Law of Venture Capital</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260910-how-ai-is-rewriting-the-power-law-of-venture-capital/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260910-how-ai-is-rewriting-the-power-law-of-venture-capital/</guid>
-      <pubDate>Thu, 10 Sep 2026 11:10:26 +0000</pubDate>
-      <description>AI is making venture returns more extreme, while even the biggest software winners face pressure from faster-moving rivals.</description>
-    </item>
-    <item>
-      <title>Anthropic Researcher Says AI Has Over a 10% Chance of Killing All Humans</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260910-anthropic-researcher-says-ai-has-over-a-10-chance-of-killing/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260910-anthropic-researcher-says-ai-has-over-a-10-chance-of-killing/</guid>
-      <pubDate>Thu, 10 Sep 2026 23:12:13 +0000</pubDate>
-      <description>Anthropic’s own safety warning puts a double-digit chance on AI causing human extinction within a decade.</description>
     </item>
   </channel>
 </rss>
