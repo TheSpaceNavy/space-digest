@@ -4,8 +4,29 @@
   <title>Space Digest — Tightbeam</title>
   <link>https://thespacenavy.github.io/space-digest/tightbeam/</link>
   <description>A narrow beam on each person and subject worth following.</description>
-  <lastBuildDate>Mon, 28 Sep 2026 12:00:19 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 28 Sep 2026 12:03:18 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/tightbeam/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>SpaceXAI · 28 September 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/tightbeam/spacex/2026-09-28/</link>
+    <guid isPermaLink="false">tightbeam:spacex/2026-09-28</guid>
+    <pubDate>Mon, 28 Sep 2026 12:03:13 +0000</pubDate>
+    <description>Starship Flight 14 dominated the day, with SpaceX confirming a Monday launch window and plans for its first orbital attempt.</description>
+  </item>
+  <item>
+    <title>Tesla · 28 September 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/tightbeam/tesla/2026-09-28/</link>
+    <guid isPermaLink="false">tightbeam:tesla/2026-09-28</guid>
+    <pubDate>Mon, 28 Sep 2026 12:02:16 +0000</pubDate>
+    <description>Tesla posts focused on Optimus production, Semi plans, and Robotaxi activity in Austin.</description>
+  </item>
+  <item>
+    <title>Elon Musk · 28 September 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-09-28/</link>
+    <guid isPermaLink="false">tightbeam:elonmusk/2026-09-28</guid>
+    <pubDate>Mon, 28 Sep 2026 12:00:53 +0000</pubDate>
+    <description>Elon Musk discussed Starship’s future, Starlink’s possible reach, and artificial intelligence.</description>
+  </item>
   <item>
     <title>SpaceXAI · 27 September 2026</title>
     <link>https://thespacenavy.github.io/space-digest/tightbeam/spacex/2026-09-27/</link>
@@ -334,27 +355,6 @@
     <guid isPermaLink="false">tightbeam:tesla/2026-09-12</guid>
     <pubDate>Sun, 13 Sep 2026 02:31:39 +0000</pubDate>
     <description>Nothing verified from X in this window.</description>
-  </item>
-  <item>
-    <title>Elon Musk · 12 September 2026</title>
-    <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-09-12/</link>
-    <guid isPermaLink="false">tightbeam:elonmusk/2026-09-12</guid>
-    <pubDate>Sat, 12 Sep 2026 12:01:04 +0000</pubDate>
-    <description>Elon Musk discussed solar power, technology in war, and improving Grok 4.7.</description>
-  </item>
-  <item>
-    <title>Elon Musk · 11 September 2026</title>
-    <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-09-11/</link>
-    <guid isPermaLink="false">tightbeam:elonmusk/2026-09-11</guid>
-    <pubDate>Fri, 11 Sep 2026 12:00:41 +0000</pubDate>
-    <description>The day focused on Grok, space, Tesla self-driving, history, and a breakfast post.</description>
-  </item>
-  <item>
-    <title>Elon Musk · 10 September 2026</title>
-    <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-09-10/</link>
-    <guid isPermaLink="false">tightbeam:elonmusk/2026-09-10</guid>
-    <pubDate>Thu, 10 Sep 2026 15:17:55 +0000</pubDate>
-    <description>The day focused on AI, robots, internet access, Tesla technology, and advertising on X.</description>
   </item>
 </channel>
 </rss>
