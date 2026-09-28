@@ -5,8 +5,22 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 28 Sep 2026 06:04:08 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 12:00:19 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>AI Can Write Code. Why Isn’t Software Better?</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260928-ai-can-write-code-why-isnt-software-better/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260928-ai-can-write-code-why-isnt-software-better/</guid>
+      <pubDate>Mon, 28 Sep 2026 11:51:03 +0000</pubDate>
+      <description>AI can write code faster, but the bigger breakthrough may be software that understands what people mean.</description>
+    </item>
+    <item>
+      <title>#343 Jimmy Watson - John McAfee&#39;s Bodyguard Reveals the Dead Man&#39;s Switch</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260928-343-jimmy-watson-john-mcafees-bodyguard-reveals-the-dead/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260928-343-jimmy-watson-john-mcafees-bodyguard-reveals-the-dead/</guid>
+      <pubDate>Mon, 28 Sep 2026 11:54:48 +0000</pubDate>
+      <description>A former bodyguard says John McAfee hid explosive secrets—and that faith, not fear, ultimately rebuilt his life.</description>
+    </item>
     <item>
       <title>The Rise of the AI Moderates</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260927-the-rise-of-the-ai-moderates/</link>
@@ -342,20 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260911-what-to-use-the-latest-ai-tools-for/</guid>
       <pubDate>Fri, 11 Sep 2026 23:32:36 +0000</pubDate>
       <description>AI tools are shifting from things you type into assistants that speak, code, research, and run projects.</description>
-    </item>
-    <item>
-      <title>What It Takes to Build a Startup | Andrew Chen &amp; Matt Perault</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260911-what-it-takes-to-build-a-startup-andrew-chen-matt-perault/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260911-what-it-takes-to-build-a-startup-andrew-chen-matt-perault/</guid>
-      <pubDate>Fri, 11 Sep 2026 11:20:16 +0000</pubDate>
-      <description>Tiny startups now move faster than the systems meant to regulate them—and many founders start with no fixed idea.</description>
-    </item>
-    <item>
-      <title>Remembering the Life &amp; Legacy of Charlie Kirk | Michael Knowles, Isabel Brown | Last Call Ep. 31</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260910-remembering-the-life-legacy-of-charlie-kirk-michael-knowles/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260910-remembering-the-life-legacy-of-charlie-kirk-michael-knowles/</guid>
-      <pubDate>Thu, 10 Sep 2026 23:11:37 +0000</pubDate>
-      <description>Charlie Kirk’s influence is portrayed as reaching beyond politics into faith, marriage, and the lives of thousands of families.</description>
     </item>
   </channel>
 </rss>
