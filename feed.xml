@@ -5,8 +5,15 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 29 Sep 2026 12:03:08 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 12:51:25 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The Personal Agent Race Is Here | Anish Acharya &amp; David Pawlan</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260929-the-personal-agent-race-is-here-anish-acharya-david-pawlan/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260929-the-personal-agent-race-is-here-anish-acharya-david-pawlan/</guid>
+      <pubDate>Tue, 29 Sep 2026 12:50:24 +0000</pubDate>
+      <description>Personal agents may win not by making us faster, but by quietly handling costly, annoying tasks.</description>
+    </item>
     <item>
       <title>The Real Risks of AI Agents</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260928-the-real-risks-of-ai-agents/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260914-2553-andrew-huberman/</guid>
       <pubDate>Tue, 15 Sep 2026 01:13:25 +0000</pubDate>
       <description>The episode argues that change comes less from knowledge than from attention, discomfort, surrender, and repeated practice.</description>
-    </item>
-    <item>
-      <title>World Models, Robotics, and the Future of 3D AI</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260913-world-models-robotics-and-the-future-of-3d-ai/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260913-world-models-robotics-and-the-future-of-3d-ai/</guid>
-      <pubDate>Sun, 13 Sep 2026 12:11:48 +0000</pubDate>
-      <description>AI models may soon build explorable worlds from a few photos—and train robots inside them.</description>
     </item>
   </channel>
 </rss>
