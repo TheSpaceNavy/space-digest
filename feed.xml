@@ -5,8 +5,22 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 29 Sep 2026 00:03:13 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 00:42:58 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The Real Risks of AI Agents</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260928-the-real-risks-of-ai-agents/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260928-the-real-risks-of-ai-agents/</guid>
+      <pubDate>Tue, 29 Sep 2026 00:39:19 +0000</pubDate>
+      <description>AI agents do not need to end humanity to cause serious damage; ordinary systems may already be unready for them.</description>
+    </item>
+    <item>
+      <title>Mary Maximilism (Gabriel Castillo) | Ep. 598</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260928-mary-maximilism-gabriel-castillo-ep-598/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260928-mary-maximilism-gabriel-castillo-ep-598/</guid>
+      <pubDate>Tue, 29 Sep 2026 00:39:06 +0000</pubDate>
+      <description>The episode argues that true Marian devotion does not pull people from Jesus; it teaches them to surrender more completely to him.</description>
+    </item>
     <item>
       <title>AI Can Write Code. Why Isn’t Software Better?</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260928-ai-can-write-code-why-isnt-software-better/</link>
@@ -20,6 +34,13 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260928-343-jimmy-watson-john-mcafees-bodyguard-reveals-the-dead/</guid>
       <pubDate>Mon, 28 Sep 2026 11:54:48 +0000</pubDate>
       <description>A former bodyguard says John McAfee hid explosive secrets—and that faith, not fear, ultimately rebuilt his life.</description>
+    </item>
+    <item>
+      <title>319. Why Bad Decisions Can Feel Reasonable</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-optimalwork-podcast/20260928-319-why-bad-decisions-can-feel-reasonable/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-optimalwork-podcast/20260928-319-why-bad-decisions-can-feel-reasonable/</guid>
+      <pubDate>Tue, 29 Sep 2026 00:39:31 +0000</pubDate>
+      <description>Fear and desire can make bad decisions feel wise by changing what reality seems to demand.</description>
     </item>
     <item>
       <title>The Rise of the AI Moderates</title>
@@ -335,27 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260913-world-models-robotics-and-the-future-of-3d-ai/</guid>
       <pubDate>Sun, 13 Sep 2026 12:11:48 +0000</pubDate>
       <description>AI models may soon build explorable worlds from a few photos—and train robots inside them.</description>
-    </item>
-    <item>
-      <title>10 Ways to Think Bigger with Opportunity AI</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260913-10-ways-to-think-bigger-with-opportunity-ai/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260913-10-ways-to-think-bigger-with-opportunity-ai/</guid>
-      <pubDate>Sun, 13 Sep 2026 12:11:37 +0000</pubDate>
-      <description>AI’s next leap may be less about smarter models than talking to computers and giving agents lasting responsibility.</description>
-    </item>
-    <item>
-      <title>Why Companies Are Becoming a Series of Loops | Anish Acharya on Lenny’s Podcast</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260912-why-companies-are-becoming-a-series-of-loops-anish-acharya/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260912-why-companies-are-becoming-a-series-of-loops-anish-acharya/</guid>
-      <pubDate>Sat, 12 Sep 2026 11:43:46 +0000</pubDate>
-      <description>AI may not replace people so much as reorganize work, creativity, and company building around human-guided loops.</description>
-    </item>
-    <item>
-      <title>What to Use the Latest AI Tools For</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260911-what-to-use-the-latest-ai-tools-for/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260911-what-to-use-the-latest-ai-tools-for/</guid>
-      <pubDate>Fri, 11 Sep 2026 23:32:36 +0000</pubDate>
-      <description>AI tools are shifting from things you type into assistants that speak, code, research, and run projects.</description>
     </item>
   </channel>
 </rss>
