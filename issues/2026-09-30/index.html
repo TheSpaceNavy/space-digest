@@ -132,7 +132,8 @@
 <a href="/space-digest/feed.xml">RSS</a>
   </nav>
   <h1>Wednesday 30 September 2026</h1>
-  <p class="meta">A quiet day</p>
+  <p class="meta">1
+     episode</p>
 
   <div class="strip">
     <h2>On the Tightbeam</h2>
@@ -145,8 +146,101 @@
           <a href="/space-digest/tightbeam/spacex/2026-09-30/">Starship’s first orbital flight, 26 large Starlink satellites, and new plans for faster launches led the day.</a></li>
     </ul>
   </div>
-    <p class="quiet">Nothing new today. The shows on the list have not published
-       since the last issue.</p>
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="the-a16z-show">The a16z Show <span class="at">1</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+<article class="entry" data-show="the-a16z-show" data-title="the $1 trillion ai buildout | state of markets"
+         data-released="2026-09-30" data-done="2026-09-30T09:04">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-a16z-show/20260930-the-1-trillion-ai-buildout-state-of-markets/">The $1 Trillion AI Buildout | State of Markets</a></h2>
+  <p class="meta">The a16z Show · 30 September 2026 · 54 min<span class="done"> · written up 30 September at 09:04</span></p>
+  <p class="hook">AI is driving a historic buildout, but its biggest effects may come from power, software, and autonomous machines.</p>
+  <ul class="points">
+<li>Technology now accounts for roughly 55% of U.S. capital spending and nearly 40% of the stock market’s total value. <span class="at">3:49</span></li><li>The market’s rise looks driven by stronger earnings, not a classic bubble: stocks rose about 20% while valuation multiples fell about 20%. <span class="at">5:59</span></li><li>Hyperscalers may spend $780 billion on capital projects in 2026 and more than $1 trillion a year from 2027, yet compute demand still exceeds supply. <span class="at">7:03</span></li><li>The buildout requires more than chips and data centers, extending to power, water, roads, and transit amid an estimated $90 trillion of global infrastructure needs through 2040. <span class="at">13:35</span></li><li>AI is spreading through companies, but its benefits remain hard to measure: 69% of S&amp;P 500 firms have live deployments, while only 2% track impact over time. <span class="at">19:01</span></li><li>Consumer adoption is still tiny, with just over 2% of U.S. households paying for an AI subscription. <span class="at">29:13</span></li>  </ul>
+<blockquote><p>“the discount to the last round price in secondary markets is basically zero.” [47:51]</p></blockquote><p class="for">Worth your time if you want the numbers behind AI’s impact on markets, infrastructure, companies, and everyday life.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>“For every 10% increase in data center capacity, residential rates went down by 40 bips.”
+<span class="at">15:12</span><span class="why">Readers might expect data centers to raise household electricity bills.</span>      </li>
+      <li>OpenAI and Anthropic’s combined annualized revenue has surpassed the estimated net-new revenue added by the best software companies in history.
+<span class="at">17:53</span><span class="why">AI labs reached historic software scale unusually quickly.</span>      </li>
+      <li>“only just over 2% of U.S. households actually have a paying subscription for AI”
+<span class="at">29:13</span><span class="why">Most people would assume paid consumer AI adoption is already much higher.</span>      </li>
+      <li>Employees took liquidity in private-company tenders only 58% of the time.
+<span class="at">46:15</span><span class="why">Employees are often assumed to use tenders mainly to cash out.</span>      </li>
+      <li>All new U.S. cars sold over the next decade could be autonomous, while autonomous networks increase miles traveled at least tenfold.
+<span class="at">50:02</span><span class="why">Most forecasts expect a slower transition to self-driving cars.</span>      </li>
+    </ol>
+  </div>
+</article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      list.classList.toggle('by-done', key === 'done');
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
   <nav class="more">
 <a href="/space-digest/issues/2026-09-29/">Older</a>    <a href="/space-digest/archive/">All issues</a>
   </nav>
