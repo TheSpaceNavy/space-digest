@@ -4,8 +4,29 @@
   <title>Space Digest — Tightbeam</title>
   <link>https://thespacenavy.github.io/space-digest/tightbeam/</link>
   <description>A narrow beam on each person and subject worth following.</description>
-  <lastBuildDate>Wed, 30 Sep 2026 06:02:51 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 30 Sep 2026 12:03:01 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/tightbeam/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>SpaceXAI · 30 September 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/tightbeam/spacex/2026-09-30/</link>
+    <guid isPermaLink="false">tightbeam:spacex/2026-09-30</guid>
+    <pubDate>Wed, 30 Sep 2026 12:02:56 +0000</pubDate>
+    <description>Starship’s first orbital flight, 26 large Starlink satellites, and new plans for faster launches led the day.</description>
+  </item>
+  <item>
+    <title>Tesla · 30 September 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/tightbeam/tesla/2026-09-30/</link>
+    <guid isPermaLink="false">tightbeam:tesla/2026-09-30</guid>
+    <pubDate>Wed, 30 Sep 2026 12:02:02 +0000</pubDate>
+    <description>Tesla highlighted wider FSD approval, a major Semi order, faster Optimus production, and $30 billion in new credit.</description>
+  </item>
+  <item>
+    <title>Elon Musk · 30 September 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-09-30/</link>
+    <guid isPermaLink="false">tightbeam:elonmusk/2026-09-30</guid>
+    <pubDate>Wed, 30 Sep 2026 12:00:51 +0000</pubDate>
+    <description>Elon Musk highlighted Tesla, SpaceX’s Starship flight videos, and Grok during the period.</description>
+  </item>
   <item>
     <title>SpaceXAI · 29 September 2026</title>
     <link>https://thespacenavy.github.io/space-digest/tightbeam/spacex/2026-09-29/</link>
@@ -334,27 +355,6 @@
     <guid isPermaLink="false">tightbeam:tesla/2026-09-15</guid>
     <pubDate>Tue, 15 Sep 2026 22:54:04 +0000</pubDate>
     <description>Tesla’s European Semi details led the day, alongside new driving, charging, insurance, and robotaxi updates.</description>
-  </item>
-  <item>
-    <title>Tesla · 14 September 2026</title>
-    <link>https://thespacenavy.github.io/space-digest/tightbeam/tesla/2026-09-14/</link>
-    <guid isPermaLink="false">tightbeam:tesla/2026-09-14</guid>
-    <pubDate>Mon, 14 Sep 2026 23:48:25 +0000</pubDate>
-    <description>Tesla highlighted a new Roadster date, Cybertruck charging gains, safety results, and possible investment in India.</description>
-  </item>
-  <item>
-    <title>Elon Musk · 14 September 2026</title>
-    <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-09-14/</link>
-    <guid isPermaLink="false">tightbeam:elonmusk/2026-09-14</guid>
-    <pubDate>Mon, 14 Sep 2026 23:47:45 +0000</pubDate>
-    <description>Elon Musk endorsed gaming, AI, Tesla, SpaceX, and a live Grok Bot product-building event.</description>
-  </item>
-  <item>
-    <title>SpaceXAI · 14 September 2026</title>
-    <link>https://thespacenavy.github.io/space-digest/tightbeam/spacex/2026-09-14/</link>
-    <guid isPermaLink="false">tightbeam:spacex/2026-09-14</guid>
-    <pubDate>Mon, 14 Sep 2026 23:46:15 +0000</pubDate>
-    <description>SpaceX marked Falcon’s 700th mission while posts highlighted possible space-based AI computers and Starlink’s reach.</description>
   </item>
 </channel>
 </rss>
