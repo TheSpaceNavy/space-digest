@@ -5,7 +5,7 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 30 Sep 2026 00:02:37 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 01:54:58 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>The Personal Agent Race Is Here | Anish Acharya &amp; David Pawlan</title>
@@ -13,6 +13,27 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260929-the-personal-agent-race-is-here-anish-acharya-david-pawlan/</guid>
       <pubDate>Tue, 29 Sep 2026 12:50:24 +0000</pubDate>
       <description>Personal agents may win not by making us faster, but by quietly handling costly, annoying tasks.</description>
+    </item>
+    <item>
+      <title>How to Build Team Agents</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260929-how-to-build-team-agents/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260929-how-to-build-team-agents/</guid>
+      <pubDate>Wed, 30 Sep 2026 01:45:08 +0000</pubDate>
+      <description>The best workplace AI may not belong to one person—it may belong to the whole team.</description>
+    </item>
+    <item>
+      <title>#2559 - Sam Morril</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260929-2559-sam-morril/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260929-2559-sam-morril/</guid>
+      <pubDate>Wed, 30 Sep 2026 01:47:42 +0000</pubDate>
+      <description>The episode argues that human messiness—rejection, risk, and hard creative work—may be what technology cannot replace.</description>
+    </item>
+    <item>
+      <title>16 Alien Bodies Crashed HERE… And We Just Found Evidence</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/american-alchemy-with-jesse-michels/20260929-16-alien-bodies-crashed-here-and-we-just-found-evidence/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/american-alchemy-with-jesse-michels/20260929-16-alien-bodies-crashed-here-and-we-just-found-evidence/</guid>
+      <pubDate>Wed, 30 Sep 2026 01:46:03 +0000</pubDate>
+      <description>A famous UFO crash was dismissed as a hoax, but decades of witness accounts and missing evidence keep the case alive.</description>
     </item>
     <item>
       <title>The Real Risks of AI Agents</title>
@@ -335,27 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260914-even-other-ai-labs-are-rallying-around-anthropics-slowdown/</guid>
       <pubDate>Tue, 15 Sep 2026 13:24:52 +0000</pubDate>
       <description>Anthropic’s call to slow frontier AI is winning allies, but critics see safety, power, and business interests tangled together.</description>
-    </item>
-    <item>
-      <title>#339 Christian Craighead - The Uncensored Story of the Nairobi DusitD2 Attack</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260914-339-christian-craighead-the-uncensored-story-of-the-nairobi/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260914-339-christian-craighead-the-uncensored-story-of-the-nairobi/</guid>
-      <pubDate>Mon, 14 Sep 2026 13:02:26 +0000</pubDate>
-      <description>A lone rescuer entered Nairobi’s burning hotel, saved hundreds, and later paid a personal price for telling the story.</description>
-    </item>
-    <item>
-      <title>317. How a Good Decision Becomes an Action</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-optimalwork-podcast/20260914-317-how-a-good-decision-becomes-an-action/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-optimalwork-podcast/20260914-317-how-a-good-decision-becomes-an-action/</guid>
-      <pubDate>Tue, 15 Sep 2026 01:16:11 +0000</pubDate>
-      <description>Good decisions fail when curiosity stops, options shrink, or a clear intention never becomes a specific next step.</description>
-    </item>
-    <item>
-      <title>#2553 - Andrew Huberman</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260914-2553-andrew-huberman/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260914-2553-andrew-huberman/</guid>
-      <pubDate>Tue, 15 Sep 2026 01:13:25 +0000</pubDate>
-      <description>The episode argues that change comes less from knowledge than from attention, discomfort, surrender, and repeated practice.</description>
     </item>
   </channel>
 </rss>
