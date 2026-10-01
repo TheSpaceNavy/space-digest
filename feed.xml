@@ -5,14 +5,28 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 01 Oct 2026 00:01:08 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 02:40:39 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The Most Important New AI Tools from OpenAI DevDay</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260930-the-most-important-new-ai-tools-from-openai-devday/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260930-the-most-important-new-ai-tools-from-openai-devday/</guid>
+      <pubDate>Thu, 01 Oct 2026 02:32:40 +0000</pubDate>
+      <description>OpenAI’s DevDay points less to a sudden breakthrough than to AI becoming cheaper, persistent, and built for teams.</description>
+    </item>
     <item>
       <title>The $1 Trillion AI Buildout | State of Markets</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260930-the-1-trillion-ai-buildout-state-of-markets/</link>
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260930-the-1-trillion-ai-buildout-state-of-markets/</guid>
       <pubDate>Wed, 30 Sep 2026 14:04:53 +0000</pubDate>
       <description>AI is driving a historic buildout, but its biggest effects may come from power, software, and autonomous machines.</description>
+    </item>
+    <item>
+      <title>#2560 - David Grusch</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260930-2560-david-grusch/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260930-2560-david-grusch/</guid>
+      <pubDate>Thu, 01 Oct 2026 02:34:00 +0000</pubDate>
+      <description>A former intelligence officer claims U.S. programs hid nonhuman craft, recovered bodies, and even underwater facilities.</description>
     </item>
     <item>
       <title>The Personal Agent Race Is Here | Anish Acharya &amp; David Pawlan</title>
@@ -342,20 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/american-alchemy-with-jesse-michels/20260915-i-met-the-head-of-the-entire-ufo-program-grant-cameron/</guid>
       <pubDate>Wed, 16 Sep 2026 01:38:49 +0000</pubDate>
       <description>A lifelong UFO investigator says the biggest secret may not be alien craft, but technology that changes consciousness, time, and reality.</description>
-    </item>
-    <item>
-      <title>#2554 - Carlo Rovelli</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260915-2554-carlo-rovelli/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260915-2554-carlo-rovelli/</guid>
-      <pubDate>Wed, 16 Sep 2026 01:33:16 +0000</pubDate>
-      <description>Quantum theory, black holes, AI, and war all point to the same unsettling lesson: reality is stranger and less certain than we think.</description>
-    </item>
-    <item>
-      <title>Greg Brockman on Why OpenAI Says We’re Entering the AGI Era</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260914-greg-brockman-on-why-openai-says-were-entering-the-agi-era/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260914-greg-brockman-on-why-openai-says-were-entering-the-agi-era/</guid>
-      <pubDate>Mon, 14 Sep 2026 13:03:09 +0000</pubDate>
-      <description>AI may be nearing a turning point where it discovers knowledge, finds security flaws, and erases routine computer work.</description>
     </item>
   </channel>
 </rss>
