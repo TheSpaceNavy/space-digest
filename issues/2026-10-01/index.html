@@ -132,7 +132,8 @@
 <a href="/space-digest/feed.xml">RSS</a>
   </nav>
   <h1>Thursday 1 October 2026</h1>
-  <p class="meta">A quiet day</p>
+  <p class="meta">1
+     episode</p>
 
   <div class="strip">
     <h2>On the Tightbeam</h2>
@@ -141,8 +142,99 @@
           <a href="/space-digest/tightbeam/elonmusk/2026-10-01/">Elon Musk highlighted Grok features, SpaceX projects, and a Starship launch.</a></li>
     </ul>
   </div>
-    <p class="quiet">Nothing new today. The shows on the list have not published
-       since the last issue.</p>
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="the-shawn-ryan-show">The Shawn Ryan Show <span class="at">1</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+<article class="entry" data-show="the-shawn-ryan-show" data-title="#344 dusty slay - moon landing conspiracies, flat earth, aliens and the nephilim"
+         data-released="2026-10-01" data-done="2026-10-01T09:49">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-shawn-ryan-show/20261001-344-dusty-slay-moon-landing-conspiracies-flat-earth-aliens/">#344 Dusty Slay - Moon Landing Conspiracies, Flat Earth, Aliens and the Nephilim</a></h2>
+  <p class="meta">The Shawn Ryan Show · 1 October 2026 · 2h 51m<span class="done"> · written up 1 October at 09:49</span></p>
+  <p class="hook">A comedian’s sobriety leads him from dirty jokes to biblical food laws, paranormal stories, and disbelief in the moon landing.</p>
+  <ul class="points">
+<li>Dusty Slay says quitting alcohol began when he realized one drink always became an all-night blackout. <span class="at">9:41</span></li><li>He says leaving home for Charleston helped end his drug use, though drinking continued until 2012. <span class="at">1:00:07</span></li><li>His Christian beliefs led him to follow Old Testament food laws while relying on Jesus for salvation. <span class="at">1:23:56</span></li><li>He rebuilt his comedy after sobriety, learning to adapt when audiences ignored his prepared material. <span class="at">1:56:22</span></li><li>He says he does not believe the moon landing happened as officially described. <span class="at">2:11:47</span></li><li>He believes aliens are more likely spiritual beings from another realm than visitors from space. <span class="at">2:21:14</span></li>  </ul>
+<blockquote><p>“I think aliens are likely spiritual beings.” [2:21:14]</p></blockquote><p class="for">Worth your time if you enjoy comedy, faith, recovery, strange experiences, and unconventional theories.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>“I just don&#39;t believe it” about the moon landing.
+<span class="at">2:11:47</span><span class="why">He rejects the official account despite presenting himself as uncertain.</span>      </li>
+      <li>“I think aliens are likely spiritual beings.”
+<span class="at">2:21:14</span><span class="why">He treats aliens as supernatural beings, not biological visitors from space.</span>      </li>
+      <li>“I haven&#39;t eaten pork since 2013, and I don&#39;t eat shellfish.”
+<span class="at">1:15:16</span><span class="why">His Christianity includes dietary rules many modern Christians do not follow.</span>      </li>
+      <li>“Every time I have this kind of sleep paralysis dream... I’m always trying to say Jesus... And when I finally get it out, it does end.”
+<span class="at">2:23:34</span><span class="why">He says invoking Jesus consistently ends his sleep paralysis.</span>      </li>
+    </ol>
+  </div>
+</article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      list.classList.toggle('by-done', key === 'done');
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
   <nav class="more">
 <a href="/space-digest/issues/2026-09-30/">Older</a>    <a href="/space-digest/archive/">All issues</a>
   </nav>
