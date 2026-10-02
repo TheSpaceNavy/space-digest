@@ -5,8 +5,15 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Oct 2026 12:00:59 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 15:30:22 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Why AI Agents Can Beat the Incumbents</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261002-why-ai-agents-can-beat-the-incumbents/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261002-why-ai-agents-can-beat-the-incumbents/</guid>
+      <pubDate>Fri, 02 Oct 2026 15:28:35 +0000</pubDate>
+      <description>AI agents may beat incumbents by taking responsibility for messy work their software never fully captured.</description>
+    </item>
     <item>
       <title>Rebuilding the Internet for Privacy | Barrett Lyon on DoxxNet</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261001-rebuilding-the-internet-for-privacy-barrett-lyon-on-doxxnet/</link>
@@ -27,6 +34,13 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261001-gemini-4-argon-sonnet-5-5-and-what-matters-with-ai-models/</guid>
       <pubDate>Fri, 02 Oct 2026 03:15:31 +0000</pubDate>
       <description>Gemini 4 may put Google back in the race, but its biggest test is whether people can actually use it.</description>
+    </item>
+    <item>
+      <title>Answering YOUR Objections to the Rosary | Gabriel Castillo | Last Call Ep. 34</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261001-answering-your-objections-to-the-rosary-gabriel-castillo/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261001-answering-your-objections-to-the-rosary-gabriel-castillo/</guid>
+      <pubDate>Fri, 02 Oct 2026 15:27:56 +0000</pubDate>
+      <description>The rosary’s strongest defense is that it is meant to keep your mind on Jesus, not replace him with Mary.</description>
     </item>
     <item>
       <title>#344 Dusty Slay - Moon Landing Conspiracies, Flat Earth, Aliens and the Nephilim</title>
@@ -342,20 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260917-340-byron-tau-the-government-doesnt-just-spy-on-you-it-buys/</guid>
       <pubDate>Fri, 18 Sep 2026 14:59:04 +0000</pubDate>
       <description>Your phone, car, tires, and grocery app can quietly become a government-accessible map of your life.</description>
-    </item>
-    <item>
-      <title>Why a New Class of AI “Judgment Models” Could Have Big Business Implications</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260916-why-a-new-class-of-ai-judgment-models-could-have-big/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260916-why-a-new-class-of-ai-judgment-models-could-have-big/</guid>
-      <pubDate>Fri, 18 Sep 2026 14:57:34 +0000</pubDate>
-      <description>A cheap new kind of AI could make software judge messy human situations at massive scale.</description>
-    </item>
-    <item>
-      <title>The AI-Native CRM</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260916-the-ai-native-crm/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260916-the-ai-native-crm/</guid>
-      <pubDate>Fri, 18 Sep 2026 02:54:58 +0000</pubDate>
-      <description>Lightfield argues that the next CRM should understand a company’s business before forcing it into fixed fields.</description>
     </item>
   </channel>
 </rss>

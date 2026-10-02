@@ -4,8 +4,15 @@
   <title>Space Digest — Just The Funny Bits</title>
   <link>https://thespacenavy.github.io/space-digest/funny/</link>
   <description>Only the jokes from the shows on the list, with a link to each one.</description>
-  <lastBuildDate>Fri, 02 Oct 2026 12:00:59 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 02 Oct 2026 15:30:23 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/funny/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>The White House: President Trump Gaggles with Press Upon Departure from the White House, Oct. 1, 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/funny/2026-10-02/</link>
+    <guid isPermaLink="false">funny:the-white-house/20261001-president-trump-gaggles-with-press-upon-departure-from-the</guid>
+    <pubDate>Fri, 02 Oct 2026 15:29:25 +0000</pubDate>
+    <description>1 funny bit: “Well, we have a lot of people that want that job. I would say many of them are right here. Would you like that job? &gt;&gt; Uh, maybe a guy like Peter, but he&#39;s making too much money. He&#39;s gone. &gt;&gt; I lost him as soon as he negotiated his last contract, didn&#39;t I?”</description>
+  </item>
   <item>
     <title>The Joe Rogan Experience: JRE MMA Show #186 with Sean Sharaf</title>
     <link>https://thespacenavy.github.io/space-digest/funny/2026-10-02/</link>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">funny:the-ben-shapiro-show/20260908-the-single-stupidest-clip-in-the-history-of-the-internet</guid>
     <pubDate>Fri, 11 Sep 2026 01:50:20 +0000</pubDate>
     <description>1 funny bit: “Who is behind this crusade? And it is a crusade to put letters in our math problems, in our precious math problems. Who is doing this? Why Why are there letters in words even? Why do we even write? I mean, words are made of sounds. I know I know that. You know that. I mean, we all know that. I mean, I can&#39;t I can&#39;t prove it, but words are made of sounds.”</description>
-  </item>
-  <item>
-    <title>The Ben Shapiro Show: Paying Moms To Stay Home Won&#39;t Work</title>
-    <link>https://thespacenavy.github.io/space-digest/funny/2026-09-11/</link>
-    <guid isPermaLink="false">funny:the-ben-shapiro-show/20260908-paying-moms-to-stay-home-wont-work</guid>
-    <pubDate>Fri, 11 Sep 2026 01:42:42 +0000</pubDate>
-    <description>2 funny bits: “You&#39;re going to die. We&#39;re all going to die. Now, how&#39;s that for a Tuesday?”</description>
   </item>
 </channel>
 </rss>
