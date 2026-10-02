@@ -5,8 +5,29 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Oct 2026 00:01:08 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 03:22:10 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Rebuilding the Internet for Privacy | Barrett Lyon on DoxxNet</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261001-rebuilding-the-internet-for-privacy-barrett-lyon-on-doxxnet/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261001-rebuilding-the-internet-for-privacy-barrett-lyon-on-doxxnet/</guid>
+      <pubDate>Fri, 02 Oct 2026 03:16:05 +0000</pubDate>
+      <description>The internet’s next layer may hide your identity while making direct, private connections far easier.</description>
+    </item>
+    <item>
+      <title>JRE MMA Show #186 with Sean Sharaf</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261001-jre-mma-show-186-with-sean-sharaf/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261001-jre-mma-show-186-with-sean-sharaf/</guid>
+      <pubDate>Fri, 02 Oct 2026 03:17:14 +0000</pubDate>
+      <description>A broke underdog’s knockout win leaves him richer, injured, spiritually changed—and unsure whether fighting is worth continuing.</description>
+    </item>
+    <item>
+      <title>Gemini 4 Argon, Sonnet 5.5 and What Matters with AI Models</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261001-gemini-4-argon-sonnet-5-5-and-what-matters-with-ai-models/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261001-gemini-4-argon-sonnet-5-5-and-what-matters-with-ai-models/</guid>
+      <pubDate>Fri, 02 Oct 2026 03:15:31 +0000</pubDate>
+      <description>Gemini 4 may put Google back in the race, but its biggest test is whether people can actually use it.</description>
+    </item>
     <item>
       <title>#344 Dusty Slay - Moon Landing Conspiracies, Flat Earth, Aliens and the Nephilim</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261001-344-dusty-slay-moon-landing-conspiracies-flat-earth-aliens/</link>
@@ -335,27 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260916-the-ai-native-crm/</guid>
       <pubDate>Fri, 18 Sep 2026 02:54:58 +0000</pubDate>
       <description>Lightfield argues that the next CRM should understand a company’s business before forcing it into fixed fields.</description>
-    </item>
-    <item>
-      <title>#2555 - Ron White</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260916-2555-ron-white/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260916-2555-ron-white/</guid>
-      <pubDate>Thu, 17 Sep 2026 02:18:31 +0000</pubDate>
-      <description>The conversation jumps from comedy and extreme fitness to war, censorship, religion, and whether money controls politics.</description>
-    </item>
-    <item>
-      <title>Trump Rails Against AI Slowdown &#34;Hoax&#34;</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260915-trump-rails-against-ai-slowdown-hoax/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260915-trump-rails-against-ai-slowdown-hoax/</guid>
-      <pubDate>Thu, 17 Sep 2026 02:17:10 +0000</pubDate>
-      <description>AI safety is becoming a partisan fight, while even its critics still support practical safeguards.</description>
-    </item>
-    <item>
-      <title>The Age of Body Futurism | Ruby Justice Thelot</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260915-the-age-of-body-futurism-ruby-justice-thelot/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260915-the-age-of-body-futurism-ruby-justice-thelot/</guid>
-      <pubDate>Wed, 16 Sep 2026 13:47:13 +0000</pubDate>
-      <description>Body optimization is spreading from elite beauty culture into everyday health, driven by drugs, data, and online imitation.</description>
     </item>
   </channel>
 </rss>

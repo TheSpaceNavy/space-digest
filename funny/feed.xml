@@ -4,8 +4,15 @@
   <title>Space Digest — Just The Funny Bits</title>
   <link>https://thespacenavy.github.io/space-digest/funny/</link>
   <description>Only the jokes from the shows on the list, with a link to each one.</description>
-  <lastBuildDate>Fri, 02 Oct 2026 00:01:08 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 02 Oct 2026 03:22:10 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/funny/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>The Joe Rogan Experience: JRE MMA Show #186 with Sean Sharaf</title>
+    <link>https://thespacenavy.github.io/space-digest/funny/2026-10-02/</link>
+    <guid isPermaLink="false">funny:the-joe-rogan-experience/20261001-jre-mma-show-186-with-sean-sharaf</guid>
+    <pubDate>Fri, 02 Oct 2026 03:19:21 +0000</pubDate>
+    <description>8 funny bits: “We&#39;re like complicated chimps. And that&#39;s how we look at it. Who&#39;s the big chimp? Who&#39;s top chimp? Oh, you&#39;re not top chimp anymore. You *bleep* up. You *bleep* loser. *bleep* you.”</description>
+  </item>
   <item>
     <title>The Andrew Klavan Show: Friendly Fire: Cornell #MeToo Hypocrisy &amp; Not So &#34;Super&#34; Intelligence</title>
     <link>https://thespacenavy.github.io/space-digest/funny/2026-10-01/</link>
@@ -26,6 +33,13 @@
     <guid isPermaLink="false">funny:the-ben-shapiro-show/20261001-fired-with-a-newborn-to-a-100-million-sale-to-fox-clay</guid>
     <pubDate>Thu, 01 Oct 2026 14:54:55 +0000</pubDate>
     <description>1 funny bit: “But I think that for people who are trying to think about starting a business, sometimes you kind of have to be forced out the door. And it feels like God is kicking you in the butt, but actually he&#39;s just giving you a nice hard shove out the door.”</description>
+  </item>
+  <item>
+    <title>The Andrew Klavan Show: Andrew Klavan&#39;s REACTION To These Trailers for Upcoming Movies</title>
+    <link>https://thespacenavy.github.io/space-digest/funny/2026-10-02/</link>
+    <guid isPermaLink="false">funny:the-andrew-klavan-show/20261001-andrew-klavans-reaction-to-these-trailers-for-upcoming</guid>
+    <pubDate>Fri, 02 Oct 2026 03:19:42 +0000</pubDate>
+    <description>2 funny bits: “All right, I feel like I escaped from prison because this week, instead of watching Tic Tac or Tuk Tak or whatever the hell they&#39;re called, uh videos that uh make my eyeballs turn to acid and then melt into my heart, which turns my heart to acid.”</description>
   </item>
   <item>
     <title>The White House: President Trump Makes an Announcement with the Secretary of Commerce</title>
@@ -341,20 +355,6 @@
     <guid isPermaLink="false">funny:the-ben-shapiro-show/20260908-paying-moms-to-stay-home-wont-work</guid>
     <pubDate>Fri, 11 Sep 2026 01:42:42 +0000</pubDate>
     <description>2 funny bits: “You&#39;re going to die. We&#39;re all going to die. Now, how&#39;s that for a Tuesday?”</description>
-  </item>
-  <item>
-    <title>The Matt Walsh Show: Ep. 1835 - Pilots Saw This Disaster Coming. No One Listened.</title>
-    <link>https://thespacenavy.github.io/space-digest/funny/2026-09-10/</link>
-    <guid isPermaLink="false">funny:the-matt-walsh-show/20260908-ep-1835-pilots-saw-this-disaster-coming-no-one-listened</guid>
-    <pubDate>Thu, 10 Sep 2026 21:13:26 +0000</pubDate>
-    <description>2 funny bits: “It&#39;s called the September reset because apparently doing something sensible now requires branding. But one useful rule is to handle important things while you&#39;re thinking about them. Uh write it down, put it on a calendar, or take care of it immediately. Otherwise, you&#39;re assigning the task to your future self, a man with the same bad habits and even less time.”</description>
-  </item>
-  <item>
-    <title>The Joe Rogan Experience: #2550 - Rick Springfield</title>
-    <link>https://thespacenavy.github.io/space-digest/funny/2026-09-11/</link>
-    <guid isPermaLink="false">funny:the-joe-rogan-experience/20260908-2550-rick-springfield</guid>
-    <pubDate>Fri, 11 Sep 2026 02:12:12 +0000</pubDate>
-    <description>4 funny bits: “They&#39;re like uh deer that went to prison.”</description>
   </item>
 </channel>
 </rss>
