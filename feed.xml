@@ -5,7 +5,7 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 03 Oct 2026 00:00:54 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 03:50:59 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Why AI Agents Can Beat the Incumbents</title>
@@ -13,6 +13,13 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261002-why-ai-agents-can-beat-the-incumbents/</guid>
       <pubDate>Fri, 02 Oct 2026 15:28:35 +0000</pubDate>
       <description>AI agents may beat incumbents by taking responsibility for messy work their software never fully captured.</description>
+    </item>
+    <item>
+      <title>What the Best Business AI Users Are Doing Different</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261002-what-the-best-business-ai-users-are-doing-different/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261002-what-the-best-business-ai-users-are-doing-different/</guid>
+      <pubDate>Sat, 03 Oct 2026 03:47:18 +0000</pubDate>
+      <description>The best AI-using companies are moving beyond tools and building systems to manage cost, risk, data, and results.</description>
     </item>
     <item>
       <title>Rebuilding the Internet for Privacy | Barrett Lyon on DoxxNet</title>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260917-jimmy-akin-destroys-james-white-last-call-ep-32/</guid>
       <pubDate>Sat, 19 Sep 2026 03:06:23 +0000</pubDate>
       <description>The episode argues that several famous anti-Catholic arguments rely on selective evidence, outdated scholarship, or a mistaken idea of the gospel.</description>
-    </item>
-    <item>
-      <title>#340 Byron Tau - The Government Doesn&#39;t Just Spy on You. It Buys You.</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260917-340-byron-tau-the-government-doesnt-just-spy-on-you-it-buys/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260917-340-byron-tau-the-government-doesnt-just-spy-on-you-it-buys/</guid>
-      <pubDate>Fri, 18 Sep 2026 14:59:04 +0000</pubDate>
-      <description>Your phone, car, tires, and grocery app can quietly become a government-accessible map of your life.</description>
     </item>
   </channel>
 </rss>
