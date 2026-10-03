@@ -5,8 +5,15 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 03 Oct 2026 12:01:54 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 15:58:19 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Beyond the God Model | Alex Atallah &amp; Amjad Masad</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261003-beyond-the-god-model-alex-atallah-amjad-masad/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261003-beyond-the-god-model-alex-atallah-amjad-masad/</guid>
+      <pubDate>Sat, 03 Oct 2026 15:57:07 +0000</pubDate>
+      <description>The next AI advantage may come from replacing one powerful model with many smaller, specialized ones.</description>
+    </item>
     <item>
       <title>Why AI Agents Can Beat the Incumbents</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261002-why-ai-agents-can-beat-the-incumbents/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260917-the-next-frontier-of-ai-video-is-control/</guid>
       <pubDate>Sat, 19 Sep 2026 03:06:57 +0000</pubDate>
       <description>The next leap in AI video may be control: directing scenes, characters, cameras, and edits as they unfold.</description>
-    </item>
-    <item>
-      <title>Jimmy Akin DESTROYS James White | Last Call Ep. 32</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260917-jimmy-akin-destroys-james-white-last-call-ep-32/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260917-jimmy-akin-destroys-james-white-last-call-ep-32/</guid>
-      <pubDate>Sat, 19 Sep 2026 03:06:23 +0000</pubDate>
-      <description>The episode argues that several famous anti-Catholic arguments rely on selective evidence, outdated scholarship, or a mistaken idea of the gospel.</description>
     </item>
   </channel>
 </rss>
