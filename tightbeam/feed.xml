@@ -4,8 +4,15 @@
   <title>Space Digest — Tightbeam</title>
   <link>https://thespacenavy.github.io/space-digest/tightbeam/</link>
   <description>A narrow beam on each person and subject worth following.</description>
-  <lastBuildDate>Sat, 03 Oct 2026 06:00:47 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 03 Oct 2026 12:01:55 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/tightbeam/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Elon Musk · 3 October 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-10-03/</link>
+    <guid isPermaLink="false">tightbeam:elonmusk/2026-10-03</guid>
+    <pubDate>Sat, 03 Oct 2026 12:01:48 +0000</pubDate>
+    <description>Elon Musk highlighted SpaceX launches, Starship tests, Tesla charging, and strong future growth.</description>
+  </item>
   <item>
     <title>Elon Musk · 2 October 2026</title>
     <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-10-02/</link>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">tightbeam:elonmusk/2026-09-16</guid>
     <pubDate>Wed, 16 Sep 2026 12:01:18 +0000</pubDate>
     <description>Elon Musk focused on Grok Bot, Starship, energy, and autonomous technology.</description>
-  </item>
-  <item>
-    <title>SpaceXAI · 15 September 2026</title>
-    <link>https://thespacenavy.github.io/space-digest/tightbeam/spacex/2026-09-15/</link>
-    <guid isPermaLink="false">tightbeam:spacex/2026-09-15</guid>
-    <pubDate>Tue, 15 Sep 2026 22:54:55 +0000</pubDate>
-    <description>Starship Flight 14 moved to September 22, while new Starlink, Starship, and Roman mission updates led the day.</description>
   </item>
 </channel>
 </rss>
