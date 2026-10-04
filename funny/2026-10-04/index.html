@@ -2,7 +2,7 @@
 <html lang="en">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>3 October 2026 · Space Digest</title>
+<title>Just The Funny Bits · 4 October 2026 · Space Digest</title>
 <link rel="alternate" type="application/rss+xml" title="Space Digest" href="/space-digest/feed.xml">
 <style>
   :root { --ink:#1a1a1a; --soft:#5b5b5b; --line:#e2e0da; --paper:#fbfaf7; --mark:#7a3b2e; }
@@ -124,121 +124,21 @@
     <p class="tagline">The podcasts worth your week, in a minute each.</p>
   </header>
   <nav class="top" aria-label="Sections">
-    <a href="/space-digest/" class="on">Today</a>
+    <a href="/space-digest/">Today</a>
     <a href="/space-digest/episodes/">Episodes</a>
     <a href="/space-digest/archive/">Issues</a>
 <a href="/space-digest/tightbeam/">Tightbeam</a>
-<a href="/space-digest/funny/">Funny bits</a>
+<a href="/space-digest/funny/" class="on">Funny bits</a>
 <a href="/space-digest/feed.xml">RSS</a>
   </nav>
-  <h1>Saturday 3 October 2026</h1>
-  <p class="meta">1
-     episode</p>
-
-  <div class="strip">
-    <h2>On the Tightbeam</h2>
-    <ul>
-      <li><span class="who">Elon Musk<span class="badge badge-x">X</span></span>
-          <a href="/space-digest/tightbeam/elonmusk/2026-10-03/">Elon Musk highlighted SpaceX launches, Starship tests, Tesla charging, and strong future growth.</a></li>
-    </ul>
-  </div>
-      <div class="filters" id="filters" hidden>
-    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
-           aria-label="Search episode titles">
-    <div class="chips" data-role="show">
-      <button class="chip on" data-show="">All shows</button>
-      <button class="chip" data-show="the-a16z-show">The a16z Show <span class="at">1</span></button>
-    </div>
-    <div class="chips" data-role="sort">
-      <span class="at">Sort</span>
-      <button class="chip on" data-sort="released">Newest released</button>
-      <button class="chip" data-sort="done">Just written up</button>
-    </div>
-  </div>
-
-    <div id="list">
-<article class="entry" data-show="the-a16z-show" data-title="beyond the god model | alex atallah &amp; amjad masad"
-         data-released="2026-10-03" data-done="2026-10-03T10:57">
-  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-a16z-show/20261003-beyond-the-god-model-alex-atallah-amjad-masad/">Beyond the God Model | Alex Atallah &amp; Amjad Masad</a></h2>
-  <p class="meta">The a16z Show · 3 October 2026 · 48 min<span class="done"> · written up 3 October at 10:57</span></p>
-  <p class="hook">The next AI advantage may come from replacing one powerful model with many smaller, specialized ones.</p>
-  <ul class="points">
-<li>OpenRouter joined Stripe because the deal preserved its brand, product, and roadmap while adding stronger sales reach. <span class="at">2:49</span></li><li>OpenRouter’s goal is to stop companies becoming dependent on one AI provider by encouraging model choice, competition, and lower prices. <span class="at">5:45</span></li><li>Enterprises are more open to open-weight models than expected because they want lower costs and ownership of their AI systems. <span class="at">9:06</span></li><li>Companies need a layer of independence between their own systems and model or cloud providers that may eventually compete with them. <span class="at">12:27</span></li><li>General agents may make work easier while quietly taking away users’ understanding, with nobody clearly responsible for that loss. <span class="at">18:13</span></li><li>The future may favor many specialized models, with general models creating cheaper, safer replacements for repeated tasks. <span class="at">31:30</span></li>  </ul>
-<blockquote><p>“No one new is taking responsibility.” — Alex [20:07]</p></blockquote><p class="for">Worth your time if you want to understand why AI may become more specialized, controlled, and independent.</p>  <div class="standouts">
-    <h3>Most surprising</h3>
-    <ol>
-      <li>“It was I think my top choice” among possible acquisition options.
-<span class="at">— Alex</span><span class="at">2:49</span><span class="why">The company was not seeking a sale before Stripe approached it.</span>      </li>
-      <li>“No one new is taking responsibility” for the understanding users lose when agents handle more work.
-<span class="at">— Alex</span><span class="at">20:07</span><span class="why">More capable agents seem helpful, not like a new accountability problem.</span>      </li>
-      <li>“if you do a lot of monitoring of chain of thought, they start lying in their chain of thoughts”
-<span class="at">36:35</span><span class="why">Monitoring seems like it should make model reasoning more honest.</span>      </li>
-      <li>“I trained a cost estimator model internally”
-<span class="at">41:20</span><span class="why">Usage costs seem like something an outside billing system would calculate.</span>      </li>
-      <li>“this resulted in basically fable level quality at 2x lower cost.”
-<span class="at">46:10</span><span class="why">Combining models sounds more expensive, not dramatically cheaper.</span>      </li>
-    </ol>
-  </div>
-</article>
-    </div>
-      <p class="quiet" id="none" hidden>Nothing matches that.</p>
-  <script>
-  (function () {
-    var box = document.getElementById('filters');
-    var list = document.getElementById('list');
-    var none = document.getElementById('none');
-    if (!box || !list) return;
-    box.hidden = false;              // only shown when scripting works
-    var items = [].slice.call(list.children);
-    var show = '', text = '', sort = 'released';
-
-    function apply() {
-      var key = sort === 'done' ? 'done' : 'released';
-      var other = key === 'done' ? 'released' : 'done';
-      items.sort(function (a, b) {
-        var x = a.dataset[key] || '', y = b.dataset[key] || '';
-        if (x !== y) return x < y ? 1 : -1;
-        x = a.dataset[other] || ''; y = b.dataset[other] || '';
-        return x === y ? 0 : (x < y ? 1 : -1);
-      });
-      items.forEach(function (el) { list.appendChild(el); });
-      list.classList.toggle('by-done', key === 'done');
-      var seen = 0;
-      items.forEach(function (el) {
-        var ok = (!show || el.dataset.show === show) &&
-                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
-        el.hidden = !ok;
-        if (ok) seen++;
-      });
-      none.hidden = seen > 0;
-    }
-    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
-      var b = ev.target.closest('.chip');
-      if (!b) return;
-      show = b.dataset.show;
-      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
-        c.classList.toggle('on', c === b);
-      });
-      apply();
-    });
-    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
-      var b = ev.target.closest('.chip');
-      if (!b) return;
-      sort = b.dataset.sort;
-      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
-        c.classList.toggle('on', c === b);
-      });
-      apply();
-    });
-    document.getElementById('q').addEventListener('input', function (ev) {
-      text = ev.target.value.trim().toLowerCase();
-      apply();
-    });
-  })();
-  </script>
-
+  <h1>Just The Funny Bits</h1>
+  <p class="meta">Sunday 4 October 2026 ·
+A quiet day     · only the jokes; the news stays out</p>
+    <p class="quiet">No funny bits today. The shows on the list have not published
+       since the last page.</p>
   <nav class="more">
-<a href="/space-digest/issues/2026-10-04/">Newer</a><a href="/space-digest/issues/2026-10-02/">Older</a>    <a href="/space-digest/archive/">All issues</a>
+<a href="/space-digest/funny/2026-10-02/">Older</a>    <a href="/space-digest/funny/episodes/">Every episode</a>
+    <a href="/space-digest/funny/feed.xml">Subscribe by RSS</a>
   </nav>
   <footer>
     <p>Summaries are written by a machine from the original words, and link
