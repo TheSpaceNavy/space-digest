@@ -5,8 +5,22 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 12:00:58 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 16:08:16 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>How to Choose Your Personal AI Agent</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261004-how-to-choose-your-personal-ai-agent/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261004-how-to-choose-your-personal-ai-agent/</guid>
+      <pubDate>Sun, 04 Oct 2026 16:06:53 +0000</pubDate>
+      <description>Personal AI agents already overlap, so the best choice depends less on features than on your work, privacy, and control needs.</description>
+    </item>
+    <item>
+      <title>David George &amp; Jack Altman on AI, Autonomy, and the Next $25 Trillion</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261004-david-george-jack-altman-on-ai-autonomy-and-the-next-25/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261004-david-george-jack-altman-on-ai-autonomy-and-the-next-25/</guid>
+      <pubDate>Sun, 04 Oct 2026 16:07:41 +0000</pubDate>
+      <description>AI’s biggest opportunities may still be ahead: most businesses barely use it, while robotics could outgrow language models.</description>
+    </item>
     <item>
       <title>Beyond the God Model | Alex Atallah &amp; Amjad Masad</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261003-beyond-the-god-model-alex-atallah-amjad-masad/</link>
@@ -342,20 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260918-databricks-ceo-on-ai-pacing-cyber-risk-and-the-enterprise/</guid>
       <pubDate>Sun, 20 Sep 2026 03:21:06 +0000</pubDate>
       <description>AI is speeding up the work, but the bigger danger may be insecure systems—not runaway intelligence.</description>
-    </item>
-    <item>
-      <title>Why Everyone Is Getting Excited About Personal AI Agents</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260917-why-everyone-is-getting-excited-about-personal-ai-agents/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260917-why-everyone-is-getting-excited-about-personal-ai-agents/</guid>
-      <pubDate>Sat, 19 Sep 2026 15:17:22 +0000</pubDate>
-      <description>Personal AI agents may finally be crossing from tech insider toy to genuinely useful everyday assistant.</description>
-    </item>
-    <item>
-      <title>The Next Frontier of AI Video Is Control</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260917-the-next-frontier-of-ai-video-is-control/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260917-the-next-frontier-of-ai-video-is-control/</guid>
-      <pubDate>Sat, 19 Sep 2026 03:06:57 +0000</pubDate>
-      <description>The next leap in AI video may be control: directing scenes, characters, cameras, and edits as they unfold.</description>
     </item>
   </channel>
 </rss>
