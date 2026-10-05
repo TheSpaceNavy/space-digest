@@ -4,8 +4,15 @@
   <title>Space Digest — Tightbeam</title>
   <link>https://thespacenavy.github.io/space-digest/tightbeam/</link>
   <description>A narrow beam on each person and subject worth following.</description>
-  <lastBuildDate>Mon, 05 Oct 2026 06:00:51 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 05 Oct 2026 12:01:14 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/tightbeam/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Elon Musk · 5 October 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-10-05/</link>
+    <guid isPermaLink="false">tightbeam:elonmusk/2026-10-05</guid>
+    <pubDate>Mon, 05 Oct 2026 12:01:07 +0000</pubDate>
+    <description>Elon Musk highlighted Grok’s coding, cybersecurity, workplace, and civic uses, along with Starlink streaming.</description>
+  </item>
   <item>
     <title>Elon Musk · 4 October 2026</title>
     <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-10-04/</link>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">tightbeam:spacex/2026-09-16</guid>
     <pubDate>Wed, 16 Sep 2026 12:04:08 +0000</pubDate>
     <description>Starship Flight 14 dominated the day, with Starlink, aviation, education, and Grok subscription news also featured.</description>
-  </item>
-  <item>
-    <title>Tesla · 16 September 2026</title>
-    <link>https://thespacenavy.github.io/space-digest/tightbeam/tesla/2026-09-16/</link>
-    <guid isPermaLink="false">tightbeam:tesla/2026-09-16</guid>
-    <pubDate>Wed, 16 Sep 2026 12:02:32 +0000</pubDate>
-    <description>Tesla focused on expanding the Semi in Europe, while Optimus production rumors and Roadster performance claims drew attention.</description>
   </item>
 </channel>
 </rss>
