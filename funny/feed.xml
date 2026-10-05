@@ -4,8 +4,15 @@
   <title>Space Digest — Just The Funny Bits</title>
   <link>https://thespacenavy.github.io/space-digest/funny/</link>
   <description>Only the jokes from the shows on the list, with a link to each one.</description>
-  <lastBuildDate>Mon, 05 Oct 2026 12:01:15 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 05 Oct 2026 16:44:27 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/funny/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>The Ben Shapiro Show: Watch Tucker Carlson Get Dismantled on His Own Show</title>
+    <link>https://thespacenavy.github.io/space-digest/funny/2026-10-05/</link>
+    <guid isPermaLink="false">funny:the-ben-shapiro-show/20261005-watch-tucker-carlson-get-dismantled-on-his-own-show</guid>
+    <pubDate>Mon, 05 Oct 2026 16:43:15 +0000</pubDate>
+    <description>1 funny bit: “That&#39;s because there is some historical inflection point, a point at which Marty McFly&#39;s mom and dad met the wrong way. thus unleashing a chain of inevitabilities that have culminated in Marty McFly&#39;s car crashing and him not being able to go to the lake with Jennifer. Right?”</description>
+  </item>
   <item>
     <title>The White House: President Trump Gaggles with Press Upon Departure from the White House, Oct. 2, 2026</title>
     <link>https://thespacenavy.github.io/space-digest/funny/2026-10-03/</link>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">funny:the-joe-rogan-experience/20260910-2552-ehsan-ahmad-deric-poston</guid>
     <pubDate>Fri, 11 Sep 2026 02:17:10 +0000</pubDate>
     <description>3 funny bits: “Imagine we&#39;re like the Model T developer that sees a Corvette ZR1X and like, &#34;No, no, no, no. You don&#39;t want to go 0 to 60 in 1.6 seconds. You don&#39;t want that kind of handling. You don&#39;t want that kind of *bleep* insane control of a vehicle. No, you want rickety ass wheels and *bleep* engine that barely goes faster than a walking.”</description>
-  </item>
-  <item>
-    <title>The Andrew Klavan Show: The Unsettling Reasons America is Losing the War on Terror w/Sarah Adams</title>
-    <link>https://thespacenavy.github.io/space-digest/funny/2026-09-11/</link>
-    <guid isPermaLink="false">funny:the-andrew-klavan-show/20260909-the-unsettling-reasons-america-is-losing-the-war-on-terror-w</guid>
-    <pubDate>Fri, 11 Sep 2026 02:02:11 +0000</pubDate>
-    <description>1 funny bit: “You know, you got to have hobbies, right? [laughter] &gt;&gt; Yes. Death and destruction is a hobby.”</description>
   </item>
 </channel>
 </rss>
