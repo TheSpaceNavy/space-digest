@@ -133,9 +133,95 @@
   </nav>
   <h1>Just The Funny Bits</h1>
   <p class="meta">Tuesday 6 October 2026 ·
-A quiet day     · only the jokes; the news stays out</p>
-    <p class="quiet">No funny bits today. The shows on the list have not published
-       since the last page.</p>
+1 episode     · only the jokes; the news stays out</p>
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="the-michael-knowles-show">The Michael Knowles Show <span class="at">1</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+    <article class="entry" id="the-michael-knowles-show-20261006-ep-2075-uno-reverse-cornell-seven-accuser-gets-accused" data-show="the-michael-knowles-show" data-title="ep. 2075 - uno reverse: cornell seven accuser gets accused"
+             data-released="2026-10-06" data-done="2026-10-06T12:02">
+      <h2 style="margin-top:0"><a href="https://www.youtube.com/watch?v=K0ElL7B6SAY">Ep. 2075 - Uno Reverse: Cornell Seven Accuser Gets Accused</a></h2>
+      <p class="meta">The Michael Knowles Show · 6 October 2026 · 48 min
+         · times link into the video<span class="done"> · written up 6 October at 12:02</span></p>
+      <ol class="bits">
+        <li>
+          <span class="said">“Good ranchers, though, is the kind of meat that will taste better than all the other meat anywhere you cook it. I mean, you could throw it in a microwave. It would still taste better than all.”</span>
+          <span class="at"><a href="https://www.youtube.com/watch?v=K0ElL7B6SAY&amp;t=896s">14:56</a></span>
+<span class="why">The speaker humorously exaggerates the meat’s quality by claiming it would taste superior even if prepared in the least appetizing way mentioned: a microwave.</span>        </li>
+        <li>
+          <span class="said">“There comes a weekend every fall when you go outside to grill and you realize this might have been a mistake, but right now it is prime fall weather. dark at 6:00 and you&#39;re standing outside tending a steak in a jacket.”</span>
+          <span class="at"><a href="https://www.youtube.com/watch?v=K0ElL7B6SAY&amp;t=867s">14:27</a></span>
+<span class="why">The host describes the comically bleak experience of continuing to grill after summer has ended: darkness comes early, and the griller is left outside in a jacket wondering why he started.</span>        </li>
+      </ol>
+    </article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      list.classList.toggle('by-done', key === 'done');
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
   <nav class="more">
 <a href="/space-digest/funny/2026-10-05/">Older</a>    <a href="/space-digest/funny/episodes/">Every episode</a>
     <a href="/space-digest/funny/feed.xml">Subscribe by RSS</a>

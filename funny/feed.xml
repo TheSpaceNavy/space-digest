@@ -4,8 +4,15 @@
   <title>Space Digest — Just The Funny Bits</title>
   <link>https://thespacenavy.github.io/space-digest/funny/</link>
   <description>Only the jokes from the shows on the list, with a link to each one.</description>
-  <lastBuildDate>Tue, 06 Oct 2026 12:00:41 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 06 Oct 2026 17:03:06 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/funny/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>The Michael Knowles Show: Ep. 2075 - Uno Reverse: Cornell Seven Accuser Gets Accused</title>
+    <link>https://thespacenavy.github.io/space-digest/funny/2026-10-06/</link>
+    <guid isPermaLink="false">funny:the-michael-knowles-show/20261006-ep-2075-uno-reverse-cornell-seven-accuser-gets-accused</guid>
+    <pubDate>Tue, 06 Oct 2026 17:02:58 +0000</pubDate>
+    <description>2 funny bits: “Good ranchers, though, is the kind of meat that will taste better than all the other meat anywhere you cook it. I mean, you could throw it in a microwave. It would still taste better than all.”</description>
+  </item>
   <item>
     <title>The Ben Shapiro Show: Watch Tucker Carlson Get Dismantled on His Own Show</title>
     <link>https://thespacenavy.github.io/space-digest/funny/2026-10-05/</link>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">funny:the-ben-shapiro-show/20260910-ben-reacts-to-the-2-000-iphone</guid>
     <pubDate>Fri, 11 Sep 2026 01:52:39 +0000</pubDate>
     <description>1 funny bit: “So for nearly a century, according to the Wall Street Journal, mathematicians have tried to determine whether smooth solutions to the equations describing threedimensional fluid motion always remain smooth or if they ever break down. So to put it less mathematically, on paper, can water blow up?”</description>
-  </item>
-  <item>
-    <title>The Joe Rogan Experience: #2552 - Ehsan Ahmad &amp; Deric Poston</title>
-    <link>https://thespacenavy.github.io/space-digest/funny/2026-09-11/</link>
-    <guid isPermaLink="false">funny:the-joe-rogan-experience/20260910-2552-ehsan-ahmad-deric-poston</guid>
-    <pubDate>Fri, 11 Sep 2026 02:17:10 +0000</pubDate>
-    <description>3 funny bits: “Imagine we&#39;re like the Model T developer that sees a Corvette ZR1X and like, &#34;No, no, no, no. You don&#39;t want to go 0 to 60 in 1.6 seconds. You don&#39;t want that kind of handling. You don&#39;t want that kind of *bleep* insane control of a vehicle. No, you want rickety ass wheels and *bleep* engine that barely goes faster than a walking.”</description>
   </item>
 </channel>
 </rss>

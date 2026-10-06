@@ -132,10 +132,102 @@
 <a href="/space-digest/feed.xml">RSS</a>
   </nav>
   <h1>Tuesday 6 October 2026</h1>
-  <p class="meta">A quiet day</p>
+  <p class="meta">1
+     episode</p>
 
-    <p class="quiet">Nothing new today. The shows on the list have not published
-       since the last issue.</p>
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="the-a16z-show">The a16z Show <span class="at">1</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+<article class="entry" data-show="the-a16z-show" data-title="building defense for the agentic era: kevin mandia"
+         data-released="2026-10-06" data-done="2026-10-06T12:01">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-a16z-show/20261006-building-defense-for-the-agentic-era-kevin-mandia/">Building Defense for the Agentic Era: Kevin Mandia</a></h2>
+  <p class="meta">The a16z Show · 6 October 2026 · 49 min<span class="done"> · written up 6 October at 12:01</span></p>
+  <p class="hook">AI is turning cyberattacks into high-speed experiments that human defenders may not be able to match.</p>
+  <ul class="points">
+<li>Kevin Mandia returned to cybersecurity because he did not want to miss AI transforming an industry he had spent 30 years in. <span class="at">2:47</span></li><li>Armadin is building AI that attacks systems and defends them, arguing that strong defense needs realistic offensive training. <span class="at">4:15</span></li><li>AI attacks already operate at a scale humans cannot match: one microsecond of activity could take 70 people to reproduce. <span class="at">6:21</span></li><li>AI may let inexperienced attackers appear highly skilled while making it harder to tell whether a nation, person, or model is behind an attack. <span class="at">10:10</span></li><li>Armadin says its black-box testing found more than 90 previously unknown flaws in Fortune 500 production systems since January 2026. <span class="at">16:41</span></li><li>The speakers argue that security teams must monitor autonomous agents at every layer and involve humans when the agents behave unpredictably. <span class="at">28:55</span></li>  </ul>
+<blockquote><p>“What AI does in a microsecond would take 70 humans.” — Kevin Mandia [6:21]</p></blockquote><p class="for">Worth your time if you want to understand why AI may change both cyberattacks and the defenses built against them.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>“What AI does in a microsecond would take 70 humans.”
+<span class="at">— Kevin Mandia</span><span class="at">6:21</span><span class="why">AI is faster than humans by a specific, startling margin.</span>      </li>
+      <li>Armadin has found over 90 zero-days in Fortune 500 production environments since January 2026.
+<span class="at">— Kevin Mandia</span><span class="at">16:41</span><span class="why">AI testing is uncovering serious flaws, not just known weaknesses.</span>      </li>
+      <li>“If you have humans in the detect and respond loop, you&#39;re gonna be too slow.”
+<span class="at">— Kevin Mandia</span><span class="at">22:15</span><span class="why">Human oversight may hinder defense against machine-speed attacks.</span>      </li>
+      <li>An AI-controlled internal breach can perform a thousand actions simultaneously and cause the defense apparatus to “pop.”
+<span class="at">23:29</span><span class="why">Attacks may happen in parallel rather than through gradual, human-paced movement.</span>      </li>
+    </ol>
+  </div>
+</article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      list.classList.toggle('by-done', key === 'done');
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
   <nav class="more">
 <a href="/space-digest/issues/2026-10-05/">Older</a>    <a href="/space-digest/archive/">All issues</a>
   </nav>
