@@ -5,8 +5,22 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Oct 2026 12:00:45 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 17:31:18 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>How Valon Rebuilt a $13 Trillion Industry From Scratch</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261007-how-valon-rebuilt-a-13-trillion-industry-from-scratch/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261007-how-valon-rebuilt-a-13-trillion-industry-from-scratch/</guid>
+      <pubDate>Wed, 07 Oct 2026 17:27:33 +0000</pubDate>
+      <description>Valon rebuilt mortgage servicing by becoming the operator first—and proving software could transform a broken back office.</description>
+    </item>
+    <item>
+      <title>#2562 - Dan McClellan</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261007-2562-dan-mcclellan/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261007-2562-dan-mcclellan/</guid>
+      <pubDate>Wed, 07 Oct 2026 17:28:33 +0000</pubDate>
+      <description>The Bible emerges as a changing record of politics, older myths, disputed texts, and evolving ideas about God.</description>
+    </item>
     <item>
       <title>Point-Counterpoint: Consumers Will Never Pay for AI</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261006-point-counterpoint-consumers-will-never-pay-for-ai/</link>
@@ -342,20 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260921-yes-the-internet-is-killing-islam-godlogic-ep-597/</guid>
       <pubDate>Tue, 22 Sep 2026 16:20:35 +0000</pubDate>
       <description>The episode argues that the internet is exposing contradictions in Islam faster than religious authorities can answer them.</description>
-    </item>
-    <item>
-      <title>The State of the AI Debate</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260921-the-state-of-the-ai-debate/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260921-the-state-of-the-ai-debate/</guid>
-      <pubDate>Tue, 22 Sep 2026 16:19:05 +0000</pubDate>
-      <description>China and the US are entering AI talks with sharply different ideas about what “safety” means.</description>
-    </item>
-    <item>
-      <title>AI Safety Language Is Destroying the Debate | Steven Sinofsky</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260921-ai-safety-language-is-destroying-the-debate-steven-sinofsky/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260921-ai-safety-language-is-destroying-the-debate-steven-sinofsky/</guid>
-      <pubDate>Tue, 22 Sep 2026 04:10:20 +0000</pubDate>
-      <description>Calling AI “misaligned” can hide ordinary software bugs—and make safety laws less useful.</description>
     </item>
   </channel>
 </rss>
