@@ -4,8 +4,15 @@
   <title>Space Digest — Tightbeam</title>
   <link>https://thespacenavy.github.io/space-digest/tightbeam/</link>
   <description>A narrow beam on each person and subject worth following.</description>
-  <lastBuildDate>Wed, 07 Oct 2026 06:00:45 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 07 Oct 2026 12:00:46 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/tightbeam/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Elon Musk · 7 October 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-10-07/</link>
+    <guid isPermaLink="false">tightbeam:elonmusk/2026-10-07</guid>
+    <pubDate>Wed, 07 Oct 2026 12:00:39 +0000</pubDate>
+    <description>Elon Musk highlighted Grok’s tools, AI performance, and plans for space-based connectivity.</description>
+  </item>
   <item>
     <title>Elon Musk · 6 October 2026</title>
     <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-10-06/</link>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">tightbeam:tesla/2026-09-17</guid>
     <pubDate>Thu, 17 Sep 2026 18:02:10 +0000</pubDate>
     <description>Tesla posts focused on self-driving, a planned solar factory, Megapacks, and possible upcoming product events.</description>
-  </item>
-  <item>
-    <title>Elon Musk · 17 September 2026</title>
-    <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-09-17/</link>
-    <guid isPermaLink="false">tightbeam:elonmusk/2026-09-17</guid>
-    <pubDate>Thu, 17 Sep 2026 18:00:56 +0000</pubDate>
-    <description>The day focused on rocket-engine design and a company being built live with Grok.</description>
   </item>
 </channel>
 </rss>
