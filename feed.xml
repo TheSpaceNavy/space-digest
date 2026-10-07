@@ -5,14 +5,28 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Oct 2026 00:01:17 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 05:19:35 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Point-Counterpoint: Consumers Will Never Pay for AI</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261006-point-counterpoint-consumers-will-never-pay-for-ai/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261006-point-counterpoint-consumers-will-never-pay-for-ai/</guid>
+      <pubDate>Wed, 07 Oct 2026 05:14:21 +0000</pubDate>
+      <description>AI’s richest users spend $903 a month, while 98% of US households pay nothing—raising a basic question: who is this really for?</description>
+    </item>
     <item>
       <title>Building Defense for the Agentic Era: Kevin Mandia</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261006-building-defense-for-the-agentic-era-kevin-mandia/</link>
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261006-building-defense-for-the-agentic-era-kevin-mandia/</guid>
       <pubDate>Tue, 06 Oct 2026 17:01:57 +0000</pubDate>
       <description>AI is turning cyberattacks into high-speed experiments that human defenders may not be able to match.</description>
+    </item>
+    <item>
+      <title>#2561 - LL Cool J</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261006-2561-ll-cool-j/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261006-2561-ll-cool-j/</guid>
+      <pubDate>Wed, 07 Oct 2026 05:15:13 +0000</pubDate>
+      <description>LL Cool J’s career began with a tax-return drum machine, then grew into a case for discipline over inspiration.</description>
     </item>
     <item>
       <title>Why Companies Want AI They Can Own</title>
@@ -342,20 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260921-ai-safety-language-is-destroying-the-debate-steven-sinofsky/</guid>
       <pubDate>Tue, 22 Sep 2026 04:10:20 +0000</pubDate>
       <description>Calling AI “misaligned” can hide ordinary software bugs—and make safety laws less useful.</description>
-    </item>
-    <item>
-      <title>#341 Katarina Szulc - Cartels Are Recruiting Drone Operators From the Ukraine War</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260921-341-katarina-szulc-cartels-are-recruiting-drone-operators/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260921-341-katarina-szulc-cartels-are-recruiting-drone-operators/</guid>
-      <pubDate>Mon, 21 Sep 2026 15:58:29 +0000</pubDate>
-      <description>Mexico’s cartels reach into jobs, politics, trafficking and technology—and are now drawing recruits from the Ukraine war.</description>
-    </item>
-    <item>
-      <title>318: Prudence, Fast and Slow</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-optimalwork-podcast/20260921-318-prudence-fast-and-slow/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-optimalwork-podcast/20260921-318-prudence-fast-and-slow/</guid>
-      <pubDate>Tue, 22 Sep 2026 04:10:05 +0000</pubDate>
-      <description>Your first instinct can help—but only if you treat it as a question, not an answer.</description>
     </item>
   </channel>
 </rss>
