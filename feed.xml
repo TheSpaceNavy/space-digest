@@ -5,7 +5,7 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Oct 2026 18:00:56 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 18:04:23 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Building the Cloud for an Agentic World | AWS CEO Matt Garman</title>
@@ -13,6 +13,20 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261008-building-the-cloud-for-an-agentic-world-aws-ceo-matt-garman/</guid>
       <pubDate>Thu, 08 Oct 2026 17:59:33 +0000</pubDate>
       <description>AI agents may reshape the cloud by creating temporary infrastructure, demanding machine-speed security, and shrinking product teams.</description>
+    </item>
+    <item>
+      <title>#346 James Lechner - Army Ranger Recounts the Battle of Mogadishu: Black Hawk Down</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261008-346-james-lechner-army-ranger-recounts-the-battle-of/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261008-346-james-lechner-army-ranger-recounts-the-battle-of/</guid>
+      <pubDate>Thu, 08 Oct 2026 18:01:15 +0000</pubDate>
+      <description>James Lechner argues that wars fail when outsiders impose grand plans instead of adapting to local realities.</description>
+    </item>
+    <item>
+      <title>#2563 - Dan Richards</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261008-2563-dan-richards/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261008-2563-dan-richards/</guid>
+      <pubDate>Thu, 08 Oct 2026 18:02:04 +0000</pubDate>
+      <description>Ancient skull surgery, lost civilizations, and disputed evidence all point to a history less settled than textbooks suggest.</description>
     </item>
     <item>
       <title>Yes, Protestants Can Pray the Rosary. Here&#39;s How.</title>
@@ -342,20 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260923-opus-5-5-vs-gpt-6-sol-and-luna/</guid>
       <pubDate>Thu, 24 Sep 2026 05:33:11 +0000</pubDate>
       <description>Opus 5.5 appears to beat GPT-6 on capability, while GPT-6 makes advanced AI much cheaper.</description>
-    </item>
-    <item>
-      <title>Amjad Masad on Rethinking College for the AI Era</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260923-amjad-masad-on-rethinking-college-for-the-ai-era/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260923-amjad-masad-on-rethinking-college-for-the-ai-era/</guid>
-      <pubDate>Wed, 23 Sep 2026 23:30:15 +0000</pubDate>
-      <description>College may matter less as a credential than as protected time to explore, build, and become useful.</description>
-    </item>
-    <item>
-      <title>#2557 - Yakov Smirnoff</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260923-2557-yakov-smirnoff/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260923-2557-yakov-smirnoff/</guid>
-      <pubDate>Thu, 24 Sep 2026 05:38:29 +0000</pubDate>
-      <description>Yakov Smirnoff rebuilt his career after the Soviet collapse—and later advised Ronald Reagan on jokes for Soviet leaders.</description>
     </item>
   </channel>
 </rss>
