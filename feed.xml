@@ -5,8 +5,15 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Oct 2026 12:01:11 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 18:00:56 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Building the Cloud for an Agentic World | AWS CEO Matt Garman</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261008-building-the-cloud-for-an-agentic-world-aws-ceo-matt-garman/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261008-building-the-cloud-for-an-agentic-world-aws-ceo-matt-garman/</guid>
+      <pubDate>Thu, 08 Oct 2026 17:59:33 +0000</pubDate>
+      <description>AI agents may reshape the cloud by creating temporary infrastructure, demanding machine-speed security, and shrinking product teams.</description>
+    </item>
     <item>
       <title>Yes, Protestants Can Pray the Rosary. Here&#39;s How.</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261007-yes-protestants-can-pray-the-rosary-heres-how/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260923-2557-yakov-smirnoff/</guid>
       <pubDate>Thu, 24 Sep 2026 05:38:29 +0000</pubDate>
       <description>Yakov Smirnoff rebuilt his career after the Soviet collapse—and later advised Ronald Reagan on jokes for Soviet leaders.</description>
-    </item>
-    <item>
-      <title>Why a16z is Building a New School for the AI Era | Ben Horowitz</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260922-why-a16z-is-building-a-new-school-for-the-ai-era-ben/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260922-why-a16z-is-building-a-new-school-for-the-ai-era-ben/</guid>
-      <pubDate>Tue, 22 Sep 2026 16:22:09 +0000</pubDate>
-      <description>The AI era may make hands-on building, not college lectures, the fastest route to useful skills.</description>
     </item>
   </channel>
 </rss>
