@@ -5,8 +5,29 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Oct 2026 00:01:37 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 05:51:12 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Yes, Protestants Can Pray the Rosary. Here&#39;s How.</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261007-yes-protestants-can-pray-the-rosary-heres-how/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261007-yes-protestants-can-pray-the-rosary-heres-how/</guid>
+      <pubDate>Thu, 08 Oct 2026 05:48:56 +0000</pubDate>
+      <description>A Catholic guide says Protestants can pray the Rosary while setting aside several Catholic beliefs.</description>
+    </item>
+    <item>
+      <title>The Best Way to Test New AI Models</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261007-the-best-way-to-test-new-ai-models/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261007-the-best-way-to-test-new-ai-models/</guid>
+      <pubDate>Thu, 08 Oct 2026 05:49:16 +0000</pubDate>
+      <description>The best AI model is the one that wins on your real work, not a public leaderboard.</description>
+    </item>
+    <item>
+      <title>I Confront The Secretary of Energy On UFOs</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/american-alchemy-with-jesse-michels/20261007-i-confront-the-secretary-of-energy-on-ufos/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/american-alchemy-with-jesse-michels/20261007-i-confront-the-secretary-of-energy-on-ufos/</guid>
+      <pubDate>Thu, 08 Oct 2026 05:49:46 +0000</pubDate>
+      <description>A former energy official rejects recovered UFOs while admitting unexplained objects still visit nuclear sites.</description>
+    </item>
     <item>
       <title>How Valon Rebuilt a $13 Trillion Industry From Scratch</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261007-how-valon-rebuilt-a-13-trillion-industry-from-scratch/</link>
@@ -335,27 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260922-why-a16z-is-building-a-new-school-for-the-ai-era-ben/</guid>
       <pubDate>Tue, 22 Sep 2026 16:22:09 +0000</pubDate>
       <description>The AI era may make hands-on building, not college lectures, the fastest route to useful skills.</description>
-    </item>
-    <item>
-      <title>Agent Wars!</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260922-agent-wars/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260922-agent-wars/</guid>
-      <pubDate>Wed, 23 Sep 2026 04:26:37 +0000</pubDate>
-      <description>Meta’s Muse has made personal agents mainstream, forcing platforms to choose between welcoming them and protecting their own businesses.</description>
-    </item>
-    <item>
-      <title>#2556 - Siddharth Kara</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260922-2556-siddharth-kara/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260922-2556-siddharth-kara/</guid>
-      <pubDate>Wed, 23 Sep 2026 04:24:26 +0000</pubDate>
-      <description>The clean-tech race is tied to slavery, while past abolition shows how change can still win.</description>
-    </item>
-    <item>
-      <title>Yes, The Internet is Killing Islam (GodLogic) | Ep. 597</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260921-yes-the-internet-is-killing-islam-godlogic-ep-597/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260921-yes-the-internet-is-killing-islam-godlogic-ep-597/</guid>
-      <pubDate>Tue, 22 Sep 2026 16:20:35 +0000</pubDate>
-      <description>The episode argues that the internet is exposing contradictions in Islam faster than religious authorities can answer them.</description>
     </item>
   </channel>
 </rss>
