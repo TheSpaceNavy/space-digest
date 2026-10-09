@@ -133,9 +133,95 @@
   </nav>
   <h1>Just The Funny Bits</h1>
   <p class="meta">Friday 9 October 2026 ·
-A quiet day     · only the jokes; the news stays out</p>
-    <p class="quiet">No funny bits today. The shows on the list have not published
-       since the last page.</p>
+1 episode     · only the jokes; the news stays out</p>
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="the-matt-walsh-show">The Matt Walsh Show <span class="at">1</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+    <article class="entry" id="the-matt-walsh-show-20261008-ep-1853-shocking-body-cam-footage-reveals-how-bad-public" data-show="the-matt-walsh-show" data-title="ep. 1853 - shocking body cam footage reveals how bad public schools are now"
+             data-released="2026-10-08" data-done="2026-10-09T01:19">
+      <h2 style="margin-top:0"><a href="https://www.youtube.com/watch?v=sL_k5Iks2MU">Ep. 1853 - Shocking Body Cam Footage Reveals How Bad Public Schools Are Now</a></h2>
+      <p class="meta">The Matt Walsh Show · 8 October 2026 · 45 min
+         · times link into the video<span class="done"> · written up 9 October at 01:19</span></p>
+      <ol class="bits">
+        <li>
+          <span class="said">“Whatever happened when I was a kid, we made puppets out of like a out of a you know, a brown paper bag. Put some googly eyes on it. There&#39;s your puppet.”</span>
+          <span class="at"><a href="https://www.youtube.com/watch?v=sL_k5Iks2MU&amp;t=1796s">29:56</a></span>
+<span class="why">Continuing the complaint about a school requesting money for $200 puppets, the host contrasts them with the extremely cheap paper-bag puppets he says children used to make.</span>        </li>
+        <li>
+          <span class="said">“This could be a tough one if you&#39;ve never seen a TV show or a movie or read a book or talked to another human being at any point in your life.”</span>
+          <span class="at"><a href="https://www.youtube.com/watch?v=sL_k5Iks2MU&amp;t=2116s">35:16</a></span>
+<span class="why">The host is presenting a basic test question asking which item is not a feature of narrative texts. He exaggerates the difficulty by joking that only someone entirely cut off from stories and human interaction could find it challenging.</span>        </li>
+      </ol>
+    </article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      list.classList.toggle('by-done', key === 'done');
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
   <nav class="more">
 <a href="/space-digest/funny/2026-10-08/">Older</a>    <a href="/space-digest/funny/episodes/">Every episode</a>
     <a href="/space-digest/funny/feed.xml">Subscribe by RSS</a>

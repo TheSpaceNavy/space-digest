@@ -5,8 +5,22 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 09 Oct 2026 06:00:43 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 06:19:53 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The Most Important Trends Showing Up in New AI Products</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261009-the-most-important-trends-showing-up-in-new-ai-products/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261009-the-most-important-trends-showing-up-in-new-ai-products/</guid>
+      <pubDate>Fri, 09 Oct 2026 06:18:21 +0000</pubDate>
+      <description>AI products are moving toward mix-and-match models, cheaper intelligence, and interfaces built around each question.</description>
+    </item>
+    <item>
+      <title>Responding to TikTok’s Worst Arguments Against Christianity | Gavin Ortlund | Last Call Ep. 34</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261008-responding-to-tiktoks-worst-arguments-against-christianity/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261008-responding-to-tiktoks-worst-arguments-against-christianity/</guid>
+      <pubDate>Fri, 09 Oct 2026 06:18:14 +0000</pubDate>
+      <description>The Trinity’s hardest biblical problems may be the clues that make the doctrine believable.</description>
+    </item>
     <item>
       <title>Building the Cloud for an Agentic World | AWS CEO Matt Garman</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261008-building-the-cloud-for-an-agentic-world-aws-ceo-matt-garman/</link>
@@ -342,20 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260924-2558-tyler-engle/</guid>
       <pubDate>Thu, 24 Sep 2026 18:44:59 +0000</pubDate>
       <description>Ancient monuments may be misunderstood machines, not tombs, temples, or monuments.</description>
-    </item>
-    <item>
-      <title>Shawn Ryan&#39;s Everyday Carry: 2026 Edition</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260923-shawn-ryans-everyday-carry-2026-edition/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260923-shawn-ryans-everyday-carry-2026-edition/</guid>
-      <pubDate>Wed, 23 Sep 2026 23:30:58 +0000</pubDate>
-      <description>His everyday carry blends sobriety tokens, emergency currency, privacy tools, medical gear, and a new pistol.</description>
-    </item>
-    <item>
-      <title>Opus 5.5 vs GPT-6 Sol and Luna</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260923-opus-5-5-vs-gpt-6-sol-and-luna/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260923-opus-5-5-vs-gpt-6-sol-and-luna/</guid>
-      <pubDate>Thu, 24 Sep 2026 05:33:11 +0000</pubDate>
-      <description>Opus 5.5 appears to beat GPT-6 on capability, while GPT-6 makes advanced AI much cheaper.</description>
     </item>
   </channel>
 </rss>
