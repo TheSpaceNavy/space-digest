@@ -5,7 +5,7 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 09 Oct 2026 18:00:34 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 18:41:19 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>The Most Important Trends Showing Up in New AI Products</title>
@@ -13,6 +13,13 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261009-the-most-important-trends-showing-up-in-new-ai-products/</guid>
       <pubDate>Fri, 09 Oct 2026 06:18:21 +0000</pubDate>
       <description>AI products are moving toward mix-and-match models, cheaper intelligence, and interfaces built around each question.</description>
+    </item>
+    <item>
+      <title>Chips, Memory, and Power | Pat Gelsinger</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261009-chips-memory-and-power-pat-gelsinger/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261009-chips-memory-and-power-pat-gelsinger/</guid>
+      <pubDate>Fri, 09 Oct 2026 18:38:33 +0000</pubDate>
+      <description>AI chip design is speeding up, but memory, manufacturing, software, and power may decide who actually wins.</description>
     </item>
     <item>
       <title>Responding to TikTok’s Worst Arguments Against Christianity | Gavin Ortlund | Last Call Ep. 34</title>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260924-342-garand-thumb-sere-specialist-on-surviving-the-most/</guid>
       <pubDate>Thu, 24 Sep 2026 18:43:39 +0000</pubDate>
       <description>Survival depends less on perfect skills than on will, preparation, and knowing what fails first.</description>
-    </item>
-    <item>
-      <title>#2558 - Tyler Engle</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260924-2558-tyler-engle/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260924-2558-tyler-engle/</guid>
-      <pubDate>Thu, 24 Sep 2026 18:44:59 +0000</pubDate>
-      <description>Ancient monuments may be misunderstood machines, not tombs, temples, or monuments.</description>
     </item>
   </channel>
 </rss>
