@@ -5,8 +5,15 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 10 Oct 2026 06:00:39 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 06:48:15 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>What Happens When AI Solves Your Life’s Work</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261009-what-happens-when-ai-solves-your-lifes-work/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261009-what-happens-when-ai-solves-your-lifes-work/</guid>
+      <pubDate>Sat, 10 Oct 2026 06:47:23 +0000</pubDate>
+      <description>AI may have solved hundreds of major math problems faster than mathematicians can understand them.</description>
+    </item>
     <item>
       <title>The Most Important Trends Showing Up in New AI Products</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261009-the-most-important-trends-showing-up-in-new-ai-products/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260924-ai-agents-are-moving-into-the-real-world/</guid>
       <pubDate>Fri, 25 Sep 2026 07:24:42 +0000</pubDate>
       <description>Personal AI agents are becoming mainstream—and forcing every platform to choose between control, convenience, and advertising.</description>
-    </item>
-    <item>
-      <title>#342 Garand Thumb - SERE Specialist on Surviving the Most Dangerous Places on Earth</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260924-342-garand-thumb-sere-specialist-on-surviving-the-most/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260924-342-garand-thumb-sere-specialist-on-surviving-the-most/</guid>
-      <pubDate>Thu, 24 Sep 2026 18:43:39 +0000</pubDate>
-      <description>Survival depends less on perfect skills than on will, preparation, and knowing what fails first.</description>
     </item>
   </channel>
 </rss>

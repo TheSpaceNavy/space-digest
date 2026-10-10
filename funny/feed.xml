@@ -4,7 +4,7 @@
   <title>Space Digest — Just The Funny Bits</title>
   <link>https://thespacenavy.github.io/space-digest/funny/</link>
   <description>Only the jokes from the shows on the list, with a link to each one.</description>
-  <lastBuildDate>Sat, 10 Oct 2026 06:00:39 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 10 Oct 2026 06:48:16 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/funny/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>The Ben Shapiro Show: Republicans Are in Better Shape Than You&#39;ve Been Told</title>
@@ -12,6 +12,13 @@
     <guid isPermaLink="false">funny:the-ben-shapiro-show/20261009-republicans-are-in-better-shape-than-youve-been-told</guid>
     <pubDate>Fri, 09 Oct 2026 18:41:12 +0000</pubDate>
     <description>1 funny bit: “So if I say, eat this cupcake, you have a 60% shot of living. You&#39;re not gonna eat the cupcake because you immediately assume you have a 40% shot at death.”</description>
+  </item>
+  <item>
+    <title>The White House: President Trump Gaggles with Press Upon Departure from the White House, Oct. 9, 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/funny/2026-10-10/</link>
+    <guid isPermaLink="false">funny:the-white-house/20261009-president-trump-gaggles-with-press-upon-departure-from-the</guid>
+    <pubDate>Sat, 10 Oct 2026 06:47:52 +0000</pubDate>
+    <description>1 funny bit: “This is Iron Mike Tyson. I won&#39;t be fighting him today.”</description>
   </item>
   <item>
     <title>The Michael Knowles Show: Ep. 2078 - We Are Going To Publicly Execute A Terrorist And You Can Watch</title>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">funny:the-andrew-klavan-show/20260916-the-conservative-anti-terrorism-movie-hollywood-hates-w-kyle</guid>
     <pubDate>Fri, 18 Sep 2026 02:55:48 +0000</pubDate>
     <description>6 funny bits: “I have made it. &gt;&gt; I have so made it. And then the phone didn&#39;t ring after [laughter] and it was like because I was resting on laurels that I don&#39;t even think existed.”</description>
-  </item>
-  <item>
-    <title>The White House: President Trump Gaggles with Press Upon Arrival at Charlotte, NC, Sep. 16, 2026</title>
-    <link>https://thespacenavy.github.io/space-digest/funny/2026-09-18/</link>
-    <guid isPermaLink="false">funny:the-white-house/20260916-president-trump-gaggles-with-press-upon-arrival-at-charlotte</guid>
-    <pubDate>Fri, 18 Sep 2026 18:18:42 +0000</pubDate>
-    <description>3 funny bits: “No matter how good a job he&#39;s got a hospital board. I don&#39;t know what he was referring to but I would tell you interest rates are too high. No, I don&#39;t think so. I think I want him to be independent but my opinion I&#39;m very good at this stuff.”</description>
   </item>
 </channel>
 </rss>
