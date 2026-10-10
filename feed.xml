@@ -5,8 +5,15 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 10 Oct 2026 18:00:50 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 18:58:02 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>What Makes a Great Entrepreneur? | Ben Horowitz on Vintage x Vintage</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261010-what-makes-a-great-entrepreneur-ben-horowitz-on-vintage-x/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261010-what-makes-a-great-entrepreneur-ben-horowitz-on-vintage-x/</guid>
+      <pubDate>Sat, 10 Oct 2026 18:56:51 +0000</pubDate>
+      <description>Great entrepreneurs may succeed not by fixing every flaw, but by having one strength nobody else can match.</description>
+    </item>
     <item>
       <title>What Happens When AI Solves Your Life’s Work</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261009-what-happens-when-ai-solves-your-lifes-work/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260924-reacting-to-islamic-apologists-godlogic-last-call-ep-33/</guid>
       <pubDate>Fri, 25 Sep 2026 07:24:30 +0000</pubDate>
       <description>A fierce Christian-Muslim debate turns on whether Jesus lacked knowledge—and whether the Quran can withstand its own claims.</description>
-    </item>
-    <item>
-      <title>AI Agents Are Moving Into the Real World</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260924-ai-agents-are-moving-into-the-real-world/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260924-ai-agents-are-moving-into-the-real-world/</guid>
-      <pubDate>Fri, 25 Sep 2026 07:24:42 +0000</pubDate>
-      <description>Personal AI agents are becoming mainstream—and forcing every platform to choose between control, convenience, and advertising.</description>
     </item>
   </channel>
 </rss>
