@@ -5,8 +5,22 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 11 Oct 2026 18:00:47 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 19:15:19 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The 5 Debates Shaping AI</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261011-the-5-debates-shaping-ai/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261011-the-5-debates-shaping-ai/</guid>
+      <pubDate>Sun, 11 Oct 2026 19:13:30 +0000</pubDate>
+      <description>AI’s biggest risk may not be weak demand, but whether its enormous costs, risks, and public backlash can be contained.</description>
+    </item>
+    <item>
+      <title>Nick Bostrom: How Should We Navigate Superintelligence?</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261011-nick-bostrom-how-should-we-navigate-superintelligence/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261011-nick-bostrom-how-should-we-navigate-superintelligence/</guid>
+      <pubDate>Sun, 11 Oct 2026 19:13:49 +0000</pubDate>
+      <description>Superintelligence could extend human lives for centuries—but may also reshape what it means to be human.</description>
+    </item>
     <item>
       <title>What Makes a Great Entrepreneur? | Ben Horowitz on Vintage x Vintage</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261010-what-makes-a-great-entrepreneur-ben-horowitz-on-vintage-x/</link>
@@ -342,20 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260925-how-people-are-actually-using-jev/</guid>
       <pubDate>Fri, 25 Sep 2026 20:02:02 +0000</pubDate>
       <description>JEV’s real breakthrough is not smarter writing, but cheap, instant judgment across massive piles of information.</description>
-    </item>
-    <item>
-      <title>The Case Against an AI Pause | Eddy Lazzarin</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260924-the-case-against-an-ai-pause-eddy-lazzarin/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260924-the-case-against-an-ai-pause-eddy-lazzarin/</guid>
-      <pubDate>Thu, 24 Sep 2026 18:40:38 +0000</pubDate>
-      <description>The AI pause debate may be worrying about tomorrow’s doom while giving up tomorrow’s abundance.</description>
-    </item>
-    <item>
-      <title>Reacting to Islamic Apologists | GodLogic | Last Call Ep. 33</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260924-reacting-to-islamic-apologists-godlogic-last-call-ep-33/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260924-reacting-to-islamic-apologists-godlogic-last-call-ep-33/</guid>
-      <pubDate>Fri, 25 Sep 2026 07:24:30 +0000</pubDate>
-      <description>A fierce Christian-Muslim debate turns on whether Jesus lacked knowledge—and whether the Quran can withstand its own claims.</description>
     </item>
   </channel>
 </rss>
