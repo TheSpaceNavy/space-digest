@@ -4,8 +4,15 @@
   <title>Space Digest — Just The Funny Bits</title>
   <link>https://thespacenavy.github.io/space-digest/funny/</link>
   <description>Only the jokes from the shows on the list, with a link to each one.</description>
-  <lastBuildDate>Mon, 12 Oct 2026 18:01:31 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 12 Oct 2026 19:32:55 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/funny/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>The Matt Walsh Show: Ep. 1854 - Why Did James Talarico Disappear For 10 Days?</title>
+    <link>https://thespacenavy.github.io/space-digest/funny/2026-10-12/</link>
+    <guid isPermaLink="false">funny:the-matt-walsh-show/20261012-ep-1854-why-did-james-talarico-disappear-for-10-days</guid>
+    <pubDate>Mon, 12 Oct 2026 19:32:13 +0000</pubDate>
+    <description>1 funny bit: “You need an app to track all of it. And then you need another app to track how often you check the first app. Now, I&#39;m not doing any of that. Um I have a job, I have a family, I have, you know, I got I got stuff to do.”</description>
+  </item>
   <item>
     <title>The Ben Shapiro Show: Ben Shapiro Takes On College Students At TPUSA</title>
     <link>https://thespacenavy.github.io/space-digest/funny/2026-10-11/</link>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">funny:the-white-house/20260917-president-trump-participates-in-a-rose-garden-dinner-sep-17</guid>
     <pubDate>Tue, 22 Sep 2026 22:53:22 +0000</pubDate>
     <description>3 funny bits: “I said, \&#34;What&#39;s the biggest problem?\&#34; He said, \&#34;The weight is enormous.\&#34; I said, \&#34;Let me ask you a question. If you get a little leak and the water starts coming in your boat and you&#39;re in electric, do you get electrocuted or not?\&#34; He said, \&#34;You know, nobody&#39;s ever asked me that question.\”</description>
-  </item>
-  <item>
-    <title>The Michael Knowles Show: Ep. 2062 - CAUGHT: The Whitest Liberal Man In America Plots Massive ISIS Terror Attack</title>
-    <link>https://thespacenavy.github.io/space-digest/funny/2026-09-19/</link>
-    <guid isPermaLink="false">funny:the-michael-knowles-show/20260917-ep-2062-caught-the-whitest-liberal-man-in-america-plots</guid>
-    <pubDate>Sat, 19 Sep 2026 03:06:07 +0000</pubDate>
-    <description>1 funny bit: “Fantasy football season is underway. That means grown men are spending hours studying backup running backs in case someone they have never met pulls a hamstring. They have contingency plans for their contingency plans. All to protect an imaginary football team.”</description>
   </item>
 </channel>
 </rss>

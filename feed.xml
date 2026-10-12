@@ -5,8 +5,36 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 12 Oct 2026 18:01:30 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 19:32:54 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The Race to Recursive Self-Improving AI</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261012-the-race-to-recursive-self-improving-ai/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261012-the-race-to-recursive-self-improving-ai/</guid>
+      <pubDate>Mon, 12 Oct 2026 19:30:20 +0000</pubDate>
+      <description>Recursive self-improvement may already be appearing—but proving it requires tracking every cost, failure, and bottleneck.</description>
+    </item>
+    <item>
+      <title>How to Go from AI Power User to AI Leader</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261012-how-to-go-from-ai-power-user-to-ai-leader/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261012-how-to-go-from-ai-power-user-to-ai-leader/</guid>
+      <pubDate>Mon, 12 Oct 2026 19:30:15 +0000</pubDate>
+      <description>AI leadership is less about mastering tools than turning useful experiments into safe, lasting change.</description>
+    </item>
+    <item>
+      <title>#347 Pierogi - Shawn Ryan and Scammer Payback Troll Scammers LIVE</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261012-347-pierogi-shawn-ryan-and-scammer-payback-troll-scammers/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261012-347-pierogi-shawn-ryan-and-scammer-payback-troll-scammers/</guid>
+      <pubDate>Mon, 12 Oct 2026 19:31:30 +0000</pubDate>
+      <description>Scammers now combine stolen data, fake trust, and remote access to drain victims while investigators fight back in real time.</description>
+    </item>
+    <item>
+      <title>321. Work With AI Without Sacrificing Your Growth</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-optimalwork-podcast/20261012-321-work-with-ai-without-sacrificing-your-growth/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-optimalwork-podcast/20261012-321-work-with-ai-without-sacrificing-your-growth/</guid>
+      <pubDate>Mon, 12 Oct 2026 19:31:41 +0000</pubDate>
+      <description>AI can make work easier while quietly taking away the growth that makes work worth doing.</description>
+    </item>
     <item>
       <title>The 5 Debates Shaping AI</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261011-the-5-debates-shaping-ai/</link>
@@ -328,34 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260927-the-rise-of-the-ai-moderates/</guid>
       <pubDate>Sun, 27 Sep 2026 22:47:11 +0000</pubDate>
       <description>AI may change society less through superintelligence than through ordinary systems that spread faster than safeguards.</description>
-    </item>
-    <item>
-      <title>Building a Team at AI Speed | Harvey’s Maggie Landers</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260927-building-a-team-at-ai-speed-harveys-maggie-landers/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260927-building-a-team-at-ai-speed-harveys-maggie-landers/</guid>
-      <pubDate>Sun, 27 Sep 2026 22:47:45 +0000</pubDate>
-      <description>Harvey is growing at AI speed without giving up autonomy, openness, or the pressure to move unusually fast.</description>
-    </item>
-    <item>
-      <title>Aaron Levie, Steven Sinofsky &amp; Martin Casado: How Do You Secure a World of AI Agents?</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260926-aaron-levie-steven-sinofsky-martin-casado-how-do-you-secure/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260926-aaron-levie-steven-sinofsky-martin-casado-how-do-you-secure/</guid>
-      <pubDate>Sat, 26 Sep 2026 21:20:45 +0000</pubDate>
-      <description>AI security may matter less as a prediction problem than as a demand to rebuild computing itself.</description>
-    </item>
-    <item>
-      <title>The Reputation Graph of Silicon Valley | Introducing Cosign</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260925-the-reputation-graph-of-silicon-valley-introducing-cosign/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260925-the-reputation-graph-of-silicon-valley-introducing-cosign/</guid>
-      <pubDate>Fri, 25 Sep 2026 20:03:02 +0000</pubDate>
-      <description>The next great career signal may be who respected people believe in—not where someone went to school.</description>
-    </item>
-    <item>
-      <title>How People Are Actually Using Jev</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260925-how-people-are-actually-using-jev/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260925-how-people-are-actually-using-jev/</guid>
-      <pubDate>Fri, 25 Sep 2026 20:02:02 +0000</pubDate>
-      <description>JEV’s real breakthrough is not smarter writing, but cheap, instant judgment across massive piles of information.</description>
     </item>
   </channel>
 </rss>
