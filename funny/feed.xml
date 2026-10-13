@@ -4,8 +4,15 @@
   <title>Space Digest — Just The Funny Bits</title>
   <link>https://thespacenavy.github.io/space-digest/funny/</link>
   <description>Only the jokes from the shows on the list, with a link to each one.</description>
-  <lastBuildDate>Tue, 13 Oct 2026 06:01:05 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 13 Oct 2026 07:40:35 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/funny/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>The White House: President Trump Gaggles with Press Upon Departure from the White House, Oct. 12, 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/funny/2026-10-13/</link>
+    <guid isPermaLink="false">funny:the-white-house/20261012-president-trump-gaggles-with-press-upon-departure-from-the</guid>
+    <pubDate>Tue, 13 Oct 2026 07:39:55 +0000</pubDate>
+    <description>1 funny bit: “I think the rallies have had a massive impact. You see the numbers go up every time I have a rally. I It&#39;s beyond the area, too. And the Every one of them sold out. Every one of them has thousands of people standing outside. In fact, we&#39;re getting the jumbotron, you know, the big television sets going the outside of a building because we want to take care”</description>
+  </item>
   <item>
     <title>The Matt Walsh Show: Ep. 1854 - Why Did James Talarico Disappear For 10 Days?</title>
     <link>https://thespacenavy.github.io/space-digest/funny/2026-10-12/</link>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">funny:the-ben-shapiro-show/20260917-variety-hates-it-slate-hates-it-its-a-smash-hit</guid>
     <pubDate>Sat, 19 Sep 2026 15:16:21 +0000</pubDate>
     <description>1 funny bit: “Her sister Sarah Turnup was unavailable.”</description>
-  </item>
-  <item>
-    <title>The White House: President Trump Participates in a Rose Garden Dinner, Sep. 17, 2026</title>
-    <link>https://thespacenavy.github.io/space-digest/funny/2026-09-22/</link>
-    <guid isPermaLink="false">funny:the-white-house/20260917-president-trump-participates-in-a-rose-garden-dinner-sep-17</guid>
-    <pubDate>Tue, 22 Sep 2026 22:53:22 +0000</pubDate>
-    <description>3 funny bits: “I said, \&#34;What&#39;s the biggest problem?\&#34; He said, \&#34;The weight is enormous.\&#34; I said, \&#34;Let me ask you a question. If you get a little leak and the water starts coming in your boat and you&#39;re in electric, do you get electrocuted or not?\&#34; He said, \&#34;You know, nobody&#39;s ever asked me that question.\”</description>
   </item>
 </channel>
 </rss>

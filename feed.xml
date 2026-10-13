@@ -5,7 +5,7 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 06:01:04 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 07:40:34 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>The Race to Recursive Self-Improving AI</title>
@@ -20,6 +20,13 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261012-how-to-go-from-ai-power-user-to-ai-leader/</guid>
       <pubDate>Mon, 12 Oct 2026 19:30:15 +0000</pubDate>
       <description>AI leadership is less about mastering tools than turning useful experiments into safe, lasting change.</description>
+    </item>
+    <item>
+      <title>A Priest Explains Exorcisms, Demons, and Spiritual Warfare (Msgr. Charles Pope) | Ep. 600</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261012-a-priest-explains-exorcisms-demons-and-spiritual-warfare/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261012-a-priest-explains-exorcisms-demons-and-spiritual-warfare/</guid>
+      <pubDate>Tue, 13 Oct 2026 07:39:30 +0000</pubDate>
+      <description>Faith survives upheaval, but careless teaching, weak formation, and casual worship can leave people spiritually unprepared.</description>
     </item>
     <item>
       <title>#347 Pierogi - Shawn Ryan and Scammer Payback Troll Scammers LIVE</title>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-optimalwork-podcast/20260928-319-why-bad-decisions-can-feel-reasonable/</guid>
       <pubDate>Tue, 29 Sep 2026 00:39:31 +0000</pubDate>
       <description>Fear and desire can make bad decisions feel wise by changing what reality seems to demand.</description>
-    </item>
-    <item>
-      <title>The Rise of the AI Moderates</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260927-the-rise-of-the-ai-moderates/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260927-the-rise-of-the-ai-moderates/</guid>
-      <pubDate>Sun, 27 Sep 2026 22:47:11 +0000</pubDate>
-      <description>AI may change society less through superintelligence than through ordinary systems that spread faster than safeguards.</description>
     </item>
   </channel>
 </rss>

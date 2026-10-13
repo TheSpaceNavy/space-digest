@@ -132,10 +132,104 @@
 <a href="/space-digest/feed.xml">RSS</a>
   </nav>
   <h1>Tuesday 13 October 2026</h1>
-  <p class="meta">A quiet day</p>
+  <p class="meta">1
+     episode</p>
 
-    <p class="quiet">Nothing new today. The shows on the list have not published
-       since the last issue.</p>
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="pints-with-aquinas">Pints With Aquinas <span class="at">1</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+<article class="entry" data-show="pints-with-aquinas" data-title="a priest explains exorcisms, demons, and spiritual warfare (msgr. charles pope) | ep. 600"
+         data-released="2026-10-12" data-done="2026-10-13T02:39">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/pints-with-aquinas/20261012-a-priest-explains-exorcisms-demons-and-spiritual-warfare/">A Priest Explains Exorcisms, Demons, and Spiritual Warfare (Msgr. Charles Pope) | Ep. 600</a></h2>
+  <p class="meta">Pints With Aquinas · 12 October 2026 · 2h 15m<span class="done"> · written up 13 October at 02:39</span></p>
+  <p class="hook">Faith survives upheaval, but careless teaching, weak formation, and casual worship can leave people spiritually unprepared.</p>
+  <ul class="points">
+<li>The priest says Catholic teaching felt chaotic in the 1980s, when no clear postconciliar guide or Catechism existed. <span class="at">1:25</span></li><li>He recalls seminary classes questioning whether Jesus taught or believed traditional Christian teachings, nearly shaking his vocation. <span class="at">4:49</span></li><li>The speakers say hell follows from human freedom, because some people genuinely reject heaven’s values. <span class="at">35:01</span></li><li>Genuine possession is rare, and priests must screen carefully for medical and psychological causes before treating a case as spiritual. <span class="at">48:04</span></li><li>Confession is more powerful than exorcism in one sense because it is a sacrament, while exorcism is only a sacramental. <span class="at">1:10:58</span></li><li>More than half of people entering through RCIA reportedly stop attending Mass within five years, exposing serious failures in follow-up formation. <span class="at">2:05:09</span></li>  </ul>
+<blockquote><p>“It&#39;s kind of smelly but it gets you home.” [1:57:58]</p></blockquote><p class="for">Worth your time if you want a candid look at demons, Catholic tradition, and why religious formation fails.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>Only about 1 to 10 percent of people claiming possession are likely genuinely possessed.
+<span class="at">49:32</span><span class="why">Reports of possession greatly outnumber cases judged genuine.</span>      </li>
+      <li>“The ones that died.”
+<span class="at">13:28</span><span class="why">Abandoned habits were linked to religious communities disappearing.</span>      </li>
+      <li>“21 of the 38 parables are about this topic.”
+<span class="at">38:22</span><span class="why">Jesus’s parables address judgment and hell more often than many expect.</span>      </li>
+      <li>A young woman died because a doctor was not consulted during an exorcism.
+<span class="at">1:10:01</span><span class="why">Spiritual mistakes can have fatal medical consequences.</span>      </li>
+      <li>“Over 50% of people who enter into the church through RCIA are gone in 5 years.”
+<span class="at">2:05:09</span><span class="why">Conversion programs retain far fewer people than readers might assume.</span>      </li>
+    </ol>
+  </div>
+</article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      list.classList.toggle('by-done', key === 'done');
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
   <nav class="more">
 <a href="/space-digest/issues/2026-10-12/">Older</a>    <a href="/space-digest/archive/">All issues</a>
   </nav>

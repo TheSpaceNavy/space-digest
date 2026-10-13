@@ -133,9 +133,91 @@
   </nav>
   <h1>Just The Funny Bits</h1>
   <p class="meta">Tuesday 13 October 2026 ·
-A quiet day     · only the jokes; the news stays out</p>
-    <p class="quiet">No funny bits today. The shows on the list have not published
-       since the last page.</p>
+1 episode     · only the jokes; the news stays out</p>
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="the-white-house">The White House <span class="at">1</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+    <article class="entry" id="the-white-house-20261012-president-trump-gaggles-with-press-upon-departure-from-the" data-show="the-white-house" data-title="president trump gaggles with press upon departure from the white house, oct. 12, 2026"
+             data-released="2026-10-12" data-done="2026-10-13T02:39">
+      <h2 style="margin-top:0"><a href="https://www.youtube.com/watch?v=HEWlaWY9Qcs">President Trump Gaggles with Press Upon Departure from the White House, Oct. 12, 2026</a></h2>
+      <p class="meta">The White House · 12 October 2026 · 7 min
+         · times link into the video<span class="done"> · written up 13 October at 02:39</span></p>
+      <ol class="bits">
+        <li>
+          <span class="said">“I think the rallies have had a massive impact. You see the numbers go up every time I have a rally. I It&#39;s beyond the area, too. And the Every one of them sold out. Every one of them has thousands of people standing outside. In fact, we&#39;re getting the jumbotron, you know, the big television sets going the outside of a building because we want to take care”</span>
+          <span class="at"><a href="https://www.youtube.com/watch?v=HEWlaWY9Qcs&amp;t=187s">3:07</a></span>
+<span class="why">The speaker boasts that rallies are so crowded that thousands cannot enter and need a giant outdoor screen, with the repeated, interrupted phrasing adding comic excess.</span>        </li>
+      </ol>
+    </article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      list.classList.toggle('by-done', key === 'done');
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
   <nav class="more">
 <a href="/space-digest/funny/2026-10-12/">Older</a>    <a href="/space-digest/funny/episodes/">Every episode</a>
     <a href="/space-digest/funny/feed.xml">Subscribe by RSS</a>
