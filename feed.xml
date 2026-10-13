@@ -5,8 +5,22 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 18:00:53 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 19:56:29 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Can AI Break Cryptography? What the Experts Actually Think</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261013-can-ai-break-cryptography-what-the-experts-actually-think/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261013-can-ai-break-cryptography-what-the-experts-actually-think/</guid>
+      <pubDate>Tue, 13 Oct 2026 19:52:26 +0000</pubDate>
+      <description>AI has not broken cryptography—but it may soon make both attacks and defenses far faster.</description>
+    </item>
+    <item>
+      <title>#2564 - Chuck Lorre</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261013-2564-chuck-lorre/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261013-2564-chuck-lorre/</guid>
+      <pubDate>Tue, 13 Oct 2026 19:53:09 +0000</pubDate>
+      <description>Success can amplify a person’s damage, while the best comedy depends on humility, chemistry, and real collaboration.</description>
+    </item>
     <item>
       <title>The Race to Recursive Self-Improving AI</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261012-the-race-to-recursive-self-improving-ai/</link>
@@ -342,20 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260928-ai-can-write-code-why-isnt-software-better/</guid>
       <pubDate>Mon, 28 Sep 2026 11:51:03 +0000</pubDate>
       <description>AI can write code faster, but the bigger breakthrough may be software that understands what people mean.</description>
-    </item>
-    <item>
-      <title>#343 Jimmy Watson - John McAfee&#39;s Bodyguard Reveals the Dead Man&#39;s Switch</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260928-343-jimmy-watson-john-mcafees-bodyguard-reveals-the-dead/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20260928-343-jimmy-watson-john-mcafees-bodyguard-reveals-the-dead/</guid>
-      <pubDate>Mon, 28 Sep 2026 11:54:48 +0000</pubDate>
-      <description>A former bodyguard says John McAfee hid explosive secrets—and that faith, not fear, ultimately rebuilt his life.</description>
-    </item>
-    <item>
-      <title>319. Why Bad Decisions Can Feel Reasonable</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-optimalwork-podcast/20260928-319-why-bad-decisions-can-feel-reasonable/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-optimalwork-podcast/20260928-319-why-bad-decisions-can-feel-reasonable/</guid>
-      <pubDate>Tue, 29 Sep 2026 00:39:31 +0000</pubDate>
-      <description>Fear and desire can make bad decisions feel wise by changing what reality seems to demand.</description>
     </item>
   </channel>
 </rss>
