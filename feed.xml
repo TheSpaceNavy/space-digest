@@ -5,8 +5,36 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Oct 2026 20:25:33 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 22:05:37 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>What Gemini 4 Argon Is Actually Good For</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261014-what-gemini-4-argon-is-actually-good-for/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261014-what-gemini-4-argon-is-actually-good-for/</guid>
+      <pubDate>Wed, 14 Oct 2026 22:04:22 +0000</pubDate>
+      <description>Gemini 4 Argon looks less like a coding champion and more like a surprisingly useful creative generalist.</description>
+    </item>
+    <item>
+      <title>Can Open Models Keep Up With the AI Frontier? | Nathan Lambert</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261014-can-open-models-keep-up-with-the-ai-frontier-nathan-lambert/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261014-can-open-models-keep-up-with-the-ai-frontier-nathan-lambert/</guid>
+      <pubDate>Wed, 14 Oct 2026 22:01:12 +0000</pubDate>
+      <description>Open models may trail the frontier, but cheaper compute and shared research could still reshape who wins.</description>
+    </item>
+    <item>
+      <title>#2565 - Michael Douglas</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261014-2565-michael-douglas/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261014-2565-michael-douglas/</guid>
+      <pubDate>Wed, 14 Oct 2026 22:01:42 +0000</pubDate>
+      <description>Michael Douglas links cancer, nuclear weapons, psychedelics, drug smuggling, and career-defining risks to one lesson: keep choosing boldly.</description>
+    </item>
+    <item>
+      <title>Why Muse Wonder Is Dividing AI Users</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261013-why-muse-wonder-is-dividing-ai-users/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261013-why-muse-wonder-is-dividing-ai-users/</guid>
+      <pubDate>Wed, 14 Oct 2026 22:00:50 +0000</pubDate>
+      <description>Meta’s Wonder models put it back in the frontier race, but users are sharply divided over what they can actually do.</description>
+    </item>
     <item>
       <title>Can AI Break Cryptography? What the Experts Actually Think</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261013-can-ai-break-cryptography-what-the-experts-actually-think/</link>
@@ -328,34 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260929-2559-sam-morril/</guid>
       <pubDate>Wed, 30 Sep 2026 01:47:42 +0000</pubDate>
       <description>The episode argues that human messiness—rejection, risk, and hard creative work—may be what technology cannot replace.</description>
-    </item>
-    <item>
-      <title>16 Alien Bodies Crashed HERE… And We Just Found Evidence</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/american-alchemy-with-jesse-michels/20260929-16-alien-bodies-crashed-here-and-we-just-found-evidence/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/american-alchemy-with-jesse-michels/20260929-16-alien-bodies-crashed-here-and-we-just-found-evidence/</guid>
-      <pubDate>Wed, 30 Sep 2026 01:46:03 +0000</pubDate>
-      <description>A famous UFO crash was dismissed as a hoax, but decades of witness accounts and missing evidence keep the case alive.</description>
-    </item>
-    <item>
-      <title>The Real Risks of AI Agents</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260928-the-real-risks-of-ai-agents/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260928-the-real-risks-of-ai-agents/</guid>
-      <pubDate>Tue, 29 Sep 2026 00:39:19 +0000</pubDate>
-      <description>AI agents do not need to end humanity to cause serious damage; ordinary systems may already be unready for them.</description>
-    </item>
-    <item>
-      <title>Mary Maximilism (Gabriel Castillo) | Ep. 598</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260928-mary-maximilism-gabriel-castillo-ep-598/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20260928-mary-maximilism-gabriel-castillo-ep-598/</guid>
-      <pubDate>Tue, 29 Sep 2026 00:39:06 +0000</pubDate>
-      <description>The episode argues that true Marian devotion does not pull people from Jesus; it teaches them to surrender more completely to him.</description>
-    </item>
-    <item>
-      <title>AI Can Write Code. Why Isn’t Software Better?</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260928-ai-can-write-code-why-isnt-software-better/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260928-ai-can-write-code-why-isnt-software-better/</guid>
-      <pubDate>Mon, 28 Sep 2026 11:51:03 +0000</pubDate>
-      <description>AI can write code faster, but the bigger breakthrough may be software that understands what people mean.</description>
     </item>
   </channel>
 </rss>
