@@ -5,7 +5,7 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Oct 2026 06:07:59 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 08:36:01 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>What Gemini 4 Argon Is Actually Good For</title>
@@ -20,6 +20,13 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261014-can-open-models-keep-up-with-the-ai-frontier-nathan-lambert/</guid>
       <pubDate>Wed, 14 Oct 2026 22:01:12 +0000</pubDate>
       <description>Open models may trail the frontier, but cheaper compute and shared research could still reshape who wins.</description>
+    </item>
+    <item>
+      <title>“AI Is ALIEN Technology!” -Whistleblower Reveals TRUTH</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/american-alchemy-with-jesse-michels/20261014-ai-is-alien-technology-whistleblower-reveals-truth/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/american-alchemy-with-jesse-michels/20261014-ai-is-alien-technology-whistleblower-reveals-truth/</guid>
+      <pubDate>Thu, 15 Oct 2026 08:34:41 +0000</pubDate>
+      <description>AI may not just change physics—it could force humanity to rethink consciousness, intelligence, and even what counts as life.</description>
     </item>
     <item>
       <title>#2565 - Michael Douglas</title>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260929-how-to-build-team-agents/</guid>
       <pubDate>Wed, 30 Sep 2026 01:45:08 +0000</pubDate>
       <description>The best workplace AI may not belong to one person—it may belong to the whole team.</description>
-    </item>
-    <item>
-      <title>#2559 - Sam Morril</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260929-2559-sam-morril/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260929-2559-sam-morril/</guid>
-      <pubDate>Wed, 30 Sep 2026 01:47:42 +0000</pubDate>
-      <description>The episode argues that human messiness—rejection, risk, and hard creative work—may be what technology cannot replace.</description>
     </item>
   </channel>
 </rss>

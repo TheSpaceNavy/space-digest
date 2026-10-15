@@ -4,8 +4,15 @@
   <title>Space Digest — Just The Funny Bits</title>
   <link>https://thespacenavy.github.io/space-digest/funny/</link>
   <description>Only the jokes from the shows on the list, with a link to each one.</description>
-  <lastBuildDate>Thu, 15 Oct 2026 06:08:00 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 15 Oct 2026 08:36:02 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/funny/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>The Andrew Klavan Show: The Moment Ronald Reagan Nearly Ended the Cold War w/ John Logan Pierson</title>
+    <link>https://thespacenavy.github.io/space-digest/funny/2026-10-15/</link>
+    <guid isPermaLink="false">funny:the-andrew-klavan-show/20261014-the-moment-ronald-reagan-nearly-ended-the-cold-war-w-john</guid>
+    <pubDate>Thu, 15 Oct 2026 08:35:13 +0000</pubDate>
+    <description>2 funny bits: “whether you&#39;re trying to make uh tent full action movies or uh tiny dramas that take place on the coast of Iceland.”</description>
+  </item>
   <item>
     <title>The Ben Shapiro Show: Rob Lowe&#39;s New Film Is Unlike Anything the Daily Wire Has Made</title>
     <link>https://thespacenavy.github.io/space-digest/funny/2026-10-14/</link>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">funny:the-joe-rogan-experience/20260924-2558-tyler-engle</guid>
     <pubDate>Thu, 24 Sep 2026 18:47:03 +0000</pubDate>
     <description>8 funny bits: “I was &gt;&gt; so I was hanging off of buildings listening to Graham and everybody and like &gt;&gt; I would want to hear creeks and things. I would want [laughter] if something starts giving out. I would want to be like razor sharp. I&#39;d want to have suction cups on my hands.”</description>
-  </item>
-  <item>
-    <title>The Joe Rogan Experience: #2557 - Yakov Smirnoff</title>
-    <link>https://thespacenavy.github.io/space-digest/funny/2026-09-24/</link>
-    <guid isPermaLink="false">funny:the-joe-rogan-experience/20260923-2557-yakov-smirnoff</guid>
-    <pubDate>Thu, 24 Sep 2026 05:40:37 +0000</pubDate>
-    <description>1 funny bit: “he said YaKob let&#39;s save time for one another uh you&#39;ll get on that show when the hell freezes over I swear and I so I start watching weather channel”</description>
   </item>
 </channel>
 </rss>

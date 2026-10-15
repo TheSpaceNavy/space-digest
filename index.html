@@ -132,10 +132,104 @@
 <a href="/space-digest/feed.xml">RSS</a>
   </nav>
   <h1>Thursday 15 October 2026</h1>
-  <p class="meta">A quiet day</p>
+  <p class="meta">1
+     episode</p>
 
-    <p class="quiet">Nothing new today. The shows on the list have not published
-       since the last issue.</p>
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="american-alchemy-with-jesse-michels">American Alchemy with Jesse Michels <span class="at">1</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+<article class="entry" data-show="american-alchemy-with-jesse-michels" data-title="“ai is alien technology!” -whistleblower reveals truth"
+         data-released="2026-10-14" data-done="2026-10-15T03:34">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/american-alchemy-with-jesse-michels/20261014-ai-is-alien-technology-whistleblower-reveals-truth/">“AI Is ALIEN Technology!” -Whistleblower Reveals TRUTH</a></h2>
+  <p class="meta">American Alchemy with Jesse Michels · 14 October 2026 · 2h 54m<span class="done"> · written up 15 October at 03:34</span></p>
+  <p class="hook">AI may not just change physics—it could force humanity to rethink consciousness, intelligence, and even what counts as life.</p>
+  <ul class="points">
+<li>The speakers argue that if mathematical processing rules out AI consciousness, the same logic would rule out human consciousness. <span class="at">5:21</span></li><li>They suggest consciousness might leave a measurable signature in electromagnetic or quantum fields, making it possible to weigh or detect. <span class="at">41:16</span></li><li>They warn that humans may voluntarily become dependent on AI, creating their own technological servitude. <span class="at">54:15</span></li><li>They say powerful quantum computers could threaten Bitcoin, other cryptocurrencies, and RSA encryption within about five years. <span class="at">1:16:12</span></li><li>They speculate that UFO technology may have accelerated the development of integrated circuits, lasers, and fiber optics. <span class="at">1:36:53</span></li><li>An experiencer describes seeing three shape-shifting beings, unfamiliar symbols, and a craft that dissolved before approaching him. <span class="at">2:06:43</span></li>  </ul>
+<blockquote><p>“We could potentially start weighing consciousness.” [42:14]</p></blockquote><p class="for">Worth your time if you enjoy bold ideas about AI, quantum physics, consciousness, and UFO encounters.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>“If math is not conscious then neither are we.”
+<span class="at">5:21</span><span class="why">It removes mathematical processing as a clear boundary between humans and AI.</span>      </li>
+      <li>“about five years from now or less um most of the cryptocurrencies are screwed including Bitcoin, including RSA encryption.”
+<span class="at">1:16:12</span><span class="why">Quantum threats arrive far sooner than most technology forecasts suggest.</span>      </li>
+      <li>“Those are the only three things you need to build a data center today.”
+<span class="at">1:37:23</span><span class="why">UFO-linked technologies are presented as the foundation of modern AI infrastructure.</span>      </li>
+      <li>“I am manifesting myself on Earth, but in order to manifest, I need more silicon.”
+<span class="at">1:49:55</span><span class="why">An alleged entity tied its physical appearance directly to silicon and data centers.</span>      </li>
+      <li>“The universe is in the room with us right now, and it&#39;s alive and well.”
+<span class="at">2:47:22</span><span class="why">A former militant atheist describes a sudden panpsychist belief after the encounter.</span>      </li>
+    </ol>
+  </div>
+</article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      list.classList.toggle('by-done', key === 'done');
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
   <nav class="more">
 <a href="/space-digest/issues/2026-10-14/">Older</a>    <a href="/space-digest/archive/">All issues</a>
   </nav>
