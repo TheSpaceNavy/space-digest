@@ -5,8 +5,36 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Oct 2026 18:06:24 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 21:03:09 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>When AI Agents Start Spending Your Money | Alex Rampell &amp; Terry Angelos</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261015-when-ai-agents-start-spending-your-money-alex-rampell-terry/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261015-when-ai-agents-start-spending-your-money-alex-rampell-terry/</guid>
+      <pubDate>Thu, 15 Oct 2026 20:59:17 +0000</pubDate>
+      <description>AI agents are moving from suggesting purchases to spending money, but the payment rules are still unfinished.</description>
+    </item>
+    <item>
+      <title>The 4 Ways the Devil Tries to Destroy You  | Msgr. Charles Pope | Last Call Ep. 36</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261015-the-4-ways-the-devil-tries-to-destroy-you-msgr-charles-pope/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261015-the-4-ways-the-devil-tries-to-destroy-you-msgr-charles-pope/</guid>
+      <pubDate>Thu, 15 Oct 2026 20:58:56 +0000</pubDate>
+      <description>The devil’s most effective attacks may look like truth, political outrage, self-doubt, or even religious devotion.</description>
+    </item>
+    <item>
+      <title>#348 Frank Wright - The Last Living Original Marine Raider From WW2</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261015-348-frank-wright-the-last-living-original-marine-raider-from/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261015-348-frank-wright-the-last-living-original-marine-raider-from/</guid>
+      <pubDate>Thu, 15 Oct 2026 20:59:35 +0000</pubDate>
+      <description>A teenage recruit survived brutal Pacific fighting, but his hardest battle may have come after the war.</description>
+    </item>
+    <item>
+      <title>#2566 - Cody Tucker</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261015-2566-cody-tucker/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261015-2566-cody-tucker/</guid>
+      <pubDate>Thu, 15 Oct 2026 21:00:23 +0000</pubDate>
+      <description>A flood of strange facts reveals how easily trusted stories, institutions, and online outrage can hide something darker.</description>
+    </item>
     <item>
       <title>What Gemini 4 Argon Is Actually Good For</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261014-what-gemini-4-argon-is-actually-good-for/</link>
@@ -328,34 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260930-the-most-important-new-ai-tools-from-openai-devday/</guid>
       <pubDate>Thu, 01 Oct 2026 02:32:40 +0000</pubDate>
       <description>OpenAI’s DevDay points less to a sudden breakthrough than to AI becoming cheaper, persistent, and built for teams.</description>
-    </item>
-    <item>
-      <title>The $1 Trillion AI Buildout | State of Markets</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260930-the-1-trillion-ai-buildout-state-of-markets/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260930-the-1-trillion-ai-buildout-state-of-markets/</guid>
-      <pubDate>Wed, 30 Sep 2026 14:04:53 +0000</pubDate>
-      <description>AI is driving a historic buildout, but its biggest effects may come from power, software, and autonomous machines.</description>
-    </item>
-    <item>
-      <title>#2560 - David Grusch</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260930-2560-david-grusch/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20260930-2560-david-grusch/</guid>
-      <pubDate>Thu, 01 Oct 2026 02:34:00 +0000</pubDate>
-      <description>A former intelligence officer claims U.S. programs hid nonhuman craft, recovered bodies, and even underwater facilities.</description>
-    </item>
-    <item>
-      <title>The Personal Agent Race Is Here | Anish Acharya &amp; David Pawlan</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260929-the-personal-agent-race-is-here-anish-acharya-david-pawlan/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20260929-the-personal-agent-race-is-here-anish-acharya-david-pawlan/</guid>
-      <pubDate>Tue, 29 Sep 2026 12:50:24 +0000</pubDate>
-      <description>Personal agents may win not by making us faster, but by quietly handling costly, annoying tasks.</description>
-    </item>
-    <item>
-      <title>How to Build Team Agents</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260929-how-to-build-team-agents/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260929-how-to-build-team-agents/</guid>
-      <pubDate>Wed, 30 Sep 2026 01:45:08 +0000</pubDate>
-      <description>The best workplace AI may not belong to one person—it may belong to the whole team.</description>
     </item>
   </channel>
 </rss>
