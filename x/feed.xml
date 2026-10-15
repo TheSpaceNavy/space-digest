@@ -4,8 +4,15 @@
   <title>Space Digest — Tightbeam</title>
   <link>https://thespacenavy.github.io/space-digest/tightbeam/</link>
   <description>A narrow beam on each person and subject worth following.</description>
-  <lastBuildDate>Wed, 14 Oct 2026 22:05:37 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 15 Oct 2026 00:03:39 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/tightbeam/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Elon Musk · 14 October 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-10-14/</link>
+    <guid isPermaLink="false">tightbeam:elonmusk/2026-10-14</guid>
+    <pubDate>Thu, 15 Oct 2026 00:03:30 +0000</pubDate>
+    <description>Elon Musk highlighted Grok, SpaceX, Starlink, self-driving, and other technology updates.</description>
+  </item>
   <item>
     <title>Elon Musk · 13 October 2026</title>
     <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-10-13/</link>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">tightbeam:spacex/2026-09-19</guid>
     <pubDate>Sat, 19 Sep 2026 12:03:16 +0000</pubDate>
     <description>SpaceX secured three NASA missions while Starlink and Grok reported major growth and performance milestones.</description>
-  </item>
-  <item>
-    <title>Tesla · 19 September 2026</title>
-    <link>https://thespacenavy.github.io/space-digest/tightbeam/tesla/2026-09-19/</link>
-    <guid isPermaLink="false">tightbeam:tesla/2026-09-19</guid>
-    <pubDate>Sat, 19 Sep 2026 12:01:55 +0000</pubDate>
-    <description>Tesla posts highlighted Semi performance, Roadster reservations, lower Model Y costs, and possible Optimus app support.</description>
   </item>
 </channel>
 </rss>
