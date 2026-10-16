@@ -5,7 +5,7 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Oct 2026 06:06:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 09:12:38 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>When AI Agents Start Spending Your Money | Alex Rampell &amp; Terry Angelos</title>
@@ -20,6 +20,13 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261015-the-4-ways-the-devil-tries-to-destroy-you-msgr-charles-pope/</guid>
       <pubDate>Thu, 15 Oct 2026 20:58:56 +0000</pubDate>
       <description>The devil’s most effective attacks may look like truth, political outrage, self-doubt, or even religious devotion.</description>
+    </item>
+    <item>
+      <title>How the Latest AI Leap Is Disrupting Business Models</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261015-how-the-latest-ai-leap-is-disrupting-business-models/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261015-how-the-latest-ai-leap-is-disrupting-business-models/</guid>
+      <pubDate>Fri, 16 Oct 2026 09:11:32 +0000</pubDate>
+      <description>AI is moving from making software faster to making the old software business model unstable.</description>
     </item>
     <item>
       <title>#348 Frank Wright - The Last Living Original Marine Raider From WW2</title>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261001-344-dusty-slay-moon-landing-conspiracies-flat-earth-aliens/</guid>
       <pubDate>Thu, 01 Oct 2026 14:49:44 +0000</pubDate>
       <description>A comedian’s sobriety leads him from dirty jokes to biblical food laws, paranormal stories, and disbelief in the moon landing.</description>
-    </item>
-    <item>
-      <title>The Most Important New AI Tools from OpenAI DevDay</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260930-the-most-important-new-ai-tools-from-openai-devday/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20260930-the-most-important-new-ai-tools-from-openai-devday/</guid>
-      <pubDate>Thu, 01 Oct 2026 02:32:40 +0000</pubDate>
-      <description>OpenAI’s DevDay points less to a sudden breakthrough than to AI becoming cheaper, persistent, and built for teams.</description>
     </item>
   </channel>
 </rss>

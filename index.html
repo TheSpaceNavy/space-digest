@@ -132,10 +132,104 @@
 <a href="/space-digest/feed.xml">RSS</a>
   </nav>
   <h1>Friday 16 October 2026</h1>
-  <p class="meta">A quiet day</p>
+  <p class="meta">1
+     episode</p>
 
-    <p class="quiet">Nothing new today. The shows on the list have not published
-       since the last issue.</p>
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="the-ai-daily-brief-artificial">The AI Daily Brief <span class="at">1</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+<article class="entry" data-show="the-ai-daily-brief-artificial" data-title="how the latest ai leap is disrupting business models"
+         data-released="2026-10-15" data-done="2026-10-16T04:11">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-ai-daily-brief-artificial/20261015-how-the-latest-ai-leap-is-disrupting-business-models/">How the Latest AI Leap Is Disrupting Business Models</a></h2>
+  <p class="meta">The AI Daily Brief · 15 October 2026 · 31 min<span class="done"> · written up 16 October at 04:11</span></p>
+  <p class="hook">AI is moving from making software faster to making the old software business model unstable.</p>
+  <ul class="points">
+<li>New models such as Astra and Opus 5.5 can decompile software and games, then rebuild them in new forms. <span class="at">0:00</span></li><li>Anthropic reportedly made $16.8 billion in quarterly revenue, with positive cash flow and an 85% adjusted gross margin. <span class="at">1:39</span></li><li>Investors still called Anthropic’s roughly 50% quarterly growth disappointing, despite a target of $110 billion in annualized revenue by year-end. <span class="at">2:49</span></li><li>Chip-equipment demand is so strong that some customer reservations reportedly extend to 2029 and even 2039. <span class="at">6:40</span></li><li>Brandon Thomas used Claude Opus to rebuild Photoshop as a free, buggy alternative to Adobe’s $100-a-month software. <span class="at">15:36</span></li><li>AI-generated games could let players request personalized blockbuster-style experiences instead of buying finished games from studios. <span class="at">21:09</span></li>  </ul>
+<blockquote><p>“I just one-shot at Photoshop. The whole thing.” — Brandon Thomas [15:36]</p></blockquote><p class="for">Worth your time if you want to know how AI could reshape software, games, finance, and business staffing.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>Anthropic reportedly recorded $16.8 billion in actual quarterly revenue, not an annualized run rate.
+<span class="at">1:39</span><span class="why">Readers might assume the figure was only a future projection.</span>      </li>
+      <li>“Some customers have reservations that stretch into 2029 and even 2039.”
+<span class="at">— Roger Dasson</span><span class="at">7:14</span><span class="why">Chip-equipment orders rarely sound like thirteen-year commitments.</span>      </li>
+      <li>“I just one-shot at Photoshop. The whole thing.”
+<span class="at">— Brandon Thomas</span><span class="at">15:36</span><span class="why">One developer reportedly recreated major professional software with one AI subscription.</span>      </li>
+      <li>Bank of America hired 1,000 contractors to help 3,000 staff patch bugs revealed by Mythos.
+<span class="at">— Brian Moynihan</span><span class="at">9:34</span><span class="why">AI adoption created major repair work instead of simply replacing employees.</span>      </li>
+      <li>“what would have taken 100 plus people before, we were able to do with just tens.”
+<span class="at">— Elena Vilk</span><span class="at">29:31</span><span class="why">AI reportedly cut the staffing needed for David’s software project by at least a large majority.</span>      </li>
+    </ol>
+  </div>
+</article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      list.classList.toggle('by-done', key === 'done');
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
   <nav class="more">
 <a href="/space-digest/issues/2026-10-15/">Older</a>    <a href="/space-digest/archive/">All issues</a>
   </nav>
