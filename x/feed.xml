@@ -4,8 +4,15 @@
   <title>Space Digest — Tightbeam</title>
   <link>https://thespacenavy.github.io/space-digest/tightbeam/</link>
   <description>A narrow beam on each person and subject worth following.</description>
-  <lastBuildDate>Fri, 16 Oct 2026 09:12:38 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 16 Oct 2026 12:04:40 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/tightbeam/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Elon Musk · 16 October 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-10-16/</link>
+    <guid isPermaLink="false">tightbeam:elonmusk/2026-10-16</guid>
+    <pubDate>Fri, 16 Oct 2026 12:04:30 +0000</pubDate>
+    <description>The day focused on Tesla’s flying Roadster, space-based computing, Grok Bot, and Starlink.</description>
+  </item>
   <item>
     <title>Peter Diamandis · The Age of Programmable Biology</title>
     <link>https://thespacenavy.github.io/space-digest/tightbeam/diamandis/2026-10-15-the-age-of-programmable-biology/</link>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">tightbeam:spacex/2026-09-20</guid>
     <pubDate>Sun, 20 Sep 2026 12:02:40 +0000</pubDate>
     <description>SpaceX’s Starlink Gen3 filing and plans for orbital AI computing led the day.</description>
-  </item>
-  <item>
-    <title>Tesla · 20 September 2026</title>
-    <link>https://thespacenavy.github.io/space-digest/tightbeam/tesla/2026-09-20/</link>
-    <guid isPermaLink="false">tightbeam:tesla/2026-09-20</guid>
-    <pubDate>Sun, 20 Sep 2026 12:01:54 +0000</pubDate>
-    <description>Tesla posts focused on Robotaxi plans, FSD updates, Roadster speculation, and new vehicle programs.</description>
   </item>
 </channel>
 </rss>
