@@ -4,8 +4,15 @@
   <title>Space Digest — Tightbeam</title>
   <link>https://thespacenavy.github.io/space-digest/tightbeam/</link>
   <description>A narrow beam on each person and subject worth following.</description>
-  <lastBuildDate>Sat, 17 Oct 2026 09:41:55 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 17 Oct 2026 12:15:46 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/tightbeam/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Elon Musk · 17 October 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-10-17/</link>
+    <guid isPermaLink="false">tightbeam:elonmusk/2026-10-17</guid>
+    <pubDate>Sat, 17 Oct 2026 12:15:37 +0000</pubDate>
+    <description>Elon Musk focused on advertising standards, the Roadster, Gro​k, and new technology.</description>
+  </item>
   <item>
     <title>Elon Musk · 16 October 2026</title>
     <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-10-16/</link>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">tightbeam:elonmusk/2026-09-21</guid>
     <pubDate>Mon, 21 Sep 2026 12:00:46 +0000</pubDate>
     <description>Elon Musk highlighted tunnel travel, Tesla video evidence, AI, robots, and a game.</description>
-  </item>
-  <item>
-    <title>SpaceXAI · 20 September 2026</title>
-    <link>https://thespacenavy.github.io/space-digest/tightbeam/spacex/2026-09-20/</link>
-    <guid isPermaLink="false">tightbeam:spacex/2026-09-20</guid>
-    <pubDate>Sun, 20 Sep 2026 12:02:40 +0000</pubDate>
-    <description>SpaceX’s Starlink Gen3 filing and plans for orbital AI computing led the day.</description>
   </item>
 </channel>
 </rss>
