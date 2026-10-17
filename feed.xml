@@ -5,8 +5,15 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 17 Oct 2026 18:12:24 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 21:51:50 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Why AI Could Finally Fix Healthcare Access | Zocdoc CEO Oliver Kharraz</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261017-why-ai-could-finally-fix-healthcare-access-zocdoc-ceo-oliver/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261017-why-ai-could-finally-fix-healthcare-access-zocdoc-ceo-oliver/</guid>
+      <pubDate>Sat, 17 Oct 2026 21:50:51 +0000</pubDate>
+      <description>Healthcare access may improve by opening more doors—not forcing every patient through one.</description>
+    </item>
     <item>
       <title>The Most Important AI News This Week Is Getting Overlooked</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261016-the-most-important-ai-news-this-week-is-getting-overlooked/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261002-what-the-best-business-ai-users-are-doing-different/</guid>
       <pubDate>Sat, 03 Oct 2026 03:47:18 +0000</pubDate>
       <description>The best AI-using companies are moving beyond tools and building systems to manage cost, risk, data, and results.</description>
-    </item>
-    <item>
-      <title>Rebuilding the Internet for Privacy | Barrett Lyon on DoxxNet</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261001-rebuilding-the-internet-for-privacy-barrett-lyon-on-doxxnet/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261001-rebuilding-the-internet-for-privacy-barrett-lyon-on-doxxnet/</guid>
-      <pubDate>Fri, 02 Oct 2026 03:16:05 +0000</pubDate>
-      <description>The internet’s next layer may hide your identity while making direct, private connections far easier.</description>
     </item>
   </channel>
 </rss>

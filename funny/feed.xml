@@ -4,8 +4,15 @@
   <title>Space Digest — Just The Funny Bits</title>
   <link>https://thespacenavy.github.io/space-digest/funny/</link>
   <description>Only the jokes from the shows on the list, with a link to each one.</description>
-  <lastBuildDate>Sat, 17 Oct 2026 18:12:25 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 17 Oct 2026 21:51:51 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/funny/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>The Matt Walsh Show: This is The Most Impressive Democrat in Years</title>
+    <link>https://thespacenavy.github.io/space-digest/funny/2026-10-17/</link>
+    <guid isPermaLink="false">funny:the-matt-walsh-show/20261017-this-is-the-most-impressive-democrat-in-years</guid>
+    <pubDate>Sat, 17 Oct 2026 21:51:15 +0000</pubDate>
+    <description>2 funny bits: “The problem is that the Instacart drivers interpret similar item as any item that also exists in a three-dimensional plane.”</description>
+  </item>
   <item>
     <title>The Ben Shapiro Show: You NEED to See This Clip. Here’s Why It Matters.</title>
     <link>https://thespacenavy.github.io/space-digest/funny/2026-10-17/</link>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">funny:the-ben-shapiro-show/20261001-fired-with-a-newborn-to-a-100-million-sale-to-fox-clay</guid>
     <pubDate>Thu, 01 Oct 2026 14:54:55 +0000</pubDate>
     <description>1 funny bit: “But I think that for people who are trying to think about starting a business, sometimes you kind of have to be forced out the door. And it feels like God is kicking you in the butt, but actually he&#39;s just giving you a nice hard shove out the door.”</description>
-  </item>
-  <item>
-    <title>The Andrew Klavan Show: Andrew Klavan&#39;s REACTION To These Trailers for Upcoming Movies</title>
-    <link>https://thespacenavy.github.io/space-digest/funny/2026-10-02/</link>
-    <guid isPermaLink="false">funny:the-andrew-klavan-show/20261001-andrew-klavans-reaction-to-these-trailers-for-upcoming</guid>
-    <pubDate>Fri, 02 Oct 2026 03:19:42 +0000</pubDate>
-    <description>2 funny bits: “All right, I feel like I escaped from prison because this week, instead of watching Tic Tac or Tuk Tak or whatever the hell they&#39;re called, uh videos that uh make my eyeballs turn to acid and then melt into my heart, which turns my heart to acid.”</description>
   </item>
 </channel>
 </rss>
