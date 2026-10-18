@@ -2,7 +2,7 @@
 <html lang="en">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>17 October 2026 · Space Digest</title>
+<title>18 October 2026 · Space Digest</title>
 <link rel="alternate" type="application/rss+xml" title="Space Digest" href="/space-digest/feed.xml">
 <style>
   :root { --ink:#1a1a1a; --soft:#5b5b5b; --line:#e2e0da; --paper:#fbfaf7; --mark:#7a3b2e; }
@@ -131,112 +131,13 @@
 <a href="/space-digest/funny/">Funny bits</a>
 <a href="/space-digest/feed.xml">RSS</a>
   </nav>
-  <h1>Saturday 17 October 2026</h1>
-  <p class="meta">1
-     episode</p>
+  <h1>Sunday 18 October 2026</h1>
+  <p class="meta">A quiet day</p>
 
-  <div class="strip">
-    <h2>On the Tightbeam</h2>
-    <ul>
-      <li><span class="who">Elon Musk<span class="badge badge-x">X</span></span>
-          <a href="/space-digest/tightbeam/elonmusk/2026-10-17/">Elon Musk focused on advertising standards, the Roadster, Gro​k, and new technology.</a></li>
-    </ul>
-  </div>
-      <div class="filters" id="filters" hidden>
-    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
-           aria-label="Search episode titles">
-    <div class="chips" data-role="show">
-      <button class="chip on" data-show="">All shows</button>
-      <button class="chip" data-show="the-a16z-show">The a16z Show <span class="at">1</span></button>
-    </div>
-    <div class="chips" data-role="sort">
-      <span class="at">Sort</span>
-      <button class="chip on" data-sort="released">Newest released</button>
-      <button class="chip" data-sort="done">Just written up</button>
-    </div>
-  </div>
-
-    <div id="list">
-<article class="entry" data-show="the-a16z-show" data-title="why ai could finally fix healthcare access | zocdoc ceo oliver kharraz"
-         data-released="2026-10-17" data-done="2026-10-17T16:50">
-  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-a16z-show/20261017-why-ai-could-finally-fix-healthcare-access-zocdoc-ceo-oliver/">Why AI Could Finally Fix Healthcare Access | Zocdoc CEO Oliver Kharraz</a></h2>
-  <p class="meta">The a16z Show · 17 October 2026 · 35 min<span class="done"> · written up 17 October at 16:50</span></p>
-  <p class="hook">Healthcare access may improve by opening more doors—not forcing every patient through one.</p>
-  <ul class="points">
-<li>Zocdoc has evolved from a doctor-search website into scheduling infrastructure for insurers, AI tools, and other services. <span class="at">1:41</span></li><li>Linking provider listings to real bookings keeps directory information more than 99% accurate. <span class="at">2:50</span></li><li>The company spent two decades connecting hundreds of health-record systems, insurance plans, specialties, and office workflows. <span class="at">3:57</span></li><li>Zocdoc wants providers to connect once, then share appointment availability across many websites, insurers, and AI agents. <span class="at">13:16</span></li><li>Insurer integrations can direct patients to cheaper outpatient care instead of emergency rooms, which may cost 10–12 times more. <span class="at">22:11</span></li><li>While primary-care wait times have reached about 31 days nationally, Zocdoc users typically find appointments within three days. <span class="at">27:22</span></li>  </ul>
-<blockquote><p>“The best doctors tend to have the worst utilization.” [30:17]</p></blockquote><p class="for">Worth your time if you want to understand why healthcare access is a scheduling problem as much as a doctor shortage.</p>  <div class="standouts">
-    <h3>Most surprising</h3>
-    <ol>
-      <li>“We are of data that&#39;s more than 99% accurate, which compares quite favorably with your average insurance directory.”
-<span class="at">— Oliver Carraz</span><span class="at">2:50</span><span class="why">Most people assume provider directories remain fundamentally unreliable.</span>      </li>
-      <li>“I brought them pizza, I walked their dogs. They couldn&#39;t figure it out.”
-<span class="at">— Oliver Carraz</span><span class="at">6:07</span><span class="why">Solving scheduling required unusually personal technical support.</span>      </li>
-      <li>“97% of the providers we signed up in the last 12 months inbounded to us.”
-<span class="at">25:28</span><span class="why">Provider recruitment sounds mostly like outbound sales.</span>      </li>
-      <li>“Now it&#39;s 31 days. However, you know, using ZocDoc, you can see a doctor typically within three days or less.”
-<span class="at">27:57</span><span class="why">National waits are worsening while platform users find care much faster.</span>      </li>
-    </ol>
-  </div>
-</article>
-    </div>
-      <p class="quiet" id="none" hidden>Nothing matches that.</p>
-  <script>
-  (function () {
-    var box = document.getElementById('filters');
-    var list = document.getElementById('list');
-    var none = document.getElementById('none');
-    if (!box || !list) return;
-    box.hidden = false;              // only shown when scripting works
-    var items = [].slice.call(list.children);
-    var show = '', text = '', sort = 'released';
-
-    function apply() {
-      var key = sort === 'done' ? 'done' : 'released';
-      var other = key === 'done' ? 'released' : 'done';
-      items.sort(function (a, b) {
-        var x = a.dataset[key] || '', y = b.dataset[key] || '';
-        if (x !== y) return x < y ? 1 : -1;
-        x = a.dataset[other] || ''; y = b.dataset[other] || '';
-        return x === y ? 0 : (x < y ? 1 : -1);
-      });
-      items.forEach(function (el) { list.appendChild(el); });
-      list.classList.toggle('by-done', key === 'done');
-      var seen = 0;
-      items.forEach(function (el) {
-        var ok = (!show || el.dataset.show === show) &&
-                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
-        el.hidden = !ok;
-        if (ok) seen++;
-      });
-      none.hidden = seen > 0;
-    }
-    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
-      var b = ev.target.closest('.chip');
-      if (!b) return;
-      show = b.dataset.show;
-      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
-        c.classList.toggle('on', c === b);
-      });
-      apply();
-    });
-    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
-      var b = ev.target.closest('.chip');
-      if (!b) return;
-      sort = b.dataset.sort;
-      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
-        c.classList.toggle('on', c === b);
-      });
-      apply();
-    });
-    document.getElementById('q').addEventListener('input', function (ev) {
-      text = ev.target.value.trim().toLowerCase();
-      apply();
-    });
-  })();
-  </script>
-
+    <p class="quiet">Nothing new today. The shows on the list have not published
+       since the last issue.</p>
   <nav class="more">
-<a href="/space-digest/issues/2026-10-16/">Older</a>    <a href="/space-digest/archive/">All issues</a>
+<a href="/space-digest/issues/2026-10-17/">Older</a>    <a href="/space-digest/archive/">All issues</a>
   </nav>
   <footer>
     <p>Summaries are written by a machine from the original words, and link
