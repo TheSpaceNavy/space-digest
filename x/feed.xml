@@ -4,8 +4,15 @@
   <title>Space Digest — Tightbeam</title>
   <link>https://thespacenavy.github.io/space-digest/tightbeam/</link>
   <description>A narrow beam on each person and subject worth following.</description>
-  <lastBuildDate>Sun, 18 Oct 2026 09:53:07 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 18 Oct 2026 12:10:24 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/tightbeam/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Elon Musk · 18 October 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-10-18/</link>
+    <guid isPermaLink="false">tightbeam:elonmusk/2026-10-18</guid>
+    <pubDate>Sun, 18 Oct 2026 12:10:14 +0000</pubDate>
+    <description>Elon Musk highlighted flying cars, Starlink, Grok, and future technologies.</description>
+  </item>
   <item>
     <title>Elon Musk · 17 October 2026</title>
     <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-10-17/</link>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">tightbeam:tesla/2026-09-21</guid>
     <pubDate>Mon, 21 Sep 2026 12:02:23 +0000</pubDate>
     <description>Tesla posts pointed to Semi pricing, Optimus production preparation, and rising Robotaxi demand.</description>
-  </item>
-  <item>
-    <title>Elon Musk · 21 September 2026</title>
-    <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-09-21/</link>
-    <guid isPermaLink="false">tightbeam:elonmusk/2026-09-21</guid>
-    <pubDate>Mon, 21 Sep 2026 12:00:46 +0000</pubDate>
-    <description>Elon Musk highlighted tunnel travel, Tesla video evidence, AI, robots, and a game.</description>
   </item>
 </channel>
 </rss>
