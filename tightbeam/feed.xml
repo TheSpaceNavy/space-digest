@@ -4,8 +4,15 @@
   <title>Space Digest — Tightbeam</title>
   <link>https://thespacenavy.github.io/space-digest/tightbeam/</link>
   <description>A narrow beam on each person and subject worth following.</description>
-  <lastBuildDate>Tue, 27 Oct 2026 09:46:33 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 27 Oct 2026 12:03:33 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/tightbeam/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Elon Musk · 27 October 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-10-27/</link>
+    <guid isPermaLink="false">tightbeam:elonmusk/2026-10-27</guid>
+    <pubDate>Tue, 27 Oct 2026 12:03:23 +0000</pubDate>
+    <description>Elon Musk discussed rockets, computing, robots, satellites, cars, and artificial intelligence.</description>
+  </item>
   <item>
     <title>Peter Diamandis · Closing the Gap in Cancer Care</title>
     <link>https://thespacenavy.github.io/space-digest/tightbeam/diamandis/2026-10-26-closing-the-gap-in-cancer-care/</link>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">tightbeam:spacex/2026-09-24</guid>
     <pubDate>Thu, 24 Sep 2026 12:03:07 +0000</pubDate>
     <description>SpaceX advanced Starship Flight 14 preparations while Starlink expanded classroom access and a Grok-linked game studio launched.</description>
-  </item>
-  <item>
-    <title>Tesla · 24 September 2026</title>
-    <link>https://thespacenavy.github.io/space-digest/tightbeam/tesla/2026-09-24/</link>
-    <guid isPermaLink="false">tightbeam:tesla/2026-09-24</guid>
-    <pubDate>Thu, 24 Sep 2026 12:02:02 +0000</pubDate>
-    <description>Tesla highlighted Cybercab efficiency, Optimus developments, and the upcoming Semi rollout.</description>
   </item>
 </channel>
 </rss>
