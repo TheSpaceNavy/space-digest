@@ -133,11 +133,109 @@
   </nav>
   <h1>Just The Funny Bits</h1>
   <p class="meta">Sunday 18 October 2026 ·
-A quiet day     · only the jokes; the news stays out</p>
-    <p class="quiet">No funny bits today. The shows on the list have not published
-       since the last page.</p>
+1 episode     · only the jokes; the news stays out</p>
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="the-michael-knowles-show">The Michael Knowles Show <span class="at">1</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+    <article class="entry" id="the-michael-knowles-show-20261018-they-lied-about-everything-michael-to-catch-a-predator-chris" data-show="the-michael-knowles-show" data-title="&#34;they lied about everything&#34; michael &amp; to catch a predator | chris hansen"
+             data-released="2026-10-18" data-done="2026-10-18T16:57">
+      <h2 style="margin-top:0"><a href="https://www.youtube.com/watch?v=z1-uqjuahNw">&#34;They Lied About Everything&#34; Michael &amp; To Catch A Predator | Chris Hansen</a></h2>
+      <p class="meta">The Michael Knowles Show · 18 October 2026 · 1h 37m
+         · times link into the video<span class="done"> · written up 18 October at 16:57</span></p>
+      <ol class="bits">
+        <li>
+          <span class="said">“There should be a that guy shaped hole in the wall. Just run out the door, right?”</span>
+<span class="at">— Michael Knowles</span>          <span class="at"><a href="https://www.youtube.com/watch?v=z1-uqjuahNw&amp;t=3606s">1:00:06</a></span>
+<span class="why">They discuss why suspects agree to speak with Chris Hansen even when they could simply leave. The host humorously imagines the obvious escape route as a cartoon-shaped hole punched through the wall.</span>        </li>
+        <li>
+          <span class="said">“I would love to have a sting, sir, where nobody shows up. I&#39;d love to do a cooking show.”</span>
+<span class="at">— Chris Hansen</span>          <span class="at"><a href="https://www.youtube.com/watch?v=z1-uqjuahNw&amp;t=4036s">1:07:16</a></span>
+<span class="why">A defense attorney suggests Hansen benefits financially whenever a predator appears. Hansen replies that he would actually welcome an empty sting, then pivots to the absurdly unrelated dream of hosting a cooking show.</span>        </li>
+        <li>
+          <span class="said">“I said after seeing the movie, if that&#39;s this director&#39;s love letter, I&#39;d hate to see a poison pen letter from this guy.”</span>
+<span class="at">— Chris Hansen</span>          <span class="at"><a href="https://www.youtube.com/watch?v=z1-uqjuahNw&amp;t=199s">3:19</a></span>
+<span class="why">Chris says the director described the film as a “love letter” to him, despite portraying him bizarrely. He flips the affectionate phrase into the threatening “poison pen letter.”</span>        </li>
+        <li>
+          <span class="said">“Now I got to be the only 67y old guy in America who&#39;s got 1.2 2 million Tik Tok dollars, but it&#39;s it&#39;s it&#39;s a place where I harvest intelligence and story ideas.”</span>
+<span class="at">— Chris Hansen</span>          <span class="at"><a href="https://www.youtube.com/watch?v=z1-uqjuahNw&amp;t=1870s">31:10</a></span>
+<span class="why">Chris Hansen explains how a woman contacted him through TikTok. He jokes about his unusually large TikTok following by calling the followers “Tik Tok dollars.”</span>        </li>
+        <li>
+          <span class="said">“Chris Hansen, we didn&#39;t even have the pizza. I regret that. &gt;&gt; I think we let it go cold. That&#39;s bad. &gt;&gt; Put in the microwave. We&#39;ll get it back.”</span>
+          <span class="at"><a href="https://www.youtube.com/watch?v=z1-uqjuahNw&amp;t=5783s">1:36:23</a></span>
+<span class="why">At the close, the host jokes about failing to provide the pizza associated with the Predator segment, while Hansen treats the cold pizza as a fixable production mistake.</span>        </li>
+      </ol>
+    </article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      list.classList.toggle('by-done', key === 'done');
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
   <nav class="more">
-<a href="/space-digest/funny/2026-10-17/">Older</a>    <a href="/space-digest/funny/episodes/">Every episode</a>
+<a href="/space-digest/funny/2026-10-20/">Newer</a><a href="/space-digest/funny/2026-10-17/">Older</a>    <a href="/space-digest/funny/episodes/">Every episode</a>
     <a href="/space-digest/funny/feed.xml">Subscribe by RSS</a>
   </nav>
   <footer>

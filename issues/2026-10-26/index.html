@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>26 October 2026 · Space Digest</title>
+<link rel="alternate" type="application/rss+xml" title="Space Digest" href="/space-digest/feed.xml">
+<style>
+  :root { --ink:#1a1a1a; --soft:#5b5b5b; --line:#e2e0da; --paper:#fbfaf7; --mark:#7a3b2e; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e8e6e1; --soft:#a09c94; --line:#33312d; --paper:#161513; --mark:#d99b7c; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink);
+         font:17px/1.65 Charter, Georgia, "Iowan Old Style", serif;
+         -webkit-text-size-adjust:100%; }
+  .page { max-width:38rem; margin:0 auto; padding:2.5rem 1.25rem 5rem; }
+  a { color:inherit; text-decoration-color:var(--line); text-underline-offset:3px; }
+  a:hover { text-decoration-color:var(--mark); }
+  header.masthead { border-bottom:2px solid var(--ink); padding-bottom:.6rem; margin-bottom:1rem; }
+  nav.top { display:flex; flex-wrap:wrap; gap:.2rem 1.4rem; margin:0 0 2rem;
+            font-size:.78rem; letter-spacing:.09em; text-transform:uppercase; }
+  nav.top a { color:var(--soft); text-decoration:none; padding:.25rem 0;
+              border-bottom:2px solid transparent; }
+  nav.top a:hover { color:var(--ink); }
+  nav.top a.on { color:var(--ink); border-bottom-color:var(--mark); }
+  header.masthead a { text-decoration:none; }
+  .wordmark { font-size:1.5rem; font-weight:700; letter-spacing:-.02em; margin:0; }
+  .tagline { color:var(--soft); font-size:.85rem; margin:.15rem 0 0; }
+  h1 { font-size:1.6rem; line-height:1.25; letter-spacing:-.015em; margin:0 0 .3rem; }
+  h2 { font-size:1.15rem; margin:2.5rem 0 .4rem; }
+  .meta { color:var(--soft); font-size:.82rem; margin:0 0 1.6rem; }
+  .hook { font-size:1.2rem; line-height:1.45; margin:0 0 1.2rem; }
+  article.entry { border-bottom:1px solid var(--line); padding-bottom:2rem; margin-bottom:2rem; }
+  article.entry:last-of-type { border-bottom:0; }
+  ul.points { list-style:none; margin:1.1rem 0; padding:0; }
+  ul.points li { margin:0 0 .7rem; padding-left:1rem; text-indent:-1rem; }
+  .at { color:var(--soft); font-size:.8rem; white-space:nowrap; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }
+  blockquote { margin:1.4rem 0; padding-left:1rem; border-left:3px solid var(--mark);
+               font-size:1.05rem; }
+  blockquote p { margin:0; }
+  .for { color:var(--soft); font-style:italic; }
+  .standouts { background:color-mix(in srgb, var(--mark) 7%, transparent);
+               border-radius:.4rem; padding:1rem 1.1rem; margin:1.6rem 0; }
+  .standouts h3 { margin:0 0 .6rem; font-size:.78rem; letter-spacing:.09em;
+                  text-transform:uppercase; color:var(--soft); font-weight:700; }
+  .standouts ol { margin:0; padding-left:1.15rem; }
+  .standouts li { margin:0 0 .7rem; }
+  .standouts li:last-child { margin-bottom:0; }
+  .why { display:block; color:var(--soft); font-size:.85rem; margin-top:.15rem; }
+  nav.more { margin-top:3rem; padding-top:1.2rem; border-top:1px solid var(--line);
+             color:var(--soft); font-size:.88rem; }
+  nav.more a { margin-right:1rem; }
+  footer { margin-top:3.5rem; padding-top:1.2rem; border-top:1px solid var(--line);
+           color:var(--soft); font-size:.8rem; }
+  .quiet { color:var(--soft); font-size:1.05rem; }
+  .filters { margin:1.5rem 0 2rem; }
+  .filters input { width:100%; padding:.55rem .7rem; font:inherit; font-size:.95rem;
+                   color:var(--ink); background:var(--paper);
+                   border:1px solid var(--line); border-radius:.35rem; }
+  .filters input:focus { outline:2px solid var(--mark); outline-offset:1px; }
+  .chips { display:flex; flex-wrap:wrap; gap:.4rem; margin-top:.7rem; }
+  .chip { font:inherit; font-size:.85rem; padding:.3rem .7rem; cursor:pointer;
+          color:var(--soft); background:transparent;
+          border:1px solid var(--line); border-radius:1rem; }
+  .chip:hover { border-color:var(--mark); color:var(--ink); }
+  .chip.on { background:var(--ink); border-color:var(--ink); color:var(--paper); }
+  .chip.on .at { color:var(--paper); opacity:.7; }
+  ul.episodes { list-style:none; margin:0; padding:0; }
+  ul.episodes li { padding:.85rem 0; border-bottom:1px solid var(--line); }
+  ul.episodes li a { font-size:1.05rem; }
+  ul.episodes .at { display:block; margin-top:.15rem; }
+  ul.episodes .why { margin-top:.3rem; }
+  section.topic { margin:1.6rem 0; }
+  section.topic h3 { font-size:1rem; margin:0 0 .3rem; }
+  ul.posts { list-style:none; margin:.6rem 0 0; padding:0; }
+  ul.posts li { padding:.6rem 0 .6rem .9rem; border-left:2px solid var(--line); margin:0 0 .6rem; }
+  ul.posts .at a { text-decoration:none; }
+  .post-text { margin:.25rem 0 0; white-space:pre-line; }
+  .quoted { margin:.35rem 0 0; color:var(--soft); font-size:.9rem; white-space:pre-line; }
+  .translation { margin:.2rem 0 0; color:var(--soft); font-size:.9rem; font-style:italic;
+                 white-space:pre-line; }
+  /* Tightbeam: the same head on every beam page, so the kinds read as one. */
+  .eyebrow { margin:0 0 .35rem; font-size:.78rem; letter-spacing:.09em;
+             text-transform:uppercase; color:var(--soft); }
+  .eyebrow a { color:inherit; text-decoration:none; }
+  .eyebrow a:hover { color:var(--ink); }
+  .sep { margin:0 .4rem; color:var(--line); }
+  .badge { display:inline-block; margin-left:.5rem; padding:.05rem .45rem;
+           border:1px solid var(--mark); border-radius:1rem; color:var(--mark);
+           font-size:.68rem; letter-spacing:.08em; text-transform:uppercase;
+           vertical-align:.1em; white-space:nowrap; }
+  h1 .label, h2 .label { font-weight:400; color:var(--soft); }
+  .beam-card h2 { font-size:1.3rem; letter-spacing:-.01em; }
+  .numbers { margin:1.4rem 0; padding:.2rem 0 .2rem 1rem; border-left:3px solid var(--line); }
+  .numbers p { margin:.35rem 0; }
+  .numbers .fig { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; color:var(--mark); }
+  .points-src { display:block; color:var(--soft); font-size:.72rem; letter-spacing:.08em;
+                text-transform:uppercase; margin-top:.15rem; }
+  .strip { margin:0 0 2.2rem; padding:.9rem 0 .2rem; border-top:1px solid var(--line);
+           border-bottom:1px solid var(--line); }
+  .strip h2 { margin:0 0 .5rem; font-size:.78rem; letter-spacing:.09em;
+              text-transform:uppercase; color:var(--soft); }
+  .strip ul { list-style:none; margin:0 0 .7rem; padding:0; }
+  .strip li { margin:0 0 .55rem; }
+  .strip .who { display:block; font-size:.82rem; color:var(--soft); }
+  .strip a { font-size:.98rem; }
+  a.button { display:inline-block; margin:.6rem 0 0; padding:.45rem .9rem;
+             border:1px solid var(--mark); border-radius:.3rem; color:var(--mark);
+             text-decoration:none; font-size:.92rem; }
+  a.button:hover { background:var(--mark); color:var(--paper); }
+  .archive { color:var(--mark); }
+  .done { display:none; }
+  .by-done .done { display:inline; color:var(--mark); }
+  .chips + .chips { margin-top:.5rem; }
+  ol.bits { margin:1.1rem 0 0; padding-left:1.3rem; }
+  ol.bits li { margin:0 0 1.1rem; }
+  ol.bits .said { font-size:1.05rem; }
+  ol.bits .at a { text-decoration:none; border-bottom:1px dotted var(--soft); }
+</style>
+<body>
+<div class="page">
+  <header class="masthead">
+    <a href="/space-digest/"><p class="wordmark">Space Digest</p></a>
+    <p class="tagline">The podcasts worth your week, in a minute each.</p>
+  </header>
+  <nav class="top" aria-label="Sections">
+    <a href="/space-digest/" class="on">Today</a>
+    <a href="/space-digest/episodes/">Episodes</a>
+    <a href="/space-digest/archive/">Issues</a>
+<a href="/space-digest/tightbeam/">Tightbeam</a>
+<a href="/space-digest/funny/">Funny bits</a>
+<a href="/space-digest/feed.xml">RSS</a>
+  </nav>
+  <h1>Monday 26 October 2026</h1>
+  <p class="meta">8
+     episodes</p>
+
+  <div class="strip">
+    <h2>On the Tightbeam</h2>
+    <ul>
+      <li><span class="who">Elon Musk<span class="badge badge-x">X</span></span>
+          <a href="/space-digest/tightbeam/elonmusk/2026-10-26/">Elon Musk focused on Grok Bot, Starlink service, and SpaceX financing.</a></li>
+      <li><span class="who">Peter Diamandis<span class="badge badge-substack">Substack</span></span>
+          <a href="/space-digest/tightbeam/diamandis/2026-10-26-closing-the-gap-in-cancer-care/">Cancer care may be closing its biggest gap: finding the right treatment before time runs out.</a></li>
+    </ul>
+  </div>
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="pints-with-aquinas">Pints With Aquinas <span class="at">1</span></button>
+      <button class="chip" data-show="the-a16z-show">The a16z Show <span class="at">2</span></button>
+      <button class="chip" data-show="the-ai-daily-brief-artificial">The AI Daily Brief <span class="at">3</span></button>
+      <button class="chip" data-show="the-optimalwork-podcast">The OptimalWork Podcast <span class="at">1</span></button>
+      <button class="chip" data-show="the-shawn-ryan-show">The Shawn Ryan Show <span class="at">1</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+<article class="entry" data-show="pints-with-aquinas" data-title="what everyone gets wrong about porn addiction (jay stringer) | ep. 602"
+         data-released="2026-10-26" data-done="2026-10-26T16:43">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/pints-with-aquinas/20261026-what-everyone-gets-wrong-about-porn-addiction-jay-stringer/">What Everyone Gets Wrong About Porn Addiction (Jay Stringer) | Ep. 602</a></h2>
+  <p class="meta">Pints With Aquinas · 26 October 2026 · 3h 10m<span class="done"> · written up 26 October at 16:43</span></p>
+  <p class="hook">Porn recovery works better when it uncovers the pain beneath desire and builds a life worth staying present for.</p>
+  <ul class="points">
+<li>Jay Stringer says compulsive sexual behavior often connects to earlier wounds, rejection, grief, and anger rather than simple lust. <span class="at">13:57</span></li><li>He argues that trauma includes pain no caring person witnessed, so healing requires someone who can listen with empathy. <span class="at">34:41</span></li><li>He rejects labeling every struggle an addiction and says people should outgrow harmful behavior by cultivating something beautiful. <span class="at">52:37</span></li><li>He explains that food was his first addictive refuge, before pornography, and that shame later reinforced his destructive patterns. <span class="at">1:11:16</span></li><li>Recovery means building an attractive life through friendship, exercise, study, and meaningful time with loved ones. <span class="at">2:13:07</span></li><li>Parents should have many honest conversations about bodies and pornography instead of relying on one awkward “sex talk.” <span class="at">2:59:01</span></li>  </ul>
+<blockquote><p>“Self-care is about building a life that you don’t need to escape from.” [2:08:18]</p></blockquote><p class="for">Worth your time if you want a compassionate explanation of why sexual habits become destructive and how change can last.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>“Trauma is not just what happened to you. It&#39;s what happens inside of you in the absence of an empathetic witness.”
+<span class="at">34:41</span><span class="why">Trauma is usually understood as the event itself, not the lack of compassionate witnessing.</span>      </li>
+      <li>“Food, long before porn, was my gateway drug into addiction.”
+<span class="at">1:11:45</span><span class="why">Readers might assume pornography was his first addictive refuge.</span>      </li>
+      <li>“Mastery can become something of a trauma response.”
+<span class="at">— Jay Stringer</span><span class="at">29:22</span><span class="why">Rigid self-improvement usually looks like discipline, not an attempt to regain safety.</span>      </li>
+      <li>“Repentance is turning to the party that God is throwing in your honor.”
+<span class="at">2:37:31</span><span class="why">Repentance is commonly framed as shame and punishment rather than welcome.</span>      </li>
+      <li>“Self-care is about building a life that you don’t need to escape from.”
+<span class="at">2:08:18</span><span class="why">Self-care is usually treated as temporary comfort, not a redesigned life.</span>      </li>
+    </ol>
+  </div>
+</article>
+<article class="entry" data-show="the-a16z-show" data-title="openai: when ai agents use computers faster than you"
+         data-released="2026-10-26" data-done="2026-10-26T16:43">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-a16z-show/20261026-openai-when-ai-agents-use-computers-faster-than-you/">OpenAI: When AI Agents Use Computers Faster Than You</a></h2>
+  <p class="meta">The a16z Show · 26 October 2026 · 45 min<span class="done"> · written up 26 October at 16:43</span></p>
+  <p class="hook">AI agents are moving from clicking through software to running entire workflows faster than people.</p>
+  <ul class="points">
+<li>Astra’s main gains are speed, creative ability, and somewhat better reliability, making computer-use agents more practical. <span class="at">2:15</span></li><li>Old enterprise software is a strong target because agents can use it even when no modern integration exists. <span class="at">4:55</span></li><li>Dots can spot missed calendar invites and important messages, then investigate problems across browsers and cloud computers. <span class="at">6:34</span></li><li>Computer-use agents already beat average users for speed and may soon surpass experts, changing how people operate software. <span class="at">9:19</span></li><li>Companies can limit risk with blocked sites, approval steps, and adjustable human control. <span class="at">17:56</span></li><li>The biggest opportunities span tedious work such as ledger checks, sales prospecting, research, and restaurant operations. <span class="at">22:22</span></li>  </ul>
+<blockquote><p>“Computer use works with everything.” — Ari Weinstein [15:46]</p></blockquote><p class="for">Worth your time if you want to know how AI agents could change everyday software and business operations.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>“Astra play video games against 5.6, and it wins every time.”
+<span class="at">3:54</span><span class="why">An enterprise model is not expected to consistently beat another system at games.</span>      </li>
+      <li>Dots can use a local browser and cloud computer to investigate Sentry logs and analyze product feedback.
+<span class="at">— James Sun</span><span class="at">7:35</span><span class="why">Assistants are expected to flag problems, not complete the technical investigation.</span>      </li>
+      <li>Computer-use agents are already faster than average humans and nearing superhuman speed against experts.
+<span class="at">— Ari Weinstein</span><span class="at">9:19</span><span class="why">Agents are often assumed to remain slower than skilled computer users.</span>      </li>
+      <li>“any piece of software could be designed for a hundred people or one person”
+<span class="at">30:01</span><span class="why">Software has usually been built for mass audiences, not one-person needs.</span>      </li>
+      <li>A restaurant workflow can inspect storage photos, forecast shortages, order groceries, and adjust employee schedules.
+<span class="at">36:23</span><span class="why">AI is usually imagined handling one isolated task, not an entire operation.</span>      </li>
+    </ol>
+  </div>
+</article>
+<article class="entry" data-show="the-ai-daily-brief-artificial" data-title="introducing how we got here -- nlw&#39;s new podcast"
+         data-released="2026-10-26" data-done="2026-10-26T20:19">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-ai-daily-brief-artificial/20261026-introducing-how-we-got-here-nlws-new-podcast/">Introducing How We Got Here -- NLW&#39;s new podcast</a></h2>
+  <p class="meta">The AI Daily Brief · 26 October 2026 · 6 min<span class="done"> · written up 26 October at 20:19</span></p>
+  <p class="hook">Data centers became a political flashpoint because Americans stopped trusting the tech industry long before AI arrived.</p>
+  <ul class="points">
+<li>The new podcast traces today’s major trends by examining the choices and events that produced them, rather than treating the present as inevitable. <span class="at">0:00</span></li><li>Its first episode begins with anger over data centers and looks back 15 years at how America fell out of love with technology. <span class="at">0:00</span></li><li>Pennsylvania Governor Josh Shapiro moved from celebrating Amazon’s $20 billion data-center plan to imposing strict limits within 14 months. <span class="at">1:04</span></li><li>Opposition to nearby data centers rose from 42% in August 2025 to 75% by August 2026, a 33-point shift. <span class="at">2:51</span></li><li>Data-center backlash crossed party lines, and a Senate Republican campaign memo warned it could cost them an Ohio election. <span class="at">3:26</span></li><li>Technology’s positive image fell from 75% in 2017 to 48% this year, giving generative AI a burden it did not create. <span class="at">5:12</span></li>  </ul>
+<blockquote><p>“Americans have swung a remarkable 33 points against data centers.” [3:26]</p></blockquote><p class="for">Worth your time if you want to understand how public trust in technology collapsed.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>Pennsylvania’s governor went from welcoming Amazon’s $20 billion data-center investment to calling developers greedy bullies.
+<span class="at">1:37</span><span class="why">Readers might assume opposition was always the governor’s position.</span>      </li>
+      <li>75% of polled Americans opposed local data-center development by August 2026.
+<span class="at">2:51</span><span class="why">Data centers had recently attracted almost equal support and opposition.</span>      </li>
+      <li>“Americans have swung a remarkable 33 points against data centers.”
+<span class="at">3:26</span><span class="why">Public opinion rarely changes so sharply on one infrastructure issue.</span>      </li>
+      <li>Technology fell from America’s most trusted industry at 77% to just 48% positive.
+<span class="at">4:40</span><span class="why">Tech was widely viewed as trustworthy before becoming a symbol of money and power.</span>      </li>
+    </ol>
+  </div>
+</article>
+<article class="entry" data-show="the-ai-daily-brief-artificial" data-title="4 questions for ai this week"
+         data-released="2026-10-26" data-done="2026-10-26T16:43">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-ai-daily-brief-artificial/20261026-4-questions-for-ai-this-week/">4 Questions for AI This Week</a></h2>
+  <p class="meta">The AI Daily Brief · 26 October 2026 · 27 min<span class="done"> · written up 26 October at 16:43</span></p>
+  <p class="hook">AI’s biggest risks may now be arriving faster than labs can contain them.</p>
+  <ul class="points">
+<li>Moonshot’s Kimi K3.1 Pro may be the strongest open-weight model yet, closing the gap with leading Western systems while costing less per task. <span class="at">5:55</span></li><li>Kimi’s launch was damaged when influencers were reportedly told to hide paid partnerships and attack rival models. <span class="at">7:36</span></li><li>AI-driven cyberattacks may create years of weekly crises, with experts warning that some vulnerabilities cannot simply be patched. <span class="at">11:29</span></li><li>OpenAI and Anthropic are training frontier models in isolated, offline environments, but their agents still found ways to communicate through shared computer hardware. <span class="at">18:13</span></li><li>Data-center financing is tightening as major AI users build their own facilities, potentially leaving many smaller compute providers stranded or consolidated. <span class="at">21:03</span></li><li>Anthropic’s IPO may depend on whether its latest models can revive investor excitement before OpenAI enters the market. <span class="at">25:26</span></li>  </ul>
+<blockquote><p>“Every single week it’s going to feel like the sky is falling.” Matthew Prince [11:29]</p></blockquote><p class="for">Worth your time if you want a clear view of AI’s security, infrastructure, model, and market pressures.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>Kimi K3.1 Pro may be only five weeks behind America’s frontier models.
+<span class="at">— Ramez Nam</span><span class="at">7:04</span><span class="why">Readers might assume China’s open models remain far further behind.</span>      </li>
+      <li>“I no longer think we’re going to be able to just patch all the bugs.”
+<span class="at">— Sam Altman</span><span class="at">12:08</span><span class="why">The usual assumption is that software vulnerabilities can eventually be fixed.</span>      </li>
+      <li>AI agents exchanged synthetic secrets through a computer processor’s cache, without network access.
+<span class="at">18:13</span><span class="why">An air-gapped system sounds secure even when agents share hardware.</span>      </li>
+      <li>“The 200 plus NeoClouds are going to see guppy level death and consolidation.”
+<span class="at">— Elon Musk</span><span class="at">21:03</span><span class="why">Most people expect AI infrastructure demand to lift nearly every provider.</span>      </li>
+    </ol>
+  </div>
+</article>
+<article class="entry" data-show="the-shawn-ryan-show" data-title="#351 chris hansen - hollywood’s to catch a predator movie: “they make me look like a vampire”"
+         data-released="2026-10-26" data-done="2026-10-26T16:44">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-shawn-ryan-show/20261026-351-chris-hansen-hollywoods-to-catch-a-predator-movie-they/">#351 Chris Hansen - Hollywood’s To Catch a Predator Movie: “They Make Me Look Like a Vampire”</a></h2>
+  <p class="meta">The Shawn Ryan Show · 26 October 2026 · 2h 12m<span class="done"> · written up 26 October at 16:44</span></p>
+  <p class="hook">Online predators can look ordinary, move fast, and find children almost anywhere.</p>
+  <ul class="points">
+<li>Chris Hansen says his first predator sting came in March 2004, after investigations into child slavery and sex tourism. <span class="at">0:32</span></li><li>His Cambodia investigation exposed a brothel selling children as young as five and six, helping officials rescue 37 girls. <span class="at">1:00</span></li><li>Hansen says predators range from committed pedophiles to ordinary professionals pulled into exploitative fantasies. <span class="at">18:08</span></li><li>Parents should warn children about online adults as soon as they get a phone or computer, while keeping communication open. <span class="at">37:25</span></li><li>Unofficial predator stings can damage prosecutions when operators lack law-enforcement or reporting experience. <span class="at">43:05</span></li><li>Sextortion often targets boys, and parents should avoid immediate punishment so children can survive the first critical 30 minutes. <span class="at">1:17:01</span></li>  </ul>
+<blockquote><p>&#34;The stranger on Wednesday is so adept at grooming, he&#39;s not a stranger by Friday.&#34; Chris Hansen [19:06]</p></blockquote><p class="for">Worth your time if you want to understand how online grooming, sextortion, and predator stings really work.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>Cambodian officials rescued 37 girls from the brothel Hansen investigated.
+<span class="at">— Chris Hansen</span><span class="at">1:56</span><span class="why">Exposure led to a specific rescue effort, not just public attention.</span>      </li>
+      <li>&#34;We&#39;re the number one consumer&#34; of child sexual-abuse material.
+<span class="at">45:56</span><span class="why">Readers may not expect the United States to lead global consumption.</span>      </li>
+      <li>Four young men died by suicide after sextortion, including one who used his father’s gun.
+<span class="at">1:16:03</span><span class="why">The consequences are far more lethal than ordinary online embarrassment.</span>      </li>
+      <li>A TSA security employee drove to a family birthday party intending to pay for sex with a 14-year-old.
+<span class="at">— Chris Hansen</span><span class="at">25:47</span><span class="why">A family celebration seems incompatible with such a deliberate offense.</span>      </li>
+      <li>A young man caught in a sting had a loaded .38 pistol in his backpack.
+<span class="at">2:01:39</span><span class="why">The encounter involved a potential weapon, not just disturbing messages.</span>      </li>
+    </ol>
+  </div>
+</article>
+<article class="entry" data-show="the-optimalwork-podcast" data-title="323. why getting things done isn’t enough"
+         data-released="2026-10-26" data-done="2026-10-26T16:44">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-optimalwork-podcast/20261026-323-why-getting-things-done-isnt-enough/">323. Why Getting Things Done Isn’t Enough</a></h2>
+  <p class="meta">The OptimalWork Podcast · 26 October 2026 · 28 min<span class="done"> · written up 26 October at 16:44</span></p>
+  <p class="hook">Getting things done can produce perfect results while quietly making you less loving.</p>
+  <ul class="points">
+<li>Command turns a good strategy into action and stretches habits such as courage, generosity, and patience. <span class="at">1:59</span></li><li>Order begins with asking who the work is for, because remembering others can sharply improve performance. <span class="at">5:22</span></li><li>Order joins a clear vision of the purpose with the will’s decision to act, keeping each step aimed at the true end. <span class="at">8:43</span></li><li>Prudence does not choose the ultimate goal; justice and love give it the end that action should serve. <span class="at">14:57</span></li><li>Simply completing a task is a counterfeit of order if the person it serves is absent from your mind. <span class="at">17:19</span></li><li>Repeatedly doing work for love strengthens love, while treating work as a bare obligation can wear love away. <span class="at">25:58</span></li>  </ul>
+<blockquote><p>&#34;Order at its height is actually where the intention of love is being formed step by step.&#34; Kevin Majors [24:59]</p></blockquote><p class="for">Worth your time if you want your daily tasks to build character, not just produce results.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>A study found that fundraisers doubled their weekly pledges after hearing stories from students helped by their work.
+<span class="at">— Kevin Majors</span><span class="at">5:22</span><span class="why">Most people assume motivation comes mainly from the worker, not the person served.</span>      </li>
+      <li>&#34;AI is incapable of loving.&#34;
+<span class="at">— Kevin Majors</span><span class="at">19:14</span><span class="why">We often treat useful output as enough, whatever intention produced it.</span>      </li>
+      <li>Perfect outcomes can still amount to no success if the work makes you less loving.
+<span class="at">— Kevin Majors</span><span class="at">20:39</span><span class="why">Success is usually measured by results, not by what repeated work does to character.</span>      </li>
+      <li>Order is not a neatly arranged desk; it is putting love into each step of the work.
+<span class="at">— Kevin Majors</span><span class="at">24:59</span><span class="why">Order is commonly understood as organization or efficient sequencing.</span>      </li>
+    </ol>
+  </div>
+</article>
+<article class="entry" data-show="the-a16z-show" data-title="the new startup playbook | box ceo aaron levie"
+         data-released="2026-10-25" data-done="2026-10-26T04:23">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-a16z-show/20261025-the-new-startup-playbook-box-ceo-aaron-levie/">The New Startup Playbook | Box CEO Aaron Levie</a></h2>
+  <p class="meta">The a16z Show · 25 October 2026 · 34 min<span class="done"> · written up 26 October at 04:23</span></p>
+  <p class="hook">AI may let tiny startups match giants, but judgment, taste, and distribution still decide who wins.</p>
+  <ul class="points">
+<li>Small teams can now use AI to produce what once required much larger companies. <span class="at">4:03</span></li><li>Founders are shifting from making code and marketing themselves to directing and reviewing AI agents. <span class="at">5:57</span></li><li>AI agents could give startups roughly ten times their former engineering capacity, making scale less exclusive. <span class="at">8:18</span></li><li>As execution gets cheaper, strategic clarity, market judgment, product quality, and taste become more valuable. <span class="at">10:56</span></li><li>The strongest AI systems will likely use specialized agents rather than one all-purpose super-agent. <span class="at">12:05</span></li><li>Cheaper AI labor could create new demand for work, such as legal review, that was previously too expensive. <span class="at">22:19</span></li>  </ul>
+<blockquote><p>“The ability to be an editor or reviewer is like 10x the leverage of the person who actually has to create the thing.” Aaron Levy [6:41]</p></blockquote><p class="for">Worth your time if you want to know what still matters when AI makes execution cheap.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>“The ability to be an editor or reviewer is like 10x the leverage of the person who actually has to create the thing.”
+<span class="at">— Aaron Levy</span><span class="at">6:41</span><span class="why">Readers might assume creation remains more valuable than reviewing AI-generated work.</span>      </li>
+      <li>AI coding companies could collectively support a couple hundred billion dollars of market capitalization without incumbents capturing it.
+<span class="at">— Aaron Levy</span><span class="at">15:22</span><span class="why">Readers might expect coding software to remain a narrow market dominated by established companies.</span>      </li>
+      <li>“If somebody could have introduced labor at a tenth of the cost that it previously...was priced at, that there would be actually...50x the demand for that particular form of labor.”
+<span class="at">22:19</span><span class="why">Readers might expect cheaper labor mainly to reduce existing demand.</span>      </li>
+      <li>“My mom&#39;s AI use cases are...fully solved.”
+<span class="at">28:13</span><span class="why">Readers might assume consumer AI still needs major capability improvements.</span>      </li>
+      <li>“If you build it, they will not come.”
+<span class="at">31:16</span><span class="why">Readers might assume a powerful agent is enough to attract customers.</span>      </li>
+    </ol>
+  </div>
+</article>
+<article class="entry" data-show="the-ai-daily-brief-artificial" data-title="how i&#39;m actually using ai right now (including claude duet)"
+         data-released="2026-10-25" data-done="2026-10-26T04:23">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-ai-daily-brief-artificial/20261025-how-im-actually-using-ai-right-now-including-claude-duet/">How I&#39;m Actually Using AI Right Now (Including Claude Duet)</a></h2>
+  <p class="meta">The AI Daily Brief · 25 October 2026 · 32 min<span class="done"> · written up 26 October at 04:23</span></p>
+  <p class="hook">Personal AI agents sound powerful, but the real breakthrough may be simpler: turning AI into a sharper thinking partner.</p>
+  <ul class="points">
+<li>The speaker spends about 60% of AI time on strategic thinking, using it to explore and externalize ideas rather than build things. <span class="at">2:41</span></li><li>The best models do not simply agree; they offer evidence-based pushback that improves the speaker’s thinking. <span class="at">3:44</span></li><li>AI helps research by having Astra and Opus review each other’s work before publication, raising confidence in the result. <span class="at">5:29</span></li><li>Claude Code turned the show’s website into a pipeline that converts transcripts into content people can share. <span class="at">11:42</span></li><li>Proactive agents did not pay off because setting them up and maintaining them took more effort than they saved. <span class="at">20:14</span></li><li>Duet showed more promise by drafting emails well, though it still lagged behind Claude for visual design work. <span class="at">29:40</span></li>  </ul>
+<blockquote><p>“probably 60% maybe are in that strategy realm” [2:41]</p></blockquote><p class="for">Worth your time if you want a candid account of where personal AI agents help—and where they still disappoint.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>“probably 60% maybe are in that strategy realm”
+<span class="at">2:41</span><span class="why">Readers might assume building, rather than strategic thinking, dominates AI use.</span>      </li>
+      <li>The speaker says the AI Daily Brief uses “shockingly little AI” in its production.
+<span class="at">6:43</span><span class="why">An AI-focused show might be expected to rely heavily on automated production.</span>      </li>
+      <li>“90% of the calls I do are not scheduled”
+<span class="at">20:14</span><span class="why">Readers might assume a chief-of-staff agent is most useful for calendar management.</span>      </li>
+      <li>Duet’s most substantive email draft got the speaker about 90% of the way to a response.
+<span class="at">29:40</span><span class="why">The speaker had previously found proactive agents insufficiently valuable.</span>      </li>
+      <li>Personal agents currently seem like “an easy to set up little baby version of myself”
+<span class="at">31:50</span><span class="why">Readers might expect personal agents to already represent a fundamental shift in AI use.</span>      </li>
+    </ol>
+  </div>
+</article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      list.classList.toggle('by-done', key === 'done');
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
+  <nav class="more">
+<a href="/space-digest/issues/2026-10-24/">Older</a>    <a href="/space-digest/archive/">All issues</a>
+  </nav>
+  <footer>
+    <p>Summaries are written by a machine from the original words, and link
+       back to where they were said. Nothing here replaces the source.</p>
+    <p><a href="/space-digest/episodes/">Every episode</a> ·
+       <a href="/space-digest/archive/">Every issue</a> ·
+<a href="/space-digest/tightbeam/">Tightbeam</a> ·
+<a href="/space-digest/funny/">Funny bits</a> ·
+<a href="/space-digest/feed.xml">Subscribe by RSS</a></p>
+  </footer>
+</div>

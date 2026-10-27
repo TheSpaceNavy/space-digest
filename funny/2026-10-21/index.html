@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Just The Funny Bits · 21 October 2026 · Space Digest</title>
+<link rel="alternate" type="application/rss+xml" title="Space Digest" href="/space-digest/feed.xml">
+<style>
+  :root { --ink:#1a1a1a; --soft:#5b5b5b; --line:#e2e0da; --paper:#fbfaf7; --mark:#7a3b2e; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e8e6e1; --soft:#a09c94; --line:#33312d; --paper:#161513; --mark:#d99b7c; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink);
+         font:17px/1.65 Charter, Georgia, "Iowan Old Style", serif;
+         -webkit-text-size-adjust:100%; }
+  .page { max-width:38rem; margin:0 auto; padding:2.5rem 1.25rem 5rem; }
+  a { color:inherit; text-decoration-color:var(--line); text-underline-offset:3px; }
+  a:hover { text-decoration-color:var(--mark); }
+  header.masthead { border-bottom:2px solid var(--ink); padding-bottom:.6rem; margin-bottom:1rem; }
+  nav.top { display:flex; flex-wrap:wrap; gap:.2rem 1.4rem; margin:0 0 2rem;
+            font-size:.78rem; letter-spacing:.09em; text-transform:uppercase; }
+  nav.top a { color:var(--soft); text-decoration:none; padding:.25rem 0;
+              border-bottom:2px solid transparent; }
+  nav.top a:hover { color:var(--ink); }
+  nav.top a.on { color:var(--ink); border-bottom-color:var(--mark); }
+  header.masthead a { text-decoration:none; }
+  .wordmark { font-size:1.5rem; font-weight:700; letter-spacing:-.02em; margin:0; }
+  .tagline { color:var(--soft); font-size:.85rem; margin:.15rem 0 0; }
+  h1 { font-size:1.6rem; line-height:1.25; letter-spacing:-.015em; margin:0 0 .3rem; }
+  h2 { font-size:1.15rem; margin:2.5rem 0 .4rem; }
+  .meta { color:var(--soft); font-size:.82rem; margin:0 0 1.6rem; }
+  .hook { font-size:1.2rem; line-height:1.45; margin:0 0 1.2rem; }
+  article.entry { border-bottom:1px solid var(--line); padding-bottom:2rem; margin-bottom:2rem; }
+  article.entry:last-of-type { border-bottom:0; }
+  ul.points { list-style:none; margin:1.1rem 0; padding:0; }
+  ul.points li { margin:0 0 .7rem; padding-left:1rem; text-indent:-1rem; }
+  .at { color:var(--soft); font-size:.8rem; white-space:nowrap; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }
+  blockquote { margin:1.4rem 0; padding-left:1rem; border-left:3px solid var(--mark);
+               font-size:1.05rem; }
+  blockquote p { margin:0; }
+  .for { color:var(--soft); font-style:italic; }
+  .standouts { background:color-mix(in srgb, var(--mark) 7%, transparent);
+               border-radius:.4rem; padding:1rem 1.1rem; margin:1.6rem 0; }
+  .standouts h3 { margin:0 0 .6rem; font-size:.78rem; letter-spacing:.09em;
+                  text-transform:uppercase; color:var(--soft); font-weight:700; }
+  .standouts ol { margin:0; padding-left:1.15rem; }
+  .standouts li { margin:0 0 .7rem; }
+  .standouts li:last-child { margin-bottom:0; }
+  .why { display:block; color:var(--soft); font-size:.85rem; margin-top:.15rem; }
+  nav.more { margin-top:3rem; padding-top:1.2rem; border-top:1px solid var(--line);
+             color:var(--soft); font-size:.88rem; }
+  nav.more a { margin-right:1rem; }
+  footer { margin-top:3.5rem; padding-top:1.2rem; border-top:1px solid var(--line);
+           color:var(--soft); font-size:.8rem; }
+  .quiet { color:var(--soft); font-size:1.05rem; }
+  .filters { margin:1.5rem 0 2rem; }
+  .filters input { width:100%; padding:.55rem .7rem; font:inherit; font-size:.95rem;
+                   color:var(--ink); background:var(--paper);
+                   border:1px solid var(--line); border-radius:.35rem; }
+  .filters input:focus { outline:2px solid var(--mark); outline-offset:1px; }
+  .chips { display:flex; flex-wrap:wrap; gap:.4rem; margin-top:.7rem; }
+  .chip { font:inherit; font-size:.85rem; padding:.3rem .7rem; cursor:pointer;
+          color:var(--soft); background:transparent;
+          border:1px solid var(--line); border-radius:1rem; }
+  .chip:hover { border-color:var(--mark); color:var(--ink); }
+  .chip.on { background:var(--ink); border-color:var(--ink); color:var(--paper); }
+  .chip.on .at { color:var(--paper); opacity:.7; }
+  ul.episodes { list-style:none; margin:0; padding:0; }
+  ul.episodes li { padding:.85rem 0; border-bottom:1px solid var(--line); }
+  ul.episodes li a { font-size:1.05rem; }
+  ul.episodes .at { display:block; margin-top:.15rem; }
+  ul.episodes .why { margin-top:.3rem; }
+  section.topic { margin:1.6rem 0; }
+  section.topic h3 { font-size:1rem; margin:0 0 .3rem; }
+  ul.posts { list-style:none; margin:.6rem 0 0; padding:0; }
+  ul.posts li { padding:.6rem 0 .6rem .9rem; border-left:2px solid var(--line); margin:0 0 .6rem; }
+  ul.posts .at a { text-decoration:none; }
+  .post-text { margin:.25rem 0 0; white-space:pre-line; }
+  .quoted { margin:.35rem 0 0; color:var(--soft); font-size:.9rem; white-space:pre-line; }
+  .translation { margin:.2rem 0 0; color:var(--soft); font-size:.9rem; font-style:italic;
+                 white-space:pre-line; }
+  /* Tightbeam: the same head on every beam page, so the kinds read as one. */
+  .eyebrow { margin:0 0 .35rem; font-size:.78rem; letter-spacing:.09em;
+             text-transform:uppercase; color:var(--soft); }
+  .eyebrow a { color:inherit; text-decoration:none; }
+  .eyebrow a:hover { color:var(--ink); }
+  .sep { margin:0 .4rem; color:var(--line); }
+  .badge { display:inline-block; margin-left:.5rem; padding:.05rem .45rem;
+           border:1px solid var(--mark); border-radius:1rem; color:var(--mark);
+           font-size:.68rem; letter-spacing:.08em; text-transform:uppercase;
+           vertical-align:.1em; white-space:nowrap; }
+  h1 .label, h2 .label { font-weight:400; color:var(--soft); }
+  .beam-card h2 { font-size:1.3rem; letter-spacing:-.01em; }
+  .numbers { margin:1.4rem 0; padding:.2rem 0 .2rem 1rem; border-left:3px solid var(--line); }
+  .numbers p { margin:.35rem 0; }
+  .numbers .fig { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; color:var(--mark); }
+  .points-src { display:block; color:var(--soft); font-size:.72rem; letter-spacing:.08em;
+                text-transform:uppercase; margin-top:.15rem; }
+  .strip { margin:0 0 2.2rem; padding:.9rem 0 .2rem; border-top:1px solid var(--line);
+           border-bottom:1px solid var(--line); }
+  .strip h2 { margin:0 0 .5rem; font-size:.78rem; letter-spacing:.09em;
+              text-transform:uppercase; color:var(--soft); }
+  .strip ul { list-style:none; margin:0 0 .7rem; padding:0; }
+  .strip li { margin:0 0 .55rem; }
+  .strip .who { display:block; font-size:.82rem; color:var(--soft); }
+  .strip a { font-size:.98rem; }
+  a.button { display:inline-block; margin:.6rem 0 0; padding:.45rem .9rem;
+             border:1px solid var(--mark); border-radius:.3rem; color:var(--mark);
+             text-decoration:none; font-size:.92rem; }
+  a.button:hover { background:var(--mark); color:var(--paper); }
+  .archive { color:var(--mark); }
+  .done { display:none; }
+  .by-done .done { display:inline; color:var(--mark); }
+  .chips + .chips { margin-top:.5rem; }
+  ol.bits { margin:1.1rem 0 0; padding-left:1.3rem; }
+  ol.bits li { margin:0 0 1.1rem; }
+  ol.bits .said { font-size:1.05rem; }
+  ol.bits .at a { text-decoration:none; border-bottom:1px dotted var(--soft); }
+</style>
+<body>
+<div class="page">
+  <header class="masthead">
+    <a href="/space-digest/"><p class="wordmark">Space Digest</p></a>
+    <p class="tagline">The podcasts worth your week, in a minute each.</p>
+  </header>
+  <nav class="top" aria-label="Sections">
+    <a href="/space-digest/">Today</a>
+    <a href="/space-digest/episodes/">Episodes</a>
+    <a href="/space-digest/archive/">Issues</a>
+<a href="/space-digest/tightbeam/">Tightbeam</a>
+<a href="/space-digest/funny/" class="on">Funny bits</a>
+<a href="/space-digest/feed.xml">RSS</a>
+  </nav>
+  <h1>Just The Funny Bits</h1>
+  <p class="meta">Wednesday 21 October 2026 ·
+5 episodes     · only the jokes; the news stays out</p>
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="the-andrew-klavan-show">The Andrew Klavan Show <span class="at">1</span></button>
+      <button class="chip" data-show="the-joe-rogan-experience">The Joe Rogan Experience <span class="at">1</span></button>
+      <button class="chip" data-show="the-matt-walsh-show">The Matt Walsh Show <span class="at">1</span></button>
+      <button class="chip" data-show="the-michael-knowles-show">The Michael Knowles Show <span class="at">1</span></button>
+      <button class="chip" data-show="the-white-house">The White House <span class="at">1</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+    <article class="entry" id="the-white-house-20261021-president-trump-gaggles-with-press-upon-departure-from-the" data-show="the-white-house" data-title="president trump gaggles with press upon departure from the white house, oct. 21, 2026"
+             data-released="2026-10-21" data-done="2026-10-21T19:28">
+      <h2 style="margin-top:0"><a href="https://www.youtube.com/watch?v=MaISfxEQmLM">President Trump Gaggles with Press Upon Departure from the White House, Oct. 21, 2026</a></h2>
+      <p class="meta">The White House · 21 October 2026 · 7 min
+         · times link into the video<span class="done"> · written up 21 October at 19:28</span></p>
+      <ol class="bits">
+        <li>
+          <span class="said">“It&#39;s a very unusual situation to have a mother hate a daughter that much, but I don&#39;t think that has anything to do with the bank.”</span>
+          <span class="at"><a href="https://www.youtube.com/watch?v=MaISfxEQmLM&amp;t=57s">0:57</a></span>
+<span class="why">The speaker is responding to a question about a mother publicly criticizing her daughter, then abruptly says the family conflict is unrelated to “the bank,” creating an incongruous punchline.</span>        </li>
+      </ol>
+    </article>
+    <article class="entry" id="the-andrew-klavan-show-20261021-how-romance-is-the-antidote-to-feminism-w-faith-moore" data-show="the-andrew-klavan-show" data-title="how romance is the antidote to feminism w/faith moore"
+             data-released="2026-10-21" data-done="2026-10-21T19:27">
+      <h2 style="margin-top:0"><a href="https://www.dailywire.com/show/the-andrew-klavan-show">How Romance Is the Antidote to Feminism w/Faith Moore</a></h2>
+      <p class="meta">The Andrew Klavan Show · 21 October 2026 · 34 min
+         · times are from the podcast audio<span class="done"> · written up 21 October at 19:27</span></p>
+      <ol class="bits">
+        <li>
+          <span class="said">“I have to say, I&#39;ve always had this amazing knack for spotting broadcast talent. And I&#39;ve always wondered, my father was such a great broadcaster, who&#39;s a famous broadcaster. Uh, probably where I got my knack for spotting talent. But until I heard you, I always wondered where your talent went in our family.”</span>
+<span class="at">— Andrew Klavan</span>          <span class="at">17:21</span>
+<span class="why">The host praises Faith’s broadcasting ability, then turns the compliment into a family joke by implying the family’s talent had mysteriously skipped everyone else and landed with her.</span>        </li>
+        <li>
+          <span class="said">“I know each word in isolation, but when these words come together and make a sentence, I don&#39;t know what&#39;s happening.”</span>
+          <span class="at">18:58</span>
+<span class="why">Faith humorously describes the baffling experience of opening a classic novel: every individual word is understandable, but the sentence as a whole seems incomprehensible.</span>        </li>
+        <li>
+          <span class="said">“She is uh my daughter. She is Spencer Claven&#39;s brother, although Spencer and I, of course, are not related at all. Many people don&#39;t understand that, but that&#39;s only because it makes no sense.”</span>
+<span class="at">— Andrew Klavan</span>          <span class="at">2:19</span>
+<span class="why">The host introduces Faith as his daughter, then deliberately describes her as Spencer’s brother and claims he is unrelated to Spencer, creating a nonsensical family relationship.</span>        </li>
+        <li>
+          <span class="said">“I have absolutely no visual skills. Right. That&#39;s whatsoever. I can&#39;t even, you know, recognize people that I know. In fact, who are you?”</span>
+<span class="at">— Andrew Klavan</span>          <span class="at">3:23</span>
+<span class="why">Faith explains that she commissioned the book cover rather than designing it herself. The host extends her admission of poor visual ability into a joke that he cannot even recognize the person beside him.</span>        </li>
+        <li>
+          <span class="said">“I mean, I turned on this on and I thought, oh, that explains that mystery where that thing went.”</span>
+          <span class="at">17:53</span>
+<span class="why">Faith continues the family-talent joke by pretending that hearing the podcast solved the mystery of where the missing broadcasting talent had gone.</span>        </li>
+        <li>
+          <span class="said">“All of the broadcasting talent in my family has gone to her, uh, and the rest of us are just sort of making do.”</span>
+<span class="at">— Andrew Klavan</span>          <span class="at">32:37</span>
+<span class="why">The host returns to the opening family gag, pretending Faith received all the family’s broadcasting talent while he and the others are merely improvising without it.</span>        </li>
+      </ol>
+    </article>
+    <article class="entry" id="the-michael-knowles-show-20261021-ep-2086-breaking-dna-evidence-proves-ilhan-omar-married-her" data-show="the-michael-knowles-show" data-title="ep. 2086 - breaking: dna evidence proves ilhan omar married her brother"
+             data-released="2026-10-21" data-done="2026-10-21T19:28">
+      <h2 style="margin-top:0"><a href="https://www.dailywire.com/show/the-michael-knowles-show">Ep. 2086 - BREAKING: DNA Evidence Proves Ilhan Omar Married Her Brother</a></h2>
+      <p class="meta">The Michael Knowles Show · 21 October 2026 · 58 min
+         · times are from the podcast audio<span class="done"> · written up 21 October at 19:28</span></p>
+      <ol class="bits">
+        <li>
+          <span class="said">“October is the season for horror stories. But the most frightening homeowner stories usually begin with six innocent words. I thought it could wait until spring.”</span>
+<span class="at">— Michael Knowles</span>          <span class="at">3:31</span>
+<span class="why">In the middle of a transition into an advertisement, the speaker uses the familiar procrastination phrase as a fake horror-story setup, treating delayed gutter maintenance like a seasonal scare.</span>        </li>
+        <li>
+          <span class="said">“January. Always January. Never the perfectly usable Wednesday sitting right in front of you. First you got to get through Halloween, then Thanksgiving, then Christmas.”</span>
+<span class="at">— Michael Knowles</span>          <span class="at">24:40</span>
+<span class="why">The speaker jokes about people postponing health resolutions until January, despite having an ordinary Wednesday available immediately, while inventing a comic obstacle course of holidays.</span>        </li>
+      </ol>
+    </article>
+    <article class="entry" id="the-matt-walsh-show-20261021-ep-1860-these-liberal-morons-totally-regret-leaving-trumps" data-show="the-matt-walsh-show" data-title="ep. 1860 - these liberal morons totally regret leaving trump&#39;s america"
+             data-released="2026-10-21" data-done="2026-10-21T19:28">
+      <h2 style="margin-top:0"><a href="https://www.dailywire.com/show/the-matt-walsh-show">Ep. 1860 - These Liberal Morons Totally Regret Leaving Trump&#39;s America</a></h2>
+      <p class="meta">The Matt Walsh Show · 21 October 2026 · 39 min
+         · times are from the podcast audio<span class="done"> · written up 21 October at 19:28</span></p>
+      <ol class="bits">
+        <li>
+          <span class="said">“And if I have to sacrifice the health of the entire planet so that I can be comfortable in my living room, I will do it.”</span>
+          <span class="at">11:50</span>
+<span class="why">After saying he insists on indoor temperatures of 68 degrees, the host escalates the joke by presenting personal comfort as worth destroying the entire planet.</span>        </li>
+        <li>
+          <span class="said">“It&#39;s my, as I said before, it&#39;s my favorite invention of all time. If I could, if I could only keep one invention of the last 5,000 years, it would be that.”</span>
+          <span class="at">6:18</span>
+<span class="why">While discussing how uncommon air conditioning is in Britain, the host jokingly ranks it above every other invention in human history.</span>        </li>
+        <li>
+          <span class="said">“You&#39;re hot inside a building? How is that even possible? Turn the AC on. You know, this this should be a problem we&#39;ve eradicated, like polio, but but not in not in the Europe.”</span>
+          <span class="at">8:33</span>
+<span class="why">He reacts to Europeans tolerating indoor heat as though it were an eliminated disease. The awkward phrase “the Europe” heightens the mockingly incredulous tone.</span>        </li>
+      </ol>
+    </article>
+    <article class="entry" id="the-joe-rogan-experience-20261021-2569-bill-thompson" data-show="the-joe-rogan-experience" data-title="#2569 - bill thompson"
+             data-released="2026-10-21" data-done="2026-10-21T19:26">
+      <h2 style="margin-top:0"><a href="https://www.youtube.com/watch?v=vamsa0e8y4Y">#2569 - Bill Thompson</a></h2>
+      <p class="meta">The Joe Rogan Experience · 21 October 2026 · 2h 47m
+         · times link into the video<span class="done"> · written up 21 October at 19:26</span></p>
+      <ol class="bits">
+        <li>
+          <span class="said">“Looks like a Lamborghini had a baby with a Cybert truck, &gt;&gt; right? &gt;&gt; Yeah. &gt;&gt; And not even like a new Lamborghini. like a Lamborghini from the &#39;9s.”</span>
+          <span class="at"><a href="https://www.youtube.com/watch?v=vamsa0e8y4Y&amp;t=294s">4:54</a></span>
+<span class="why">They are comparing the new Roadster’s appearance to other cars, escalating the comparison into the absurd image of a Lamborghini and Cybertruck having a child, specifically one resembling an old Lamborghini.</span>        </li>
+        <li>
+          <span class="said">“I got to the top and I&#39;m like, &#34;Oh *bleep* this isn&#39;t even the mountain I was looking at. That&#39;s over there.”</span>
+          <span class="at"><a href="https://www.youtube.com/watch?v=vamsa0e8y4Y&amp;t=8194s">2:16:34</a></span>
+<span class="why">The speaker compares learning to climbing what seems to be a mountain, only to discover the real mountain is elsewhere. The exaggerated image makes the realization that expertise reveals further ignorance comic.</span>        </li>
+        <li>
+          <span class="said">“I&#39;d be standing here and watching these people tell these insane stories like I went on a 7-day bender I&#39;m from Missouri I woke up in Las Vegas and I just be like what am I doing here I&#39;m like 9 years old like what is what is happening”</span>
+          <span class="at"><a href="https://www.youtube.com/watch?v=vamsa0e8y4Y&amp;t=1877s">31:17</a></span>
+<span class="why">The speaker recalls being dragged to his mother’s Alcoholics Anonymous meetings as a child. The absurdity comes from a nine-year-old listening to adults recounting weeklong drinking binges and waking up in Las Vegas.</span>        </li>
+        <li>
+          <span class="said">“I&#39;ve never done anything but when I was a child, Um, &gt;&gt; meanwhile, you&#39;re doing drugs right now, &gt;&gt; right? Nicotine.”</span>
+          <span class="at"><a href="https://www.youtube.com/watch?v=vamsa0e8y4Y&amp;t=5045s">1:24:05</a></span>
+<span class="why">The speaker says military service is why he has never used drugs, then immediately admits he is currently using nicotine. The contradiction makes the claim “never done anything” funny.</span>        </li>
+        <li>
+          <span class="said">“some people come back better, some people come back broken, some people overcook the goose.”</span>
+          <span class="at"><a href="https://www.youtube.com/watch?v=vamsa0e8y4Y&amp;t=5132s">1:25:32</a></span>
+<span class="why">The speaker discusses people returning from psychedelic ceremonies with very different outcomes. “Overcook the goose” is a deliberately silly phrase for taking the experience too far.</span>        </li>
+        <li>
+          <span class="said">“there wasn&#39;t anything to do. It&#39;s not like we had a turtle box or a Bluetooth speaker in the Humvey. &gt;&gt; You just had six hours of driving in front of you.”</span>
+          <span class="at"><a href="https://www.youtube.com/watch?v=vamsa0e8y4Y&amp;t=5190s">1:26:30</a></span>
+<span class="why">He explains why he started using chewing tobacco during long military convoy drives, jokingly contrasting the boredom of a Humvee with modern entertainment.</span>        </li>
+        <li>
+          <span class="said">“with golf I was like I&#39;m hitting the ball straight. &gt;&gt; Moving on.”</span>
+          <span class="at"><a href="https://www.youtube.com/watch?v=vamsa0e8y4Y&amp;t=5849s">1:37:29</a></span>
+<span class="why">He explains that he loses interest once he reaches competence. After finally hitting golf shots straight, he jokingly treats the entire sport as completed and moves on.</span>        </li>
+        <li>
+          <span class="said">“That&#39;s a good way to gamble. &gt;&gt; Yeah, that&#39;s good. That&#39;s good. Healthy gambling. &gt;&gt; Never do it again.”</span>
+          <span class="at"><a href="https://www.youtube.com/watch?v=vamsa0e8y4Y&amp;t=7154s">1:59:14</a></span>
+<span class="why">After hearing that one successful betting streak funded house renovations, the speakers jokingly label it “healthy gambling” and immediately undermine that idea with “Never do it again.”</span>        </li>
+        <li>
+          <span class="said">“when I go to poison my children at McDonald&#39;s every once in a while um I always pay for the vehicle behind me.”</span>
+          <span class="at"><a href="https://www.youtube.com/watch?v=vamsa0e8y4Y&amp;t=8335s">2:18:55</a></span>
+<span class="why">He describes taking his children to McDonald’s as “poisoning” them, then contrasts that with the unexpectedly generous act of paying for the next customer’s meal.</span>        </li>
+        <li>
+          <span class="said">“That&#39;s that&#39;s like you&#39;re going to liquefy your inside. You go any faster.”</span>
+          <span class="at"><a href="https://www.youtube.com/watch?v=vamsa0e8y4Y&amp;t=352s">5:52</a></span>
+<span class="why">The speakers are discussing a car accelerating from zero to sixty in under a second. The line humorously exaggerates the physical effects of going even faster.</span>        </li>
+      </ol>
+    </article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      list.classList.toggle('by-done', key === 'done');
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
+  <nav class="more">
+<a href="/space-digest/funny/2026-10-22/">Newer</a><a href="/space-digest/funny/2026-10-20/">Older</a>    <a href="/space-digest/funny/episodes/">Every episode</a>
+    <a href="/space-digest/funny/feed.xml">Subscribe by RSS</a>
+  </nav>
+  <footer>
+    <p>Summaries are written by a machine from the original words, and link
+       back to where they were said. Nothing here replaces the source.</p>
+    <p><a href="/space-digest/episodes/">Every episode</a> ·
+       <a href="/space-digest/archive/">Every issue</a> ·
+<a href="/space-digest/tightbeam/">Tightbeam</a> ·
+<a href="/space-digest/funny/">Funny bits</a> ·
+<a href="/space-digest/feed.xml">Subscribe by RSS</a></p>
+  </footer>
+</div>

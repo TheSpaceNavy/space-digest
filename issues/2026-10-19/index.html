@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>19 October 2026 · Space Digest</title>
+<link rel="alternate" type="application/rss+xml" title="Space Digest" href="/space-digest/feed.xml">
+<style>
+  :root { --ink:#1a1a1a; --soft:#5b5b5b; --line:#e2e0da; --paper:#fbfaf7; --mark:#7a3b2e; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e8e6e1; --soft:#a09c94; --line:#33312d; --paper:#161513; --mark:#d99b7c; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink);
+         font:17px/1.65 Charter, Georgia, "Iowan Old Style", serif;
+         -webkit-text-size-adjust:100%; }
+  .page { max-width:38rem; margin:0 auto; padding:2.5rem 1.25rem 5rem; }
+  a { color:inherit; text-decoration-color:var(--line); text-underline-offset:3px; }
+  a:hover { text-decoration-color:var(--mark); }
+  header.masthead { border-bottom:2px solid var(--ink); padding-bottom:.6rem; margin-bottom:1rem; }
+  nav.top { display:flex; flex-wrap:wrap; gap:.2rem 1.4rem; margin:0 0 2rem;
+            font-size:.78rem; letter-spacing:.09em; text-transform:uppercase; }
+  nav.top a { color:var(--soft); text-decoration:none; padding:.25rem 0;
+              border-bottom:2px solid transparent; }
+  nav.top a:hover { color:var(--ink); }
+  nav.top a.on { color:var(--ink); border-bottom-color:var(--mark); }
+  header.masthead a { text-decoration:none; }
+  .wordmark { font-size:1.5rem; font-weight:700; letter-spacing:-.02em; margin:0; }
+  .tagline { color:var(--soft); font-size:.85rem; margin:.15rem 0 0; }
+  h1 { font-size:1.6rem; line-height:1.25; letter-spacing:-.015em; margin:0 0 .3rem; }
+  h2 { font-size:1.15rem; margin:2.5rem 0 .4rem; }
+  .meta { color:var(--soft); font-size:.82rem; margin:0 0 1.6rem; }
+  .hook { font-size:1.2rem; line-height:1.45; margin:0 0 1.2rem; }
+  article.entry { border-bottom:1px solid var(--line); padding-bottom:2rem; margin-bottom:2rem; }
+  article.entry:last-of-type { border-bottom:0; }
+  ul.points { list-style:none; margin:1.1rem 0; padding:0; }
+  ul.points li { margin:0 0 .7rem; padding-left:1rem; text-indent:-1rem; }
+  .at { color:var(--soft); font-size:.8rem; white-space:nowrap; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }
+  blockquote { margin:1.4rem 0; padding-left:1rem; border-left:3px solid var(--mark);
+               font-size:1.05rem; }
+  blockquote p { margin:0; }
+  .for { color:var(--soft); font-style:italic; }
+  .standouts { background:color-mix(in srgb, var(--mark) 7%, transparent);
+               border-radius:.4rem; padding:1rem 1.1rem; margin:1.6rem 0; }
+  .standouts h3 { margin:0 0 .6rem; font-size:.78rem; letter-spacing:.09em;
+                  text-transform:uppercase; color:var(--soft); font-weight:700; }
+  .standouts ol { margin:0; padding-left:1.15rem; }
+  .standouts li { margin:0 0 .7rem; }
+  .standouts li:last-child { margin-bottom:0; }
+  .why { display:block; color:var(--soft); font-size:.85rem; margin-top:.15rem; }
+  nav.more { margin-top:3rem; padding-top:1.2rem; border-top:1px solid var(--line);
+             color:var(--soft); font-size:.88rem; }
+  nav.more a { margin-right:1rem; }
+  footer { margin-top:3.5rem; padding-top:1.2rem; border-top:1px solid var(--line);
+           color:var(--soft); font-size:.8rem; }
+  .quiet { color:var(--soft); font-size:1.05rem; }
+  .filters { margin:1.5rem 0 2rem; }
+  .filters input { width:100%; padding:.55rem .7rem; font:inherit; font-size:.95rem;
+                   color:var(--ink); background:var(--paper);
+                   border:1px solid var(--line); border-radius:.35rem; }
+  .filters input:focus { outline:2px solid var(--mark); outline-offset:1px; }
+  .chips { display:flex; flex-wrap:wrap; gap:.4rem; margin-top:.7rem; }
+  .chip { font:inherit; font-size:.85rem; padding:.3rem .7rem; cursor:pointer;
+          color:var(--soft); background:transparent;
+          border:1px solid var(--line); border-radius:1rem; }
+  .chip:hover { border-color:var(--mark); color:var(--ink); }
+  .chip.on { background:var(--ink); border-color:var(--ink); color:var(--paper); }
+  .chip.on .at { color:var(--paper); opacity:.7; }
+  ul.episodes { list-style:none; margin:0; padding:0; }
+  ul.episodes li { padding:.85rem 0; border-bottom:1px solid var(--line); }
+  ul.episodes li a { font-size:1.05rem; }
+  ul.episodes .at { display:block; margin-top:.15rem; }
+  ul.episodes .why { margin-top:.3rem; }
+  section.topic { margin:1.6rem 0; }
+  section.topic h3 { font-size:1rem; margin:0 0 .3rem; }
+  ul.posts { list-style:none; margin:.6rem 0 0; padding:0; }
+  ul.posts li { padding:.6rem 0 .6rem .9rem; border-left:2px solid var(--line); margin:0 0 .6rem; }
+  ul.posts .at a { text-decoration:none; }
+  .post-text { margin:.25rem 0 0; white-space:pre-line; }
+  .quoted { margin:.35rem 0 0; color:var(--soft); font-size:.9rem; white-space:pre-line; }
+  .translation { margin:.2rem 0 0; color:var(--soft); font-size:.9rem; font-style:italic;
+                 white-space:pre-line; }
+  /* Tightbeam: the same head on every beam page, so the kinds read as one. */
+  .eyebrow { margin:0 0 .35rem; font-size:.78rem; letter-spacing:.09em;
+             text-transform:uppercase; color:var(--soft); }
+  .eyebrow a { color:inherit; text-decoration:none; }
+  .eyebrow a:hover { color:var(--ink); }
+  .sep { margin:0 .4rem; color:var(--line); }
+  .badge { display:inline-block; margin-left:.5rem; padding:.05rem .45rem;
+           border:1px solid var(--mark); border-radius:1rem; color:var(--mark);
+           font-size:.68rem; letter-spacing:.08em; text-transform:uppercase;
+           vertical-align:.1em; white-space:nowrap; }
+  h1 .label, h2 .label { font-weight:400; color:var(--soft); }
+  .beam-card h2 { font-size:1.3rem; letter-spacing:-.01em; }
+  .numbers { margin:1.4rem 0; padding:.2rem 0 .2rem 1rem; border-left:3px solid var(--line); }
+  .numbers p { margin:.35rem 0; }
+  .numbers .fig { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; color:var(--mark); }
+  .points-src { display:block; color:var(--soft); font-size:.72rem; letter-spacing:.08em;
+                text-transform:uppercase; margin-top:.15rem; }
+  .strip { margin:0 0 2.2rem; padding:.9rem 0 .2rem; border-top:1px solid var(--line);
+           border-bottom:1px solid var(--line); }
+  .strip h2 { margin:0 0 .5rem; font-size:.78rem; letter-spacing:.09em;
+              text-transform:uppercase; color:var(--soft); }
+  .strip ul { list-style:none; margin:0 0 .7rem; padding:0; }
+  .strip li { margin:0 0 .55rem; }
+  .strip .who { display:block; font-size:.82rem; color:var(--soft); }
+  .strip a { font-size:.98rem; }
+  a.button { display:inline-block; margin:.6rem 0 0; padding:.45rem .9rem;
+             border:1px solid var(--mark); border-radius:.3rem; color:var(--mark);
+             text-decoration:none; font-size:.92rem; }
+  a.button:hover { background:var(--mark); color:var(--paper); }
+  .archive { color:var(--mark); }
+  .done { display:none; }
+  .by-done .done { display:inline; color:var(--mark); }
+  .chips + .chips { margin-top:.5rem; }
+  ol.bits { margin:1.1rem 0 0; padding-left:1.3rem; }
+  ol.bits li { margin:0 0 1.1rem; }
+  ol.bits .said { font-size:1.05rem; }
+  ol.bits .at a { text-decoration:none; border-bottom:1px dotted var(--soft); }
+</style>
+<body>
+<div class="page">
+  <header class="masthead">
+    <a href="/space-digest/"><p class="wordmark">Space Digest</p></a>
+    <p class="tagline">The podcasts worth your week, in a minute each.</p>
+  </header>
+  <nav class="top" aria-label="Sections">
+    <a href="/space-digest/" class="on">Today</a>
+    <a href="/space-digest/episodes/">Episodes</a>
+    <a href="/space-digest/archive/">Issues</a>
+<a href="/space-digest/tightbeam/">Tightbeam</a>
+<a href="/space-digest/funny/">Funny bits</a>
+<a href="/space-digest/feed.xml">RSS</a>
+  </nav>
+  <h1>Monday 19 October 2026</h1>
+  <p class="meta">5
+     episodes</p>
+
+  <div class="strip">
+    <h2>On the Tightbeam</h2>
+    <ul>
+      <li><span class="who">Elon Musk<span class="badge badge-x">X</span></span>
+          <a href="/space-digest/tightbeam/elonmusk/2026-10-19/">Elon Musk focused on Tesla features, Starlink, Grok services, X, and AI computing.</a></li>
+    </ul>
+  </div>
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="pints-with-aquinas">Pints With Aquinas <span class="at">1</span></button>
+      <button class="chip" data-show="the-a16z-show">The a16z Show <span class="at">1</span></button>
+      <button class="chip" data-show="the-ai-daily-brief-artificial">The AI Daily Brief <span class="at">1</span></button>
+      <button class="chip" data-show="the-optimalwork-podcast">The OptimalWork Podcast <span class="at">1</span></button>
+      <button class="chip" data-show="the-shawn-ryan-show">The Shawn Ryan Show <span class="at">1</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+<article class="entry" data-show="the-a16z-show" data-title="what happens when al agents can spend your money?"
+         data-released="2026-10-19" data-done="2026-10-19T18:13">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-a16z-show/20261019-what-happens-when-al-agents-can-spend-your-money/">What Happens When Al Agents Can Spend Your Money?</a></h2>
+  <p class="meta">The a16z Show · 19 October 2026 · 1h 3m<span class="done"> · written up 19 October at 18:13</span></p>
+  <p class="hook">AI agents may reshape software by doing the work between apps, not merely answering questions.</p>
+  <ul class="points">
+<li>Town’s founders abandoned a tax business nearing $3 million in annual revenue because it could not grow large enough. <span class="at">4:34</span></li><li>They built Town after seeing that everyday tasks like meeting preparation and email replies still lacked useful AI help. <span class="at">10:33</span></li><li>The company plans to earn trust through email and calendars before asking for access to deeper business systems. <span class="at">18:52</span></li><li>Cheaper AI makes tedious work worthwhile, such as checking restaurant suppliers for price changes that could save thousands. <span class="at">26:05</span></li><li>The team expects to start broadly, then build specialized tools around repeated needs it finds among users. <span class="at">28:19</span></li><li>AI agents could weaken the business model built on unused coupons, memberships, and other benefits people forget to use. <span class="at">1:00:50</span></li>  </ul>
+<blockquote><p>“The breakage model is dead.” [1:00:50]</p></blockquote><p class="for">Worth your time if you want to understand how AI agents could change software, work, and online business models.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>A tax startup expected $2.5–3 million in second-year revenue but still abandoned the business.
+<span class="at">— Jean Denis</span><span class="at">4:34</span><span class="why">Strong early growth did not make the company venture-scale.</span>      </li>
+      <li>A restaurant could spend about one dollar monthly to monitor wholesale prices and uncover hundreds or thousands in yearly savings.
+<span class="at">26:05</span><span class="why">Tiny recurring costs could unlock savings too tedious for humans to pursue.</span>      </li>
+      <li>An AI assistant’s success on computer and browser tasks rose from about 30% to 90% in six months.
+<span class="at">50:36</span><span class="why">AI reliability may be improving far faster than many people realize.</span>      </li>
+      <li>“The breakage model is dead.”
+<span class="at">1:00:50</span><span class="why">Forgotten coupons and benefits seemed likely to keep generating easy profits.</span>      </li>
+      <li>A surfboard-rental business uses AI to inspect damaged equipment before returning deposits.
+<span class="at">45:21</span><span class="why">AI adoption reaches tiny, physical businesses—not just software companies.</span>      </li>
+    </ol>
+  </div>
+</article>
+<article class="entry" data-show="pints-with-aquinas" data-title="the miracle of our lady of zeitoun (fr. anthony mourad) | ep. 601"
+         data-released="2026-10-19" data-done="2026-10-19T18:13">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/pints-with-aquinas/20261019-the-miracle-of-our-lady-of-zeitoun-fr-anthony-mourad-ep-601/">The Miracle of Our Lady of Zeitoun (Fr. Anthony Mourad) | Ep. 601</a></h2>
+  <p class="meta">Pints With Aquinas · 19 October 2026 · 2h 23m<span class="done"> · written up 19 October at 18:13</span></p>
+  <p class="hook">A Marian apparition witnessed by crowds, investigated by authorities, and never heard speaking became a source of Christian unity.</p>
+  <ul class="points">
+<li>The Coptic Orthodox Church differs from Eastern Orthodoxy because of a fifth-century dispute, though Catholics and Copts now share the same beliefs about Christ. <span class="at">9:35</span></li><li>Copts may number 12–15 million in Egypt and about 20 million worldwide, with persecution described as one of their greatest spiritual gifts. <span class="at">20:32</span></li><li>Twenty-one Christians in Libya were offered freedom if they renounced Christ, while Matthew, a Ghanaian outsider, chose to die beside them, saying, “Their God is my God.” <span class="at">25:28</span></li><li>The Zaitoon apparition began in 1968 when three Muslim transport workers saw a woman-like figure on a church dome. <span class="at">53:48</span></li><li>Police broke streetlights and Egypt’s government cut electricity, but the luminous figure reportedly remained visible and drew crowds reaching hundreds of thousands. <span class="at">1:07:32</span></li><li>The apparition continued for three years, never spoke, and was said to encourage attention toward Christ rather than Mary alone. <span class="at">1:32:07</span></li>  </ul>
+<blockquote><p>“She doesn’t speak a single word. Not once.” [1:22:27]</p></blockquote><p class="for">Worth your time if you are curious about Marian apparitions, martyrdom, and how miracles shape divided Christian communities.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>The first reported witnesses to the Zaitoon apparition were three Muslim workers.
+<span class="at">53:48</span><span class="why">A Christian apparition began with non-Christian witnesses.</span>      </li>
+      <li>Police broke nearby streetlights, but the apparition shone brighter.
+<span class="at">59:22</span><span class="why">An attempted exposure reportedly made the phenomenon more visible.</span>      </li>
+      <li>“Over a million people between 68 and 71 … must have seen her.”
+<span class="at">1:11:58</span><span class="why">Most apparitions involve a handful of witnesses, not a mass audience.</span>      </li>
+      <li>“She doesn’t speak a single word. Not once.”
+<span class="at">1:22:27</span><span class="why">The apparition offered no spoken message despite its enormous public impact.</span>      </li>
+    </ol>
+  </div>
+</article>
+<article class="entry" data-show="the-ai-daily-brief-artificial" data-title="the ai wealth problem"
+         data-released="2026-10-19" data-done="2026-10-19T18:13">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-ai-daily-brief-artificial/20261019-the-ai-wealth-problem/">The AI Wealth Problem</a></h2>
+  <p class="meta">The AI Daily Brief · 19 October 2026 · 33 min<span class="done"> · written up 19 October at 18:13</span></p>
+  <p class="hook">AI may create enormous wealth, but the real fight is over who controls and shares it.</p>
+  <ul class="points">
+<li>OpenCode’s cyberattack used exposed keys to create synthetic training data and affected 1.4% of console users. <span class="at">1:15</span></li><li>The attack seemed to involve nonstop autonomous agents, pushing defenders toward specialized tools after frontier models refused some investigations. <span class="at">2:23</span></li><li>AI-bubble fears have spread, but strong demand and 17 straight days of rising GPU rental prices suggest this is not yet a dot-com-style collapse. <span class="at">7:23</span></li><li>New York City Comptroller Mark Levine urged Anthropic to delay its IPO, pointing to major safety risks and founder-control plans. <span class="at">10:08</span></li><li>Anthropic committed potentially about 20% of its shares to a public-benefit fund that could support nonprofits or people harmed by AI. <span class="at">16:20</span></li><li>Nan Ransahoff estimated AI philanthropy could reach $37–$100 billion in yearly spending, far beyond the sector’s available organizations and talent. <span class="at">19:13</span></li>  </ul>
+<blockquote><p>“The single most optimistic future is one where the entire next generation owns a piece of SpaceX.” [24:44]</p></blockquote><p class="for">Worth your time if you want to know whether AI wealth will be donated, regulated, or broadly owned.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>The OpenCode attack affected 1.4% of its console users.
+<span class="at">1:15</span><span class="why">Readers might assume the incident affected either almost nobody or nearly everyone.</span>      </li>
+      <li>“roughly 20% of anthropic shares are committed to the public good.”
+<span class="at">16:20</span><span class="why">A company’s proposed philanthropic commitment rarely reaches this scale.</span>      </li>
+      <li>AI philanthropy could eventually spend $37–$100 billion every year.
+<span class="at">19:13</span><span class="why">That would dwarf normal expectations for technology-related charitable giving.</span>      </li>
+      <li>Anthropic’s proposed legal threshold is 10 to the 25th FLOPs, while current frontier training is reportedly around 10 to the 27th.
+<span class="at">29:09</span><span class="why">The proposed rule may already lag behind the technology it targets.</span>      </li>
+    </ol>
+  </div>
+</article>
+<article class="entry" data-show="the-shawn-ryan-show" data-title="#349 aj gentile - grand canyon conspiracies, ai extinction and nuclear war on mars"
+         data-released="2026-10-19" data-done="2026-10-19T18:14">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-shawn-ryan-show/20261019-349-aj-gentile-grand-canyon-conspiracies-ai-extinction-and/">#349 AJ Gentile - Grand Canyon Conspiracies, AI Extinction and Nuclear War on Mars</a></h2>
+  <p class="meta">The Shawn Ryan Show · 19 October 2026 · 2h 43m<span class="done"> · written up 19 October at 18:14</span></p>
+  <p class="hook">Mars, AI, UFOs, and ancient civilizations become one sprawling argument about what humanity thinks it knows.</p>
+  <ul class="points">
+<li>AJ Gentile says he rejects celebrities, politicians, and journalists to avoid rehearsed talking points and outside agendas. <span class="at">1:29</span></li><li>The discussion treats nuclear war on Mars as possible but speculative, pointing to its lost atmosphere, vanished magnetic field, and missing oceans. <span class="at">33:03</span></li><li>The speakers warn that AI could eventually end humanity, while admitting they are unsure how soon that danger might arrive. <span class="at">1:19:57</span></li><li>Atlantis is identified with the Minoan civilization on Santorini rather than a lost city in the Atlantic. <span class="at">1:26:42</span></li><li>A disputed Grand Canyon story describes a hidden cave with ancient artifacts, mummies, and an underground city whose access was later restricted. <span class="at">1:56:01</span></li><li>The discussion shifts from aliens toward spiritual or other-dimensional explanations for UFOs, while noting that about 88% of released videos have ordinary explanations. <span class="at">2:19:42</span></li>  </ul>
+<blockquote><p>“I turn down every celebrity, every politician, every journalist.” — AJ Gentile [1:29]</p></blockquote><p class="for">Worth your time if you enjoy testing wild theories against history, science, psychology, and personal experience.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>“There’s 20 25,000 city killers. NASA’s aware of about maybe 13,000 of them.”
+<span class="at">59:35</span><span class="why">Readers may believe nearly all dangerous nearby asteroids are already catalogued.</span>      </li>
+      <li>“I think it probably is” in response to whether AI is the end of humanity.
+<span class="at">1:19:57</span><span class="why">A technology discussion might be expected to dismiss extinction fears as exaggerated.</span>      </li>
+      <li>“Cahokia, this amazing city in Ohio, in 1100 AD was bigger than London.”
+<span class="at">2:02:46</span><span class="why">A little-known American city supposedly exceeded a major European capital in population.</span>      </li>
+      <li>“I saw hell” after trying 5-MeO-DMT.
+<span class="at">1:37:13</span><span class="why">Psychedelic experiences are often described as positive or enlightening, not terrifying.</span>      </li>
+      <li>“I think of all the videos they&#39;ve sent, like 88% can be explained.”
+<span class="at">2:27:54</span><span class="why">Readers might assume most UAP videos remain unexplained.</span>      </li>
+    </ol>
+  </div>
+</article>
+<article class="entry" data-show="the-optimalwork-podcast" data-title="322. how to actually follow through on your plans"
+         data-released="2026-10-19" data-done="2026-10-19T18:14">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-optimalwork-podcast/20261019-322-how-to-actually-follow-through-on-your-plans/">322. How to Actually Follow Through on Your Plans</a></h2>
+  <p class="meta">The OptimalWork Podcast · 19 October 2026 · 28 min<span class="done"> · written up 19 October at 18:14</span></p>
+  <p class="hook">Most people do not fail because their plan is bad; they fail because they never truly launch it.</p>
+  <ul class="points">
+<li>A study of 47 studies involving 9,000 people found that acting on a decision was far less common than making one. <span class="at">3:14</span></li><li>Prudence moves from finding real options, to choosing the best one, to commanding yourself to carry it out. <span class="at">4:17</span></li><li>Plans fail in three distinct ways: no real decision, failing to start on time, or giving up when difficulty appears. <span class="at">11:20</span></li><li>Coaches should identify which failure occurred rather than doing the work for someone, while helping that person see the opportunity for themselves. <span class="at">14:55</span></li><li>Effort becomes ready and timely when it draws on love, especially a deeper purpose of treating another person’s needs as important. <span class="at">16:02</span></li><li>Order, intensity, and constancy connect purpose, excellence, and endurance to actually completing a task. <span class="at">22:54</span></li>  </ul>
+<blockquote><p>“Love is what produces the readiness to actually put in effort.” [16:02]</p></blockquote><p class="for">Worth your time if you make thoughtful plans but struggle to turn them into consistent action.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>A meta-analysis of 47 studies involving 9,000 people found about half as many people carried out plans as made them.
+<span class="at">2:38</span><span class="why">Readers may assume deciding is most of the work.</span>      </li>
+      <li>“The most imprudent thing would be to know exactly the prudent course and to not do it.”
+<span class="at">4:50</span><span class="why">Intelligence is usually treated as valuable even when it never changes behavior.</span>      </li>
+      <li>Love, not willpower alone, creates readiness to put in effort.
+<span class="at">16:02</span><span class="why">People usually explain follow-through as discipline or better planning.</span>      </li>
+      <li>Plans fail through irresolution, negligence, or inconstancy—not one single kind of procrastination.
+<span class="at">11:20</span><span class="why">Delayed action is often treated as one problem with one solution.</span>      </li>
+    </ol>
+  </div>
+</article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      list.classList.toggle('by-done', key === 'done');
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
+  <nav class="more">
+<a href="/space-digest/issues/2026-10-20/">Newer</a><a href="/space-digest/issues/2026-10-18/">Older</a>    <a href="/space-digest/archive/">All issues</a>
+  </nav>
+  <footer>
+    <p>Summaries are written by a machine from the original words, and link
+       back to where they were said. Nothing here replaces the source.</p>
+    <p><a href="/space-digest/episodes/">Every episode</a> ·
+       <a href="/space-digest/archive/">Every issue</a> ·
+<a href="/space-digest/tightbeam/">Tightbeam</a> ·
+<a href="/space-digest/funny/">Funny bits</a> ·
+<a href="/space-digest/feed.xml">Subscribe by RSS</a></p>
+  </footer>
+</div>

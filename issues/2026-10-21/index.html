@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>21 October 2026 · Space Digest</title>
+<link rel="alternate" type="application/rss+xml" title="Space Digest" href="/space-digest/feed.xml">
+<style>
+  :root { --ink:#1a1a1a; --soft:#5b5b5b; --line:#e2e0da; --paper:#fbfaf7; --mark:#7a3b2e; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e8e6e1; --soft:#a09c94; --line:#33312d; --paper:#161513; --mark:#d99b7c; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink);
+         font:17px/1.65 Charter, Georgia, "Iowan Old Style", serif;
+         -webkit-text-size-adjust:100%; }
+  .page { max-width:38rem; margin:0 auto; padding:2.5rem 1.25rem 5rem; }
+  a { color:inherit; text-decoration-color:var(--line); text-underline-offset:3px; }
+  a:hover { text-decoration-color:var(--mark); }
+  header.masthead { border-bottom:2px solid var(--ink); padding-bottom:.6rem; margin-bottom:1rem; }
+  nav.top { display:flex; flex-wrap:wrap; gap:.2rem 1.4rem; margin:0 0 2rem;
+            font-size:.78rem; letter-spacing:.09em; text-transform:uppercase; }
+  nav.top a { color:var(--soft); text-decoration:none; padding:.25rem 0;
+              border-bottom:2px solid transparent; }
+  nav.top a:hover { color:var(--ink); }
+  nav.top a.on { color:var(--ink); border-bottom-color:var(--mark); }
+  header.masthead a { text-decoration:none; }
+  .wordmark { font-size:1.5rem; font-weight:700; letter-spacing:-.02em; margin:0; }
+  .tagline { color:var(--soft); font-size:.85rem; margin:.15rem 0 0; }
+  h1 { font-size:1.6rem; line-height:1.25; letter-spacing:-.015em; margin:0 0 .3rem; }
+  h2 { font-size:1.15rem; margin:2.5rem 0 .4rem; }
+  .meta { color:var(--soft); font-size:.82rem; margin:0 0 1.6rem; }
+  .hook { font-size:1.2rem; line-height:1.45; margin:0 0 1.2rem; }
+  article.entry { border-bottom:1px solid var(--line); padding-bottom:2rem; margin-bottom:2rem; }
+  article.entry:last-of-type { border-bottom:0; }
+  ul.points { list-style:none; margin:1.1rem 0; padding:0; }
+  ul.points li { margin:0 0 .7rem; padding-left:1rem; text-indent:-1rem; }
+  .at { color:var(--soft); font-size:.8rem; white-space:nowrap; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }
+  blockquote { margin:1.4rem 0; padding-left:1rem; border-left:3px solid var(--mark);
+               font-size:1.05rem; }
+  blockquote p { margin:0; }
+  .for { color:var(--soft); font-style:italic; }
+  .standouts { background:color-mix(in srgb, var(--mark) 7%, transparent);
+               border-radius:.4rem; padding:1rem 1.1rem; margin:1.6rem 0; }
+  .standouts h3 { margin:0 0 .6rem; font-size:.78rem; letter-spacing:.09em;
+                  text-transform:uppercase; color:var(--soft); font-weight:700; }
+  .standouts ol { margin:0; padding-left:1.15rem; }
+  .standouts li { margin:0 0 .7rem; }
+  .standouts li:last-child { margin-bottom:0; }
+  .why { display:block; color:var(--soft); font-size:.85rem; margin-top:.15rem; }
+  nav.more { margin-top:3rem; padding-top:1.2rem; border-top:1px solid var(--line);
+             color:var(--soft); font-size:.88rem; }
+  nav.more a { margin-right:1rem; }
+  footer { margin-top:3.5rem; padding-top:1.2rem; border-top:1px solid var(--line);
+           color:var(--soft); font-size:.8rem; }
+  .quiet { color:var(--soft); font-size:1.05rem; }
+  .filters { margin:1.5rem 0 2rem; }
+  .filters input { width:100%; padding:.55rem .7rem; font:inherit; font-size:.95rem;
+                   color:var(--ink); background:var(--paper);
+                   border:1px solid var(--line); border-radius:.35rem; }
+  .filters input:focus { outline:2px solid var(--mark); outline-offset:1px; }
+  .chips { display:flex; flex-wrap:wrap; gap:.4rem; margin-top:.7rem; }
+  .chip { font:inherit; font-size:.85rem; padding:.3rem .7rem; cursor:pointer;
+          color:var(--soft); background:transparent;
+          border:1px solid var(--line); border-radius:1rem; }
+  .chip:hover { border-color:var(--mark); color:var(--ink); }
+  .chip.on { background:var(--ink); border-color:var(--ink); color:var(--paper); }
+  .chip.on .at { color:var(--paper); opacity:.7; }
+  ul.episodes { list-style:none; margin:0; padding:0; }
+  ul.episodes li { padding:.85rem 0; border-bottom:1px solid var(--line); }
+  ul.episodes li a { font-size:1.05rem; }
+  ul.episodes .at { display:block; margin-top:.15rem; }
+  ul.episodes .why { margin-top:.3rem; }
+  section.topic { margin:1.6rem 0; }
+  section.topic h3 { font-size:1rem; margin:0 0 .3rem; }
+  ul.posts { list-style:none; margin:.6rem 0 0; padding:0; }
+  ul.posts li { padding:.6rem 0 .6rem .9rem; border-left:2px solid var(--line); margin:0 0 .6rem; }
+  ul.posts .at a { text-decoration:none; }
+  .post-text { margin:.25rem 0 0; white-space:pre-line; }
+  .quoted { margin:.35rem 0 0; color:var(--soft); font-size:.9rem; white-space:pre-line; }
+  .translation { margin:.2rem 0 0; color:var(--soft); font-size:.9rem; font-style:italic;
+                 white-space:pre-line; }
+  /* Tightbeam: the same head on every beam page, so the kinds read as one. */
+  .eyebrow { margin:0 0 .35rem; font-size:.78rem; letter-spacing:.09em;
+             text-transform:uppercase; color:var(--soft); }
+  .eyebrow a { color:inherit; text-decoration:none; }
+  .eyebrow a:hover { color:var(--ink); }
+  .sep { margin:0 .4rem; color:var(--line); }
+  .badge { display:inline-block; margin-left:.5rem; padding:.05rem .45rem;
+           border:1px solid var(--mark); border-radius:1rem; color:var(--mark);
+           font-size:.68rem; letter-spacing:.08em; text-transform:uppercase;
+           vertical-align:.1em; white-space:nowrap; }
+  h1 .label, h2 .label { font-weight:400; color:var(--soft); }
+  .beam-card h2 { font-size:1.3rem; letter-spacing:-.01em; }
+  .numbers { margin:1.4rem 0; padding:.2rem 0 .2rem 1rem; border-left:3px solid var(--line); }
+  .numbers p { margin:.35rem 0; }
+  .numbers .fig { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; color:var(--mark); }
+  .points-src { display:block; color:var(--soft); font-size:.72rem; letter-spacing:.08em;
+                text-transform:uppercase; margin-top:.15rem; }
+  .strip { margin:0 0 2.2rem; padding:.9rem 0 .2rem; border-top:1px solid var(--line);
+           border-bottom:1px solid var(--line); }
+  .strip h2 { margin:0 0 .5rem; font-size:.78rem; letter-spacing:.09em;
+              text-transform:uppercase; color:var(--soft); }
+  .strip ul { list-style:none; margin:0 0 .7rem; padding:0; }
+  .strip li { margin:0 0 .55rem; }
+  .strip .who { display:block; font-size:.82rem; color:var(--soft); }
+  .strip a { font-size:.98rem; }
+  a.button { display:inline-block; margin:.6rem 0 0; padding:.45rem .9rem;
+             border:1px solid var(--mark); border-radius:.3rem; color:var(--mark);
+             text-decoration:none; font-size:.92rem; }
+  a.button:hover { background:var(--mark); color:var(--paper); }
+  .archive { color:var(--mark); }
+  .done { display:none; }
+  .by-done .done { display:inline; color:var(--mark); }
+  .chips + .chips { margin-top:.5rem; }
+  ol.bits { margin:1.1rem 0 0; padding-left:1.3rem; }
+  ol.bits li { margin:0 0 1.1rem; }
+  ol.bits .said { font-size:1.05rem; }
+  ol.bits .at a { text-decoration:none; border-bottom:1px dotted var(--soft); }
+</style>
+<body>
+<div class="page">
+  <header class="masthead">
+    <a href="/space-digest/"><p class="wordmark">Space Digest</p></a>
+    <p class="tagline">The podcasts worth your week, in a minute each.</p>
+  </header>
+  <nav class="top" aria-label="Sections">
+    <a href="/space-digest/" class="on">Today</a>
+    <a href="/space-digest/episodes/">Episodes</a>
+    <a href="/space-digest/archive/">Issues</a>
+<a href="/space-digest/tightbeam/">Tightbeam</a>
+<a href="/space-digest/funny/">Funny bits</a>
+<a href="/space-digest/feed.xml">RSS</a>
+  </nav>
+  <h1>Wednesday 21 October 2026</h1>
+  <p class="meta">4
+     episodes</p>
+
+  <div class="strip">
+    <h2>On the Tightbeam</h2>
+    <ul>
+      <li><span class="who">Elon Musk<span class="badge badge-x">X</span></span>
+          <a href="/space-digest/tightbeam/elonmusk/2026-10-21/">Elon Musk discussed Grok, SpaceX growth, Starlink technology, computing, and music.</a></li>
+      <li><span class="who">Peter Diamandis<span class="badge badge-substack">Substack</span></span>
+          <a href="/space-digest/tightbeam/diamandis/2026-10-21-spacex-earnings-heading-towards-the-first-100/">SpaceX is becoming an integrated AI, communications, launch, and energy company that could reach $100 trillion.</a></li>
+    </ul>
+  </div>
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="american-alchemy-with-jesse-michels">American Alchemy with Jesse Michels <span class="at">1</span></button>
+      <button class="chip" data-show="the-a16z-show">The a16z Show <span class="at">1</span></button>
+      <button class="chip" data-show="the-ai-daily-brief-artificial">The AI Daily Brief <span class="at">1</span></button>
+      <button class="chip" data-show="the-joe-rogan-experience">The Joe Rogan Experience <span class="at">1</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+<article class="entry" data-show="american-alchemy-with-jesse-michels" data-title="top religious scholar: “aliens aren’t what you think!”"
+         data-released="2026-10-21" data-done="2026-10-21T19:24">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/american-alchemy-with-jesse-michels/20261021-top-religious-scholar-aliens-arent-what-you-think/">Top Religious Scholar: “Aliens Aren’t What You Think!”</a></h2>
+  <p class="meta">American Alchemy with Jesse Michels · 21 October 2026 · 2h 56m<span class="done"> · written up 21 October at 19:24</span></p>
+  <p class="hook">Aliens may be less about outer space than about trauma, sexuality, consciousness, and a reality humans barely understand.</p>
+  <ul class="points">
+<li>The guest’s path from Catholic monastic life and life-threatening anorexia led him toward mystical experience and intellectual inquiry. <span class="at">4:55</span></li><li>He says a 1989 Kali Puja experience felt like an out-of-body transmission of the ideas he would later write about. <span class="at">8:42</span></li><li>The discussion rejects both literal alien belief and simple debunking, arguing that abduction witnesses deserve to be taken seriously without deciding what they encountered. <span class="at">25:20</span></li><li>The speakers connect mystical experience with suffering, sexuality, and the breakdown of a person’s ordinary story about reality. <span class="at">44:56</span></li><li>They argue that religious and paranormal events may be physical “special effects” shaped by deeper forces, culture, and imagination. <span class="at">1:20:49</span></li><li>The conversation links UFOs, nuclear anxiety, psychedelics, puberty, and trauma while treating possession as human suffering rather than demons. <span class="at">2:31:43</span></li>  </ul>
+<blockquote><p>“I’ve never met a demon that didn’t look like a suffering human being ever.” [2:31:43]</p></blockquote><p class="for">Worth your time if you want UFOs examined through religion, psychology, sexuality, and the limits of science.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>“My my sensibility is that it&#39;s us.”
+<span class="at">— Dr. Jeffrey Kipel</span><span class="at">20:07</span><span class="why">He rejects the usual picture of aliens as wholly separate beings.</span>      </li>
+      <li>“All of our religious models of human sexuality are agricultural,” and modern genetics shows they are “just all wrong.”
+<span class="at">49:42</span><span class="why">Religious sexual morality is framed as outdated farming logic.</span>      </li>
+      <li>“I think religious phenomena are special effects.”
+<span class="at">1:20:49</span><span class="why">The experiences are neither simply supernatural truths nor mere illusions.</span>      </li>
+      <li>Rosicrucianism began essentially as a joke.
+<span class="at">2:35:04</span><span class="why">A supposed secret order may have started as deliberate fiction.</span>      </li>
+      <li>“Fitness beats truth.”
+<span class="at">2:48:22</span><span class="why">Evolution may favor survival, not accurate understanding.</span>      </li>
+    </ol>
+  </div>
+</article>
+<article class="entry" data-show="the-a16z-show" data-title="the missing infrastructure for ai agents: documents | reducto’s adit abraham"
+         data-released="2026-10-21" data-done="2026-10-21T06:55">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-a16z-show/20261021-the-missing-infrastructure-for-ai-agents-documents-reductos/">The Missing Infrastructure for AI Agents: Documents | Reducto’s Adit Abraham</a></h2>
+  <p class="meta">The a16z Show · 21 October 2026 · 38 min<span class="done"> · written up 21 October at 06:55</span></p>
+  <p class="hook">AI agents may reason well, but they still need a dependable way to read the messy documents behind real work.</p>
+  <ul class="points">
+<li>Reducto shifted from fixing AI memory to processing documents after seeing that agents would need reliable access to white-collar work’s source material. <span class="at">2:20</span></li><li>Its system combines computer vision to preserve layout with models that correct errors and reason about what the document means. <span class="at">5:28</span></li><li>Messy files include tables split across bad scans and dense diagrams that require analyzing small sections and piecing them together. <span class="at">7:47</span></li><li>Reducto says agents that check and correct their own extracted data can beat humans, who sometimes miss content or drop rows. <span class="at">10:02</span></li><li>Making document extraction reliable takes several stages of breaking files apart, checking results, and correcting mistakes—not one model call. <span class="at">21:26</span></li><li>Better document reading could replace routine data entry, from paper tax returns to typing information from physical records. <span class="at">35:25</span></li>  </ul>
+<blockquote><p>“agents can be better at structured extraction than humans on many tests.” — Adit Abraham [10:02]</p></blockquote><p class="for">Worth your time if you want to know why capable AI agents still struggle with ordinary business files.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>“today, uh literally this morning, we crossed our seven billionth page.”
+<span class="at">— Adit Abraham</span><span class="at">11:36</span><span class="why">A specialized document company has processed a staggering volume.</span>      </li>
+      <li>“agents can be better at structured extraction than humans on many tests.”
+<span class="at">— Adit Abraham</span><span class="at">10:02</span><span class="why">People usually assume humans are the safer choice for pulling data from documents.</span>      </li>
+      <li>“We found actually that frontier models were better than a lot of specialized document parsers at precision,” but they silently dropped information.
+<span class="at">22:27</span><span class="why">General-purpose models can look more accurate while quietly leaving information out.</span>      </li>
+      <li>“In 80% of appeals, um, the original decision was overturned.”
+<span class="at">34:11</span><span class="why">Most people would expect rejected healthcare claims to survive appeal.</span>      </li>
+      <li>“In America, 16% of tax filers still file via paper mail.”
+<span class="at">35:59</span><span class="why">Paper tax filing remains far more common than many readers would guess.</span>      </li>
+    </ol>
+  </div>
+</article>
+<article class="entry" data-show="the-ai-daily-brief-artificial" data-title="how ai is changing what work means"
+         data-released="2026-10-21" data-done="2026-10-21T19:23">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-ai-daily-brief-artificial/20261021-how-ai-is-changing-what-work-means/">How AI Is Changing What Work Means</a></h2>
+  <p class="meta">The AI Daily Brief · 21 October 2026 · 28 min<span class="done"> · written up 21 October at 19:23</span></p>
+  <p class="hook">AI may change work most by letting ordinary firms tackle problems far outside their usual business.</p>
+  <ul class="points">
+<li>Meta’s Muse reached 10 million US downloads in 40 days, but personal agents still struggle to become either addictive entertainment or dependable infrastructure. <span class="at">1:39</span></li><li>A flaw in Muse’s sharing links exposed 6,800 user conversations, including loan applications and internal company reports. <span class="at">4:04</span></li><li>Anthropic’s reported $80 billion loss was mostly an accounting effect, while its actual first-half operating loss was $8.7 billion. <span class="at">6:34</span></li><li>OpenAI is building tools for existing drug companies, while Anthropic has opened its own biology lab for physical experiments. <span class="at">14:07</span></li><li>Financial researchers used Claude and 300 subagents to design 318,000 proteins, with 17 binding to four scorpion toxins, though none has neutralized venom yet. <span class="at">20:42</span></li><li>AI compressed the design work to 64 hours, but testing took 39 days and bringing a treatment to market could still take four to seven years. <span class="at">23:28</span></li>  </ul>
+<blockquote><p>“Biology works at the speed of life.” [22:56]</p></blockquote><p class="for">Worth your time if you want to understand how AI could expand what small teams are able to investigate.</p></article>
+<article class="entry" data-show="the-joe-rogan-experience" data-title="#2569 - bill thompson"
+         data-released="2026-10-21" data-done="2026-10-21T19:25">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-joe-rogan-experience/20261021-2569-bill-thompson/">#2569 - Bill Thompson</a></h2>
+  <p class="meta">The Joe Rogan Experience · 21 October 2026 · 2h 47m<span class="done"> · written up 21 October at 19:25</span></p>
+  <p class="hook">The episode links hunting, addiction, dreams, fighting, and AI through one idea: control is always temporary.</p>
+  <ul class="points">
+<li>A flying Roadster may work, but laws and practical limits could keep it from becoming an ordinary car. <span class="at">0:01</span></li><li>Repeated exposure to danger helps people stay calm, whether they are hunting, competing, or escaping through the wilderness. <span class="at">19:45</span></li><li>Extreme exhaustion and dehydration left one speaker unsure whether people he saw during a survival exercise were real or hallucinations. <span class="at">56:24</span></li><li>A dream about trains and violence convinced one speaker that his legal fight was really a struggle against his own obsession. <span class="at">1:20:42</span></li><li>Addiction may grow from the same intense focus that creates excellence, with one world-class pool player performing best after using heroin. <span class="at">1:34:35</span></li><li>AI could erase many jobs within ten years while making human-made work and small local businesses more valuable. <span class="at">2:38:05</span></li>  </ul>
+<blockquote><p>“As the bonfire of knowledge grows brighter, the more the darkness is revealed to our startled eyes.” [2:17:31]</p></blockquote><p class="for">Worth your time if you enjoy hard questions about mastery, altered states, survival, and technology’s uncertain future.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>“I still to this day don&#39;t know if a that was a dream, b I hallucinated those people, or c they were there”
+<span class="at">56:24</span><span class="why">A survival memory remains permanently impossible to classify.</span>      </li>
+      <li>“they would give them meth once a week”
+<span class="at">1:32:41</span><span class="why">A treatment facility was accused of supplying the drug it should prevent.</span>      </li>
+      <li>“I&#39;ve got two sisters that died from overdoses and a brother that killed himself.”
+<span class="at">1:31:45</span><span class="why">The speaker’s family history includes three devastating deaths.</span>      </li>
+      <li>A world-class pool player “couldn&#39;t miss” after using heroin.
+<span class="at">2:06:58</span><span class="why">Drug use appeared connected to extraordinary athletic performance.</span>      </li>
+      <li>“In 10 years, the world&#39;s going to be unrecognizable.”
+<span class="at">2:38:05</span><span class="why">The predicted AI disruption is measured in years, not generations.</span>      </li>
+    </ol>
+  </div>
+</article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      list.classList.toggle('by-done', key === 'done');
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
+  <nav class="more">
+<a href="/space-digest/issues/2026-10-22/">Newer</a><a href="/space-digest/issues/2026-10-20/">Older</a>    <a href="/space-digest/archive/">All issues</a>
+  </nav>
+  <footer>
+    <p>Summaries are written by a machine from the original words, and link
+       back to where they were said. Nothing here replaces the source.</p>
+    <p><a href="/space-digest/episodes/">Every episode</a> ·
+       <a href="/space-digest/archive/">Every issue</a> ·
+<a href="/space-digest/tightbeam/">Tightbeam</a> ·
+<a href="/space-digest/funny/">Funny bits</a> ·
+<a href="/space-digest/feed.xml">Subscribe by RSS</a></p>
+  </footer>
+</div>

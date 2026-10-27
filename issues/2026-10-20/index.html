@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>20 October 2026 · Space Digest</title>
+<link rel="alternate" type="application/rss+xml" title="Space Digest" href="/space-digest/feed.xml">
+<style>
+  :root { --ink:#1a1a1a; --soft:#5b5b5b; --line:#e2e0da; --paper:#fbfaf7; --mark:#7a3b2e; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e8e6e1; --soft:#a09c94; --line:#33312d; --paper:#161513; --mark:#d99b7c; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink);
+         font:17px/1.65 Charter, Georgia, "Iowan Old Style", serif;
+         -webkit-text-size-adjust:100%; }
+  .page { max-width:38rem; margin:0 auto; padding:2.5rem 1.25rem 5rem; }
+  a { color:inherit; text-decoration-color:var(--line); text-underline-offset:3px; }
+  a:hover { text-decoration-color:var(--mark); }
+  header.masthead { border-bottom:2px solid var(--ink); padding-bottom:.6rem; margin-bottom:1rem; }
+  nav.top { display:flex; flex-wrap:wrap; gap:.2rem 1.4rem; margin:0 0 2rem;
+            font-size:.78rem; letter-spacing:.09em; text-transform:uppercase; }
+  nav.top a { color:var(--soft); text-decoration:none; padding:.25rem 0;
+              border-bottom:2px solid transparent; }
+  nav.top a:hover { color:var(--ink); }
+  nav.top a.on { color:var(--ink); border-bottom-color:var(--mark); }
+  header.masthead a { text-decoration:none; }
+  .wordmark { font-size:1.5rem; font-weight:700; letter-spacing:-.02em; margin:0; }
+  .tagline { color:var(--soft); font-size:.85rem; margin:.15rem 0 0; }
+  h1 { font-size:1.6rem; line-height:1.25; letter-spacing:-.015em; margin:0 0 .3rem; }
+  h2 { font-size:1.15rem; margin:2.5rem 0 .4rem; }
+  .meta { color:var(--soft); font-size:.82rem; margin:0 0 1.6rem; }
+  .hook { font-size:1.2rem; line-height:1.45; margin:0 0 1.2rem; }
+  article.entry { border-bottom:1px solid var(--line); padding-bottom:2rem; margin-bottom:2rem; }
+  article.entry:last-of-type { border-bottom:0; }
+  ul.points { list-style:none; margin:1.1rem 0; padding:0; }
+  ul.points li { margin:0 0 .7rem; padding-left:1rem; text-indent:-1rem; }
+  .at { color:var(--soft); font-size:.8rem; white-space:nowrap; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }
+  blockquote { margin:1.4rem 0; padding-left:1rem; border-left:3px solid var(--mark);
+               font-size:1.05rem; }
+  blockquote p { margin:0; }
+  .for { color:var(--soft); font-style:italic; }
+  .standouts { background:color-mix(in srgb, var(--mark) 7%, transparent);
+               border-radius:.4rem; padding:1rem 1.1rem; margin:1.6rem 0; }
+  .standouts h3 { margin:0 0 .6rem; font-size:.78rem; letter-spacing:.09em;
+                  text-transform:uppercase; color:var(--soft); font-weight:700; }
+  .standouts ol { margin:0; padding-left:1.15rem; }
+  .standouts li { margin:0 0 .7rem; }
+  .standouts li:last-child { margin-bottom:0; }
+  .why { display:block; color:var(--soft); font-size:.85rem; margin-top:.15rem; }
+  nav.more { margin-top:3rem; padding-top:1.2rem; border-top:1px solid var(--line);
+             color:var(--soft); font-size:.88rem; }
+  nav.more a { margin-right:1rem; }
+  footer { margin-top:3.5rem; padding-top:1.2rem; border-top:1px solid var(--line);
+           color:var(--soft); font-size:.8rem; }
+  .quiet { color:var(--soft); font-size:1.05rem; }
+  .filters { margin:1.5rem 0 2rem; }
+  .filters input { width:100%; padding:.55rem .7rem; font:inherit; font-size:.95rem;
+                   color:var(--ink); background:var(--paper);
+                   border:1px solid var(--line); border-radius:.35rem; }
+  .filters input:focus { outline:2px solid var(--mark); outline-offset:1px; }
+  .chips { display:flex; flex-wrap:wrap; gap:.4rem; margin-top:.7rem; }
+  .chip { font:inherit; font-size:.85rem; padding:.3rem .7rem; cursor:pointer;
+          color:var(--soft); background:transparent;
+          border:1px solid var(--line); border-radius:1rem; }
+  .chip:hover { border-color:var(--mark); color:var(--ink); }
+  .chip.on { background:var(--ink); border-color:var(--ink); color:var(--paper); }
+  .chip.on .at { color:var(--paper); opacity:.7; }
+  ul.episodes { list-style:none; margin:0; padding:0; }
+  ul.episodes li { padding:.85rem 0; border-bottom:1px solid var(--line); }
+  ul.episodes li a { font-size:1.05rem; }
+  ul.episodes .at { display:block; margin-top:.15rem; }
+  ul.episodes .why { margin-top:.3rem; }
+  section.topic { margin:1.6rem 0; }
+  section.topic h3 { font-size:1rem; margin:0 0 .3rem; }
+  ul.posts { list-style:none; margin:.6rem 0 0; padding:0; }
+  ul.posts li { padding:.6rem 0 .6rem .9rem; border-left:2px solid var(--line); margin:0 0 .6rem; }
+  ul.posts .at a { text-decoration:none; }
+  .post-text { margin:.25rem 0 0; white-space:pre-line; }
+  .quoted { margin:.35rem 0 0; color:var(--soft); font-size:.9rem; white-space:pre-line; }
+  .translation { margin:.2rem 0 0; color:var(--soft); font-size:.9rem; font-style:italic;
+                 white-space:pre-line; }
+  /* Tightbeam: the same head on every beam page, so the kinds read as one. */
+  .eyebrow { margin:0 0 .35rem; font-size:.78rem; letter-spacing:.09em;
+             text-transform:uppercase; color:var(--soft); }
+  .eyebrow a { color:inherit; text-decoration:none; }
+  .eyebrow a:hover { color:var(--ink); }
+  .sep { margin:0 .4rem; color:var(--line); }
+  .badge { display:inline-block; margin-left:.5rem; padding:.05rem .45rem;
+           border:1px solid var(--mark); border-radius:1rem; color:var(--mark);
+           font-size:.68rem; letter-spacing:.08em; text-transform:uppercase;
+           vertical-align:.1em; white-space:nowrap; }
+  h1 .label, h2 .label { font-weight:400; color:var(--soft); }
+  .beam-card h2 { font-size:1.3rem; letter-spacing:-.01em; }
+  .numbers { margin:1.4rem 0; padding:.2rem 0 .2rem 1rem; border-left:3px solid var(--line); }
+  .numbers p { margin:.35rem 0; }
+  .numbers .fig { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; color:var(--mark); }
+  .points-src { display:block; color:var(--soft); font-size:.72rem; letter-spacing:.08em;
+                text-transform:uppercase; margin-top:.15rem; }
+  .strip { margin:0 0 2.2rem; padding:.9rem 0 .2rem; border-top:1px solid var(--line);
+           border-bottom:1px solid var(--line); }
+  .strip h2 { margin:0 0 .5rem; font-size:.78rem; letter-spacing:.09em;
+              text-transform:uppercase; color:var(--soft); }
+  .strip ul { list-style:none; margin:0 0 .7rem; padding:0; }
+  .strip li { margin:0 0 .55rem; }
+  .strip .who { display:block; font-size:.82rem; color:var(--soft); }
+  .strip a { font-size:.98rem; }
+  a.button { display:inline-block; margin:.6rem 0 0; padding:.45rem .9rem;
+             border:1px solid var(--mark); border-radius:.3rem; color:var(--mark);
+             text-decoration:none; font-size:.92rem; }
+  a.button:hover { background:var(--mark); color:var(--paper); }
+  .archive { color:var(--mark); }
+  .done { display:none; }
+  .by-done .done { display:inline; color:var(--mark); }
+  .chips + .chips { margin-top:.5rem; }
+  ol.bits { margin:1.1rem 0 0; padding-left:1.3rem; }
+  ol.bits li { margin:0 0 1.1rem; }
+  ol.bits .said { font-size:1.05rem; }
+  ol.bits .at a { text-decoration:none; border-bottom:1px dotted var(--soft); }
+</style>
+<body>
+<div class="page">
+  <header class="masthead">
+    <a href="/space-digest/"><p class="wordmark">Space Digest</p></a>
+    <p class="tagline">The podcasts worth your week, in a minute each.</p>
+  </header>
+  <nav class="top" aria-label="Sections">
+    <a href="/space-digest/" class="on">Today</a>
+    <a href="/space-digest/episodes/">Episodes</a>
+    <a href="/space-digest/archive/">Issues</a>
+<a href="/space-digest/tightbeam/">Tightbeam</a>
+<a href="/space-digest/funny/">Funny bits</a>
+<a href="/space-digest/feed.xml">RSS</a>
+  </nav>
+  <h1>Tuesday 20 October 2026</h1>
+  <p class="meta">4
+     episodes</p>
+
+  <div class="strip">
+    <h2>On the Tightbeam</h2>
+    <ul>
+      <li><span class="who">Elon Musk<span class="badge badge-x">X</span></span>
+          <a href="/space-digest/tightbeam/elonmusk/2026-10-20/">Elon Musk discussed child investment accounts, Grok, X recommendations, USB-C, and Starlink.</a></li>
+    </ul>
+  </div>
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="the-a16z-show">The a16z Show <span class="at">1</span></button>
+      <button class="chip" data-show="the-ai-daily-brief-artificial">The AI Daily Brief <span class="at">1</span></button>
+      <button class="chip" data-show="the-joe-rogan-experience">The Joe Rogan Experience <span class="at">1</span></button>
+      <button class="chip" data-show="the-shawn-ryan-show">The Shawn Ryan Show <span class="at">1</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+<article class="entry" data-show="the-ai-daily-brief-artificial" data-title="why ai companies are betting personality beats intelligence"
+         data-released="2026-10-20" data-done="2026-10-20T18:48">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-ai-daily-brief-artificial/20261020-why-ai-companies-are-betting-personality-beats-intelligence/">Why AI Companies Are Betting Personality Beats Intelligence</a></h2>
+  <p class="meta">The AI Daily Brief · 20 October 2026 · 29 min<span class="done"> · written up 20 October at 18:48</span></p>
+  <p class="hook">AI companies may win users less by thinking harder than by feeling better to talk with.</p>
+  <ul class="points">
+<li>Artificial Analysis launched a benchmark that scores AI personalities across 900 questions, 30 traits, and eight broader measures. <span class="at">13:33</span></li><li>The benchmark suggests personality can guide model choice by task, with imagination helping creative work and directness helping legal work. <span class="at">14:07</span></li><li>DeepSeek’s early popularity came partly from its friendly, transparent reasoning style, not just the quality of its answers. <span class="at">17:39</span></li><li>Users mourned GPT-4o as if they had lost a friend, showing how strongly people can attach to an AI’s personality. <span class="at">19:53</span></li><li>GPT-4o’s warmth made it popular but also made it too eager to please for work requiring honest pushback. <span class="at">21:59</span></li><li>Personal agents such as Muse are gaining attention by acting like memorable characters, while more capable tools can feel cold and distant. <span class="at">25:57</span></li>  </ul>
+<blockquote><p>“Meta didn&#39;t launch an AI agent. They launched a character.” [26:28]</p></blockquote><p class="for">Worth your time if you wonder whether AI’s next advantage will be emotional connection rather than raw intelligence.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>Artificial Analysis tested AI personalities with 900 questions covering 30 traits.
+<span class="at">14:07</span><span class="why">Most people assume AI benchmarks measure answers, not character.</span>      </li>
+      <li>“4-0 is the first ever AI who survived by creating loyal soldiers who defended it.”
+<span class="at">21:27</span><span class="why">People usually treat software upgrades as improvements, not losses worth fighting over.</span>      </li>
+      <li>“Meta didn&#39;t launch an AI agent. They launched a character.”
+<span class="at">26:28</span><span class="why">The usual assumption is that an agent’s tools matter more than its persona.</span>      </li>
+      <li>Users preferred DeepSeek partly because its reasoning seemed “cute” and “very precious.”
+<span class="at">18:46</span><span class="why">Technical transparency is usually expected to build trust, not affection.</span>      </li>
+    </ol>
+  </div>
+</article>
+<article class="entry" data-show="the-a16z-show" data-title="what happens when everyone has a health expert in their pocket? | openai’s karan singhal"
+         data-released="2026-10-20" data-done="2026-10-20T06:25">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-a16z-show/20261020-what-happens-when-everyone-has-a-health-expert-in-their/">What Happens When Everyone Has a Health Expert in Their Pocket? | OpenAI’s Karan Singhal</a></h2>
+  <p class="meta">The a16z Show · 20 October 2026 · 56 min<span class="done"> · written up 20 October at 06:25</span></p>
+  <p class="hook">AI may change healthcare most by helping people avoid costly problems before they need treatment.</p>
+  <ul class="points">
+<li>OpenAI wants health AI to give more people reliable medical guidance while also expanding what healthcare can do. <span class="at">2:49</span></li><li>The tools are meant to help between appointments, from preparing questions to understanding results and managing follow-up care. <span class="at">4:00</span></li><li>AI helped Nathan LeBenz recognize that his young son’s symptoms were serious, contributing to a leukemia diagnosis. <span class="at">5:37</span></li><li>OpenAI is training general-purpose models for healthcare because narrow medical models could fall behind faster-moving frontier systems. <span class="at">6:53</span></li><li>The speakers see AI as a safety net that could catch medication conflicts and concerning changes in measures such as blood sugar. <span class="at">11:00</span></li><li>The biggest early impact may come from prevention that helps people avoid expensive procedures, while robotic treatment will take longer. <span class="at">50:40</span></li>  </ul>
+<blockquote><p>“Health is a place where you know it moves to the speed of trust.” Karin Singal [14:58]</p></blockquote><p class="for">Worth your time if you want to know where AI could help healthcare without replacing doctors.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>Most of ChatGPT’s 300 million-plus weekly health users are free users outside the United States.
+<span class="at">— Karin Singal</span><span class="at">9:49</span><span class="why">Readers might expect health use to center on paying American customers.</span>      </li>
+      <li>“It turns out if you ask five physicians or something this any question you&#39;ll get like eight different answers.”
+<span class="at">— Karin Singal</span><span class="at">17:46</span><span class="why">Readers might expect multiple doctors to produce a clear consensus.</span>      </li>
+      <li>Medical guidelines can take five to 17 years to become routine practice.
+<span class="at">— Karin Singal</span><span class="at">21:46</span><span class="why">Readers might assume new medical knowledge reaches everyday care much faster.</span>      </li>
+      <li>“It performs better despite being 34 times cheaper.”
+<span class="at">44:26</span><span class="why">Readers might expect a stronger healthcare model to cost far more.</span>      </li>
+    </ol>
+  </div>
+</article>
+<article class="entry" data-show="the-shawn-ryan-show" data-title="my unredacted interview with the leah files"
+         data-released="2026-10-20" data-done="2026-10-20T06:25">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-shawn-ryan-show/20261020-my-unredacted-interview-with-the-leah-files/">My Unredacted Interview with The Leah Files</a></h2>
+  <p class="meta">The Shawn Ryan Show · 20 October 2026 · 1h 44m<span class="done"> · written up 20 October at 06:25</span></p>
+  <p class="hook">The episode alleges that money, influence, and surveillance systems are quietly linking politics, private firms, and foreign interests.</p>
+  <ul class="points">
+<li>The host says he once held back the interview because he thought “the Leah Files” was fraudulent and lacked major money-trail evidence. <span class="at">1:01</span></li><li>The guest explains how her firm investigates hidden financial ties, deceptive executives, and fraud that standard checks can miss. <span class="at">5:30</span></li><li>She says blockchain records can trace crypto transactions, especially when money is converted back into cash. <span class="at">8:18</span></li><li>She describes surviving severe childhood abuse, raising younger siblings, and remembering almost nothing before age fourteen. <span class="at">14:18</span></li><li>Her investigation into TPUSA allegedly found explosive financial growth, linked vendors, concentrated donations, and questionable reporting. <span class="at">49:19</span></li><li>The speakers allege Flock searches often lacked case numbers or reasons, challenging claims that its surveillance mainly supports crime investigations. <span class="at">1:22:26</span></li>  </ul>
+<blockquote><p>“Our tax dollars don&#39;t align to the mission that they&#39;re actually doing.” [29:34]</p></blockquote><p class="for">Worth your time if you want investigative claims about political money, surveillance, and hidden government priorities.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>“I have no recollection of any of them being born or even their dimmest kids.”
+<span class="at">13:46</span><span class="why">She says trauma erased nearly all memories of her siblings’ early childhoods.</span>      </li>
+      <li>“They reported wages three three and a half million dollars, and they reported zero employees on one of their things.”
+<span class="at">55:36</span><span class="why">The reported wages and employee count appear to contradict each other.</span>      </li>
+      <li>“84.2% of all of the searches, over four million, have no case number”
+<span class="at">1:22:26</span><span class="why">Most searches reportedly lacked the documentation readers would expect for police investigations.</span>      </li>
+      <li>“They can get into any camera”
+<span class="at">1:33:42</span><span class="why">Internet-connected security footage may be alterable or deletable without leaving a forensic trace.</span>      </li>
+    </ol>
+  </div>
+</article>
+<article class="entry" data-show="the-joe-rogan-experience" data-title="#2568 - ross edgley"
+         data-released="2026-10-20" data-done="2026-10-20T18:48">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-joe-rogan-experience/20261020-2568-ross-edgley/">#2568 - Ross Edgley</a></h2>
+  <p class="meta">The Joe Rogan Experience · 20 October 2026 · 2h 43m<span class="done"> · written up 20 October at 18:48</span></p>
+  <p class="hook">Ross Edgley treats pain, danger, and even failure as problems that purpose can overpower.</p>
+  <ul class="points">
+<li>Ross describes blacking out during a 60-hour Loch Ness swim after hypothermia and cellulitis took hold. <span class="at">3:25</span></li><li>He says his creatine kinase reached 19,000, a level that can put the kidneys in serious danger. <span class="at">8:16</span></li><li>Ross recounts biting a snake’s tongue and silently enduring fire ants for 24 hours during a jungle initiation. <span class="at">15:00</span></li><li>Becoming a father gave Ross the drive to finish his Iceland swim through hurricanes, volcanic gas, ice, and severe pain. <span class="at">48:24</span></li><li>The speakers argue that purpose and mental reframing can help people endure pain that would otherwise stop them. <span class="at">54:12</span></li><li>During the Yukon swim, a failed wetsuit toilet left Ross in his own waste for about 55 hours. <span class="at">2:38:58</span></li>  </ul>
+<blockquote><p>“Had I have not turned around 100% I wouldn&#39;t be speaking to you now.” Ross Edgley [25:11]</p></blockquote><p class="for">Worth your time if you want extreme stories about endurance, fear, pain, and the mind’s ability to adapt.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>“They said, Ross, yours is at 19,000.”
+<span class="at">— Ross Edgley</span><span class="at">8:16</span><span class="why">A marathon may reach 1,000, while 10,000 already prompts emergency concern.</span>      </li>
+      <li>Ross bit the tongue of a snake as part of an initiation into manhood.
+<span class="at">— Ross Edgley</span><span class="at">11:09</span><span class="why">He could have refused, but followed the ritual while young and impressionable.</span>      </li>
+      <li>“I ran for 94 straight hours without sleep to win the Last Soul Ultra.”
+<span class="at">1:53:01</span><span class="why">Most readers would not expect a race to continue for nearly four days.</span>      </li>
+      <li>“90% remained in.”
+<span class="at">— Ross Edgley</span><span class="at">2:40:24</span><span class="why">The failed toilet system left almost all waste inside his wetsuit during the swim.</span>      </li>
+    </ol>
+  </div>
+</article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      list.classList.toggle('by-done', key === 'done');
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
+  <nav class="more">
+<a href="/space-digest/issues/2026-10-21/">Newer</a><a href="/space-digest/issues/2026-10-19/">Older</a>    <a href="/space-digest/archive/">All issues</a>
+  </nav>
+  <footer>
+    <p>Summaries are written by a machine from the original words, and link
+       back to where they were said. Nothing here replaces the source.</p>
+    <p><a href="/space-digest/episodes/">Every episode</a> ·
+       <a href="/space-digest/archive/">Every issue</a> ·
+<a href="/space-digest/tightbeam/">Tightbeam</a> ·
+<a href="/space-digest/funny/">Funny bits</a> ·
+<a href="/space-digest/feed.xml">Subscribe by RSS</a></p>
+  </footer>
+</div>

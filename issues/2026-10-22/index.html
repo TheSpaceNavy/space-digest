@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>22 October 2026 · Space Digest</title>
+<link rel="alternate" type="application/rss+xml" title="Space Digest" href="/space-digest/feed.xml">
+<style>
+  :root { --ink:#1a1a1a; --soft:#5b5b5b; --line:#e2e0da; --paper:#fbfaf7; --mark:#7a3b2e; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e8e6e1; --soft:#a09c94; --line:#33312d; --paper:#161513; --mark:#d99b7c; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink);
+         font:17px/1.65 Charter, Georgia, "Iowan Old Style", serif;
+         -webkit-text-size-adjust:100%; }
+  .page { max-width:38rem; margin:0 auto; padding:2.5rem 1.25rem 5rem; }
+  a { color:inherit; text-decoration-color:var(--line); text-underline-offset:3px; }
+  a:hover { text-decoration-color:var(--mark); }
+  header.masthead { border-bottom:2px solid var(--ink); padding-bottom:.6rem; margin-bottom:1rem; }
+  nav.top { display:flex; flex-wrap:wrap; gap:.2rem 1.4rem; margin:0 0 2rem;
+            font-size:.78rem; letter-spacing:.09em; text-transform:uppercase; }
+  nav.top a { color:var(--soft); text-decoration:none; padding:.25rem 0;
+              border-bottom:2px solid transparent; }
+  nav.top a:hover { color:var(--ink); }
+  nav.top a.on { color:var(--ink); border-bottom-color:var(--mark); }
+  header.masthead a { text-decoration:none; }
+  .wordmark { font-size:1.5rem; font-weight:700; letter-spacing:-.02em; margin:0; }
+  .tagline { color:var(--soft); font-size:.85rem; margin:.15rem 0 0; }
+  h1 { font-size:1.6rem; line-height:1.25; letter-spacing:-.015em; margin:0 0 .3rem; }
+  h2 { font-size:1.15rem; margin:2.5rem 0 .4rem; }
+  .meta { color:var(--soft); font-size:.82rem; margin:0 0 1.6rem; }
+  .hook { font-size:1.2rem; line-height:1.45; margin:0 0 1.2rem; }
+  article.entry { border-bottom:1px solid var(--line); padding-bottom:2rem; margin-bottom:2rem; }
+  article.entry:last-of-type { border-bottom:0; }
+  ul.points { list-style:none; margin:1.1rem 0; padding:0; }
+  ul.points li { margin:0 0 .7rem; padding-left:1rem; text-indent:-1rem; }
+  .at { color:var(--soft); font-size:.8rem; white-space:nowrap; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }
+  blockquote { margin:1.4rem 0; padding-left:1rem; border-left:3px solid var(--mark);
+               font-size:1.05rem; }
+  blockquote p { margin:0; }
+  .for { color:var(--soft); font-style:italic; }
+  .standouts { background:color-mix(in srgb, var(--mark) 7%, transparent);
+               border-radius:.4rem; padding:1rem 1.1rem; margin:1.6rem 0; }
+  .standouts h3 { margin:0 0 .6rem; font-size:.78rem; letter-spacing:.09em;
+                  text-transform:uppercase; color:var(--soft); font-weight:700; }
+  .standouts ol { margin:0; padding-left:1.15rem; }
+  .standouts li { margin:0 0 .7rem; }
+  .standouts li:last-child { margin-bottom:0; }
+  .why { display:block; color:var(--soft); font-size:.85rem; margin-top:.15rem; }
+  nav.more { margin-top:3rem; padding-top:1.2rem; border-top:1px solid var(--line);
+             color:var(--soft); font-size:.88rem; }
+  nav.more a { margin-right:1rem; }
+  footer { margin-top:3.5rem; padding-top:1.2rem; border-top:1px solid var(--line);
+           color:var(--soft); font-size:.8rem; }
+  .quiet { color:var(--soft); font-size:1.05rem; }
+  .filters { margin:1.5rem 0 2rem; }
+  .filters input { width:100%; padding:.55rem .7rem; font:inherit; font-size:.95rem;
+                   color:var(--ink); background:var(--paper);
+                   border:1px solid var(--line); border-radius:.35rem; }
+  .filters input:focus { outline:2px solid var(--mark); outline-offset:1px; }
+  .chips { display:flex; flex-wrap:wrap; gap:.4rem; margin-top:.7rem; }
+  .chip { font:inherit; font-size:.85rem; padding:.3rem .7rem; cursor:pointer;
+          color:var(--soft); background:transparent;
+          border:1px solid var(--line); border-radius:1rem; }
+  .chip:hover { border-color:var(--mark); color:var(--ink); }
+  .chip.on { background:var(--ink); border-color:var(--ink); color:var(--paper); }
+  .chip.on .at { color:var(--paper); opacity:.7; }
+  ul.episodes { list-style:none; margin:0; padding:0; }
+  ul.episodes li { padding:.85rem 0; border-bottom:1px solid var(--line); }
+  ul.episodes li a { font-size:1.05rem; }
+  ul.episodes .at { display:block; margin-top:.15rem; }
+  ul.episodes .why { margin-top:.3rem; }
+  section.topic { margin:1.6rem 0; }
+  section.topic h3 { font-size:1rem; margin:0 0 .3rem; }
+  ul.posts { list-style:none; margin:.6rem 0 0; padding:0; }
+  ul.posts li { padding:.6rem 0 .6rem .9rem; border-left:2px solid var(--line); margin:0 0 .6rem; }
+  ul.posts .at a { text-decoration:none; }
+  .post-text { margin:.25rem 0 0; white-space:pre-line; }
+  .quoted { margin:.35rem 0 0; color:var(--soft); font-size:.9rem; white-space:pre-line; }
+  .translation { margin:.2rem 0 0; color:var(--soft); font-size:.9rem; font-style:italic;
+                 white-space:pre-line; }
+  /* Tightbeam: the same head on every beam page, so the kinds read as one. */
+  .eyebrow { margin:0 0 .35rem; font-size:.78rem; letter-spacing:.09em;
+             text-transform:uppercase; color:var(--soft); }
+  .eyebrow a { color:inherit; text-decoration:none; }
+  .eyebrow a:hover { color:var(--ink); }
+  .sep { margin:0 .4rem; color:var(--line); }
+  .badge { display:inline-block; margin-left:.5rem; padding:.05rem .45rem;
+           border:1px solid var(--mark); border-radius:1rem; color:var(--mark);
+           font-size:.68rem; letter-spacing:.08em; text-transform:uppercase;
+           vertical-align:.1em; white-space:nowrap; }
+  h1 .label, h2 .label { font-weight:400; color:var(--soft); }
+  .beam-card h2 { font-size:1.3rem; letter-spacing:-.01em; }
+  .numbers { margin:1.4rem 0; padding:.2rem 0 .2rem 1rem; border-left:3px solid var(--line); }
+  .numbers p { margin:.35rem 0; }
+  .numbers .fig { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; color:var(--mark); }
+  .points-src { display:block; color:var(--soft); font-size:.72rem; letter-spacing:.08em;
+                text-transform:uppercase; margin-top:.15rem; }
+  .strip { margin:0 0 2.2rem; padding:.9rem 0 .2rem; border-top:1px solid var(--line);
+           border-bottom:1px solid var(--line); }
+  .strip h2 { margin:0 0 .5rem; font-size:.78rem; letter-spacing:.09em;
+              text-transform:uppercase; color:var(--soft); }
+  .strip ul { list-style:none; margin:0 0 .7rem; padding:0; }
+  .strip li { margin:0 0 .55rem; }
+  .strip .who { display:block; font-size:.82rem; color:var(--soft); }
+  .strip a { font-size:.98rem; }
+  a.button { display:inline-block; margin:.6rem 0 0; padding:.45rem .9rem;
+             border:1px solid var(--mark); border-radius:.3rem; color:var(--mark);
+             text-decoration:none; font-size:.92rem; }
+  a.button:hover { background:var(--mark); color:var(--paper); }
+  .archive { color:var(--mark); }
+  .done { display:none; }
+  .by-done .done { display:inline; color:var(--mark); }
+  .chips + .chips { margin-top:.5rem; }
+  ol.bits { margin:1.1rem 0 0; padding-left:1.3rem; }
+  ol.bits li { margin:0 0 1.1rem; }
+  ol.bits .said { font-size:1.05rem; }
+  ol.bits .at a { text-decoration:none; border-bottom:1px dotted var(--soft); }
+</style>
+<body>
+<div class="page">
+  <header class="masthead">
+    <a href="/space-digest/"><p class="wordmark">Space Digest</p></a>
+    <p class="tagline">The podcasts worth your week, in a minute each.</p>
+  </header>
+  <nav class="top" aria-label="Sections">
+    <a href="/space-digest/" class="on">Today</a>
+    <a href="/space-digest/episodes/">Episodes</a>
+    <a href="/space-digest/archive/">Issues</a>
+<a href="/space-digest/tightbeam/">Tightbeam</a>
+<a href="/space-digest/funny/">Funny bits</a>
+<a href="/space-digest/feed.xml">RSS</a>
+  </nav>
+  <h1>Thursday 22 October 2026</h1>
+  <p class="meta">5
+     episodes</p>
+
+  <div class="strip">
+    <h2>On the Tightbeam</h2>
+    <ul>
+      <li><span class="who">Elon Musk<span class="badge badge-x">X</span></span>
+          <a href="/space-digest/tightbeam/elonmusk/2026-10-22/">Elon Musk focused on Grok, Tesla, SpaceX compute, Starlink, and making services more useful.</a></li>
+    </ul>
+  </div>
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="pints-with-aquinas">Pints With Aquinas <span class="at">1</span></button>
+      <button class="chip" data-show="the-a16z-show">The a16z Show <span class="at">1</span></button>
+      <button class="chip" data-show="the-ai-daily-brief-artificial">The AI Daily Brief <span class="at">1</span></button>
+      <button class="chip" data-show="the-joe-rogan-experience">The Joe Rogan Experience <span class="at">1</span></button>
+      <button class="chip" data-show="the-shawn-ryan-show">The Shawn Ryan Show <span class="at">1</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+<article class="entry" data-show="the-a16z-show" data-title="the frontier ideas a16z wants to fund | marc andreessen, ben horowitz &amp; chris dixon"
+         data-released="2026-10-22" data-done="2026-10-22T20:04">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-a16z-show/20261022-the-frontier-ideas-a16z-wants-to-fund-marc-andreessen-ben/">The Frontier Ideas a16z Wants to Fund | Marc Andreessen, Ben Horowitz &amp; Chris Dixon</a></h2>
+  <p class="meta">The a16z Show · 22 October 2026 · 1h 1m<span class="done"> · written up 22 October at 20:04</span></p>
+  <p class="hook">AI is moving so fast that startups, hardware, and the internet may all need to be rebuilt around it.</p>
+  <ul class="points">
+<li>The firm is expanding beyond crypto to fund frontier technologies and markets that do not fit its existing categories. <span class="at">1:43</span></li><li>It now favors technically bold ideas and asks whether a plan is ambitious enough, not too ambitious. <span class="at">14:49</span></li><li>AI is widening the gap between what top startups can build and what established companies think is possible. <span class="at">17:57</span></li><li>AI may spark a surge in new companies because individuals can adopt it faster than institutions. <span class="at">22:42</span></li><li>Only about three percent of enterprise activity uses AI, suggesting adoption is still at the beginning. <span class="at">25:25</span></li><li>Open AI systems could reshape the internet, letting agents outnumber people and creating new ways to work, trade, and share knowledge. <span class="at">28:47</span></li>  </ul>
+<blockquote><p>“The most numerous participants on the internet will be agents and not people.” [28:47]</p></blockquote><p class="for">Worth your time if you want a grounded look at how AI could remake startups, hardware, and the internet.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>“We&#39;re much more likely to ask this is this ambitious enough?”
+<span class="at">20:38</span><span class="why">The firm’s old concern was excessive ambition, not insufficient ambition.</span>      </li>
+      <li>A 30-person team may build a full-stack device company that once needed roughly 1,000 people.
+<span class="at">16:55</span><span class="why">Hardware startups may need far fewer employees than expected.</span>      </li>
+      <li>“The most numerous participants on the internet will be agents and not people.”
+<span class="at">28:47</span><span class="why">People may soon stop being the internet’s main participants.</span>      </li>
+      <li>“The Chinese Communist Party would be like this enthusiastic about you know open source AI for the world.”
+<span class="at">40:43</span><span class="why">China is often assumed to oppose globally distributed AI.</span>      </li>
+      <li>“Because you&#39;re obsolete,” children will become superhuman through AI while adults struggle with obsolescence.
+<span class="at">58:21</span><span class="why">AI fears usually focus on harming childhood, not making adults obsolete.</span>      </li>
+    </ol>
+  </div>
+</article>
+<article class="entry" data-show="the-ai-daily-brief-artificial" data-title="the ai vs ai battle for the internet"
+         data-released="2026-10-22" data-done="2026-10-22T20:04">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-ai-daily-brief-artificial/20261022-the-ai-vs-ai-battle-for-the-internet/">The AI vs AI Battle for the Internet</a></h2>
+  <p class="meta">The AI Daily Brief · 22 October 2026 · 28 min<span class="done"> · written up 22 October at 20:04</span></p>
+  <p class="hook">The internet is entering an era where AI attackers and defenders race at machine speed—and coordination may decide who wins.</p>
+  <ul class="points">
+<li>Anthropic’s new Claude Duet targets work-focused personal agents, emphasizing proactive updates, connected apps, and safety checks. <span class="at">1:14</span></li><li>Walmart will let shoppers connect third-party agents with spending limits, default purchase approval, and rules against changing payment methods. <span class="at">5:48</span></li><li>Meta plans to raise money through new non-voting stock while budgeting up to $145 billion for data centers this year. <span class="at">7:29</span></li><li>A newly disclosed PHP flaw could affect up to 70% of websites and let attackers control servers without logging in. <span class="at">14:55</span></li><li>The vulnerability triggered warnings from the NSA and FBI, while exploitation attempts reportedly surged from thousands to millions. <span class="at">16:36</span></li><li>The emerging cyber battlefield may pit governed defensive agent fleets against cheap, relentless attacking swarms. <span class="at">25:51</span></li>  </ul>
+<blockquote><p>“Whoever coordinates faster wins.” — Enclaves Tal Hoffman [25:51]</p></blockquote><p class="for">Worth your time if you want to understand why AI may make cybersecurity both faster and far more dangerous.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>A PHP vulnerability could affect as much as 70% of websites and web apps.
+<span class="at">14:55</span><span class="why">Readers would assume modern sites are insulated from decades-old software risks.</span>      </li>
+      <li>“Dozens, if not thousands of AI agent swarms bigger than the Hugging Face incident are hacking about half the internet right now.”
+<span class="at">— Nick Dobos</span><span class="at">17:43</span><span class="why">Most people picture cyberattacks as human-led, isolated events.</span>      </li>
+      <li>“Where the nuclear weapon analogy breaks down with AI is that you can&#39;t stop a nuclear weapon with another nuclear weapon, but you can stop an AI attack with an AI.”
+<span class="at">— John Ennis</span><span class="at">23:30</span><span class="why">AI is unusual because the same tool can attack and defend.</span>      </li>
+      <li>“We’re entering a new cyber regime.”
+<span class="at">— Aaron Levy</span><span class="at">24:08</span><span class="why">Cybersecurity is usually framed as an arms race, not a permanent machine-speed system.</span>      </li>
+    </ol>
+  </div>
+</article>
+<article class="entry" data-show="pints-with-aquinas" data-title="muslims are going to priests for exorcisms (fr. anthony mourad) | last call ep. 37"
+         data-released="2026-10-22" data-done="2026-10-22T20:03">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/pints-with-aquinas/20261022-muslims-are-going-to-priests-for-exorcisms-fr-anthony-mourad/">Muslims Are Going to Priests for Exorcisms (Fr. Anthony Mourad) | Last Call Ep. 37</a></h2>
+  <p class="meta">Pints With Aquinas · 22 October 2026 · 29 min<span class="done"> · written up 22 October at 20:03</span></p>
+  <p class="hook">Muslims in Egypt sometimes seek Coptic priests for exorcisms, while Christians must evangelize through trust and example.</p>
+  <ul class="points">
+<li>Coptic Christians distinguish between opposing Islam and loving individual Muslims, many of whom are close friends and neighbors. <span class="at">1:29</span></li><li>Converting from Islam can mean arrest, family rejection, or even death, so Egyptian evangelism often relies on patient relationships instead of public preaching. <span class="at">2:56</span></li><li>The speaker says Christian honesty, humility, generosity, and integrity can make Muslims ask why Christians live differently. <span class="at">8:17</span></li><li>He says the Christian idea of God as Father and Christ as an intimate friend can deeply shock Muslims who have never encountered it. <span class="at">12:09</span></li><li>Muslims sometimes visit Coptic priests for exorcisms when Muslim religious leaders cannot help, with some churches filled by people seeking freedom from demons. <span class="at">20:22</span></li><li>The conversation ends by challenging Western Christians to match Muslims’ visible discipline with a more serious, lived faith. <span class="at">26:05</span></li>  </ul>
+<blockquote><p>“I&#39;m not flexing the muscle of take a look at where you contradict.” [22:14]</p></blockquote><p class="for">Worth your time if you want a candid look at evangelism where conversion can cost someone family, freedom, or safety.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>Muslims in Egypt sometimes go to Coptic priests for exorcisms when their own religious leaders cannot help.
+<span class="at">20:22</span><span class="why">Most people would not expect one faith’s followers to seek another faith’s exorcists.</span>      </li>
+      <li>“The amount of people that we have seen break down into tears because they don&#39;t know how to make sense of it.”
+<span class="at">13:36</span><span class="why">Many assume religious conversion is mainly an argument, not an emotional crisis.</span>      </li>
+      <li>“To suggest that all Muslims are evil would be incredibly foolish.”
+<span class="at">2:27</span><span class="why">Public debates often collapse criticism of Islam into judgment of every Muslim.</span>      </li>
+      <li>“You can&#39;t play for the national soccer team if you are a Christian.”
+<span class="at">6:48</span><span class="why">Readers may assume religious discrimination rarely reaches ordinary national institutions.</span>      </li>
+    </ol>
+  </div>
+</article>
+<article class="entry" data-show="the-joe-rogan-experience" data-title="jre mma show #187 with robert whittaker"
+         data-released="2026-10-22" data-done="2026-10-22T20:05">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-joe-rogan-experience/20261022-jre-mma-show-187-with-robert-whittaker/">JRE MMA Show #187 with Robert Whittaker</a></h2>
+  <p class="meta">The Joe Rogan Experience · 22 October 2026 · 2h 49m<span class="done"> · written up 22 October at 20:05</span></p>
+  <p class="hook">Elite fighting is shown less as nonstop violence than as managing damage, family, fear, and the right time to change.</p>
+  <ul class="points">
+<li>A long fight career becomes harder to sustain alongside marriage, six children, mortgages, and businesses. <span class="at">0:59</span></li><li>Older fighters lose explosiveness and become easier to take down and control after years of accumulated injuries. <span class="at">32:26</span></li><li>Technical practice works best before exhausting cardio, while grappling under fatigue should come from grappling itself. <span class="at">1:05:39</span></li><li>A fighter describes cutting 7.4 kilograms on fight day and eventually moving up to protect his health and family life. <span class="at">1:39:02</span></li><li>Glover Teixeira’s late UFC arrival gave him time to build knowledge, helping him win a title in his forties. <span class="at">2:03:18</span></li><li>Modern recovery, nutrition, and sports science are helping male fighters compete for longer careers. <span class="at">2:31:40</span></li>  </ul>
+<blockquote><p>“I want to walk around and have clothes. I want something to show for this.” [1:42:55]</p></blockquote><p class="for">Worth your time if you want fight wisdom grounded in aging, family, injuries, and hard-earned change.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>“I worked out. I hit the bag. I punched the bag. Kicked the bag... Got in the shower... and I hurt myself washing myself.”
+<span class="at">— Joe Rogan</span><span class="at">18:26</span><span class="why">A shower, not the workout, caused the injury.</span>      </li>
+      <li>Mark Hunt reportedly fought 11 fights with one eye after memorizing the eye chart.
+<span class="at">1:51:39</span><span class="why">His adaptation was far more extreme than ordinary toughness.</span>      </li>
+      <li>The fighter says his final 170-pound cut was 7.4 kilograms on fight day.
+<span class="at">1:39:02</span><span class="why">Fight-day weight loss is more severe than most readers would expect.</span>      </li>
+      <li>“I can do that in about an hour and a half. 15 pounds.”
+<span class="at">2:20:34</span><span class="why">Losing fifteen pounds can happen in roughly ninety minutes.</span>      </li>
+      <li>“I&#39;m going to sit out until I get my title shot.”
+<span class="at">2:09:31</span><span class="why">A fighter chose patience over accepting other opportunities.</span>      </li>
+    </ol>
+  </div>
+</article>
+<article class="entry" data-show="the-shawn-ryan-show" data-title="#350 mike hayes - the navy seal in obama’s situation room during the captain phillips rescue"
+         data-released="2026-10-22" data-done="2026-10-22T07:44">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-shawn-ryan-show/20261022-350-mike-hayes-the-navy-seal-in-obamas-situation-room-during/">#350 Mike Hayes - The Navy SEAL in Obama’s Situation Room During the Captain Phillips Rescue</a></h2>
+  <p class="meta">The Shawn Ryan Show · 22 October 2026 · 5h 32m<span class="done"> · written up 22 October at 07:44</span></p>
+  <p class="hook">A Navy SEAL’s biggest lessons came from choosing restraint, protecting people, and admitting what he did not know.</p>
+  <ul class="points">
+<li>Mike Hayes survived a kidnapping in Peru partly because he and Ken were unarmed, which he believes kept their captors from killing them. <span class="at">22:58</span></li><li>He canceled a mission that might have killed 40 Taliban because saving exposed American operators mattered more than the potential victory. <span class="at">1:21:08</span></li><li>After losing a teammate to suicide, Hayes began asking friends directly whether they had considered harming themselves—and heard “yes” dozens of times. <span class="at">1:58:40</span></li><li>He helped launch the Captain Phillips rescue by falsely presenting his request for military planning as “White House guidance.” <span class="at">3:09:09</span></li><li>Hayes says he dropped more than a thousand bombs during one deployment and believes his team avoided harming civilians. <span class="at">3:29:10</span></li><li>He helped raise $320 million for the Medal of Honor Museum, built to turn recipients’ values into lessons for ordinary Americans. <span class="at">5:13:11</span></li>  </ul>
+<blockquote><p>“I could never live with myself if I jumped out of this vehicle and they killed my friend Ken.” — Mike Hayes [13:57]</p></blockquote><p class="for">Worth your time if you want stories about courage, leadership, sacrifice, and hard choices under pressure.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>“If we were armed, they&#39;d be like, why were you guys armed? It actually probably the only reason we&#39;re here is because we weren&#39;t armed.”
+<span class="at">— Mike Hayes</span><span class="at">22:58</span><span class="why">A listener might assume armed SEALs would have been safer during a kidnapping.</span>      </li>
+      <li>“We&#39;re gonna have one of two outcomes here. We&#39;re gonna have live pirates or dead pirates.”
+<span class="at">3:10:49</span><span class="why">The rescue plan immediately included what would happen after the pirates were captured.</span>      </li>
+      <li>“I don&#39;t think I slept more than three hours straight for 10 months.”
+<span class="at">3:28:40</span><span class="why">Readers might assume deployment hardship still allowed commanders normal sleep.</span>      </li>
+      <li>He canceled an operation that could have killed 40 Taliban because he valued the exposed operators’ lives more.
+<span class="at">1:21:08</span><span class="why">Readers might expect a commander to prioritize a high-value enemy strike.</span>      </li>
+      <li>“We raised ultimately $320 million” for the Medal of Honor Museum.
+<span class="at">5:13:11</span><span class="why">A listener might have expected a much smaller nonprofit fundraising effort.</span>      </li>
+    </ol>
+  </div>
+</article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      list.classList.toggle('by-done', key === 'done');
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
+  <nav class="more">
+<a href="/space-digest/issues/2026-10-23/">Newer</a><a href="/space-digest/issues/2026-10-21/">Older</a>    <a href="/space-digest/archive/">All issues</a>
+  </nav>
+  <footer>
+    <p>Summaries are written by a machine from the original words, and link
+       back to where they were said. Nothing here replaces the source.</p>
+    <p><a href="/space-digest/episodes/">Every episode</a> ·
+       <a href="/space-digest/archive/">Every issue</a> ·
+<a href="/space-digest/tightbeam/">Tightbeam</a> ·
+<a href="/space-digest/funny/">Funny bits</a> ·
+<a href="/space-digest/feed.xml">Subscribe by RSS</a></p>
+  </footer>
+</div>
