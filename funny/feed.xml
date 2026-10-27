@@ -4,8 +4,15 @@
   <title>Space Digest — Just The Funny Bits</title>
   <link>https://thespacenavy.github.io/space-digest/funny/</link>
   <description>Only the jokes from the shows on the list, with a link to each one.</description>
-  <lastBuildDate>Tue, 27 Oct 2026 18:02:16 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 27 Oct 2026 22:13:44 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/funny/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>The Matt Walsh Show: Ep. 1863 - California is So Unlivable That Families Making 300K Are Getting Government Assistance</title>
+    <link>https://thespacenavy.github.io/space-digest/funny/2026-10-27/</link>
+    <guid isPermaLink="false">funny:the-matt-walsh-show/20261027-ep-1863-california-is-so-unlivable-that-families-making-300k</guid>
+    <pubDate>Tue, 27 Oct 2026 22:12:59 +0000</pubDate>
+    <description>1 funny bit: “Now, on the one hand, reading this, you&#39;ve got to envy the guy for getting a buyout after spending three months at the company. Normally when you have only three months on the job, they just get rid of you uh without any severance package and that&#39;s it. See you later.”</description>
+  </item>
   <item>
     <title>The Matt Walsh Show: Ep. 1862 - How Private Equity Is Ruining HVAC</title>
     <link>https://thespacenavy.github.io/space-digest/funny/2026-10-26/</link>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">funny:the-michael-knowles-show/20261010-knowles-reacts-to-single-women-cope-tiktoks</guid>
     <pubDate>Sat, 10 Oct 2026 18:57:42 +0000</pubDate>
     <description>1 funny bit: “We don&#39;t, we we don&#39;t, we&#39;re not mitotic creatures yet. You know, you don&#39;t just kind of split off into a clone. Check this out. Cool, huh? You wish you could do this.”</description>
-  </item>
-  <item>
-    <title>The Ben Shapiro Show: Republicans Are in Better Shape Than You&#39;ve Been Told</title>
-    <link>https://thespacenavy.github.io/space-digest/funny/2026-10-09/</link>
-    <guid isPermaLink="false">funny:the-ben-shapiro-show/20261009-republicans-are-in-better-shape-than-youve-been-told</guid>
-    <pubDate>Fri, 09 Oct 2026 18:41:12 +0000</pubDate>
-    <description>1 funny bit: “So if I say, eat this cupcake, you have a 60% shot of living. You&#39;re not gonna eat the cupcake because you immediately assume you have a 40% shot at death.”</description>
   </item>
 </channel>
 </rss>
