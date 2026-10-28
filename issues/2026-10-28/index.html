@@ -132,10 +132,102 @@
 <a href="/space-digest/feed.xml">RSS</a>
   </nav>
   <h1>Wednesday 28 October 2026</h1>
-  <p class="meta">A quiet day</p>
+  <p class="meta">1
+     episode</p>
 
-    <p class="quiet">Nothing new today. The shows on the list have not published
-       since the last issue.</p>
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="the-a16z-show">The a16z Show <span class="at">1</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+<article class="entry" data-show="the-a16z-show" data-title="mark cuban’s plan to make healthcare affordable"
+         data-released="2026-10-28" data-done="2026-10-28T05:23">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-a16z-show/20261028-mark-cubans-plan-to-make-healthcare-affordable/">Mark Cuban’s Plan to Make Healthcare Affordable</a></h2>
+  <p class="meta">The a16z Show · 28 October 2026 · 1h 1m<span class="done"> · written up 28 October at 05:23</span></p>
+  <p class="hook">Mark Cuban’s healthcare plan goes beyond cheaper drugs: it targets hospital contracts, AI, personalized medicine, and who pays.</p>
+  <ul class="points">
+<li>Cost Plus Drugs grew from 11 generic medicines to roughly 4,000 products, with demand rising every week. <span class="at">4:06</span></li><li>Its compact $20 million manufacturing pods could produce different medicines near disasters or research hospitals. <span class="at">7:03</span></li><li>Mark proposes hospital contracts with fewer denials, prompt payment, and public prices that other buyers can use. <span class="at">9:06</span></li><li>AI cannot fix healthcare’s broken economics, but employers can use it to spot harmful contract terms before signing. <span class="at">14:29</span></li><li>AI may replace workers who cannot use it, while healthcare still needs people to provide context and manage its limits. <span class="at">27:27</span></li><li>Future healthcare could combine DNA-based drug plans with public contracts, transparent hospital finances, patient-owned accounts, and government-backed insurance for extreme costs. <span class="at">36:47</span></li>  </ul>
+<blockquote><p>“AI doesn&#39;t replace jobs. People who know how to use AI replace the jobs of people who don&#39;t know how to use AI.” Mark [28:31]</p></blockquote><p class="for">Worth your time if you want practical ideas for making healthcare cheaper without assuming AI solves everything.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>“We launched Costplusdrugs.com January 19th of 2022 11 medications purely generic.”
+<span class="at">— Mark</span><span class="at">4:06</span><span class="why">Readers might have assumed the company launched at much larger scale.</span>      </li>
+      <li>Cost Plus Drugs’ manufacturing pods cost about $20 million and could make individualized therapies.
+<span class="at">— Mark</span><span class="at">7:03</span><span class="why">Readers might picture the company as only a mail-order pharmacy.</span>      </li>
+      <li>“The cost of designing a drug personalized to you after reviewing your DNA and knowing everything that it knows, will start approaching zero.”
+<span class="at">36:47</span><span class="why">Personalized medicine is usually expected to remain extremely expensive.</span>      </li>
+      <li>“I think we&#39;re gonna need more doctors in the future because as care advice becomes more abundant, more people are gonna demand healthcare.”
+<span class="at">43:53</span><span class="why">Readers might expect AI advice to reduce demand for doctors.</span>      </li>
+    </ol>
+  </div>
+</article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      list.classList.toggle('by-done', key === 'done');
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
   <nav class="more">
 <a href="/space-digest/issues/2026-10-27/">Older</a>    <a href="/space-digest/archive/">All issues</a>
   </nav>

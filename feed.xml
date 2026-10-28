@@ -5,8 +5,15 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Oct 2026 06:02:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 10:25:20 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Mark Cuban’s Plan to Make Healthcare Affordable</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261028-mark-cubans-plan-to-make-healthcare-affordable/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261028-mark-cubans-plan-to-make-healthcare-affordable/</guid>
+      <pubDate>Wed, 28 Oct 2026 10:23:32 +0000</pubDate>
+      <description>Mark Cuban’s healthcare plan goes beyond cheaper drugs: it targets hospital contracts, AI, personalized medicine, and who pays.</description>
+    </item>
     <item>
       <title>What Anthropic’s IPO Filing Reveals</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261027-what-anthropics-ipo-filing-reveals/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/american-alchemy-with-jesse-michels/20261014-ai-is-alien-technology-whistleblower-reveals-truth/</guid>
       <pubDate>Thu, 15 Oct 2026 08:34:41 +0000</pubDate>
       <description>AI may not just change physics—it could force humanity to rethink consciousness, intelligence, and even what counts as life.</description>
-    </item>
-    <item>
-      <title>#2565 - Michael Douglas</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261014-2565-michael-douglas/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261014-2565-michael-douglas/</guid>
-      <pubDate>Wed, 14 Oct 2026 22:01:42 +0000</pubDate>
-      <description>Michael Douglas links cancer, nuclear weapons, psychedelics, drug smuggling, and career-defining risks to one lesson: keep choosing boldly.</description>
     </item>
   </channel>
 </rss>
