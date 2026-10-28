@@ -4,8 +4,15 @@
   <title>Space Digest — Tightbeam</title>
   <link>https://thespacenavy.github.io/space-digest/tightbeam/</link>
   <description>A narrow beam on each person and subject worth following.</description>
-  <lastBuildDate>Wed, 28 Oct 2026 10:25:21 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 28 Oct 2026 12:05:08 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/tightbeam/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Elon Musk · 28 October 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-10-28/</link>
+    <guid isPermaLink="false">tightbeam:elonmusk/2026-10-28</guid>
+    <pubDate>Wed, 28 Oct 2026 12:04:58 +0000</pubDate>
+    <description>The day focused on Grok, Starlink, and SpaceX’s plans to expand their products and operations.</description>
+  </item>
   <item>
     <title>Elon Musk · 27 October 2026</title>
     <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-10-27/</link>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">tightbeam:diamandis/2026-09-24-what-counts-as-a-moat-in-the-age-of-ai</guid>
     <pubDate>Fri, 25 Sep 2026 00:03:07 +0000</pubDate>
     <description>AI is erasing traditional business moats, leaving reinvention speed, capital, and selective brand strength as the main defenses.</description>
-  </item>
-  <item>
-    <title>SpaceXAI · 24 September 2026</title>
-    <link>https://thespacenavy.github.io/space-digest/tightbeam/spacex/2026-09-24/</link>
-    <guid isPermaLink="false">tightbeam:spacex/2026-09-24</guid>
-    <pubDate>Thu, 24 Sep 2026 12:03:07 +0000</pubDate>
-    <description>SpaceX advanced Starship Flight 14 preparations while Starlink expanded classroom access and a Grok-linked game studio launched.</description>
   </item>
 </channel>
 </rss>
