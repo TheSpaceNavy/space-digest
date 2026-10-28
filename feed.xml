@@ -5,7 +5,7 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Oct 2026 18:05:27 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 22:47:00 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Mark Cuban’s Plan to Make Healthcare Affordable</title>
@@ -13,6 +13,20 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261028-mark-cubans-plan-to-make-healthcare-affordable/</guid>
       <pubDate>Wed, 28 Oct 2026 10:23:32 +0000</pubDate>
       <description>Mark Cuban’s healthcare plan goes beyond cheaper drugs: it targets hospital contracts, AI, personalized medicine, and who pays.</description>
+    </item>
+    <item>
+      <title>AI Can Now Create Worlds You Can Change in Real Time</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261028-ai-can-now-create-worlds-you-can-change-in-real-time/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261028-ai-can-now-create-worlds-you-can-change-in-real-time/</guid>
+      <pubDate>Wed, 28 Oct 2026 22:43:18 +0000</pubDate>
+      <description>Google’s Genie 4 turns AI-generated worlds into interactive spaces that can change, reason, and train robots.</description>
+    </item>
+    <item>
+      <title>#2571 - Jimmy Carr</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261028-2571-jimmy-carr/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261028-2571-jimmy-carr/</guid>
+      <pubDate>Wed, 28 Oct 2026 22:44:03 +0000</pubDate>
+      <description>The episode argues that creativity, comedy, and even freedom depend on resisting comfort, approval, and constant distraction.</description>
     </item>
     <item>
       <title>What Anthropic’s IPO Filing Reveals</title>
@@ -342,20 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261014-what-gemini-4-argon-is-actually-good-for/</guid>
       <pubDate>Wed, 14 Oct 2026 22:04:22 +0000</pubDate>
       <description>Gemini 4 Argon looks less like a coding champion and more like a surprisingly useful creative generalist.</description>
-    </item>
-    <item>
-      <title>Can Open Models Keep Up With the AI Frontier? | Nathan Lambert</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261014-can-open-models-keep-up-with-the-ai-frontier-nathan-lambert/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261014-can-open-models-keep-up-with-the-ai-frontier-nathan-lambert/</guid>
-      <pubDate>Wed, 14 Oct 2026 22:01:12 +0000</pubDate>
-      <description>Open models may trail the frontier, but cheaper compute and shared research could still reshape who wins.</description>
-    </item>
-    <item>
-      <title>“AI Is ALIEN Technology!” -Whistleblower Reveals TRUTH</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/american-alchemy-with-jesse-michels/20261014-ai-is-alien-technology-whistleblower-reveals-truth/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/american-alchemy-with-jesse-michels/20261014-ai-is-alien-technology-whistleblower-reveals-truth/</guid>
-      <pubDate>Thu, 15 Oct 2026 08:34:41 +0000</pubDate>
-      <description>AI may not just change physics—it could force humanity to rethink consciousness, intelligence, and even what counts as life.</description>
     </item>
   </channel>
 </rss>
