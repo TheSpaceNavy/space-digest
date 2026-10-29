@@ -132,10 +132,102 @@
 <a href="/space-digest/feed.xml">RSS</a>
   </nav>
   <h1>Thursday 29 October 2026</h1>
-  <p class="meta">A quiet day</p>
+  <p class="meta">1
+     episode</p>
 
-    <p class="quiet">Nothing new today. The shows on the list have not published
-       since the last issue.</p>
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="the-shawn-ryan-show">The Shawn Ryan Show <span class="at">1</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+<article class="entry" data-show="the-shawn-ryan-show" data-title="#352 cain velasquez - ufc champion hunted the man accused of abusing his 4-year-old son"
+         data-released="2026-10-29" data-done="2026-10-29T06:03">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-shawn-ryan-show/20261029-352-cain-velasquez-ufc-champion-hunted-the-man-accused-of/">#352 Cain Velasquez - UFC Champion Hunted the Man Accused of Abusing His 4-Year-Old Son</a></h2>
+  <p class="meta">The Shawn Ryan Show · 29 October 2026 · 3h 55m<span class="done"> · written up 29 October at 06:03</span></p>
+  <p class="hook">A UFC champion’s revenge, grief, and prison time pushed him toward a radically spiritual view of life.</p>
+  <ul class="points">
+<li>He says wrestling taught him to accept defeat, learn from it, and keep moving instead of dwelling on failure. <span class="at">49:45</span></li><li>After moving to San Jose, he trained six days a week, worked nights as a bouncer, and eventually slept in his car to protect his rest. <span class="at">1:04:47</span></li><li>Dana White signed him to the UFC after watching one intense sparring session, skipping a long evaluation process. <span class="at">1:19:22</span></li><li>After a career-ending knee injury, he says he had asked God for a life beyond fighting and no longer wanted another bout. <span class="at">2:18:01</span></li><li>Ayahuasca and 5-MeO-DMT led him to believe consciousness is one and that God is the only thing that exists. <span class="at">2:44:53</span></li><li>After his son reported abuse at daycare, he chased the accused people for 11 miles and shot the stepfather. <span class="at">3:22:51</span></li>  </ul>
+<blockquote><p>“I became the trees, I became the earth, I became space, and I became beyond.” [2:44:53]</p></blockquote><p class="for">Worth your time if you want a fighter’s story of trauma, revenge, prison, and spiritual transformation.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>Dana White signed him to the UFC after watching one full-on sparring session.
+<span class="at">1:19:22</span><span class="why">A major promotion would usually demand a longer evaluation.</span>      </li>
+      <li>“I don’t want anymore” if fighting was all life had to offer.
+<span class="at">2:18:01</span><span class="why">A dominant champion might be expected to chase one more victory.</span>      </li>
+      <li>His mother’s death felt like “a weight being lifted” because she was no longer suffering.
+<span class="at">2:25:27</span><span class="why">Grief is usually assumed to feel only like loss.</span>      </li>
+      <li>He shot the daycare stepfather but said other people involved could also have been hit.
+<span class="at">3:26:44</span><span class="why">The retaliation reached beyond a single intended target.</span>      </li>
+    </ol>
+  </div>
+</article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      list.classList.toggle('by-done', key === 'done');
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
   <nav class="more">
 <a href="/space-digest/issues/2026-10-28/">Older</a>    <a href="/space-digest/archive/">All issues</a>
   </nav>
