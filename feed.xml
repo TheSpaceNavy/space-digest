@@ -5,8 +5,15 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 30 Oct 2026 06:04:25 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 11:36:02 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Why AI Could Turn Small Law Firms Into Billion-Dollar Businesses</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261030-why-ai-could-turn-small-law-firms-into-billion-dollar/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261030-why-ai-could-turn-small-law-firms-into-billion-dollar/</guid>
+      <pubDate>Fri, 30 Oct 2026 11:35:03 +0000</pubDate>
+      <description>AI could make thousands of ignored legal claims profitable—and turn small firms into national businesses.</description>
+    </item>
     <item>
       <title>The Startups Rebuilding American Industry | The AD50</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261029-the-startups-rebuilding-american-industry-the-ad50/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261016-2567-mariana-van-zeller/</guid>
       <pubDate>Fri, 16 Oct 2026 21:37:12 +0000</pubDate>
       <description>Scams thrive not because victims are foolish, but because loneliness, profit and weak safeguards make deception powerful.</description>
-    </item>
-    <item>
-      <title>When AI Agents Start Spending Your Money | Alex Rampell &amp; Terry Angelos</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261015-when-ai-agents-start-spending-your-money-alex-rampell-terry/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261015-when-ai-agents-start-spending-your-money-alex-rampell-terry/</guid>
-      <pubDate>Thu, 15 Oct 2026 20:59:17 +0000</pubDate>
-      <description>AI agents are moving from suggesting purchases to spending money, but the payment rules are still unfinished.</description>
     </item>
   </channel>
 </rss>
