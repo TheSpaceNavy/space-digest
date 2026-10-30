@@ -4,8 +4,15 @@
   <title>Space Digest — Tightbeam</title>
   <link>https://thespacenavy.github.io/space-digest/tightbeam/</link>
   <description>A narrow beam on each person and subject worth following.</description>
-  <lastBuildDate>Fri, 30 Oct 2026 11:36:02 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 30 Oct 2026 12:03:22 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/tightbeam/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Elon Musk · 30 October 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-10-30/</link>
+    <guid isPermaLink="false">tightbeam:elonmusk/2026-10-30</guid>
+    <pubDate>Fri, 30 Oct 2026 12:03:10 +0000</pubDate>
+    <description>Elon Musk discussed Tesla, Neuralink, artificial intelligence, and future technology.</description>
+  </item>
   <item>
     <title>Elon Musk · 29 October 2026</title>
     <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-10-29/</link>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">tightbeam:spacex/2026-09-25</guid>
     <pubDate>Fri, 25 Sep 2026 12:01:10 +0000</pubDate>
     <description>Starship Flight 14 moved closer to launch as Starlink expanded service and SpaceX prepared a satellite mission for Google AI chips.</description>
-  </item>
-  <item>
-    <title>Tesla · 25 September 2026</title>
-    <link>https://thespacenavy.github.io/space-digest/tightbeam/tesla/2026-09-25/</link>
-    <guid isPermaLink="false">tightbeam:tesla/2026-09-25</guid>
-    <pubDate>Fri, 25 Sep 2026 12:00:54 +0000</pubDate>
-    <description>Tesla’s Semi factory opened, while new Optimus Gen 3 details and factory supply deals drew attention.</description>
   </item>
 </channel>
 </rss>
