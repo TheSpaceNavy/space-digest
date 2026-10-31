@@ -5,7 +5,7 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 30 Oct 2026 18:04:42 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 00:03:23 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Why AI Could Turn Small Law Firms Into Billion-Dollar Businesses</title>
@@ -13,6 +13,20 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261030-why-ai-could-turn-small-law-firms-into-billion-dollar/</guid>
       <pubDate>Fri, 30 Oct 2026 11:35:03 +0000</pubDate>
       <description>AI could make thousands of ignored legal claims profitable—and turn small firms into national businesses.</description>
+    </item>
+    <item>
+      <title>How the Most AI-Pilled Company in the World Works</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261030-how-the-most-ai-pilled-company-in-the-world-works/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261030-how-the-most-ai-pilled-company-in-the-world-works/</guid>
+      <pubDate>Sat, 31 Oct 2026 00:00:17 +0000</pubDate>
+      <description>Spawn runs much of its company through persistent AI agents—and lets them break production to improve faster.</description>
+    </item>
+    <item>
+      <title>#2573 - Legion of Skanks</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261030-2573-legion-of-skanks/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261030-2573-legion-of-skanks/</guid>
+      <pubDate>Sat, 31 Oct 2026 00:01:14 +0000</pubDate>
+      <description>The episode jumps from organ transplants to self-driving cars, showing how ordinary life repeatedly turns bizarre.</description>
     </item>
     <item>
       <title>The Startups Rebuilding American Industry | The AD50</title>
@@ -342,20 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261016-has-the-catholic-church-changed-its-teaching-on-the-death/</guid>
       <pubDate>Fri, 16 Oct 2026 21:36:06 +0000</pubDate>
       <description>The Church’s new death-penalty language may reject executions without clearly declaring them evil in every age.</description>
-    </item>
-    <item>
-      <title>AI Can Write the Code. Can It Run the System? | Grepr CEO Jad Naous</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261016-ai-can-write-the-code-can-it-run-the-system-grepr-ceo-jad/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261016-ai-can-write-the-code-can-it-run-the-system-grepr-ceo-jad/</guid>
-      <pubDate>Fri, 16 Oct 2026 21:36:33 +0000</pubDate>
-      <description>AI can write production code quickly, but surviving real-world system chaos is the harder test.</description>
-    </item>
-    <item>
-      <title>#2567 - Mariana van Zeller</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261016-2567-mariana-van-zeller/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261016-2567-mariana-van-zeller/</guid>
-      <pubDate>Fri, 16 Oct 2026 21:37:12 +0000</pubDate>
-      <description>Scams thrive not because victims are foolish, but because loneliness, profit and weak safeguards make deception powerful.</description>
     </item>
   </channel>
 </rss>

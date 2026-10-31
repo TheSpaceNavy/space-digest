@@ -4,8 +4,15 @@
   <title>Space Digest — Just The Funny Bits</title>
   <link>https://thespacenavy.github.io/space-digest/funny/</link>
   <description>Only the jokes from the shows on the list, with a link to each one.</description>
-  <lastBuildDate>Fri, 30 Oct 2026 18:04:44 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 31 Oct 2026 00:03:25 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/funny/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>The Joe Rogan Experience: #2573 - Legion of Skanks</title>
+    <link>https://thespacenavy.github.io/space-digest/funny/2026-10-31/</link>
+    <guid isPermaLink="false">funny:the-joe-rogan-experience/20261030-2573-legion-of-skanks</guid>
+    <pubDate>Sat, 31 Oct 2026 00:02:49 +0000</pubDate>
+    <description>7 funny bits: “They come up to and they eat my hydrangeas. I want to beat them to death with a baseball bat. &gt;&gt; Not your hydrangeas. &gt;&gt; I I have a batting cage in my house. So, we got a a deer got its antlers caught in the cage.”</description>
+  </item>
   <item>
     <title>The White House: President Trump Gaggles with Press Upon Departure from Joint Base Andrews, Oct. 29, 2026</title>
     <link>https://thespacenavy.github.io/space-digest/funny/2026-10-30/</link>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">funny:the-white-house/20261014-golden-age-of-science-summit</guid>
     <pubDate>Wed, 14 Oct 2026 22:04:03 +0000</pubDate>
     <description>2 funny bits: “potentially answer the question are we alone and are we alone even in our own solar system”</description>
-  </item>
-  <item>
-    <title>The Michael Knowles Show: Friendly Fire: To Catch Hollywood’s Predators &amp; Midterm White Pilling</title>
-    <link>https://thespacenavy.github.io/space-digest/funny/2026-10-14/</link>
-    <guid isPermaLink="false">funny:the-michael-knowles-show/20261014-friendly-fire-to-catch-hollywoods-predators-midterm-white</guid>
-    <pubDate>Wed, 14 Oct 2026 22:05:02 +0000</pubDate>
-    <description>1 funny bit: “Ah, you know, I empathize when it comes to humility, Drew, that you&#39;ve humility is one of the things I&#39;m most proud of, in fact.”</description>
   </item>
 </channel>
 </rss>

@@ -4,8 +4,15 @@
   <title>Space Digest — Tightbeam</title>
   <link>https://thespacenavy.github.io/space-digest/tightbeam/</link>
   <description>A narrow beam on each person and subject worth following.</description>
-  <lastBuildDate>Fri, 30 Oct 2026 18:04:43 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 31 Oct 2026 00:03:24 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/tightbeam/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Peter Diamandis · The AI Selloff Is a Debt Story</title>
+    <link>https://thespacenavy.github.io/space-digest/tightbeam/diamandis/2026-10-30-the-ai-selloff-is-a-debt-story/</link>
+    <guid isPermaLink="false">tightbeam:diamandis/2026-10-30-the-ai-selloff-is-a-debt-story</guid>
+    <pubDate>Sat, 31 Oct 2026 00:03:12 +0000</pubDate>
+    <description>AI demand remains strong, but debt-heavy chip renters may fail before the technology does.</description>
+  </item>
   <item>
     <title>Elon Musk · 30 October 2026</title>
     <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-10-30/</link>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">tightbeam:elonmusk/2026-09-26</guid>
     <pubDate>Sat, 26 Sep 2026 12:00:54 +0000</pubDate>
     <description>Elon Musk discussed electric trucks, Starship design, AI chips, and agentic trading.</description>
-  </item>
-  <item>
-    <title>SpaceXAI · 25 September 2026</title>
-    <link>https://thespacenavy.github.io/space-digest/tightbeam/spacex/2026-09-25/</link>
-    <guid isPermaLink="false">tightbeam:spacex/2026-09-25</guid>
-    <pubDate>Fri, 25 Sep 2026 12:01:10 +0000</pubDate>
-    <description>Starship Flight 14 moved closer to launch as Starlink expanded service and SpaceX prepared a satellite mission for Google AI chips.</description>
   </item>
 </channel>
 </rss>
