@@ -4,8 +4,15 @@
   <title>Space Digest — Tightbeam</title>
   <link>https://thespacenavy.github.io/space-digest/tightbeam/</link>
   <description>A narrow beam on each person and subject worth following.</description>
-  <lastBuildDate>Sat, 31 Oct 2026 12:08:50 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 31 Oct 2026 18:04:56 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/tightbeam/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Peter Diamandis · AI Is Creating Two Different Futures for Young People</title>
+    <link>https://thespacenavy.github.io/space-digest/tightbeam/diamandis/2026-10-31-ai-is-creating-two-different-futures-for-young/</link>
+    <guid isPermaLink="false">tightbeam:diamandis/2026-10-31-ai-is-creating-two-different-futures-for-young</guid>
+    <pubDate>Sat, 31 Oct 2026 18:04:43 +0000</pubDate>
+    <description>AI is widening the gap between young people blocked by automated hiring and those using it to create new opportunities.</description>
+  </item>
   <item>
     <title>Elon Musk · 31 October 2026</title>
     <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-10-31/</link>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">tightbeam:spacex/2026-09-26</guid>
     <pubDate>Sat, 26 Sep 2026 12:03:12 +0000</pubDate>
     <description>Starship Flight 14 nears launch as SpaceX discusses faster reuse, Crew-14, Starlink, and new Grok Bot rewards.</description>
-  </item>
-  <item>
-    <title>Tesla · 26 September 2026</title>
-    <link>https://thespacenavy.github.io/space-digest/tightbeam/tesla/2026-09-26/</link>
-    <guid isPermaLink="false">tightbeam:tesla/2026-09-26</guid>
-    <pubDate>Sat, 26 Sep 2026 12:02:00 +0000</pubDate>
-    <description>Tesla’s biggest stories were the Semi’s strong first drives, Optimus production growth, and expanding Cybercab fleets.</description>
   </item>
 </channel>
 </rss>
