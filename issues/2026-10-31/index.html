@@ -132,7 +132,8 @@
 <a href="/space-digest/feed.xml">RSS</a>
   </nav>
   <h1>Saturday 31 October 2026</h1>
-  <p class="meta">A quiet day</p>
+  <p class="meta">1
+     episode</p>
 
   <div class="strip">
     <h2>On the Tightbeam</h2>
@@ -141,8 +142,99 @@
           <a href="/space-digest/tightbeam/elonmusk/2026-10-31/">Elon Musk discussed technology, SpaceX’s future, computers, and a past college gaming story.</a></li>
     </ul>
   </div>
-    <p class="quiet">Nothing new today. The shows on the list have not published
-       since the last issue.</p>
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="the-a16z-show">The a16z Show <span class="at">1</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+<article class="entry" data-show="the-a16z-show" data-title="can ai fix professional networking? | inside cosign"
+         data-released="2026-10-31" data-done="2026-10-31T07:08">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-a16z-show/20261031-can-ai-fix-professional-networking-inside-cosign/">Can AI Fix Professional Networking? | Inside Cosign</a></h2>
+  <p class="meta">The a16z Show · 31 October 2026 · 25 min<span class="done"> · written up 31 October at 07:08</span></p>
+  <p class="hook">Cosign wants AI agents to turn trusted recommendations into career connections, replacing cold applications with better-timed introductions.</p>
+  <ul class="points">
+<li>Cosign Awards aims to spotlight overlooked operators, high-talent companies, and products through public nominations and expert judges. <span class="at">1:40</span></li><li>Drew says a personal recommendation helped him enter tech, and Cosign is designed to give more underrecognized workers that same visibility. <span class="at">3:26</span></li><li>The platform hopes to become a source of trusted startup information, helping people find collaborators, jobs, and opportunities that increase their “surface area for luck.” <span class="at">6:51</span></li><li>Cosign combines profiles for tens of thousands of people with curated lists and personal endorsements that explain who someone would work with or recommend. <span class="at">14:09</span></li><li>Drew says ordinary search tools gave him poor answers about the best New York startups, revealing the need for richer, more personal career data. <span class="at">17:39</span></li><li>The long-term vision is for personal and company AI agents to discuss shared goals before deciding whether two people should meet. <span class="at">20:56</span></li>  </ul>
+<blockquote><p>“Careers are long, roles are short.” [13:01]</p></blockquote><p class="for">Worth your time if you want to understand how trusted referrals and AI could reshape hiring.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>Cosign has already scaffolded profiles for 40,000 to 50,000 people across its site.
+<span class="at">14:09</span><span class="why">Readers may assume a new networking product starts with a small user base.</span>      </li>
+      <li>“Gemini gave me like a pretty bad answer. I switched to Chat GBT. It also gave me a pretty bad answer.”
+<span class="at">— Drew Gupta</span><span class="at">17:39</span><span class="why">People often assume general AI tools already understand startup talent and companies.</span>      </li>
+      <li>Personal agents could negotiate with company agents before a hiring manager ever sees a candidate.
+<span class="at">20:22</span><span class="why">Most hiring systems still make applicants contact companies directly.</span>      </li>
+      <li>Cosign includes a public-intellectual category with 65 nominees and a podcaster category with 76.
+<span class="at">5:09</span><span class="why">A professional awards system might be expected to focus only on conventional job roles.</span>      </li>
+    </ol>
+  </div>
+</article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      list.classList.toggle('by-done', key === 'done');
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
   <nav class="more">
 <a href="/space-digest/issues/2026-10-30/">Older</a>    <a href="/space-digest/archive/">All issues</a>
   </nav>

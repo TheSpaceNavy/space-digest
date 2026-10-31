@@ -5,8 +5,15 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 31 Oct 2026 12:03:30 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 12:08:49 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Can AI Fix Professional Networking? | Inside Cosign</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261031-can-ai-fix-professional-networking-inside-cosign/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261031-can-ai-fix-professional-networking-inside-cosign/</guid>
+      <pubDate>Sat, 31 Oct 2026 12:08:06 +0000</pubDate>
+      <description>Cosign wants AI agents to turn trusted recommendations into career connections, replacing cold applications with better-timed introductions.</description>
+    </item>
     <item>
       <title>Why AI Could Turn Small Law Firms Into Billion-Dollar Businesses</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261030-why-ai-could-turn-small-law-firms-into-billion-dollar/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261016-the-most-important-ai-news-this-week-is-getting-overlooked/</guid>
       <pubDate>Fri, 16 Oct 2026 21:36:13 +0000</pubDate>
       <description>The quietest model releases may matter most because they give businesses cheaper, more private ways to use AI.</description>
-    </item>
-    <item>
-      <title>Has the Catholic Church Changed Its Teaching on the Death Penalty?</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261016-has-the-catholic-church-changed-its-teaching-on-the-death/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261016-has-the-catholic-church-changed-its-teaching-on-the-death/</guid>
-      <pubDate>Fri, 16 Oct 2026 21:36:06 +0000</pubDate>
-      <description>The Church’s new death-penalty language may reject executions without clearly declaring them evil in every age.</description>
     </item>
   </channel>
 </rss>
