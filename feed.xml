@@ -5,8 +5,22 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Nov 2026 07:05:05 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 12:21:50 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>How Bending Spoons Built a $20 Billion Compounder | Luca Ferrari</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261101-how-bending-spoons-built-a-20-billion-compounder-luca/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261101-how-bending-spoons-built-a-20-billion-compounder-luca/</guid>
+      <pubDate>Sun, 01 Nov 2026 12:21:25 +0000</pubDate>
+      <description>Bending Spoons argues that steady improvements and disciplined acquisitions can beat rare flashes of genius.</description>
+    </item>
+    <item>
+      <title>AI Won’t Make Our Minds Useless According to 400 Years of History</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261101-ai-wont-make-our-minds-useless-according-to-400-years-of/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261101-ai-wont-make-our-minds-useless-according-to-400-years-of/</guid>
+      <pubDate>Sun, 01 Nov 2026 12:21:04 +0000</pubDate>
+      <description>AI may make human minds more valuable by freeing people to explore desires they never had time to pursue.</description>
+    </item>
     <item>
       <title>The Most Controversial Biologist Alive Breaks Down Telepathy</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/american-alchemy-with-jesse-michels/20261031-the-most-controversial-biologist-alive-breaks-down-telepathy/</link>
@@ -342,20 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-optimalwork-podcast/20261019-322-how-to-actually-follow-through-on-your-plans/</guid>
       <pubDate>Mon, 19 Oct 2026 23:14:52 +0000</pubDate>
       <description>Most people do not fail because their plan is bad; they fail because they never truly launch it.</description>
-    </item>
-    <item>
-      <title>Why Real-World AI Is Harder Than the Benchmark | EliseAI’s Mario Martone</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261018-why-real-world-ai-is-harder-than-the-benchmark-eliseais/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261018-why-real-world-ai-is-harder-than-the-benchmark-eliseais/</guid>
-      <pubDate>Sun, 18 Oct 2026 21:57:04 +0000</pubDate>
-      <description>Real-world AI is harder than lab benchmarks because a small error rate becomes millions of failures affecting people’s lives.</description>
-    </item>
-    <item>
-      <title>A Potentially Historic AI Breakthrough</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261018-a-potentially-historic-ai-breakthrough/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261018-a-potentially-historic-ai-breakthrough/</guid>
-      <pubDate>Sun, 18 Oct 2026 21:56:58 +0000</pubDate>
-      <description>A once-pessimistic researcher now says most AI systems may be readable—and larger models could be easier to understand.</description>
     </item>
   </channel>
 </rss>
