@@ -5,14 +5,28 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Nov 2026 00:04:09 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 00:15:32 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The Most Controversial Biologist Alive Breaks Down Telepathy</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/american-alchemy-with-jesse-michels/20261031-the-most-controversial-biologist-alive-breaks-down-telepathy/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/american-alchemy-with-jesse-michels/20261031-the-most-controversial-biologist-alive-breaks-down-telepathy/</guid>
+      <pubDate>Sun, 01 Nov 2026 00:12:57 +0000</pubDate>
+      <description>A controversial biologist argues that minds, animals, plants, and even stars may share fields of memory and awareness.</description>
+    </item>
     <item>
       <title>Can AI Fix Professional Networking? | Inside Cosign</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261031-can-ai-fix-professional-networking-inside-cosign/</link>
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261031-can-ai-fix-professional-networking-inside-cosign/</guid>
       <pubDate>Sat, 31 Oct 2026 12:08:06 +0000</pubDate>
       <description>Cosign wants AI agents to turn trusted recommendations into career connections, replacing cold applications with better-timed introductions.</description>
+    </item>
+    <item>
+      <title>#2574 - Francis Foster &amp; Konstantin Kisin</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261031-2574-francis-foster-konstantin-kisin/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261031-2574-francis-foster-konstantin-kisin/</guid>
+      <pubDate>Sun, 01 Nov 2026 00:13:47 +0000</pubDate>
+      <description>From Iran and the Sphinx to universal income, the conversation keeps asking whether today’s certainties survive closer inspection.</description>
     </item>
     <item>
       <title>Why AI Could Turn Small Law Firms Into Billion-Dollar Businesses</title>
@@ -342,20 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261018-a-potentially-historic-ai-breakthrough/</guid>
       <pubDate>Sun, 18 Oct 2026 21:56:58 +0000</pubDate>
       <description>A once-pessimistic researcher now says most AI systems may be readable—and larger models could be easier to understand.</description>
-    </item>
-    <item>
-      <title>Why AI Could Finally Fix Healthcare Access | Zocdoc CEO Oliver Kharraz</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261017-why-ai-could-finally-fix-healthcare-access-zocdoc-ceo-oliver/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261017-why-ai-could-finally-fix-healthcare-access-zocdoc-ceo-oliver/</guid>
-      <pubDate>Sat, 17 Oct 2026 21:50:51 +0000</pubDate>
-      <description>Healthcare access may improve by opening more doors—not forcing every patient through one.</description>
-    </item>
-    <item>
-      <title>The Most Important AI News This Week Is Getting Overlooked</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261016-the-most-important-ai-news-this-week-is-getting-overlooked/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261016-the-most-important-ai-news-this-week-is-getting-overlooked/</guid>
-      <pubDate>Fri, 16 Oct 2026 21:36:13 +0000</pubDate>
-      <description>The quietest model releases may matter most because they give businesses cheaper, more private ways to use AI.</description>
     </item>
   </channel>
 </rss>

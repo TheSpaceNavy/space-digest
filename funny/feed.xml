@@ -4,8 +4,15 @@
   <title>Space Digest — Just The Funny Bits</title>
   <link>https://thespacenavy.github.io/space-digest/funny/</link>
   <description>Only the jokes from the shows on the list, with a link to each one.</description>
-  <lastBuildDate>Sun, 01 Nov 2026 00:04:10 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 01 Nov 2026 00:15:34 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/funny/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>The Joe Rogan Experience: #2574 - Francis Foster &amp; Konstantin Kisin</title>
+    <link>https://thespacenavy.github.io/space-digest/funny/2026-11-01/</link>
+    <guid isPermaLink="false">funny:the-joe-rogan-experience/20261031-2574-francis-foster-konstantin-kisin</guid>
+    <pubDate>Sun, 01 Nov 2026 00:15:05 +0000</pubDate>
+    <description>7 funny bits: “Chris, you see all the pencils in the classroom? Every single pencil, I&#39;m talking about colored pencils. I&#39;m talking about ordinary. I want them sharpened and I want them perfect cuz we&#39;ve got an art lesson after lunch.”</description>
+  </item>
   <item>
     <title>The Ben Shapiro Show: Remembering Sir Patrick Stewart</title>
     <link>https://thespacenavy.github.io/space-digest/funny/2026-10-31/</link>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">funny:the-matt-walsh-show/20261015-ep-1857-customer-service-is-so-bad-that-im-siding-with-a</guid>
     <pubDate>Thu, 15 Oct 2026 21:02:15 +0000</pubDate>
     <description>2 funny bits: “And while the show never produced any talent on par with Elvis, or really very few, even on par with like the typical Elvis impersonator you&#39;d find on the side of the road in Vegas, it did manage to create Kelly Clarkson.”</description>
-  </item>
-  <item>
-    <title>The Ben Shapiro Show: Ben Reacts to the Girls Reboot Nobody Asked For</title>
-    <link>https://thespacenavy.github.io/space-digest/funny/2026-10-16/</link>
-    <guid isPermaLink="false">funny:the-ben-shapiro-show/20261015-ben-reacts-to-the-girls-reboot-nobody-asked-for</guid>
-    <pubDate>Fri, 16 Oct 2026 09:11:58 +0000</pubDate>
-    <description>1 funny bit: “We&#39;ll have to do a Ben Shapiro live show where Slater opens. It&#39;ll be like Slayer followed by a string quartet playing Bach.”</description>
   </item>
 </channel>
 </rss>
