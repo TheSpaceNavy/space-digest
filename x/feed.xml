@@ -4,8 +4,15 @@
   <title>Space Digest — Tightbeam</title>
   <link>https://thespacenavy.github.io/space-digest/tightbeam/</link>
   <description>A narrow beam on each person and subject worth following.</description>
-  <lastBuildDate>Sun, 01 Nov 2026 12:21:51 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 01 Nov 2026 13:03:17 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/tightbeam/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Elon Musk · 1 November 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-11-01/</link>
+    <guid isPermaLink="false">tightbeam:elonmusk/2026-11-01</guid>
+    <pubDate>Sun, 01 Nov 2026 13:03:04 +0000</pubDate>
+    <description>The posts focused on AI computing, SpaceX projects, future technology, and a few personal interests.</description>
+  </item>
   <item>
     <title>Peter Diamandis · AI Is Creating Two Different Futures for Young People</title>
     <link>https://thespacenavy.github.io/space-digest/tightbeam/diamandis/2026-10-31-ai-is-creating-two-different-futures-for-young/</link>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">tightbeam:elonmusk/2026-09-27</guid>
     <pubDate>Sun, 27 Sep 2026 12:00:49 +0000</pubDate>
     <description>Elon Musk discussed artificial intelligence, space production, Mars, and financial tools.</description>
-  </item>
-  <item>
-    <title>SpaceXAI · 26 September 2026</title>
-    <link>https://thespacenavy.github.io/space-digest/tightbeam/spacex/2026-09-26/</link>
-    <guid isPermaLink="false">tightbeam:spacex/2026-09-26</guid>
-    <pubDate>Sat, 26 Sep 2026 12:03:12 +0000</pubDate>
-    <description>Starship Flight 14 nears launch as SpaceX discusses faster reuse, Crew-14, Starlink, and new Grok Bot rewards.</description>
   </item>
 </channel>
 </rss>
