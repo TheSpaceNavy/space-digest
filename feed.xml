@@ -5,8 +5,15 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 07:06:27 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 12:36:11 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>#353 Dr. Thomas Madden - Rome Historian Reveals the 7 Warning Signs of a Dying Republic</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261102-353-dr-thomas-madden-rome-historian-reveals-the-7-warning/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261102-353-dr-thomas-madden-rome-historian-reveals-the-7-warning/</guid>
+      <pubDate>Mon, 02 Nov 2026 12:36:00 +0000</pubDate>
+      <description>Rome’s republic did not collapse in one blow; it weakened as wealth, fear, and private armies replaced civic loyalty.</description>
+    </item>
     <item>
       <title>How Bending Spoons Built a $20 Billion Compounder | Luca Ferrari</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261101-how-bending-spoons-built-a-20-billion-compounder-luca/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261019-349-aj-gentile-grand-canyon-conspiracies-ai-extinction-and/</guid>
       <pubDate>Mon, 19 Oct 2026 23:14:43 +0000</pubDate>
       <description>Mars, AI, UFOs, and ancient civilizations become one sprawling argument about what humanity thinks it knows.</description>
-    </item>
-    <item>
-      <title>322. How to Actually Follow Through on Your Plans</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-optimalwork-podcast/20261019-322-how-to-actually-follow-through-on-your-plans/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-optimalwork-podcast/20261019-322-how-to-actually-follow-through-on-your-plans/</guid>
-      <pubDate>Mon, 19 Oct 2026 23:14:52 +0000</pubDate>
-      <description>Most people do not fail because their plan is bad; they fail because they never truly launch it.</description>
     </item>
   </channel>
 </rss>
