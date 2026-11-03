@@ -4,8 +4,15 @@
   <title>Space Digest — Tightbeam</title>
   <link>https://thespacenavy.github.io/space-digest/tightbeam/</link>
   <description>A narrow beam on each person and subject worth following.</description>
-  <lastBuildDate>Tue, 03 Nov 2026 07:03:02 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 03 Nov 2026 13:04:33 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/tightbeam/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Elon Musk · 3 November 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-11-03/</link>
+    <guid isPermaLink="false">tightbeam:elonmusk/2026-11-03</guid>
+    <pubDate>Tue, 03 Nov 2026 13:04:18 +0000</pubDate>
+    <description>Elon Musk discussed Starlink rescues, space-based computing, Grok Bot, and cooling systems.</description>
+  </item>
   <item>
     <title>Peter Diamandis · You’re Going to Own a Piece of AI</title>
     <link>https://thespacenavy.github.io/space-digest/tightbeam/diamandis/2026-11-02-youre-going-to-own-a-piece-of-ai/</link>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">tightbeam:elonmusk/2026-09-28</guid>
     <pubDate>Mon, 28 Sep 2026 12:00:53 +0000</pubDate>
     <description>Elon Musk discussed Starship’s future, Starlink’s possible reach, and artificial intelligence.</description>
-  </item>
-  <item>
-    <title>SpaceXAI · 27 September 2026</title>
-    <link>https://thespacenavy.github.io/space-digest/tightbeam/spacex/2026-09-27/</link>
-    <guid isPermaLink="false">tightbeam:spacex/2026-09-27</guid>
-    <pubDate>Sun, 27 Sep 2026 12:03:18 +0000</pubDate>
-    <description>SpaceX launched USSF-385 and received approval for Starship Flight 14’s first orbital attempt with 26 Starlink V3 satellites.</description>
   </item>
 </channel>
 </rss>
