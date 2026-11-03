@@ -5,8 +5,15 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 13:04:32 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 13:11:29 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Andrew Huberman’s Three Rules for Better Health and Focus</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261103-andrew-hubermans-three-rules-for-better-health-and-focus/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261103-andrew-hubermans-three-rules-for-better-health-and-focus/</guid>
+      <pubDate>Tue, 03 Nov 2026 13:09:48 +0000</pubDate>
+      <description>Better health may come less from perfect routines than from a few repeatable habits that fit your real life.</description>
+    </item>
     <item>
       <title>The Robots Already Working in American Factories | Tutor Intelligence</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261102-the-robots-already-working-in-american-factories-tutor/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261020-my-unredacted-interview-with-the-leah-files/</guid>
       <pubDate>Tue, 20 Oct 2026 11:25:43 +0000</pubDate>
       <description>The episode alleges that money, influence, and surveillance systems are quietly linking politics, private firms, and foreign interests.</description>
-    </item>
-    <item>
-      <title>#2568 - Ross Edgley</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261020-2568-ross-edgley/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261020-2568-ross-edgley/</guid>
-      <pubDate>Tue, 20 Oct 2026 23:48:58 +0000</pubDate>
-      <description>Ross Edgley treats pain, danger, and even failure as problems that purpose can overpower.</description>
     </item>
   </channel>
 </rss>

@@ -4,8 +4,15 @@
   <title>Space Digest — Just The Funny Bits</title>
   <link>https://thespacenavy.github.io/space-digest/funny/</link>
   <description>Only the jokes from the shows on the list, with a link to each one.</description>
-  <lastBuildDate>Tue, 03 Nov 2026 13:04:33 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 03 Nov 2026 13:11:31 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/funny/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>The White House: President Trump Delivers Remarks, Nov. 2, 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/funny/2026-11-03/</link>
+    <guid isPermaLink="false">funny:the-white-house/20261102-president-trump-delivers-remarks-nov-2-2026</guid>
+    <pubDate>Tue, 03 Nov 2026 13:10:40 +0000</pubDate>
+    <description>4 funny bits: “We&#39;ve achieved more in less than two years than any administration in American history, and I&#39;ve kept every single promise I made except far more. I&#39;ve actually kept far more promises than I made.”</description>
+  </item>
   <item>
     <title>The Andrew Klavan Show: Is There Hope for Republicans in the Midterms? w/Henry Olsen</title>
     <link>https://thespacenavy.github.io/space-digest/funny/2026-11-03/</link>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">funny:the-ben-shapiro-show/20261016-you-need-to-see-this-clip-heres-why-it-matters</guid>
     <pubDate>Sat, 17 Oct 2026 09:41:46 +0000</pubDate>
     <description>3 funny bits: “And yes, if it flies, that would also be very cool. I mean, as long as we&#39;re just requesting things.”</description>
-  </item>
-  <item>
-    <title>The Michael Knowles Show: Ep. 2083 - Crowd STUNNED: Elon Musk Shows Off Flying Car ft. Matt Walsh</title>
-    <link>https://thespacenavy.github.io/space-digest/funny/2026-10-16/</link>
-    <guid isPermaLink="false">funny:the-michael-knowles-show/20261016-ep-2083-crowd-stunned-elon-musk-shows-off-flying-car-ft-matt</guid>
-    <pubDate>Fri, 16 Oct 2026 21:39:53 +0000</pubDate>
-    <description>5 funny bits: “The the news coverage of it was Steve Jobs pulls in all nighter duct taping uh nine iPhones to a clipboard and says, here&#39;s our new product.”</description>
   </item>
 </channel>
 </rss>
