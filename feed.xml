@@ -5,14 +5,42 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 01:03:07 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 01:06:06 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The Robots Already Working in American Factories | Tutor Intelligence</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261102-the-robots-already-working-in-american-factories-tutor/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261102-the-robots-already-working-in-american-factories-tutor/</guid>
+      <pubDate>Tue, 03 Nov 2026 01:03:53 +0000</pubDate>
+      <description>Robots are already doing everyday factory work, but the hardest part is teaching them to handle reality.</description>
+    </item>
+    <item>
+      <title>How to Deslopify Your AI</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261102-how-to-deslopify-your-ai/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261102-how-to-deslopify-your-ai/</guid>
+      <pubDate>Tue, 03 Nov 2026 01:03:34 +0000</pubDate>
+      <description>AI makes publishing effortless, but the episode argues that human judgment—not speed—will decide what deserves attention.</description>
+    </item>
+    <item>
+      <title>Feminism is Dying (Thank God!) (Dr. Carrie Gress) | Ep. 603</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261102-feminism-is-dying-thank-god-dr-carrie-gress-ep-603/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261102-feminism-is-dying-thank-god-dr-carrie-gress-ep-603/</guid>
+      <pubDate>Tue, 03 Nov 2026 01:03:09 +0000</pubDate>
+      <description>Feminism, they argue, promised freedom but often leaves women angry, isolated, and far from the lives they wanted.</description>
+    </item>
     <item>
       <title>#353 Dr. Thomas Madden - Rome Historian Reveals the 7 Warning Signs of a Dying Republic</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261102-353-dr-thomas-madden-rome-historian-reveals-the-7-warning/</link>
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261102-353-dr-thomas-madden-rome-historian-reveals-the-7-warning/</guid>
       <pubDate>Mon, 02 Nov 2026 12:36:00 +0000</pubDate>
       <description>Rome’s republic did not collapse in one blow; it weakened as wealth, fear, and private armies replaced civic loyalty.</description>
+    </item>
+    <item>
+      <title>324. Why Better Focus Starts With Meaning</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-optimalwork-podcast/20261102-324-why-better-focus-starts-with-meaning/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-optimalwork-podcast/20261102-324-why-better-focus-starts-with-meaning/</guid>
+      <pubDate>Tue, 03 Nov 2026 01:03:59 +0000</pubDate>
+      <description>Better focus does not begin with forcing attention; it begins with giving the work a reason to matter.</description>
     </item>
     <item>
       <title>How Bending Spoons Built a $20 Billion Compounder | Luca Ferrari</title>
@@ -328,34 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261020-2568-ross-edgley/</guid>
       <pubDate>Tue, 20 Oct 2026 23:48:58 +0000</pubDate>
       <description>Ross Edgley treats pain, danger, and even failure as problems that purpose can overpower.</description>
-    </item>
-    <item>
-      <title>What Happens When Al Agents Can Spend Your Money?</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261019-what-happens-when-al-agents-can-spend-your-money/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261019-what-happens-when-al-agents-can-spend-your-money/</guid>
-      <pubDate>Mon, 19 Oct 2026 23:13:59 +0000</pubDate>
-      <description>AI agents may reshape software by doing the work between apps, not merely answering questions.</description>
-    </item>
-    <item>
-      <title>The Miracle of Our Lady of Zeitoun (Fr. Anthony Mourad) | Ep. 601</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261019-the-miracle-of-our-lady-of-zeitoun-fr-anthony-mourad-ep-601/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261019-the-miracle-of-our-lady-of-zeitoun-fr-anthony-mourad-ep-601/</guid>
-      <pubDate>Mon, 19 Oct 2026 23:13:08 +0000</pubDate>
-      <description>A Marian apparition witnessed by crowds, investigated by authorities, and never heard speaking became a source of Christian unity.</description>
-    </item>
-    <item>
-      <title>The AI Wealth Problem</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261019-the-ai-wealth-problem/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261019-the-ai-wealth-problem/</guid>
-      <pubDate>Mon, 19 Oct 2026 23:13:29 +0000</pubDate>
-      <description>AI may create enormous wealth, but the real fight is over who controls and shares it.</description>
-    </item>
-    <item>
-      <title>#349 AJ Gentile - Grand Canyon Conspiracies, AI Extinction and Nuclear War on Mars</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261019-349-aj-gentile-grand-canyon-conspiracies-ai-extinction-and/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261019-349-aj-gentile-grand-canyon-conspiracies-ai-extinction-and/</guid>
-      <pubDate>Mon, 19 Oct 2026 23:14:43 +0000</pubDate>
-      <description>Mars, AI, UFOs, and ancient civilizations become one sprawling argument about what humanity thinks it knows.</description>
     </item>
   </channel>
 </rss>
