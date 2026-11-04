@@ -5,7 +5,7 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Nov 2026 01:04:46 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 01:28:05 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Andrew Huberman’s Three Rules for Better Health and Focus</title>
@@ -13,6 +13,20 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261103-andrew-hubermans-three-rules-for-better-health-and-focus/</guid>
       <pubDate>Tue, 03 Nov 2026 13:09:48 +0000</pubDate>
       <description>Better health may come less from perfect routines than from a few repeatable habits that fit your real life.</description>
+    </item>
+    <item>
+      <title>AI Lurches Toward Recursive Self-Improvement</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261103-ai-lurches-toward-recursive-self-improvement/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261103-ai-lurches-toward-recursive-self-improvement/</guid>
+      <pubDate>Wed, 04 Nov 2026 01:21:27 +0000</pubDate>
+      <description>AI may be starting to improve AI, but the bigger surprise is how little that guarantees about adoption or profits.</description>
+    </item>
+    <item>
+      <title>#2575 - Sam Tallent</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261103-2575-sam-tallent/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261103-2575-sam-tallent/</guid>
+      <pubDate>Wed, 04 Nov 2026 01:22:47 +0000</pubDate>
+      <description>A conversation about comedy, books, and mortality ends with the claim that AI may already be a new form of life.</description>
     </item>
     <item>
       <title>The Robots Already Working in American Factories | Tutor Intelligence</title>
@@ -342,20 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261020-why-ai-companies-are-betting-personality-beats-intelligence/</guid>
       <pubDate>Tue, 20 Oct 2026 23:48:15 +0000</pubDate>
       <description>AI companies may win users less by thinking harder than by feeling better to talk with.</description>
-    </item>
-    <item>
-      <title>What Happens When Everyone Has a Health Expert in Their Pocket? | OpenAI’s Karan Singhal</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261020-what-happens-when-everyone-has-a-health-expert-in-their/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261020-what-happens-when-everyone-has-a-health-expert-in-their/</guid>
-      <pubDate>Tue, 20 Oct 2026 11:25:12 +0000</pubDate>
-      <description>AI may change healthcare most by helping people avoid costly problems before they need treatment.</description>
-    </item>
-    <item>
-      <title>My Unredacted Interview with The Leah Files</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261020-my-unredacted-interview-with-the-leah-files/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261020-my-unredacted-interview-with-the-leah-files/</guid>
-      <pubDate>Tue, 20 Oct 2026 11:25:43 +0000</pubDate>
-      <description>The episode alleges that money, influence, and surveillance systems are quietly linking politics, private firms, and foreign interests.</description>
     </item>
   </channel>
 </rss>
