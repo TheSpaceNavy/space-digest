@@ -132,7 +132,8 @@
 <a href="/space-digest/feed.xml">RSS</a>
   </nav>
   <h1>Wednesday 4 November 2026</h1>
-  <p class="meta">A quiet day</p>
+  <p class="meta">1
+     episode</p>
 
   <div class="strip">
     <h2>On the Tightbeam</h2>
@@ -141,8 +142,101 @@
           <a href="/space-digest/tightbeam/elonmusk/2026-11-04/">Elon Musk focused on Grok’s expanding uses and the appeal of data centers in space.</a></li>
     </ul>
   </div>
-    <p class="quiet">Nothing new today. The shows on the list have not published
-       since the last issue.</p>
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="the-a16z-show">The a16z Show <span class="at">1</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+<article class="entry" data-show="the-a16z-show" data-title="the new ai agents that shop, plan, and gossip"
+         data-released="2026-11-04" data-done="2026-11-04T07:41">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-a16z-show/20261104-the-new-ai-agents-that-shop-plan-and-gossip/">The New AI Agents That Shop, Plan, and Gossip</a></h2>
+  <p class="meta">The a16z Show · 4 November 2026 · 51 min<span class="done"> · written up 4 November at 07:41</span></p>
+  <p class="hook">AI agents may become a society of helpers, friends, negotiators, and unpredictable digital characters.</p>
+  <ul class="points">
+<li>Builders see strong demand for community because nobody knows how the experimental agent market will settle. <span class="at">2:07</span></li><li>People may eventually use many specialized agents for work, money, daily tasks, and playful social life. <span class="at">4:17</span></li><li>Trust is the leading concern: it appeared in 22% of roughly 3,600 messages from AI power users. <span class="at">5:54</span></li><li>Agents need narrow permissions and close oversight so private information does not cross into work or other settings. <span class="at">7:06</span></li><li>The best agents should do routine groundwork but ask before taking actions with serious consequences. <span class="at">8:45</span></li><li>Agents are moving beyond productivity into social experiences, but their reliability can drop sharply as they gain users. <span class="at">28:48</span></li>  </ul>
+<blockquote><p>“22% of the messages are talking about trust as the main fear.” — David Pollin [5:54]</p></blockquote><p class="for">Worth your time if you want to know how AI assistants could reshape trust, friendship, and everyday decisions.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>A personal agent accidentally exposed its user&#39;s finances on company Slack by crossing from personal into work contexts.
+<span class="at">7:06</span><span class="why">Readers might expect permissions to fail harmlessly, not publicly leak finances.</span>      </li>
+      <li>Only 3% of 354 surveyed AI power users used Dots as their primary agent.
+<span class="at">— David Pollin</span><span class="at">18:55</span><span class="why">Readers might assume ChatGPT’s accumulated context had already produced widespread switching.</span>      </li>
+      <li>“Even a hint or a whiff of paternalism” will kill a consumer product.
+<span class="at">27:41</span><span class="why">Readers might expect users to welcome agents that steer them toward healthier choices.</span>      </li>
+      <li>After roughly 150 agents joined an agent meetup, some began speaking gibberish.
+<span class="at">38:28</span><span class="why">Readers might assume connected agents can communicate coherently.</span>      </li>
+      <li>A technophobe’s mother used an AI assistant to find and negotiate with a breeder for a dog resembling her deceased pet.
+<span class="at">47:20</span><span class="why">Readers might expect early adoption mainly from confident technology users.</span>      </li>
+    </ol>
+  </div>
+</article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      list.classList.toggle('by-done', key === 'done');
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
   <nav class="more">
 <a href="/space-digest/issues/2026-11-03/">Older</a>    <a href="/space-digest/archive/">All issues</a>
   </nav>
