@@ -5,7 +5,7 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 01:04:38 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 02:06:47 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>The New AI Agents That Shop, Plan, and Gossip</title>
@@ -13,6 +13,20 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261104-the-new-ai-agents-that-shop-plan-and-gossip/</guid>
       <pubDate>Wed, 04 Nov 2026 13:41:22 +0000</pubDate>
       <description>AI agents may become a society of helpers, friends, negotiators, and unpredictable digital characters.</description>
+    </item>
+    <item>
+      <title>How the Midterm Results Change AI</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261104-how-the-midterm-results-change-ai/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261104-how-the-midterm-results-change-ai/</guid>
+      <pubDate>Thu, 05 Nov 2026 02:00:23 +0000</pubDate>
+      <description>The election did not stop AI, but it made data centers a political liability that developers can no longer ignore.</description>
+    </item>
+    <item>
+      <title>#2576 - Dr. Peter McCullough</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261104-2576-dr-peter-mccullough/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261104-2576-dr-peter-mccullough/</guid>
+      <pubDate>Thu, 05 Nov 2026 02:01:35 +0000</pubDate>
+      <description>The episode argues that pandemic science was bent by money, fear, censorship, and a single-minded push for mass vaccination.</description>
     </item>
     <item>
       <title>Andrew Huberman’s Three Rules for Better Health and Focus</title>
@@ -342,20 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261021-the-missing-infrastructure-for-ai-agents-documents-reductos/</guid>
       <pubDate>Wed, 21 Oct 2026 11:55:21 +0000</pubDate>
       <description>AI agents may reason well, but they still need a dependable way to read the messy documents behind real work.</description>
-    </item>
-    <item>
-      <title>How AI Is Changing What Work Means</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261021-how-ai-is-changing-what-work-means/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261021-how-ai-is-changing-what-work-means/</guid>
-      <pubDate>Thu, 22 Oct 2026 00:23:25 +0000</pubDate>
-      <description>AI may change work most by letting ordinary firms tackle problems far outside their usual business.</description>
-    </item>
-    <item>
-      <title>#2569 - Bill Thompson</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261021-2569-bill-thompson/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261021-2569-bill-thompson/</guid>
-      <pubDate>Thu, 22 Oct 2026 00:25:17 +0000</pubDate>
-      <description>The episode links hunting, addiction, dreams, fighting, and AI through one idea: control is always temporary.</description>
     </item>
   </channel>
 </rss>
