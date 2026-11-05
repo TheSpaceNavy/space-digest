@@ -5,8 +5,22 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 13:05:20 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 14:17:12 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The New CFO: How AI Is Rewriting the Finance Function | Figma CFO Praveer Melwani</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261105-the-new-cfo-how-ai-is-rewriting-the-finance-function-figma/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261105-the-new-cfo-how-ai-is-rewriting-the-finance-function-figma/</guid>
+      <pubDate>Thu, 05 Nov 2026 14:15:39 +0000</pubDate>
+      <description>AI may shrink finance teams—but only after it makes their judgment more valuable.</description>
+    </item>
+    <item>
+      <title>#354 Reckless Ben - The Internet&#39;s Most Controversial Investigative YouTuber</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261105-354-reckless-ben-the-internets-most-controversial/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261105-354-reckless-ben-the-internets-most-controversial/</guid>
+      <pubDate>Thu, 05 Nov 2026 14:16:34 +0000</pubDate>
+      <description>A homeless stunt creator infiltrated cults, exposed abusive schools, and fought a religion in court without a lawyer.</description>
+    </item>
     <item>
       <title>The New AI Agents That Shop, Plan, and Gossip</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261104-the-new-ai-agents-that-shop-plan-and-gossip/</link>
@@ -342,20 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261022-350-mike-hayes-the-navy-seal-in-obamas-situation-room-during/</guid>
       <pubDate>Thu, 22 Oct 2026 12:44:22 +0000</pubDate>
       <description>A Navy SEAL’s biggest lessons came from choosing restraint, protecting people, and admitting what he did not know.</description>
-    </item>
-    <item>
-      <title>Top Religious Scholar: “Aliens Aren’t What You Think!”</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/american-alchemy-with-jesse-michels/20261021-top-religious-scholar-aliens-arent-what-you-think/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/american-alchemy-with-jesse-michels/20261021-top-religious-scholar-aliens-arent-what-you-think/</guid>
-      <pubDate>Thu, 22 Oct 2026 00:24:17 +0000</pubDate>
-      <description>Aliens may be less about outer space than about trauma, sexuality, consciousness, and a reality humans barely understand.</description>
-    </item>
-    <item>
-      <title>The Missing Infrastructure for AI Agents: Documents | Reducto’s Adit Abraham</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261021-the-missing-infrastructure-for-ai-agents-documents-reductos/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261021-the-missing-infrastructure-for-ai-agents-documents-reductos/</guid>
-      <pubDate>Wed, 21 Oct 2026 11:55:21 +0000</pubDate>
-      <description>AI agents may reason well, but they still need a dependable way to read the messy documents behind real work.</description>
     </item>
   </channel>
 </rss>
