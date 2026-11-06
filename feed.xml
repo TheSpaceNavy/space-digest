@@ -5,8 +5,15 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Nov 2026 01:04:14 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 03:27:46 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Why a Data Center Slowdown Benefits Big Tech</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261105-why-a-data-center-slowdown-benefits-big-tech/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261105-why-a-data-center-slowdown-benefits-big-tech/</guid>
+      <pubDate>Fri, 06 Nov 2026 03:22:49 +0000</pubDate>
+      <description>A slower data-center buildout could boost Big Tech by easing costs, raising margins, and letting the AI bubble deflate safely.</description>
+    </item>
     <item>
       <title>The New CFO: How AI Is Rewriting the Finance Function | Figma CFO Praveer Melwani</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261105-the-new-cfo-how-ai-is-rewriting-the-finance-function-figma/</link>
@@ -15,11 +22,25 @@
       <description>AI may shrink finance teams—but only after it makes their judgment more valuable.</description>
     </item>
     <item>
+      <title>Responding to Unhinged Women | Dr. Carrie Gress | Last Call Ep. 39</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261105-responding-to-unhinged-women-dr-carrie-gress-last-call-ep-39/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261105-responding-to-unhinged-women-dr-carrie-gress-last-call-ep-39/</guid>
+      <pubDate>Fri, 06 Nov 2026 03:22:38 +0000</pubDate>
+      <description>The episode argues that feminism turns women’s real struggles into contempt for men, victimhood, and rejection of family and faith.</description>
+    </item>
+    <item>
       <title>#354 Reckless Ben - The Internet&#39;s Most Controversial Investigative YouTuber</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261105-354-reckless-ben-the-internets-most-controversial/</link>
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261105-354-reckless-ben-the-internets-most-controversial/</guid>
       <pubDate>Thu, 05 Nov 2026 14:16:34 +0000</pubDate>
       <description>A homeless stunt creator infiltrated cults, exposed abusive schools, and fought a religion in court without a lawyer.</description>
+    </item>
+    <item>
+      <title>#2577 - Gregory Forth</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261105-2577-gregory-forth/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261105-2577-gregory-forth/</guid>
+      <pubDate>Fri, 06 Nov 2026 03:23:47 +0000</pubDate>
+      <description>A 700,000-year-old human relative may have left behind living memories on Flores.</description>
     </item>
     <item>
       <title>The New AI Agents That Shop, Plan, and Gossip</title>
@@ -335,27 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261022-the-ai-vs-ai-battle-for-the-internet/</guid>
       <pubDate>Fri, 23 Oct 2026 01:04:00 +0000</pubDate>
       <description>The internet is entering an era where AI attackers and defenders race at machine speed—and coordination may decide who wins.</description>
-    </item>
-    <item>
-      <title>Muslims Are Going to Priests for Exorcisms (Fr. Anthony Mourad) | Last Call Ep. 37</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261022-muslims-are-going-to-priests-for-exorcisms-fr-anthony-mourad/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261022-muslims-are-going-to-priests-for-exorcisms-fr-anthony-mourad/</guid>
-      <pubDate>Fri, 23 Oct 2026 01:03:54 +0000</pubDate>
-      <description>Muslims in Egypt sometimes seek Coptic priests for exorcisms, while Christians must evangelize through trust and example.</description>
-    </item>
-    <item>
-      <title>JRE MMA Show #187 with Robert Whittaker</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261022-jre-mma-show-187-with-robert-whittaker/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261022-jre-mma-show-187-with-robert-whittaker/</guid>
-      <pubDate>Fri, 23 Oct 2026 01:05:12 +0000</pubDate>
-      <description>Elite fighting is shown less as nonstop violence than as managing damage, family, fear, and the right time to change.</description>
-    </item>
-    <item>
-      <title>#350 Mike Hayes - The Navy SEAL in Obama’s Situation Room During the Captain Phillips Rescue</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261022-350-mike-hayes-the-navy-seal-in-obamas-situation-room-during/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261022-350-mike-hayes-the-navy-seal-in-obamas-situation-room-during/</guid>
-      <pubDate>Thu, 22 Oct 2026 12:44:22 +0000</pubDate>
-      <description>A Navy SEAL’s biggest lessons came from choosing restraint, protecting people, and admitting what he did not know.</description>
     </item>
   </channel>
 </rss>
