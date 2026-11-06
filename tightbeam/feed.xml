@@ -4,8 +4,15 @@
   <title>Space Digest — Tightbeam</title>
   <link>https://thespacenavy.github.io/space-digest/tightbeam/</link>
   <description>A narrow beam on each person and subject worth following.</description>
-  <lastBuildDate>Fri, 06 Nov 2026 07:09:25 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 06 Nov 2026 13:04:07 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/tightbeam/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Elon Musk · 6 November 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-11-06/</link>
+    <guid isPermaLink="false">tightbeam:elonmusk/2026-11-06</guid>
+    <pubDate>Fri, 06 Nov 2026 13:03:53 +0000</pubDate>
+    <description>The day focused on Starlink, Tesla production, and space-based computing.</description>
+  </item>
   <item>
     <title>Peter Diamandis · The 2026 Holiday Gift Guide</title>
     <link>https://thespacenavy.github.io/space-digest/tightbeam/diamandis/2026-11-05-the-2026-holiday-gift-guide/</link>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">tightbeam:tesla/2026-09-29</guid>
     <pubDate>Tue, 29 Sep 2026 12:01:52 +0000</pubDate>
     <description>Tesla delayed its Roadster event, while Semi operations and possible European HW3 FSD support drew attention.</description>
-  </item>
-  <item>
-    <title>Elon Musk · 29 September 2026</title>
-    <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-09-29/</link>
-    <guid isPermaLink="false">tightbeam:elonmusk/2026-09-29</guid>
-    <pubDate>Tue, 29 Sep 2026 12:01:00 +0000</pubDate>
-    <description>Elon Musk focused on Starship’s first orbital flight, SpaceX infrastructure, and AI tools.</description>
   </item>
 </channel>
 </rss>
