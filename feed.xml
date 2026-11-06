@@ -5,8 +5,15 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Nov 2026 13:04:06 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 15:32:07 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Inside Salesforce’s $100 Billion M&amp;A Playbook | John Somorjai</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261106-inside-salesforces-100-billion-m-a-playbook-john-somorjai/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261106-inside-salesforces-100-billion-m-a-playbook-john-somorjai/</guid>
+      <pubDate>Fri, 06 Nov 2026 15:31:25 +0000</pubDate>
+      <description>Salesforce’s acquisition edge is less about buying big companies than spotting talent, moving fast, and using its massive distribution.</description>
+    </item>
     <item>
       <title>Why a Data Center Slowdown Benefits Big Tech</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261105-why-a-data-center-slowdown-benefits-big-tech/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261022-the-frontier-ideas-a16z-wants-to-fund-marc-andreessen-ben/</guid>
       <pubDate>Fri, 23 Oct 2026 01:04:24 +0000</pubDate>
       <description>AI is moving so fast that startups, hardware, and the internet may all need to be rebuilt around it.</description>
-    </item>
-    <item>
-      <title>The AI vs AI Battle for the Internet</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261022-the-ai-vs-ai-battle-for-the-internet/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261022-the-ai-vs-ai-battle-for-the-internet/</guid>
-      <pubDate>Fri, 23 Oct 2026 01:04:00 +0000</pubDate>
-      <description>The internet is entering an era where AI attackers and defenders race at machine speed—and coordination may decide who wins.</description>
     </item>
   </channel>
 </rss>
