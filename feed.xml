@@ -5,14 +5,35 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Nov 2026 01:06:41 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 04:01:09 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Companies Are Spending 5x More on AI Now</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261107-companies-are-spending-5x-more-on-ai-now/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261107-companies-are-spending-5x-more-on-ai-now/</guid>
+      <pubDate>Sat, 07 Nov 2026 03:54:13 +0000</pubDate>
+      <description>AI spending is not slowing down—it is exploding because companies are paying for work, not employee seats.</description>
+    </item>
+    <item>
+      <title>Japan’s Defense Minister: “We Can’t Rule Out ALIENS!”</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/american-alchemy-with-jesse-michels/20261106-japans-defense-minister-we-cant-rule-out-aliens/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/american-alchemy-with-jesse-michels/20261106-japans-defense-minister-we-cant-rule-out-aliens/</guid>
+      <pubDate>Sat, 07 Nov 2026 03:54:26 +0000</pubDate>
+      <description>Japanese officials treat UFO reports near nuclear sites and alleged alien encounters as serious enough to investigate publicly.</description>
+    </item>
     <item>
       <title>Inside Salesforce’s $100 Billion M&amp;A Playbook | John Somorjai</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261106-inside-salesforces-100-billion-m-a-playbook-john-somorjai/</link>
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261106-inside-salesforces-100-billion-m-a-playbook-john-somorjai/</guid>
       <pubDate>Fri, 06 Nov 2026 15:31:25 +0000</pubDate>
       <description>Salesforce’s acquisition edge is less about buying big companies than spotting talent, moving fast, and using its massive distribution.</description>
+    </item>
+    <item>
+      <title>#2578 - Calley Means</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261106-2578-calley-means/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261106-2578-calley-means/</guid>
+      <pubDate>Sat, 07 Nov 2026 03:55:32 +0000</pubDate>
+      <description>The episode argues that lobbyists, not voters, are quietly deciding which health reforms can survive Washington.</description>
     </item>
     <item>
       <title>Why a Data Center Slowdown Benefits Big Tech</title>
@@ -335,27 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261023-the-most-concerning-ai-bubble-signals/</guid>
       <pubDate>Fri, 23 Oct 2026 21:00:17 +0000</pubDate>
       <description>The biggest AI bubble risk may not be unused chips or debt, but whether today’s customers keep paying.</description>
-    </item>
-    <item>
-      <title>Amazon CEO Andy Jassy on Why Amazon Is Investing $220 Billion in AI</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261023-amazon-ceo-andy-jassy-on-why-amazon-is-investing-220-billion/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261023-amazon-ceo-andy-jassy-on-why-amazon-is-investing-220-billion/</guid>
-      <pubDate>Fri, 23 Oct 2026 13:11:47 +0000</pubDate>
-      <description>Amazon says AI is growing far faster than its cloud business did—and could shrink many familiar teams.</description>
-    </item>
-    <item>
-      <title>#2570 - Mystery Boys</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261023-2570-mystery-boys/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261023-2570-mystery-boys/</guid>
-      <pubDate>Fri, 23 Oct 2026 21:01:03 +0000</pubDate>
-      <description>The episode argues that hidden systems—from AI to targeted ads—can quietly reshape what people believe and how they behave.</description>
-    </item>
-    <item>
-      <title>The Frontier Ideas a16z Wants to Fund | Marc Andreessen, Ben Horowitz &amp; Chris Dixon</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261022-the-frontier-ideas-a16z-wants-to-fund-marc-andreessen-ben/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261022-the-frontier-ideas-a16z-wants-to-fund-marc-andreessen-ben/</guid>
-      <pubDate>Fri, 23 Oct 2026 01:04:24 +0000</pubDate>
-      <description>AI is moving so fast that startups, hardware, and the internet may all need to be rebuilt around it.</description>
     </item>
   </channel>
 </rss>
