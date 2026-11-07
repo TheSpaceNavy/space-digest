@@ -132,7 +132,8 @@
 <a href="/space-digest/feed.xml">RSS</a>
   </nav>
   <h1>Saturday 7 November 2026</h1>
-  <p class="meta">A quiet day</p>
+  <p class="meta">1
+     episode</p>
 
   <div class="strip">
     <h2>On the Tightbeam</h2>
@@ -141,8 +142,101 @@
           <a href="/space-digest/tightbeam/elonmusk/2026-11-07/">Elon Musk focused on SpaceX rockets, Starlink, advanced computing, Tesla, and Neuralink.</a></li>
     </ul>
   </div>
-    <p class="quiet">Nothing new today. The shows on the list have not published
-       since the last issue.</p>
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="the-a16z-show">The a16z Show <span class="at">1</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+<article class="entry" data-show="the-a16z-show" data-title="mark hyman’s guide to living longer and staying strong"
+         data-released="2026-11-07" data-done="2026-11-07T10:05">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-a16z-show/20261107-mark-hymans-guide-to-living-longer-and-staying-strong/">Mark Hyman’s Guide to Living Longer and Staying Strong</a></h2>
+  <p class="meta">The a16z Show · 7 November 2026 · 31 min<span class="done"> · written up 7 November at 10:05</span></p>
+  <p class="hook">Longer life may depend less on extreme hacks than on building and keeping muscle.</p>
+  <ul class="points">
+<li>Mark says daily habits matter more for health than dramatic interventions such as extended fasts. <span class="at">1:11</span></li><li>His morning routine combines meditation, gratitude, exercise, and a protein-and-creatine shake. <span class="at">1:44</span></li><li>He sees peptides as optional tools that cannot make up for poor food, weak sleep, inactivity, or chronic stress. <span class="at">3:21</span></li><li>He favors a 12-to-16-hour overnight fast but says women should adjust fasting to their health, hormones, weight, and pregnancy plans. <span class="at">4:25</span></li><li>He says older adults need plenty of high-quality protein and strength training to preserve or build muscle. <span class="at">12:42</span></li><li>The speaker argues that future medicine will combine detailed personal data, systems biology, and artificial intelligence to prevent disease earlier. <span class="at">26:31</span></li>  </ul>
+<blockquote><p>“Muscle is the currency of longevity.” — Mark Hyman [2:17]</p></blockquote><p class="for">Worth your time if you want practical longevity advice without relying on extreme health trends.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>“Muscle is the currency of longevity.”
+<span class="at">— Mark Hyman</span><span class="at">2:17</span><span class="why">Longevity advice usually centers on avoiding disease, not building muscle.</span>      </li>
+      <li>Mark says he is 65 and has approximately 10% body fat.
+<span class="at">— Mark Hyman</span><span class="at">9:48</span><span class="why">A longevity expert rarely gives such a precise personal body-composition figure.</span>      </li>
+      <li>“70% are deficient in one or more nutrients at the minimum level”
+<span class="at">15:54</span><span class="why">Health-conscious people might expect nutrient deficiencies to be uncommon.</span>      </li>
+      <li>“If you just got rid of cancer and heart disease, you can sell life by five to seven years,” while targeting aging biology could add 30 or 40 years.
+<span class="at">27:03</span><span class="why">Eliminating major diseases sounds like it should produce the biggest longevity gains.</span>      </li>
+      <li>A whole genome sequence now costs $300, down from approximately $1 billion.
+<span class="at">27:41</span><span class="why">Genetic testing has fallen from extraordinary expense to consumer-level affordability.</span>      </li>
+    </ol>
+  </div>
+</article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      list.classList.toggle('by-done', key === 'done');
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
   <nav class="more">
 <a href="/space-digest/issues/2026-11-06/">Older</a>    <a href="/space-digest/archive/">All issues</a>
   </nav>

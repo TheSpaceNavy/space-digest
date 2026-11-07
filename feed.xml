@@ -5,8 +5,15 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Nov 2026 13:13:06 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 16:08:47 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Mark Hyman’s Guide to Living Longer and Staying Strong</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261107-mark-hymans-guide-to-living-longer-and-staying-strong/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261107-mark-hymans-guide-to-living-longer-and-staying-strong/</guid>
+      <pubDate>Sat, 07 Nov 2026 16:05:32 +0000</pubDate>
+      <description>Longer life may depend less on extreme hacks than on building and keeping muscle.</description>
+    </item>
     <item>
       <title>Companies Are Spending 5x More on AI Now</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261107-companies-are-spending-5x-more-on-ai-now/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261024-what-it-takes-to-win-as-a-founder-ben-horowitz/</guid>
       <pubDate>Sat, 24 Oct 2026 21:14:38 +0000</pubDate>
       <description>AI may make companies easier to build, but it does not make founding one easier.</description>
-    </item>
-    <item>
-      <title>The Most Concerning AI Bubble Signals</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261023-the-most-concerning-ai-bubble-signals/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261023-the-most-concerning-ai-bubble-signals/</guid>
-      <pubDate>Fri, 23 Oct 2026 21:00:17 +0000</pubDate>
-      <description>The biggest AI bubble risk may not be unused chips or debt, but whether today’s customers keep paying.</description>
     </item>
   </channel>
 </rss>
