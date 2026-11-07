@@ -4,8 +4,15 @@
   <title>Space Digest — Tightbeam</title>
   <link>https://thespacenavy.github.io/space-digest/tightbeam/</link>
   <description>A narrow beam on each person and subject worth following.</description>
-  <lastBuildDate>Sat, 07 Nov 2026 07:14:09 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 07 Nov 2026 13:13:07 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/tightbeam/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Elon Musk · 7 November 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-11-07/</link>
+    <guid isPermaLink="false">tightbeam:elonmusk/2026-11-07</guid>
+    <pubDate>Sat, 07 Nov 2026 13:12:54 +0000</pubDate>
+    <description>Elon Musk focused on SpaceX rockets, Starlink, advanced computing, Tesla, and Neuralink.</description>
+  </item>
   <item>
     <title>Elon Musk · 6 November 2026</title>
     <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-11-06/</link>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">tightbeam:spacex/2026-09-29</guid>
     <pubDate>Tue, 29 Sep 2026 12:03:02 +0000</pubDate>
     <description>Starship reached orbit, deployed 26 Starlink V3 satellites, and SpaceX shared new Grok 4.7 news.</description>
-  </item>
-  <item>
-    <title>Tesla · 29 September 2026</title>
-    <link>https://thespacenavy.github.io/space-digest/tightbeam/tesla/2026-09-29/</link>
-    <guid isPermaLink="false">tightbeam:tesla/2026-09-29</guid>
-    <pubDate>Tue, 29 Sep 2026 12:01:52 +0000</pubDate>
-    <description>Tesla delayed its Roadster event, while Semi operations and possible European HW3 FSD support drew attention.</description>
   </item>
 </channel>
 </rss>
