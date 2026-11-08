@@ -5,8 +5,22 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Nov 2026 13:06:41 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 16:17:57 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The Health Interventions Actually Worth Your Time | Justin Mares</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261108-the-health-interventions-actually-worth-your-time-justin/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261108-the-health-interventions-actually-worth-your-time-justin/</guid>
+      <pubDate>Sun, 08 Nov 2026 16:16:58 +0000</pubDate>
+      <description>Most health advice gets lost in optimization; Justin Mares argues that a few boring habits matter more.</description>
+    </item>
+    <item>
+      <title>Agentic Video Is Real and Here’s What You Should Try</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261108-agentic-video-is-real-and-heres-what-you-should-try/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261108-agentic-video-is-real-and-heres-what-you-should-try/</guid>
+      <pubDate>Sun, 08 Nov 2026 16:16:46 +0000</pubDate>
+      <description>AI video is moving from a specialist craft to an everyday workplace tool—and the biggest gains may come after filming.</description>
+    </item>
     <item>
       <title>Mark Hyman’s Guide to Living Longer and Staying Strong</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261107-mark-hymans-guide-to-living-longer-and-staying-strong/</link>
@@ -342,20 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261025-the-new-startup-playbook-box-ceo-aaron-levie/</guid>
       <pubDate>Mon, 26 Oct 2026 09:23:25 +0000</pubDate>
       <description>AI may let tiny startups match giants, but judgment, taste, and distribution still decide who wins.</description>
-    </item>
-    <item>
-      <title>How I&#39;m Actually Using AI Right Now (Including Claude Duet)</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261025-how-im-actually-using-ai-right-now-including-claude-duet/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261025-how-im-actually-using-ai-right-now-including-claude-duet/</guid>
-      <pubDate>Mon, 26 Oct 2026 09:23:08 +0000</pubDate>
-      <description>Personal AI agents sound powerful, but the real breakthrough may be simpler: turning AI into a sharper thinking partner.</description>
-    </item>
-    <item>
-      <title>What It Takes to Win as a Founder | Ben Horowitz</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261024-what-it-takes-to-win-as-a-founder-ben-horowitz/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261024-what-it-takes-to-win-as-a-founder-ben-horowitz/</guid>
-      <pubDate>Sat, 24 Oct 2026 21:14:38 +0000</pubDate>
-      <description>AI may make companies easier to build, but it does not make founding one easier.</description>
     </item>
   </channel>
 </rss>
