@@ -5,8 +5,29 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Nov 2026 13:12:06 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 16:34:30 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Scott Kupor on Building a16z and Rebuilding the Federal Workforce</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261109-scott-kupor-on-building-a16z-and-rebuilding-the-federal/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261109-scott-kupor-on-building-a16z-and-rebuilding-the-federal/</guid>
+      <pubDate>Mon, 09 Nov 2026 16:33:00 +0000</pubDate>
+      <description>A venture firm built its edge by turning one investor’s job into an entire support system—and government may need the same overhaul.</description>
+    </item>
+    <item>
+      <title>#355 Captain Royce Williams - 101-Year-Old WWII Veteran &amp; Medal of Honor Recipient</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261109-355-captain-royce-williams-101-year-old-wwii-veteran-medal/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261109-355-captain-royce-williams-101-year-old-wwii-veteran-medal/</guid>
+      <pubDate>Mon, 09 Nov 2026 16:33:49 +0000</pubDate>
+      <description>A pilot secretly fought six MiGs alone, survived a crippled jet, and waited decades for the truth to emerge.</description>
+    </item>
+    <item>
+      <title>325. Stop Pushing Through: A Better Way to Handle Hard Work</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-optimalwork-podcast/20261109-325-stop-pushing-through-a-better-way-to-handle-hard-work/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-optimalwork-podcast/20261109-325-stop-pushing-through-a-better-way-to-handle-hard-work/</guid>
+      <pubDate>Mon, 09 Nov 2026 16:34:01 +0000</pubDate>
+      <description>Hard work gets better when you stop forcing the task and renew the purpose behind it.</description>
+    </item>
     <item>
       <title>The Health Interventions Actually Worth Your Time | Justin Mares</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261108-the-health-interventions-actually-worth-your-time-justin/</link>
@@ -335,27 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261026-4-questions-for-ai-this-week/</guid>
       <pubDate>Mon, 26 Oct 2026 21:43:10 +0000</pubDate>
       <description>AI’s biggest risks may now be arriving faster than labs can contain them.</description>
-    </item>
-    <item>
-      <title>#351 Chris Hansen - Hollywood’s To Catch a Predator Movie: “They Make Me Look Like a Vampire”</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261026-351-chris-hansen-hollywoods-to-catch-a-predator-movie-they/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261026-351-chris-hansen-hollywoods-to-catch-a-predator-movie-they/</guid>
-      <pubDate>Mon, 26 Oct 2026 21:44:00 +0000</pubDate>
-      <description>Online predators can look ordinary, move fast, and find children almost anywhere.</description>
-    </item>
-    <item>
-      <title>323. Why Getting Things Done Isn’t Enough</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-optimalwork-podcast/20261026-323-why-getting-things-done-isnt-enough/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-optimalwork-podcast/20261026-323-why-getting-things-done-isnt-enough/</guid>
-      <pubDate>Mon, 26 Oct 2026 21:44:07 +0000</pubDate>
-      <description>Getting things done can produce perfect results while quietly making you less loving.</description>
-    </item>
-    <item>
-      <title>The New Startup Playbook | Box CEO Aaron Levie</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261025-the-new-startup-playbook-box-ceo-aaron-levie/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261025-the-new-startup-playbook-box-ceo-aaron-levie/</guid>
-      <pubDate>Mon, 26 Oct 2026 09:23:25 +0000</pubDate>
-      <description>AI may let tiny startups match giants, but judgment, taste, and distribution still decide who wins.</description>
     </item>
   </channel>
 </rss>
