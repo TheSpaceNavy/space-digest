@@ -4,8 +4,15 @@
   <title>Space Digest — Tightbeam</title>
   <link>https://thespacenavy.github.io/space-digest/tightbeam/</link>
   <description>A narrow beam on each person and subject worth following.</description>
-  <lastBuildDate>Mon, 09 Nov 2026 16:34:31 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 09 Nov 2026 19:06:48 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/tightbeam/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Peter Diamandis · We&#39;ve Seen This Before… Many Times</title>
+    <link>https://thespacenavy.github.io/space-digest/tightbeam/diamandis/2026-11-09-weve-seen-this-before-many-times/</link>
+    <guid isPermaLink="false">tightbeam:diamandis/2026-11-09-weve-seen-this-before-many-times</guid>
+    <pubDate>Mon, 09 Nov 2026 19:06:32 +0000</pubDate>
+    <description>Today’s upheaval feels unique, but history ranks it below many earlier American crises and technology shocks.</description>
+  </item>
   <item>
     <title>Elon Musk · 9 November 2026</title>
     <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-11-09/</link>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">tightbeam:spacex/2026-09-30</guid>
     <pubDate>Wed, 30 Sep 2026 12:02:56 +0000</pubDate>
     <description>Starship’s first orbital flight, 26 large Starlink satellites, and new plans for faster launches led the day.</description>
-  </item>
-  <item>
-    <title>Tesla · 30 September 2026</title>
-    <link>https://thespacenavy.github.io/space-digest/tightbeam/tesla/2026-09-30/</link>
-    <guid isPermaLink="false">tightbeam:tesla/2026-09-30</guid>
-    <pubDate>Wed, 30 Sep 2026 12:02:02 +0000</pubDate>
-    <description>Tesla highlighted wider FSD approval, a major Semi order, faster Optimus production, and $30 billion in new credit.</description>
   </item>
 </channel>
 </rss>
