@@ -5,8 +5,15 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 13:07:11 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 16:57:04 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>HubSpot’s Co-Founder on Finding Your Next Startup Idea</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261110-hubspots-co-founder-on-finding-your-next-startup-idea/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261110-hubspots-co-founder-on-finding-your-next-startup-idea/</guid>
+      <pubDate>Tue, 10 Nov 2026 16:56:49 +0000</pubDate>
+      <description>The best startup ideas may come from testing fast, solving ignored problems, and knowing when not to use AI.</description>
+    </item>
     <item>
       <title>Scott Kupor on Building a16z and Rebuilding the Federal Workforce</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261109-scott-kupor-on-building-a16z-and-rebuilding-the-federal/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261026-what-everyone-gets-wrong-about-porn-addiction-jay-stringer/</guid>
       <pubDate>Mon, 26 Oct 2026 21:43:01 +0000</pubDate>
       <description>Porn recovery works better when it uncovers the pain beneath desire and builds a life worth staying present for.</description>
-    </item>
-    <item>
-      <title>OpenAI: When AI Agents Use Computers Faster Than You</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261026-openai-when-ai-agents-use-computers-faster-than-you/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261026-openai-when-ai-agents-use-computers-faster-than-you/</guid>
-      <pubDate>Mon, 26 Oct 2026 21:43:28 +0000</pubDate>
-      <description>AI agents are moving from clicking through software to running entire workflows faster than people.</description>
     </item>
   </channel>
 </rss>

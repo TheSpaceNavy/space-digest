@@ -132,7 +132,8 @@
 <a href="/space-digest/feed.xml">RSS</a>
   </nav>
   <h1>Tuesday 10 November 2026</h1>
-  <p class="meta">A quiet day</p>
+  <p class="meta">1
+     episode</p>
 
   <div class="strip">
     <h2>On the Tightbeam</h2>
@@ -141,8 +142,101 @@
           <a href="/space-digest/tightbeam/elonmusk/2026-11-10/">Elon Musk focused on Tesla, Grok’s development, and software for artificial intelligence and space systems.</a></li>
     </ul>
   </div>
-    <p class="quiet">Nothing new today. The shows on the list have not published
-       since the last issue.</p>
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="the-a16z-show">The a16z Show <span class="at">1</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+<article class="entry" data-show="the-a16z-show" data-title="hubspot’s co-founder on finding your next startup idea"
+         data-released="2026-11-10" data-done="2026-11-10T10:56">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-a16z-show/20261110-hubspots-co-founder-on-finding-your-next-startup-idea/">HubSpot’s Co-Founder on Finding Your Next Startup Idea</a></h2>
+  <p class="meta">The a16z Show · 10 November 2026 · 59 min<span class="done"> · written up 10 November at 10:56</span></p>
+  <p class="hook">The best startup ideas may come from testing fast, solving ignored problems, and knowing when not to use AI.</p>
+  <ul class="points">
+<li>AI gives builders more powerful tools, but the underlying business problems often stay the same. <span class="at">4:22</span></li><li>Founders should test ideas in the real world quickly because successful companies often change far beyond their original plans. <span class="at">7:41</span></li><li>HubSpot chose small businesses because they offered enterprise-level revenue potential with a much larger customer base. <span class="at">12:02</span></li><li>After finding that 60% of paying customers used no CRM, HubSpot built one and made it free. <span class="at">16:23</span></li><li>The speaker says founders should avoid competing directly with frontier AI companies by choosing markets those companies are unlikely to pursue. <span class="at">25:06</span></li><li>AI expands the software market by making previously unsolvable problems possible to address. <span class="at">53:40</span></li>  </ul>
+<blockquote><p>“The only real way to test an idea is to actually test it.” — Dharmesh Shah [7:41]</p></blockquote><p class="for">Worth your time if you want practical rules for finding, testing, and building a startup idea.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>60% of HubSpot’s paying customers were not using any CRM.
+<span class="at">— Dharmesh Shah</span><span class="at">16:23</span><span class="why">Paying customers for lead-generation tools might seem likely to track leads already.</span>      </li>
+      <li>“Never compete with Sam Alman.”
+<span class="at">28:57</span><span class="why">The speaker turns avoiding frontier AI companies into a deliberately humorous business rule.</span>      </li>
+      <li>“They are the new browsers.”
+<span class="at">35:14</span><span class="why">AI assistants may become access layers to software rather than owning the applications.</span>      </li>
+      <li>Uspot is exactly 30 days old.
+<span class="at">44:55</span><span class="why">A working CRM experiment sounds far more mature than its one-month age.</span>      </li>
+      <li>“I have no direct reports at HubSpot.”
+<span class="at">58:02</span><span class="why">A founder of a large company might be expected to manage a large team.</span>      </li>
+    </ol>
+  </div>
+</article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      list.classList.toggle('by-done', key === 'done');
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
   <nav class="more">
 <a href="/space-digest/issues/2026-11-09/">Older</a>    <a href="/space-digest/archive/">All issues</a>
   </nav>
