@@ -5,7 +5,7 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Nov 2026 01:04:28 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 05:19:43 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>HubSpot’s Co-Founder on Finding Your Next Startup Idea</title>
@@ -13,6 +13,20 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261110-hubspots-co-founder-on-finding-your-next-startup-idea/</guid>
       <pubDate>Tue, 10 Nov 2026 16:56:49 +0000</pubDate>
       <description>The best startup ideas may come from testing fast, solving ignored problems, and knowing when not to use AI.</description>
+    </item>
+    <item>
+      <title>Fable 5.2 Is the Best AI Ever. So Why Am I Not Switching Yet?</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261110-fable-5-2-is-the-best-ai-ever-so-why-am-i-not-switching-yet/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261110-fable-5-2-is-the-best-ai-ever-so-why-am-i-not-switching-yet/</guid>
+      <pubDate>Wed, 11 Nov 2026 05:13:41 +0000</pubDate>
+      <description>Fable 5.2 may be the strongest AI yet, but its biggest weakness is knowing what people actually want.</description>
+    </item>
+    <item>
+      <title>#2579 - Gary Sinise</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261110-2579-gary-sinise/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261110-2579-gary-sinise/</guid>
+      <pubDate>Wed, 11 Nov 2026 05:14:44 +0000</pubDate>
+      <description>Supporting veterans, Gary Sinise argues, means standing with people even when you oppose the wars they fought.</description>
     </item>
     <item>
       <title>Scott Kupor on Building a16z and Rebuilding the Federal Workforce</title>
@@ -342,20 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/american-alchemy-with-jesse-michels/20261027-the-secret-government-operation-faking-alien-abductions/</guid>
       <pubDate>Tue, 27 Oct 2026 22:12:15 +0000</pubDate>
       <description>The episode argues that UFOs, psychic research, and alien abductions may be tools in a hidden human control system.</description>
-    </item>
-    <item>
-      <title>Reinventing School for the AI Era | Joe Liemandt, Gagan Biyani &amp; Erik Torenberg</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261027-reinventing-school-for-the-ai-era-joe-liemandt-gagan-biyani/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261027-reinventing-school-for-the-ai-era-joe-liemandt-gagan-biyani/</guid>
-      <pubDate>Tue, 27 Oct 2026 22:11:31 +0000</pubDate>
-      <description>The most useful school of the AI era may look less like school—and demand much more from students.</description>
-    </item>
-    <item>
-      <title>What Everyone Gets Wrong About Porn Addiction (Jay Stringer) | Ep. 602</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261026-what-everyone-gets-wrong-about-porn-addiction-jay-stringer/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261026-what-everyone-gets-wrong-about-porn-addiction-jay-stringer/</guid>
-      <pubDate>Mon, 26 Oct 2026 21:43:01 +0000</pubDate>
-      <description>Porn recovery works better when it uncovers the pain beneath desire and builds a life worth staying present for.</description>
     </item>
   </channel>
 </rss>
