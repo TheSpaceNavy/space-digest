@@ -4,8 +4,15 @@
   <title>Space Digest — Just The Funny Bits</title>
   <link>https://thespacenavy.github.io/space-digest/funny/</link>
   <description>Only the jokes from the shows on the list, with a link to each one.</description>
-  <lastBuildDate>Thu, 12 Nov 2026 01:10:35 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 12 Nov 2026 06:07:04 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/funny/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>The Joe Rogan Experience: JRE MMA Show #188 with Paddy Pimblett</title>
+    <link>https://thespacenavy.github.io/space-digest/funny/2026-11-12/</link>
+    <guid isPermaLink="false">funny:the-joe-rogan-experience/20261111-jre-mma-show-188-with-paddy-pimblett</guid>
+    <pubDate>Thu, 12 Nov 2026 06:03:43 +0000</pubDate>
+    <description>9 funny bits: “All them first 14 fights I always walked out to rap music and then when I lost I switched it up to dance music [laughter]”</description>
+  </item>
   <item>
     <title>The Michael Knowles Show: Ep. 2101 - Ole Miss Ring Cam Girls: Was This Racist?</title>
     <link>https://thespacenavy.github.io/space-digest/funny/2026-11-11/</link>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">funny:the-white-house/20261023-president-trump-gaggles-with-press-upon-departure-from-the</guid>
     <pubDate>Fri, 23 Oct 2026 21:03:32 +0000</pubDate>
     <description>1 funny bit: “But my mother thought I was wonderful. Thank you, Mom. My mother would never even if she thought them she would never say”</description>
-  </item>
-  <item>
-    <title>The Michael Knowles Show: Ep. 2088 - WHAT? Ilhan Omar Is Apparently NOT The Real Ilhan Omar</title>
-    <link>https://thespacenavy.github.io/space-digest/funny/2026-10-23/</link>
-    <guid isPermaLink="false">funny:the-michael-knowles-show/20261023-ep-2088-what-ilhan-omar-is-apparently-not-the-real-ilhan</guid>
-    <pubDate>Fri, 23 Oct 2026 21:03:20 +0000</pubDate>
-    <description>4 funny bits: “I generally don&#39;t read fiction. I guess I have read a lot of fiction because people have whipped me into doing it at school and for work and things like that. And then every time I read some great novel, I think, wow, this has expanded my universe, the cosmos for me. I see life differently now, the that was a really edifying experience. Never doing that again.”</description>
   </item>
 </channel>
 </rss>

@@ -5,7 +5,7 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Nov 2026 01:10:34 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 06:07:03 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>What the Internet Boom Teaches Us About the AI Buildout | Mike Volpi</title>
@@ -13,6 +13,20 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261111-what-the-internet-boom-teaches-us-about-the-ai-buildout-mike/</guid>
       <pubDate>Wed, 11 Nov 2026 17:28:38 +0000</pubDate>
       <description>AI may be more valuable than the internet—but its boom could still end with fewer winners.</description>
+    </item>
+    <item>
+      <title>Wall Street Has No Idea What Anthropic Is Worth</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261111-wall-street-has-no-idea-what-anthropic-is-worth/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261111-wall-street-has-no-idea-what-anthropic-is-worth/</guid>
+      <pubDate>Thu, 12 Nov 2026 05:53:34 +0000</pubDate>
+      <description>Anthropic’s IPO may be worth $1.4 trillion, but the market is guessing because almost nobody knows what the company is worth.</description>
+    </item>
+    <item>
+      <title>JRE MMA Show #188 with Paddy Pimblett</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261111-jre-mma-show-188-with-paddy-pimblett/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261111-jre-mma-show-188-with-paddy-pimblett/</guid>
+      <pubDate>Thu, 12 Nov 2026 06:00:39 +0000</pubDate>
+      <description>Fighters may gain 35 pounds overnight, start camps at cave raves, and still question whether their best wins would hold today.</description>
     </item>
     <item>
       <title>HubSpot’s Co-Founder on Finding Your Next Startup Idea</title>
@@ -342,20 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261028-2571-jimmy-carr/</guid>
       <pubDate>Wed, 28 Oct 2026 22:44:03 +0000</pubDate>
       <description>The episode argues that creativity, comedy, and even freedom depend on resisting comfort, approval, and constant distraction.</description>
-    </item>
-    <item>
-      <title>What Anthropic’s IPO Filing Reveals</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261027-what-anthropics-ipo-filing-reveals/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261027-what-anthropics-ipo-filing-reveals/</guid>
-      <pubDate>Tue, 27 Oct 2026 22:11:11 +0000</pubDate>
-      <description>Anthropic’s IPO filing shows a company growing at record speed while betting hundreds of billions on AI infrastructure.</description>
-    </item>
-    <item>
-      <title>The Space Technology That Could Change History Forever</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261027-the-space-technology-that-could-change-history-forever/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261027-the-space-technology-that-could-change-history-forever/</guid>
-      <pubDate>Tue, 27 Oct 2026 22:12:33 +0000</pubDate>
-      <description>A company wants to turn rockets into giant orbital power plants and data centers.</description>
     </item>
   </channel>
 </rss>

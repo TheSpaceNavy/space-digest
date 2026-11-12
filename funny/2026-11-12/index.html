@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Just The Funny Bits · 12 November 2026 · Space Digest</title>
+<link rel="alternate" type="application/rss+xml" title="Space Digest" href="/space-digest/feed.xml">
+<style>
+  :root { --ink:#1a1a1a; --soft:#5b5b5b; --line:#e2e0da; --paper:#fbfaf7; --mark:#7a3b2e; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e8e6e1; --soft:#a09c94; --line:#33312d; --paper:#161513; --mark:#d99b7c; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink);
+         font:17px/1.65 Charter, Georgia, "Iowan Old Style", serif;
+         -webkit-text-size-adjust:100%; }
+  .page { max-width:38rem; margin:0 auto; padding:2.5rem 1.25rem 5rem; }
+  a { color:inherit; text-decoration-color:var(--line); text-underline-offset:3px; }
+  a:hover { text-decoration-color:var(--mark); }
+  header.masthead { border-bottom:2px solid var(--ink); padding-bottom:.6rem; margin-bottom:1rem; }
+  nav.top { display:flex; flex-wrap:wrap; gap:.2rem 1.4rem; margin:0 0 2rem;
+            font-size:.78rem; letter-spacing:.09em; text-transform:uppercase; }
+  nav.top a { color:var(--soft); text-decoration:none; padding:.25rem 0;
+              border-bottom:2px solid transparent; }
+  nav.top a:hover { color:var(--ink); }
+  nav.top a.on { color:var(--ink); border-bottom-color:var(--mark); }
+  header.masthead a { text-decoration:none; }
+  .wordmark { font-size:1.5rem; font-weight:700; letter-spacing:-.02em; margin:0; }
+  .tagline { color:var(--soft); font-size:.85rem; margin:.15rem 0 0; }
+  h1 { font-size:1.6rem; line-height:1.25; letter-spacing:-.015em; margin:0 0 .3rem; }
+  h2 { font-size:1.15rem; margin:2.5rem 0 .4rem; }
+  .meta { color:var(--soft); font-size:.82rem; margin:0 0 1.6rem; }
+  .hook { font-size:1.2rem; line-height:1.45; margin:0 0 1.2rem; }
+  article.entry { border-bottom:1px solid var(--line); padding-bottom:2rem; margin-bottom:2rem; }
+  article.entry:last-of-type { border-bottom:0; }
+  ul.points { list-style:none; margin:1.1rem 0; padding:0; }
+  ul.points li { margin:0 0 .7rem; padding-left:1rem; text-indent:-1rem; }
+  .at { color:var(--soft); font-size:.8rem; white-space:nowrap; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }
+  blockquote { margin:1.4rem 0; padding-left:1rem; border-left:3px solid var(--mark);
+               font-size:1.05rem; }
+  blockquote p { margin:0; }
+  .for { color:var(--soft); font-style:italic; }
+  .standouts { background:color-mix(in srgb, var(--mark) 7%, transparent);
+               border-radius:.4rem; padding:1rem 1.1rem; margin:1.6rem 0; }
+  .standouts h3 { margin:0 0 .6rem; font-size:.78rem; letter-spacing:.09em;
+                  text-transform:uppercase; color:var(--soft); font-weight:700; }
+  .standouts ol { margin:0; padding-left:1.15rem; }
+  .standouts li { margin:0 0 .7rem; }
+  .standouts li:last-child { margin-bottom:0; }
+  .why { display:block; color:var(--soft); font-size:.85rem; margin-top:.15rem; }
+  nav.more { margin-top:3rem; padding-top:1.2rem; border-top:1px solid var(--line);
+             color:var(--soft); font-size:.88rem; }
+  nav.more a { margin-right:1rem; }
+  footer { margin-top:3.5rem; padding-top:1.2rem; border-top:1px solid var(--line);
+           color:var(--soft); font-size:.8rem; }
+  .quiet { color:var(--soft); font-size:1.05rem; }
+  .filters { margin:1.5rem 0 2rem; }
+  .filters input { width:100%; padding:.55rem .7rem; font:inherit; font-size:.95rem;
+                   color:var(--ink); background:var(--paper);
+                   border:1px solid var(--line); border-radius:.35rem; }
+  .filters input:focus { outline:2px solid var(--mark); outline-offset:1px; }
+  .chips { display:flex; flex-wrap:wrap; gap:.4rem; margin-top:.7rem; }
+  .chip { font:inherit; font-size:.85rem; padding:.3rem .7rem; cursor:pointer;
+          color:var(--soft); background:transparent;
+          border:1px solid var(--line); border-radius:1rem; }
+  .chip:hover { border-color:var(--mark); color:var(--ink); }
+  .chip.on { background:var(--ink); border-color:var(--ink); color:var(--paper); }
+  .chip.on .at { color:var(--paper); opacity:.7; }
+  ul.episodes { list-style:none; margin:0; padding:0; }
+  ul.episodes li { padding:.85rem 0; border-bottom:1px solid var(--line); }
+  ul.episodes li a { font-size:1.05rem; }
+  ul.episodes .at { display:block; margin-top:.15rem; }
+  ul.episodes .why { margin-top:.3rem; }
+  section.topic { margin:1.6rem 0; }
+  section.topic h3 { font-size:1rem; margin:0 0 .3rem; }
+  ul.posts { list-style:none; margin:.6rem 0 0; padding:0; }
+  ul.posts li { padding:.6rem 0 .6rem .9rem; border-left:2px solid var(--line); margin:0 0 .6rem; }
+  ul.posts .at a { text-decoration:none; }
+  .post-text { margin:.25rem 0 0; white-space:pre-line; }
+  .quoted { margin:.35rem 0 0; color:var(--soft); font-size:.9rem; white-space:pre-line; }
+  .translation { margin:.2rem 0 0; color:var(--soft); font-size:.9rem; font-style:italic;
+                 white-space:pre-line; }
+  /* Tightbeam: the same head on every beam page, so the kinds read as one. */
+  .eyebrow { margin:0 0 .35rem; font-size:.78rem; letter-spacing:.09em;
+             text-transform:uppercase; color:var(--soft); }
+  .eyebrow a { color:inherit; text-decoration:none; }
+  .eyebrow a:hover { color:var(--ink); }
+  .sep { margin:0 .4rem; color:var(--line); }
+  .badge { display:inline-block; margin-left:.5rem; padding:.05rem .45rem;
+           border:1px solid var(--mark); border-radius:1rem; color:var(--mark);
+           font-size:.68rem; letter-spacing:.08em; text-transform:uppercase;
+           vertical-align:.1em; white-space:nowrap; }
+  h1 .label, h2 .label { font-weight:400; color:var(--soft); }
+  .beam-card h2 { font-size:1.3rem; letter-spacing:-.01em; }
+  .numbers { margin:1.4rem 0; padding:.2rem 0 .2rem 1rem; border-left:3px solid var(--line); }
+  .numbers p { margin:.35rem 0; }
+  .numbers .fig { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; color:var(--mark); }
+  .points-src { display:block; color:var(--soft); font-size:.72rem; letter-spacing:.08em;
+                text-transform:uppercase; margin-top:.15rem; }
+  .strip { margin:0 0 2.2rem; padding:.9rem 0 .2rem; border-top:1px solid var(--line);
+           border-bottom:1px solid var(--line); }
+  .strip h2 { margin:0 0 .5rem; font-size:.78rem; letter-spacing:.09em;
+              text-transform:uppercase; color:var(--soft); }
+  .strip ul { list-style:none; margin:0 0 .7rem; padding:0; }
+  .strip li { margin:0 0 .55rem; }
+  .strip .who { display:block; font-size:.82rem; color:var(--soft); }
+  .strip a { font-size:.98rem; }
+  a.button { display:inline-block; margin:.6rem 0 0; padding:.45rem .9rem;
+             border:1px solid var(--mark); border-radius:.3rem; color:var(--mark);
+             text-decoration:none; font-size:.92rem; }
+  a.button:hover { background:var(--mark); color:var(--paper); }
+  .archive { color:var(--mark); }
+  .done { display:none; }
+  .by-done .done { display:inline; color:var(--mark); }
+  .chips + .chips { margin-top:.5rem; }
+  ol.bits { margin:1.1rem 0 0; padding-left:1.3rem; }
+  ol.bits li { margin:0 0 1.1rem; }
+  ol.bits .said { font-size:1.05rem; }
+  ol.bits .at a { text-decoration:none; border-bottom:1px dotted var(--soft); }
+</style>
+<body>
+<div class="page">
+  <header class="masthead">
+    <a href="/space-digest/"><p class="wordmark">Space Digest</p></a>
+    <p class="tagline">The podcasts worth your week, in a minute each.</p>
+  </header>
+  <nav class="top" aria-label="Sections">
+    <a href="/space-digest/">Today</a>
+    <a href="/space-digest/episodes/">Episodes</a>
+    <a href="/space-digest/archive/">Issues</a>
+<a href="/space-digest/tightbeam/">Tightbeam</a>
+<a href="/space-digest/funny/" class="on">Funny bits</a>
+<a href="/space-digest/feed.xml">RSS</a>
+  </nav>
+  <h1>Just The Funny Bits</h1>
+  <p class="meta">Thursday 12 November 2026 ·
+1 episode     · only the jokes; the news stays out</p>
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="the-joe-rogan-experience">The Joe Rogan Experience <span class="at">1</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+    <article class="entry" id="the-joe-rogan-experience-20261111-jre-mma-show-188-with-paddy-pimblett" data-show="the-joe-rogan-experience" data-title="jre mma show #188 with paddy pimblett"
+             data-released="2026-11-11" data-done="2026-11-12T00:03">
+      <h2 style="margin-top:0"><a href="https://www.youtube.com/watch?v=3B2HRPuwylE">JRE MMA Show #188 with Paddy Pimblett</a></h2>
+      <p class="meta">The Joe Rogan Experience · 11 November 2026 · 2h 56m
+         · times link into the video<span class="done"> · written up 12 November at 00:03</span></p>
+      <ol class="bits">
+        <li>
+          <span class="said">“All them first 14 fights I always walked out to rap music and then when I lost I switched it up to dance music [laughter]”</span>
+          <span class="at"><a href="https://www.youtube.com/watch?v=3B2HRPuwylE&amp;t=2262s">37:42</a></span>
+<span class="why">The speaker describes changing his entrance music after losing his first professional fight. The joke is that he treats a change in musical genre as if it were the solution to his losing streak.</span>        </li>
+        <li>
+          <span class="said">“How much cocaine was involved in that creation. [laughter] How much How much coke do you have [clears throat] to snort where someone&#39;s like, &#39;THIS IS WHAT WE WANT TO DO. [laughter] WE HAVE GRASS UNDER THE GROUND. WE HAVE A PISTON SYSTEM. LIFT IT UP. MOVE IT TO THE SIDE.&#39;”</span>
+          <span class="at"><a href="https://www.youtube.com/watch?v=3B2HRPuwylE&amp;t=8226s">2:17:06</a></span>
+<span class="why">They are amazed by Real Madrid’s expensive stadium system that moves layers of grass underground. The host jokingly imagines the designers needing enormous amounts of cocaine to conceive such an extravagantly complicated idea.</span>        </li>
+        <li>
+          <span class="said">“English is a second language and then it cuts to me and I&#39;m talking. It&#39;s got subtitles underneath. I&#39;m like English is my first language.”</span>
+          <span class="at"><a href="https://www.youtube.com/watch?v=3B2HRPuwylE&amp;t=31s">0:31</a></span>
+<span class="why">The speakers are discussing how difficult the guest’s thick Liverpool accent is to understand. He jokes that an English-speaking fighter was subtitled while he was not.</span>        </li>
+        <li>
+          <span class="said">“Yeah, that&#39;s all you needed over the octagon. Give everybody umbrellas. &gt;&gt; No scouts would care if it was raining on them. Believe me, they&#39;d all be going bananas no matter what. &gt;&gt; Probably make it better.”</span>
+          <span class="at"><a href="https://www.youtube.com/watch?v=3B2HRPuwylE&amp;t=497s">8:17</a></span>
+<span class="why">They imagine staging a UFC event at the guest’s Liverpool football stadium despite England’s rain. The host jokes that only the fighters need a roof, while the crowd would enjoy getting soaked.</span>        </li>
+        <li>
+          <span class="said">“I&#39;m terrible with names. Well, he comes in saying to us, his name&#39;s Mo, but he was main event on Cage the other night. if you could get his name up. Um I just call him Modo because he comes to the gym, he spars with me, he trains with me”</span>
+          <span class="at"><a href="https://www.youtube.com/watch?v=3B2HRPuwylE&amp;t=1655s">27:35</a></span>
+<span class="why">The speaker is trying to identify a Spanish fighter but admits he cannot remember the fighter’s name, so he has given him his own improvised nickname, “Modo.”</span>        </li>
+        <li>
+          <span class="said">“If it went to decision, it was an accident, you know? They were they were chaos.”</span>
+          <span class="at"><a href="https://www.youtube.com/watch?v=3B2HRPuwylE&amp;t=3182s">53:02</a></span>
+<span class="why">While describing Melvin Manhoef’s all-out fighting style, the speaker jokes that a fight lasting to the judges would be an unlikely mistake.</span>        </li>
+        <li>
+          <span class="said">“What a dumb thing America did by never adopting the metric system. They tried when I was in uh I guess I was in high school. They started trotting that out. They taught us the metric system and I was like well that makes more sense. Everything&#39;s [laughter] tens and then they tried it for a little while and I was like nah *bleep* you inches.”</span>
+          <span class="at"><a href="https://www.youtube.com/watch?v=3B2HRPuwylE&amp;t=7703s">2:08:23</a></span>
+<span class="why">They are struggling to convert the beer can’s millilitres into fluid ounces. The host mocks America’s refusal to use the simpler decimal-based metric system, then abruptly chooses inches and imperial units anyway.</span>        </li>
+        <li>
+          <span class="said">“So, you&#39;re trying to eat your muscle?&#34; &#34;Yeah.”</span>
+          <span class="at"><a href="https://www.youtube.com/watch?v=3B2HRPuwylE&amp;t=9870s">2:44:30</a></span>
+<span class="why">The guest explains that his nutritionist reduced his protein and changed his diet because he had unintentionally gained too much muscle for his weight class. The host turns that weight-cutting strategy into the absurd image of eating away his own muscles.</span>        </li>
+        <li>
+          <span class="said">“I was very, very young and immature then. I was 26, but I was about 16 in the head”</span>
+          <span class="at"><a href="https://www.youtube.com/watch?v=3B2HRPuwylE&amp;t=1712s">28:32</a></span>
+<span class="why">The speaker explains that an online feud began when he was 26, but self-deprecatingly says his maturity level was closer to a teenager’s.</span>        </li>
+      </ol>
+    </article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      list.classList.toggle('by-done', key === 'done');
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
+  <nav class="more">
+<a href="/space-digest/funny/2026-11-11/">Older</a>    <a href="/space-digest/funny/episodes/">Every episode</a>
+    <a href="/space-digest/funny/feed.xml">Subscribe by RSS</a>
+  </nav>
+  <footer>
+    <p>Summaries are written by a machine from the original words, and link
+       back to where they were said. Nothing here replaces the source.</p>
+    <p><a href="/space-digest/episodes/">Every episode</a> ·
+       <a href="/space-digest/archive/">Every issue</a> ·
+<a href="/space-digest/tightbeam/">Tightbeam</a> ·
+<a href="/space-digest/funny/">Funny bits</a> ·
+<a href="/space-digest/feed.xml">Subscribe by RSS</a></p>
+  </footer>
+</div>
