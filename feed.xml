@@ -5,7 +5,7 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Nov 2026 01:15:21 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 06:56:16 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>The Next Era of Games: Mods, Agents, and Infinite Worlds</title>
@@ -13,6 +13,20 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261112-the-next-era-of-games-mods-agents-and-infinite-worlds/</guid>
       <pubDate>Thu, 12 Nov 2026 18:19:52 +0000</pubDate>
       <description>AI could turn games from fixed products into worlds players build, remix, and reshape while playing.</description>
+    </item>
+    <item>
+      <title>Let&#39;s Talk About These Atheist TikToks | Ethan Muse | Last Call Ep. 40</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261112-lets-talk-about-these-atheist-tiktoks-ethan-muse-last-call/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261112-lets-talk-about-these-atheist-tiktoks-ethan-muse-last-call/</guid>
+      <pubDate>Fri, 13 Nov 2026 06:51:20 +0000</pubDate>
+      <description>The episode argues that disbelief may sometimes reflect resistance to God’s demands—not simply a lack of evidence.</description>
+    </item>
+    <item>
+      <title>Jensen Huang Is Out. Everything in AI Is Now Up for Grabs.</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261112-jensen-huang-is-out-everything-in-ai-is-now-up-for-grabs/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261112-jensen-huang-is-out-everything-in-ai-is-now-up-for-grabs/</guid>
+      <pubDate>Fri, 13 Nov 2026 06:51:31 +0000</pubDate>
+      <description>NVIDIA’s CEO is out, and his removal could reshape chips, open AI, China policy, and the industry’s financial backbone.</description>
     </item>
     <item>
       <title>#356 Joe Kent - Susie Wiles, Stephen Miller, Midterms and the AIPAC Problem</title>
@@ -342,20 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261029-the-ai-rankings-just-got-reshuffled/</guid>
       <pubDate>Thu, 29 Oct 2026 23:26:55 +0000</pubDate>
       <description>Google’s Gemini 4 Carbon takes the top AI ranking, while the new scoreboard sharply widens the gap between leading and open models.</description>
-    </item>
-    <item>
-      <title>6 Myths About Porn | Jay Stringer | Last Call Ep. 38</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261029-6-myths-about-porn-jay-stringer-last-call-ep-38/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261029-6-myths-about-porn-jay-stringer-last-call-ep-38/</guid>
-      <pubDate>Thu, 29 Oct 2026 23:26:48 +0000</pubDate>
-      <description>Pornography does more than satisfy desire: it can teach, soothe, and expose the parts of life we have not learned to build.</description>
-    </item>
-    <item>
-      <title>#352 Cain Velasquez - UFC Champion Hunted the Man Accused of Abusing His 4-Year-Old Son</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261029-352-cain-velasquez-ufc-champion-hunted-the-man-accused-of/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261029-352-cain-velasquez-ufc-champion-hunted-the-man-accused-of/</guid>
-      <pubDate>Thu, 29 Oct 2026 11:03:17 +0000</pubDate>
-      <description>A UFC champion’s revenge, grief, and prison time pushed him toward a radically spiritual view of life.</description>
     </item>
   </channel>
 </rss>
