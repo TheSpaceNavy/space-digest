@@ -5,8 +5,22 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Nov 2026 19:00:18 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 19:21:40 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Every Day Is Zero Day | Wiz CTO Ami Luttwak</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261113-every-day-is-zero-day-wiz-cto-ami-luttwak/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261113-every-day-is-zero-day-wiz-cto-ami-luttwak/</guid>
+      <pubDate>Fri, 13 Nov 2026 19:11:55 +0000</pubDate>
+      <description>AI is shrinking the gap between finding a weakness and using it, forcing defenders to attack themselves every day.</description>
+    </item>
+    <item>
+      <title>#2581 - Protect Our Parks 18</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261113-2581-protect-our-parks-18/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261113-2581-protect-our-parks-18/</guid>
+      <pubDate>Fri, 13 Nov 2026 19:13:40 +0000</pubDate>
+      <description>A conspiracy forum, a frozen ship, and a disputed relic all make certainty look surprisingly fragile.</description>
+    </item>
     <item>
       <title>The Next Era of Games: Mods, Agents, and Infinite Worlds</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261112-the-next-era-of-games-mods-agents-and-infinite-worlds/</link>
@@ -342,20 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261030-2573-legion-of-skanks/</guid>
       <pubDate>Sat, 31 Oct 2026 00:01:14 +0000</pubDate>
       <description>The episode jumps from organ transplants to self-driving cars, showing how ordinary life repeatedly turns bizarre.</description>
-    </item>
-    <item>
-      <title>The Startups Rebuilding American Industry | The AD50</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261029-the-startups-rebuilding-american-industry-the-ad50/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261029-the-startups-rebuilding-american-industry-the-ad50/</guid>
-      <pubDate>Thu, 29 Oct 2026 23:27:13 +0000</pubDate>
-      <description>America’s industrial comeback may depend less on new inventions than on building the factories to make them real.</description>
-    </item>
-    <item>
-      <title>The AI Rankings Just Got Reshuffled</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261029-the-ai-rankings-just-got-reshuffled/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261029-the-ai-rankings-just-got-reshuffled/</guid>
-      <pubDate>Thu, 29 Oct 2026 23:26:55 +0000</pubDate>
-      <description>Google’s Gemini 4 Carbon takes the top AI ranking, while the new scoreboard sharply widens the gap between leading and open models.</description>
     </item>
   </channel>
 </rss>
