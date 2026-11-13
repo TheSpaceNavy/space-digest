@@ -4,8 +4,15 @@
   <title>Space Digest — Tightbeam</title>
   <link>https://thespacenavy.github.io/space-digest/tightbeam/</link>
   <description>A narrow beam on each person and subject worth following.</description>
-  <lastBuildDate>Fri, 13 Nov 2026 07:15:25 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 13 Nov 2026 13:00:26 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/tightbeam/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Elon Musk · 13 November 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-11-13/</link>
+    <guid isPermaLink="false">tightbeam:elonmusk/2026-11-13</guid>
+    <pubDate>Fri, 13 Nov 2026 13:00:11 +0000</pubDate>
+    <description>Elon Musk highlighted SpaceX’s commitment to sharing benefits with communities where it builds.</description>
+  </item>
   <item>
     <title>Peter Diamandis · Can a Patch Do for Hormones What It Did for Glucose?</title>
     <link>https://thespacenavy.github.io/space-digest/tightbeam/diamandis/2026-11-12-can-a-patch-do-for-hormones-what-it-did-for/</link>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">tightbeam:elonmusk/2026-10-05</guid>
     <pubDate>Mon, 05 Oct 2026 12:01:07 +0000</pubDate>
     <description>Elon Musk highlighted Grok’s coding, cybersecurity, workplace, and civic uses, along with Starlink streaming.</description>
-  </item>
-  <item>
-    <title>Elon Musk · 4 October 2026</title>
-    <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-10-04/</link>
-    <guid isPermaLink="false">tightbeam:elonmusk/2026-10-04</guid>
-    <pubDate>Sun, 04 Oct 2026 12:00:52 +0000</pubDate>
-    <description>Elon Musk highlighted Starship, Starbase, autonomous safety, and video game statistics.</description>
   </item>
 </channel>
 </rss>
