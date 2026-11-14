@@ -5,8 +5,15 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Nov 2026 07:00:20 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 07:37:52 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Washington Is Taking Control of AI</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261113-washington-is-taking-control-of-ai/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261113-washington-is-taking-control-of-ai/</guid>
+      <pubDate>Sat, 14 Nov 2026 07:33:59 +0000</pubDate>
+      <description>Jensen Huang’s exit is turning a corporate scandal into a new U.S.–China technology crackdown.</description>
+    </item>
     <item>
       <title>Every Day Is Zero Day | Wiz CTO Ami Luttwak</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261113-every-day-is-zero-day-wiz-cto-ami-luttwak/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261030-how-the-most-ai-pilled-company-in-the-world-works/</guid>
       <pubDate>Sat, 31 Oct 2026 00:00:17 +0000</pubDate>
       <description>Spawn runs much of its company through persistent AI agents—and lets them break production to improve faster.</description>
-    </item>
-    <item>
-      <title>#2573 - Legion of Skanks</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261030-2573-legion-of-skanks/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261030-2573-legion-of-skanks/</guid>
-      <pubDate>Sat, 31 Oct 2026 00:01:14 +0000</pubDate>
-      <description>The episode jumps from organ transplants to self-driving cars, showing how ordinary life repeatedly turns bizarre.</description>
     </item>
   </channel>
 </rss>
