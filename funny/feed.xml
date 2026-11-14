@@ -4,7 +4,7 @@
   <title>Space Digest — Just The Funny Bits</title>
   <link>https://thespacenavy.github.io/space-digest/funny/</link>
   <description>Only the jokes from the shows on the list, with a link to each one.</description>
-  <lastBuildDate>Sat, 14 Nov 2026 19:00:28 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 14 Nov 2026 19:46:10 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/funny/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>The White House: Secretary Mullin and Secretary Duffy Brief Members of the Press on the FAA Ground Stop</title>
@@ -12,6 +12,13 @@
     <guid isPermaLink="false">funny:the-white-house/20261114-secretary-mullin-and-secretary-duffy-brief-members-of-the</guid>
     <pubDate>Sat, 14 Nov 2026 07:36:48 +0000</pubDate>
     <description>2 funny bits: “Welcome to Friday the 13th, right? Um, you know, I I want to make sure everybody understands that there is no connection between this and Microsoft. I know a lot of people are making that jump.”</description>
+  </item>
+  <item>
+    <title>The Ben Shapiro Show: Ben Shapiro Scene Breakdown: CONFESSION</title>
+    <link>https://thespacenavy.github.io/space-digest/funny/2026-11-14/</link>
+    <guid isPermaLink="false">funny:the-ben-shapiro-show/20261114-ben-shapiro-scene-breakdown-confession</guid>
+    <pubDate>Sat, 14 Nov 2026 19:45:27 +0000</pubDate>
+    <description>1 funny bit: “I think one of the beautiful things about this film is legitimately, it&#39;s like watching a baseball game where every single reliever comes in and throws 100.”</description>
   </item>
   <item>
     <title>The Ben Shapiro Show: The Most Powerful Man in AI Just Fell. And It&#39;s Getting Worse.</title>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">funny:the-joe-rogan-experience/20261030-2573-legion-of-skanks</guid>
     <pubDate>Sat, 31 Oct 2026 00:02:49 +0000</pubDate>
     <description>7 funny bits: “They come up to and they eat my hydrangeas. I want to beat them to death with a baseball bat. &gt;&gt; Not your hydrangeas. &gt;&gt; I I have a batting cage in my house. So, we got a a deer got its antlers caught in the cage.”</description>
-  </item>
-  <item>
-    <title>The White House: President Trump Gaggles with Press Upon Departure from Joint Base Andrews, Oct. 29, 2026</title>
-    <link>https://thespacenavy.github.io/space-digest/funny/2026-10-30/</link>
-    <guid isPermaLink="false">funny:the-white-house/20261029-president-trump-gaggles-with-press-upon-departure-from-joint</guid>
-    <pubDate>Fri, 30 Oct 2026 11:35:32 +0000</pubDate>
-    <description>1 funny bit: “I have a 99% favorable number with the Republican party that you saw just came out. I&#39;m a 99% favorable. I don&#39;t know. I should hit a hundred. I don&#39;t know who the 1% is”</description>
   </item>
 </channel>
 </rss>

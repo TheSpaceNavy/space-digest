@@ -5,8 +5,15 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Nov 2026 19:00:28 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 19:46:10 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>From the Telephone to Modern Computing | James Gleick</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261114-from-the-telephone-to-modern-computing-james-gleick/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261114-from-the-telephone-to-modern-computing-james-gleick/</guid>
+      <pubDate>Sat, 14 Nov 2026 19:45:01 +0000</pubDate>
+      <description>The telephone’s biggest breakthroughs came from users, accidents, and inventions made without a clear business plan.</description>
+    </item>
     <item>
       <title>Washington Is Taking Control of AI</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261113-washington-is-taking-control-of-ai/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261030-why-ai-could-turn-small-law-firms-into-billion-dollar/</guid>
       <pubDate>Fri, 30 Oct 2026 11:35:03 +0000</pubDate>
       <description>AI could make thousands of ignored legal claims profitable—and turn small firms into national businesses.</description>
-    </item>
-    <item>
-      <title>How the Most AI-Pilled Company in the World Works</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261030-how-the-most-ai-pilled-company-in-the-world-works/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261030-how-the-most-ai-pilled-company-in-the-world-works/</guid>
-      <pubDate>Sat, 31 Oct 2026 00:00:17 +0000</pubDate>
-      <description>Spawn runs much of its company through persistent AI agents—and lets them break production to improve faster.</description>
     </item>
   </channel>
 </rss>
