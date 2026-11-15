@@ -5,8 +5,22 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Nov 2026 19:00:34 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 19:54:49 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>What Breaks When You Scale 10x? | Zipline’s Keller Cliffton</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261115-what-breaks-when-you-scale-10x-ziplines-keller-cliffton/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261115-what-breaks-when-you-scale-10x-ziplines-keller-cliffton/</guid>
+      <pubDate>Sun, 15 Nov 2026 19:53:46 +0000</pubDate>
+      <description>Every tenfold jump breaks Zipline’s old playbook—and the company expects to make that jump almost every year.</description>
+    </item>
+    <item>
+      <title>7 Things AI-Native Companies Do Differently</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261115-7-things-ai-native-companies-do-differently/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261115-7-things-ai-native-companies-do-differently/</guid>
+      <pubDate>Sun, 15 Nov 2026 19:53:34 +0000</pubDate>
+      <description>The best AI-native companies are replacing fixed digital teammates with context-rich systems that summon the right workers for each task.</description>
+    </item>
     <item>
       <title>From the Telephone to Modern Computing | James Gleick</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261114-from-the-telephone-to-modern-computing-james-gleick/</link>
@@ -342,20 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261031-can-ai-fix-professional-networking-inside-cosign/</guid>
       <pubDate>Sat, 31 Oct 2026 12:08:06 +0000</pubDate>
       <description>Cosign wants AI agents to turn trusted recommendations into career connections, replacing cold applications with better-timed introductions.</description>
-    </item>
-    <item>
-      <title>#2574 - Francis Foster &amp; Konstantin Kisin</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261031-2574-francis-foster-konstantin-kisin/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261031-2574-francis-foster-konstantin-kisin/</guid>
-      <pubDate>Sun, 01 Nov 2026 00:13:47 +0000</pubDate>
-      <description>From Iran and the Sphinx to universal income, the conversation keeps asking whether today’s certainties survive closer inspection.</description>
-    </item>
-    <item>
-      <title>Why AI Could Turn Small Law Firms Into Billion-Dollar Businesses</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261030-why-ai-could-turn-small-law-firms-into-billion-dollar/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261030-why-ai-could-turn-small-law-firms-into-billion-dollar/</guid>
-      <pubDate>Fri, 30 Oct 2026 11:35:03 +0000</pubDate>
-      <description>AI could make thousands of ignored legal claims profitable—and turn small firms into national businesses.</description>
     </item>
   </channel>
 </rss>
