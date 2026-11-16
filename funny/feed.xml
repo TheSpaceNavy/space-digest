@@ -4,8 +4,22 @@
   <title>Space Digest — Just The Funny Bits</title>
   <link>https://thespacenavy.github.io/space-digest/funny/</link>
   <description>Only the jokes from the shows on the list, with a link to each one.</description>
-  <lastBuildDate>Mon, 16 Nov 2026 19:00:24 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 16 Nov 2026 20:15:19 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/funny/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>The White House: Military Spouse Commission Meeting, Nov. 16, 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/funny/2026-11-16/</link>
+    <guid isPermaLink="false">funny:the-white-house/20261116-military-spouse-commission-meeting-nov-16-2026</guid>
+    <pubDate>Mon, 16 Nov 2026 20:15:01 +0000</pubDate>
+    <description>2 funny bits: “Whether your package can&#39;t get to you, can&#39;t get on base or can&#39;t find you once on base or gets thrown over a fence or left somewhere out in the open for you to find.”</description>
+  </item>
+  <item>
+    <title>The Michael Knowles Show: Ep. 2104 - Did Iran Ground All Our Flights?</title>
+    <link>https://thespacenavy.github.io/space-digest/funny/2026-11-16/</link>
+    <guid isPermaLink="false">funny:the-michael-knowles-show/20261116-ep-2104-did-iran-ground-all-our-flights</guid>
+    <pubDate>Mon, 16 Nov 2026 20:14:30 +0000</pubDate>
+    <description>1 funny bit: “It wasn&#39;t like the router just spratted arms and started punching holes in the walls.”</description>
+  </item>
   <item>
     <title>The Ben Shapiro Show: I Have a Confession to Make</title>
     <link>https://thespacenavy.github.io/space-digest/funny/2026-11-15/</link>
@@ -341,20 +355,6 @@
     <guid isPermaLink="false">funny:the-michael-knowles-show/20261030-ep-2093-very-bad-ideas-dune-3-popcorn-bucket-fully-ai-movie</guid>
     <pubDate>Sat, 31 Oct 2026 00:05:30 +0000</pubDate>
     <description>3 funny bits: “The first ever super duper amazing graphics AI release, gross is 198 grand, and New Lai, which was made on a Commodore 64 plugged into a TV screen, made $4 million at the box office.”</description>
-  </item>
-  <item>
-    <title>The Andrew Klavan Show: Ep. 1302 - The Fight Goes On</title>
-    <link>https://thespacenavy.github.io/space-digest/funny/2026-10-31/</link>
-    <guid isPermaLink="false">funny:the-andrew-klavan-show/20261030-ep-1302-the-fight-goes-on</guid>
-    <pubDate>Sat, 31 Oct 2026 00:03:24 +0000</pubDate>
-    <description>1 funny bit: “My brain considers bedtime the perfect opportunity to review everything that has gone wrong since approximately 1974. But I&#39;ve been drinking Beams Cinnamon Cocoa Dream Powder, and it really does help you fall asleep.”</description>
-  </item>
-  <item>
-    <title>The Michael Knowles Show: &#34;A Brick Came Out Of His Mouth&#34; Michael &amp; The Exorcist Files</title>
-    <link>https://thespacenavy.github.io/space-digest/funny/2026-10-31/</link>
-    <guid isPermaLink="false">funny:the-michael-knowles-show/20261030-a-brick-came-out-of-his-mouth-michael-the-exorcist-files</guid>
-    <pubDate>Sat, 31 Oct 2026 00:04:34 +0000</pubDate>
-    <description>3 funny bits: “I don&#39;t know, that&#39;s my first exorcist, you know, and hopefully the last one I ever need to meet. And so he rolls up and uh he&#39;s got the kit, got the bag, you know, the only missing was the tubular bells, right?”</description>
   </item>
 </channel>
 </rss>

@@ -133,9 +133,108 @@
   </nav>
   <h1>Just The Funny Bits</h1>
   <p class="meta">Monday 16 November 2026 ·
-A quiet day     · only the jokes; the news stays out</p>
-    <p class="quiet">No funny bits today. The shows on the list have not published
-       since the last page.</p>
+2 episodes     · only the jokes; the news stays out</p>
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="the-michael-knowles-show">The Michael Knowles Show <span class="at">1</span></button>
+      <button class="chip" data-show="the-white-house">The White House <span class="at">1</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+    <article class="entry" id="the-white-house-20261116-military-spouse-commission-meeting-nov-16-2026" data-show="the-white-house" data-title="military spouse commission meeting, nov. 16, 2026"
+             data-released="2026-11-16" data-done="2026-11-16T14:15">
+      <h2 style="margin-top:0"><a href="https://www.youtube.com/watch?v=IvN4FEQ2JyI">Military Spouse Commission Meeting, Nov. 16, 2026</a></h2>
+      <p class="meta">The White House · 16 November 2026 · 35 min
+         · times link into the video<span class="done"> · written up 16 November at 14:15</span></p>
+      <ol class="bits">
+        <li>
+          <span class="said">“Whether your package can&#39;t get to you, can&#39;t get on base or can&#39;t find you once on base or gets thrown over a fence or left somewhere out in the open for you to find.”</span>
+<span class="at">— Mrs. Hexath</span>          <span class="at"><a href="https://www.youtube.com/watch?v=IvN4FEQ2JyI&amp;t=880s">14:40</a></span>
+<span class="why">The speaker lists the increasingly absurd ways military-base deliveries can go wrong, escalating from delays to packages being thrown over fences or abandoned outside.</span>        </li>
+        <li>
+          <span class="said">“I wish I could have you all vote on everything because I think I get a lot more done.”</span>
+          <span class="at"><a href="https://www.youtube.com/watch?v=IvN4FEQ2JyI&amp;t=1393s">23:13</a></span>
+<span class="why">After another unanimous vote, the speaker jokes that having the group vote on every matter would make it easier to accomplish everything.</span>        </li>
+      </ol>
+    </article>
+    <article class="entry" id="the-michael-knowles-show-20261116-ep-2104-did-iran-ground-all-our-flights" data-show="the-michael-knowles-show" data-title="ep. 2104 - did iran ground all our flights?"
+             data-released="2026-11-16" data-done="2026-11-16T14:14">
+      <h2 style="margin-top:0"><a href="https://www.dailywire.com/show/the-michael-knowles-show">Ep. 2104 - Did Iran Ground All Our Flights?</a></h2>
+      <p class="meta">The Michael Knowles Show · 16 November 2026 · 57 min
+         · times are from the podcast audio<span class="done"> · written up 16 November at 14:14</span></p>
+      <ol class="bits">
+        <li>
+          <span class="said">“It wasn&#39;t like the router just spratted arms and started punching holes in the walls.”</span>
+<span class="at">— Michael Knowles</span>          <span class="at">9:55</span>
+<span class="why">While explaining that an overloaded router caused the flight disruption, the host humorously imagines the inanimate device growing arms and physically attacking the infrastructure.</span>        </li>
+      </ol>
+    </article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      list.classList.toggle('by-done', key === 'done');
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
   <nav class="more">
 <a href="/space-digest/funny/2026-11-15/">Older</a>    <a href="/space-digest/funny/episodes/">Every episode</a>
     <a href="/space-digest/funny/feed.xml">Subscribe by RSS</a>
