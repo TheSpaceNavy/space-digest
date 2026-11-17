@@ -5,8 +5,22 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 19:00:25 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 20:45:00 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>JRE MMA Show #189 with Tommy McMililen</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261117-jre-mma-show-189-with-tommy-mcmililen/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261117-jre-mma-show-189-with-tommy-mcmililen/</guid>
+      <pubDate>Tue, 17 Nov 2026 20:38:54 +0000</pubDate>
+      <description>Fighting gave one athlete purpose, sobriety, and a life he says he might not otherwise have.</description>
+    </item>
+    <item>
+      <title>Can AI Learn to Improve Itself? | Recursive Self-Improvement</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261117-can-ai-learn-to-improve-itself-recursive-self-improvement/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261117-can-ai-learn-to-improve-itself-recursive-self-improvement/</guid>
+      <pubDate>Tue, 17 Nov 2026 20:37:38 +0000</pubDate>
+      <description>AI can already speed up AI research, but its biggest weakness is knowing which ideas matter.</description>
+    </item>
     <item>
       <title>Wonder Is the Antidote to Cynicism (Malcolm Guite) | Ep. 605</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261116-wonder-is-the-antidote-to-cynicism-malcolm-guite-ep-605/</link>
@@ -342,20 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261102-the-robots-already-working-in-american-factories-tutor/</guid>
       <pubDate>Tue, 03 Nov 2026 01:03:53 +0000</pubDate>
       <description>Robots are already doing everyday factory work, but the hardest part is teaching them to handle reality.</description>
-    </item>
-    <item>
-      <title>How to Deslopify Your AI</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261102-how-to-deslopify-your-ai/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261102-how-to-deslopify-your-ai/</guid>
-      <pubDate>Tue, 03 Nov 2026 01:03:34 +0000</pubDate>
-      <description>AI makes publishing effortless, but the episode argues that human judgment—not speed—will decide what deserves attention.</description>
-    </item>
-    <item>
-      <title>Feminism is Dying (Thank God!) (Dr. Carrie Gress) | Ep. 603</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261102-feminism-is-dying-thank-god-dr-carrie-gress-ep-603/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261102-feminism-is-dying-thank-god-dr-carrie-gress-ep-603/</guid>
-      <pubDate>Tue, 03 Nov 2026 01:03:09 +0000</pubDate>
-      <description>Feminism, they argue, promised freedom but often leaves women angry, isolated, and far from the lives they wanted.</description>
     </item>
   </channel>
 </rss>
