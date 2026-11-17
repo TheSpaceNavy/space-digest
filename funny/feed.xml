@@ -4,8 +4,15 @@
   <title>Space Digest — Just The Funny Bits</title>
   <link>https://thespacenavy.github.io/space-digest/funny/</link>
   <description>Only the jokes from the shows on the list, with a link to each one.</description>
-  <lastBuildDate>Tue, 17 Nov 2026 07:00:22 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 17 Nov 2026 08:27:46 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/funny/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>The White House: President Trump Gaggles with Press Upon Departure from the White House. Nov. 16, 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/funny/2026-11-17/</link>
+    <guid isPermaLink="false">funny:the-white-house/20261116-president-trump-gaggles-with-press-upon-departure-from-the</guid>
+    <pubDate>Tue, 17 Nov 2026 08:26:56 +0000</pubDate>
+    <description>1 funny bit: “I hope you like it. has got reviews. Listen to me. The helellipad has gotten great reviews and the nicest of all will be the ballroom which is now people are saying it fits like a love.”</description>
+  </item>
   <item>
     <title>The White House: Military Spouse Commission Meeting, Nov. 16, 2026</title>
     <link>https://thespacenavy.github.io/space-digest/funny/2026-11-16/</link>
@@ -19,6 +26,13 @@
     <guid isPermaLink="false">funny:the-michael-knowles-show/20261116-ep-2104-did-iran-ground-all-our-flights</guid>
     <pubDate>Mon, 16 Nov 2026 20:14:30 +0000</pubDate>
     <description>1 funny bit: “It wasn&#39;t like the router just spratted arms and started punching holes in the walls.”</description>
+  </item>
+  <item>
+    <title>The Matt Walsh Show: Ep. 1874 - The Disturbing Truth About The Nationwide Ground Stop</title>
+    <link>https://thespacenavy.github.io/space-digest/funny/2026-11-17/</link>
+    <guid isPermaLink="false">funny:the-matt-walsh-show/20261116-ep-1874-the-disturbing-truth-about-the-nationwide-ground</guid>
+    <pubDate>Tue, 17 Nov 2026 08:26:31 +0000</pubDate>
+    <description>5 funny bits: “Getting mad at them for not solving healthcare, yelling at SpaceX because you can&#39;t afford health care. It&#39;s like walking into Denny&#39;s and yelling at the waitress because your washing machine is broken.”</description>
   </item>
   <item>
     <title>The Ben Shapiro Show: I Have a Confession to Make</title>
@@ -341,20 +355,6 @@
     <guid isPermaLink="false">funny:the-ben-shapiro-show/20261030-remembering-sir-patrick-stewart</guid>
     <pubDate>Sat, 31 Oct 2026 00:03:37 +0000</pubDate>
     <description>1 funny bit: “B or not a B. That is the question. Whether &#39;tis the second letter of the alphabet or some other merry letter. Be or not a B. This letter doth have a stiff, straight back. And the word back beginneth with B.”</description>
-  </item>
-  <item>
-    <title>The White House: President Trump Delivers Remarks, Oct. 30, 2026</title>
-    <link>https://thespacenavy.github.io/space-digest/funny/2026-10-31/</link>
-    <guid isPermaLink="false">funny:the-white-house/20261030-president-trump-delivers-remarks-oct-30-2026</guid>
-    <pubDate>Sat, 31 Oct 2026 00:04:45 +0000</pubDate>
-    <description>1 funny bit: “How would it have been? I&#39;m speaking to President Putin. I&#39;d like to get Steven Hubard back, Mr. President. And by the way, we&#39;re putting sanctions on you right now. Can you imagine?”</description>
-  </item>
-  <item>
-    <title>The Michael Knowles Show: Ep. 2093 - Very Bad Ideas: Dune 3 Popcorn Bucket &amp; Fully AI Movie</title>
-    <link>https://thespacenavy.github.io/space-digest/funny/2026-10-31/</link>
-    <guid isPermaLink="false">funny:the-michael-knowles-show/20261030-ep-2093-very-bad-ideas-dune-3-popcorn-bucket-fully-ai-movie</guid>
-    <pubDate>Sat, 31 Oct 2026 00:05:30 +0000</pubDate>
-    <description>3 funny bits: “The first ever super duper amazing graphics AI release, gross is 198 grand, and New Lai, which was made on a Commodore 64 plugged into a TV screen, made $4 million at the box office.”</description>
   </item>
 </channel>
 </rss>

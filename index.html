@@ -132,10 +132,100 @@
 <a href="/space-digest/feed.xml">RSS</a>
   </nav>
   <h1>Tuesday 17 November 2026</h1>
-  <p class="meta">A quiet day</p>
+  <p class="meta">1
+     episode</p>
 
-    <p class="quiet">Nothing new today. The shows on the list have not published
-       since the last issue.</p>
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="the-optimalwork-podcast">The OptimalWork Podcast <span class="at">1</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+<article class="entry" data-show="the-optimalwork-podcast" data-title="326. crafting a vision of excellence"
+         data-released="2026-11-16" data-done="2026-11-17T02:25">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-optimalwork-podcast/20261116-326-crafting-a-vision-of-excellence/">326. Crafting a Vision of Excellence</a></h2>
+  <p class="meta">The OptimalWork Podcast · 16 November 2026 · 29 min<span class="done"> · written up 17 November at 02:25</span></p>
+  <p class="hook">A better reason can change not only how you act, but what the action becomes.</p>
+  <ul class="points">
+<li>Excellence joins a good reason, a fitting method, and a worthwhile task into one inspiring vision. <span class="at">2:57</span></li><li>Preparing a home for guests should focus on how they benefit, not on impressing them with a perfect house. <span class="at">7:44</span></li><li>When preparations go wrong, returning to the original ideal can restore cheerfulness and guide better choices. <span class="at">11:50</span></li><li>In coaching, the goal is to help people form a clear vision of excellence for the challenge ahead. <span class="at">18:55</span></li><li>Small family actions, such as calling a parent or putting a child to bed, become formative when their purpose and manner matter. <span class="at">24:27</span></li><li>A brief pause to ask who benefits and how to act can make forming an excellent vision a daily habit. <span class="at">27:13</span></li>  </ul>
+<blockquote><p>“It&#39;s the joining together, you know, of some really good why with some kind of beautiful how into some worthy what.” Kevin Majors [3:36]</p></blockquote><p class="for">Worth your time if you want ordinary chores to become more loving, thoughtful, and enjoyable.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>“If the goal is making the guests feel at home, you probably don&#39;t need to scrub the ovens.”
+<span class="at">— Sharif</span><span class="at">8:53</span><span class="why">Most people equate excellent hospitality with making every surface spotless.</span>      </li>
+      <li>A clean house can matter less than preserving a cheerful family atmosphere.
+<span class="at">— Kevin Majors</span><span class="at">12:59</span><span class="why">People usually sacrifice togetherness to finish the visible task.</span>      </li>
+      <li>“The externals look the same but I think it&#39;s gonna be harder to do that cheerfully.”
+<span class="at">— Kevin Majors</span><span class="at">7:44</span><span class="why">We often assume identical actions have identical meaning.</span>      </li>
+    </ol>
+  </div>
+</article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      list.classList.toggle('by-done', key === 'done');
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
   <nav class="more">
 <a href="/space-digest/issues/2026-11-16/">Older</a>    <a href="/space-digest/archive/">All issues</a>
   </nav>

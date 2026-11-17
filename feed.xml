@@ -5,7 +5,7 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 07:00:20 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 08:27:44 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Wonder Is the Antidote to Cynicism (Malcolm Guite) | Ep. 605</title>
@@ -41,6 +41,13 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261116-357-payne-lindsey-he-was-the-first-monster-i-ever-really/</guid>
       <pubDate>Mon, 16 Nov 2026 20:13:18 +0000</pubDate>
       <description>A true-crime filmmaker becomes an investigator, confronts dangerous suspects, and says a spiritual encounter changed his life.</description>
+    </item>
+    <item>
+      <title>326. Crafting a Vision of Excellence</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-optimalwork-podcast/20261116-326-crafting-a-vision-of-excellence/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-optimalwork-podcast/20261116-326-crafting-a-vision-of-excellence/</guid>
+      <pubDate>Tue, 17 Nov 2026 08:25:12 +0000</pubDate>
+      <description>A better reason can change not only how you act, but what the action becomes.</description>
     </item>
     <item>
       <title>What Breaks When You Scale 10x? | Zipline’s Keller Cliffton</title>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261102-feminism-is-dying-thank-god-dr-carrie-gress-ep-603/</guid>
       <pubDate>Tue, 03 Nov 2026 01:03:09 +0000</pubDate>
       <description>Feminism, they argue, promised freedom but often leaves women angry, isolated, and far from the lives they wanted.</description>
-    </item>
-    <item>
-      <title>#353 Dr. Thomas Madden - Rome Historian Reveals the 7 Warning Signs of a Dying Republic</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261102-353-dr-thomas-madden-rome-historian-reveals-the-7-warning/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261102-353-dr-thomas-madden-rome-historian-reveals-the-7-warning/</guid>
-      <pubDate>Mon, 02 Nov 2026 12:36:00 +0000</pubDate>
-      <description>Rome’s republic did not collapse in one blow; it weakened as wealth, fear, and private armies replaced civic loyalty.</description>
     </item>
   </channel>
 </rss>
