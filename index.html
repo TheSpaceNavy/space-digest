@@ -132,10 +132,102 @@
 <a href="/space-digest/feed.xml">RSS</a>
   </nav>
   <h1>Wednesday 18 November 2026</h1>
-  <p class="meta">A quiet day</p>
+  <p class="meta">1
+     episode</p>
 
-    <p class="quiet">Nothing new today. The shows on the list have not published
-       since the last issue.</p>
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="the-ai-daily-brief-artificial">The AI Daily Brief <span class="at">1</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+<article class="entry" data-show="the-ai-daily-brief-artificial" data-title="how business ai use is changing"
+         data-released="2026-11-17" data-done="2026-11-18T02:51">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-ai-daily-brief-artificial/20261117-how-business-ai-use-is-changing/">How Business AI Use is Changing</a></h2>
+  <p class="meta">The AI Daily Brief · 17 November 2026 · 24 min<span class="done"> · written up 18 November at 02:51</span></p>
+  <p class="hook">Business AI use is rising far faster than costs, as companies switch models to chase better deals.</p>
+  <ul class="points">
+<li>Businesses used 36% more AI tokens while spending only 2% more, as average token prices fell 21%. <span class="at">16:50</span></li><li>Companies are switching providers more freely: 72% of Databricks gateway users now use at least two model providers, up from 36% in July. <span class="at">17:26</span></li><li>Enterprise AI spending is becoming a major budget item, with 91% of surveyed large companies expecting to spend more in 2026. <span class="at">17:59</span></li><li>AI spending is sharply concentrated, with the top 1% of Ramp firms spending about 625 times more per employee than the median firm. <span class="at">19:04</span></li><li>Coding remains the main business use, while customer-service spending rose from 0.8% to 13.3% of Ramp’s tracked AI spend. <span class="at">20:05</span></li><li>AI agents attract strong interest but remain barely deployed at ordinary large companies, ranking last for actual adoption. <span class="at">21:46</span></li>  </ul>
+<blockquote><p>“Competition is vicious, and the model providers are trying desperately to not just have their product turn into a generic commodity.” [23:23]</p></blockquote><p class="for">Worth your time if you want to understand where business AI spending is really going.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>Businesses used 36% more AI tokens while spending only 2% more.
+<span class="at">16:50</span><span class="why">Most people would expect heavier AI use to bring sharply higher bills.</span>      </li>
+      <li>72% of Databricks gateway users now use two or more model providers, up from 36% in July.
+<span class="at">17:26</span><span class="why">Enterprise customers are switching models much faster than expected.</span>      </li>
+      <li>The top 1% of Ramp firms spend about 625 times more per employee than the median firm.
+<span class="at">19:04</span><span class="why">AI spending is far more concentrated than a typical market-wide average suggests.</span>      </li>
+      <li>Autonomous agents rank last for actual adoption despite ranking fourth for pilots and plans.
+<span class="at">21:46</span><span class="why">Excitement about agents has outpaced real deployment.</span>      </li>
+    </ol>
+  </div>
+</article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      list.classList.toggle('by-done', key === 'done');
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
   <nav class="more">
 <a href="/space-digest/issues/2026-11-17/">Older</a>    <a href="/space-digest/archive/">All issues</a>
   </nav>

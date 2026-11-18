@@ -5,7 +5,7 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Nov 2026 07:00:22 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 08:53:21 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>JRE MMA Show #189 with Tommy McMililen</title>
@@ -13,6 +13,13 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261117-jre-mma-show-189-with-tommy-mcmililen/</guid>
       <pubDate>Tue, 17 Nov 2026 20:38:54 +0000</pubDate>
       <description>Fighting gave one athlete purpose, sobriety, and a life he says he might not otherwise have.</description>
+    </item>
+    <item>
+      <title>How Business AI Use is Changing</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261117-how-business-ai-use-is-changing/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261117-how-business-ai-use-is-changing/</guid>
+      <pubDate>Wed, 18 Nov 2026 08:51:37 +0000</pubDate>
+      <description>Business AI use is rising far faster than costs, as companies switch models to chase better deals.</description>
     </item>
     <item>
       <title>Can AI Learn to Improve Itself? | Recursive Self-Improvement</title>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261103-2575-sam-tallent/</guid>
       <pubDate>Wed, 04 Nov 2026 01:22:47 +0000</pubDate>
       <description>A conversation about comedy, books, and mortality ends with the claim that AI may already be a new form of life.</description>
-    </item>
-    <item>
-      <title>The Robots Already Working in American Factories | Tutor Intelligence</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261102-the-robots-already-working-in-american-factories-tutor/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261102-the-robots-already-working-in-american-factories-tutor/</guid>
-      <pubDate>Tue, 03 Nov 2026 01:03:53 +0000</pubDate>
-      <description>Robots are already doing everyday factory work, but the hardest part is teaching them to handle reality.</description>
     </item>
   </channel>
 </rss>
