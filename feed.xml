@@ -5,8 +5,22 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Nov 2026 19:00:20 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 21:06:41 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The Missing Layer for Personal AI | First Person Labs’ Ken Liu</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261118-the-missing-layer-for-personal-ai-first-person-labs-ken-liu/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261118-the-missing-layer-for-personal-ai-first-person-labs-ken-liu/</guid>
+      <pubDate>Wed, 18 Nov 2026 21:00:16 +0000</pubDate>
+      <description>Personal AI may matter less as a chatbot than as a private memory layer that follows you everywhere.</description>
+    </item>
+    <item>
+      <title>#2582 - Greg Anderson</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261118-2582-greg-anderson/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261118-2582-greg-anderson/</guid>
+      <pubDate>Wed, 18 Nov 2026 21:01:31 +0000</pubDate>
+      <description>A Pacific crossing, lockdown defiance, and war memories lead to one hard question: who gets to use force?</description>
+    </item>
     <item>
       <title>JRE MMA Show #189 with Tommy McMililen</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261117-jre-mma-show-189-with-tommy-mcmililen/</link>
@@ -342,20 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261103-andrew-hubermans-three-rules-for-better-health-and-focus/</guid>
       <pubDate>Tue, 03 Nov 2026 13:09:48 +0000</pubDate>
       <description>Better health may come less from perfect routines than from a few repeatable habits that fit your real life.</description>
-    </item>
-    <item>
-      <title>AI Lurches Toward Recursive Self-Improvement</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261103-ai-lurches-toward-recursive-self-improvement/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261103-ai-lurches-toward-recursive-self-improvement/</guid>
-      <pubDate>Wed, 04 Nov 2026 01:21:27 +0000</pubDate>
-      <description>AI may be starting to improve AI, but the bigger surprise is how little that guarantees about adoption or profits.</description>
-    </item>
-    <item>
-      <title>#2575 - Sam Tallent</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261103-2575-sam-tallent/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261103-2575-sam-tallent/</guid>
-      <pubDate>Wed, 04 Nov 2026 01:22:47 +0000</pubDate>
-      <description>A conversation about comedy, books, and mortality ends with the claim that AI may already be a new form of life.</description>
     </item>
   </channel>
 </rss>
