@@ -5,8 +5,43 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Nov 2026 19:00:24 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 19:33:13 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>We Need to Talk About Trent Horn + a BIG Announcement</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261119-we-need-to-talk-about-trent-horn-a-big-announcement/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261119-we-need-to-talk-about-trent-horn-a-big-announcement/</guid>
+      <pubDate>Thu, 19 Nov 2026 19:25:30 +0000</pubDate>
+      <description>Trent Horn’s unexplained departure sparks praise, caution, and a closer look at faith beyond the headlines.</description>
+    </item>
+    <item>
+      <title>How Fast Should We Build Superintelligence? | Nick Bostrom</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261119-how-fast-should-we-build-superintelligence-nick-bostrom/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261119-how-fast-should-we-build-superintelligence-nick-bostrom/</guid>
+      <pubDate>Thu, 19 Nov 2026 19:26:17 +0000</pubDate>
+      <description>Superintelligence may deserve a short delay—but waiting too long could cost millions of lives and humanity’s future.</description>
+    </item>
+    <item>
+      <title>#358 Ed Barnhart - Inside America’s Forgotten Pyramid Civilization</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261119-358-ed-barnhart-inside-americas-forgotten-pyramid/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261119-358-ed-barnhart-inside-americas-forgotten-pyramid/</guid>
+      <pubDate>Thu, 19 Nov 2026 19:27:16 +0000</pubDate>
+      <description>America’s first cities grew from burial grounds, shell waste and trade—not just farming or conquest.</description>
+    </item>
+    <item>
+      <title>#2583 - Bob Gymlan</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261119-2583-bob-gymlan/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261119-2583-bob-gymlan/</guid>
+      <pubDate>Thu, 19 Nov 2026 19:28:36 +0000</pubDate>
+      <description>The episode treats alien sightings, ancient mysteries, and AI as clues to a future humans may be building blindly.</description>
+    </item>
+    <item>
+      <title>Why the AI Kids Hate Astra 6.2</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261118-why-the-ai-kids-hate-astra-6-2/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261118-why-the-ai-kids-hate-astra-6-2/</guid>
+      <pubDate>Thu, 19 Nov 2026 19:25:44 +0000</pubDate>
+      <description>A model launch that looked broken to coders may reveal OpenAI is chasing cheaper, broader workplace use.</description>
+    </item>
     <item>
       <title>The Missing Layer for Personal AI | First Person Labs’ Ken Liu</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261118-the-missing-layer-for-personal-ai-first-person-labs-ken-liu/</link>
@@ -321,41 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261105-354-reckless-ben-the-internets-most-controversial/</guid>
       <pubDate>Thu, 05 Nov 2026 14:16:34 +0000</pubDate>
       <description>A homeless stunt creator infiltrated cults, exposed abusive schools, and fought a religion in court without a lawyer.</description>
-    </item>
-    <item>
-      <title>#2577 - Gregory Forth</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261105-2577-gregory-forth/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261105-2577-gregory-forth/</guid>
-      <pubDate>Fri, 06 Nov 2026 03:23:47 +0000</pubDate>
-      <description>A 700,000-year-old human relative may have left behind living memories on Flores.</description>
-    </item>
-    <item>
-      <title>The New AI Agents That Shop, Plan, and Gossip</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261104-the-new-ai-agents-that-shop-plan-and-gossip/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261104-the-new-ai-agents-that-shop-plan-and-gossip/</guid>
-      <pubDate>Wed, 04 Nov 2026 13:41:22 +0000</pubDate>
-      <description>AI agents may become a society of helpers, friends, negotiators, and unpredictable digital characters.</description>
-    </item>
-    <item>
-      <title>How the Midterm Results Change AI</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261104-how-the-midterm-results-change-ai/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261104-how-the-midterm-results-change-ai/</guid>
-      <pubDate>Thu, 05 Nov 2026 02:00:23 +0000</pubDate>
-      <description>The election did not stop AI, but it made data centers a political liability that developers can no longer ignore.</description>
-    </item>
-    <item>
-      <title>#2576 - Dr. Peter McCullough</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261104-2576-dr-peter-mccullough/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261104-2576-dr-peter-mccullough/</guid>
-      <pubDate>Thu, 05 Nov 2026 02:01:35 +0000</pubDate>
-      <description>The episode argues that pandemic science was bent by money, fear, censorship, and a single-minded push for mass vaccination.</description>
-    </item>
-    <item>
-      <title>Andrew Huberman’s Three Rules for Better Health and Focus</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261103-andrew-hubermans-three-rules-for-better-health-and-focus/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261103-andrew-hubermans-three-rules-for-better-health-and-focus/</guid>
-      <pubDate>Tue, 03 Nov 2026 13:09:48 +0000</pubDate>
-      <description>Better health may come less from perfect routines than from a few repeatable habits that fit your real life.</description>
     </item>
   </channel>
 </rss>
