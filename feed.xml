@@ -5,8 +5,29 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Nov 2026 19:00:32 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 20:09:33 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Why You Should Try Gemini Neon (Even if You Love Fable)</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261120-why-you-should-try-gemini-neon-even-if-you-love-fable/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261120-why-you-should-try-gemini-neon-even-if-you-love-fable/</guid>
+      <pubDate>Fri, 20 Nov 2026 20:01:54 +0000</pubDate>
+      <description>Gemini Neon’s biggest advantage may not be winning benchmarks, but thinking unlike ChatGPT and Claude.</description>
+    </item>
+    <item>
+      <title>Why the Agent Era Needs a New Operating System | DHH</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261120-why-the-agent-era-needs-a-new-operating-system-dhh/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261120-why-the-agent-era-needs-a-new-operating-system-dhh/</guid>
+      <pubDate>Fri, 20 Nov 2026 20:02:28 +0000</pubDate>
+      <description>AI agents could turn Linux’s old flaws into its greatest strengths—and let tiny teams build what once took entire companies.</description>
+    </item>
+    <item>
+      <title>#2584 - Mike Baker</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261120-2584-mike-baker/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261120-2584-mike-baker/</guid>
+      <pubDate>Fri, 20 Nov 2026 20:03:46 +0000</pubDate>
+      <description>The episode argues that America’s biggest threats may arrive quietly—through compromised systems, institutions, and incentives.</description>
+    </item>
     <item>
       <title>We Need to Talk About Trent Horn + a BIG Announcement</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261119-we-need-to-talk-about-trent-horn-a-big-announcement/</link>
@@ -335,27 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261106-inside-salesforces-100-billion-m-a-playbook-john-somorjai/</guid>
       <pubDate>Fri, 06 Nov 2026 15:31:25 +0000</pubDate>
       <description>Salesforce’s acquisition edge is less about buying big companies than spotting talent, moving fast, and using its massive distribution.</description>
-    </item>
-    <item>
-      <title>#2578 - Calley Means</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261106-2578-calley-means/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261106-2578-calley-means/</guid>
-      <pubDate>Sat, 07 Nov 2026 03:55:32 +0000</pubDate>
-      <description>The episode argues that lobbyists, not voters, are quietly deciding which health reforms can survive Washington.</description>
-    </item>
-    <item>
-      <title>Why a Data Center Slowdown Benefits Big Tech</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261105-why-a-data-center-slowdown-benefits-big-tech/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261105-why-a-data-center-slowdown-benefits-big-tech/</guid>
-      <pubDate>Fri, 06 Nov 2026 03:22:49 +0000</pubDate>
-      <description>A slower data-center buildout could boost Big Tech by easing costs, raising margins, and letting the AI bubble deflate safely.</description>
-    </item>
-    <item>
-      <title>The New CFO: How AI Is Rewriting the Finance Function | Figma CFO Praveer Melwani</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261105-the-new-cfo-how-ai-is-rewriting-the-finance-function-figma/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261105-the-new-cfo-how-ai-is-rewriting-the-finance-function-figma/</guid>
-      <pubDate>Thu, 05 Nov 2026 14:15:39 +0000</pubDate>
-      <description>AI may shrink finance teams—but only after it makes their judgment more valuable.</description>
     </item>
   </channel>
 </rss>
