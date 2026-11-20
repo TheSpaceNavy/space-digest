@@ -5,7 +5,7 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Nov 2026 07:00:20 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 07:49:32 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>We Need to Talk About Trent Horn + a BIG Announcement</title>
@@ -13,6 +13,20 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261119-we-need-to-talk-about-trent-horn-a-big-announcement/</guid>
       <pubDate>Thu, 19 Nov 2026 19:25:30 +0000</pubDate>
       <description>Trent Horn’s unexplained departure sparks praise, caution, and a closer look at faith beyond the headlines.</description>
+    </item>
+    <item>
+      <title>The 10 Biggest Days in AI History</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261119-the-10-biggest-days-in-ai-history/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261119-the-10-biggest-days-in-ai-history/</guid>
+      <pubDate>Fri, 20 Nov 2026 07:46:43 +0000</pubDate>
+      <description>AI’s biggest turning points came from surprises, rivalries, and one chatbot released with almost no expectations.</description>
+    </item>
+    <item>
+      <title>Malcolm Guite Ranks the Greatest Novels of All Time | Last Call Ep. 41</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261119-malcolm-guite-ranks-the-greatest-novels-of-all-time-last/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261119-malcolm-guite-ranks-the-greatest-novels-of-all-time-last/</guid>
+      <pubDate>Fri, 20 Nov 2026 07:46:31 +0000</pubDate>
+      <description>Great books do more than entertain: they train the imagination to see faith, evil, desire, and freedom differently.</description>
     </item>
     <item>
       <title>How Fast Should We Build Superintelligence? | Nick Bostrom</title>
@@ -342,20 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261105-the-new-cfo-how-ai-is-rewriting-the-finance-function-figma/</guid>
       <pubDate>Thu, 05 Nov 2026 14:15:39 +0000</pubDate>
       <description>AI may shrink finance teams—but only after it makes their judgment more valuable.</description>
-    </item>
-    <item>
-      <title>Responding to Unhinged Women | Dr. Carrie Gress | Last Call Ep. 39</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261105-responding-to-unhinged-women-dr-carrie-gress-last-call-ep-39/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261105-responding-to-unhinged-women-dr-carrie-gress-last-call-ep-39/</guid>
-      <pubDate>Fri, 06 Nov 2026 03:22:38 +0000</pubDate>
-      <description>The episode argues that feminism turns women’s real struggles into contempt for men, victimhood, and rejection of family and faith.</description>
-    </item>
-    <item>
-      <title>#354 Reckless Ben - The Internet&#39;s Most Controversial Investigative YouTuber</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261105-354-reckless-ben-the-internets-most-controversial/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261105-354-reckless-ben-the-internets-most-controversial/</guid>
-      <pubDate>Thu, 05 Nov 2026 14:16:34 +0000</pubDate>
-      <description>A homeless stunt creator infiltrated cults, exposed abusive schools, and fought a religion in court without a lawyer.</description>
     </item>
   </channel>
 </rss>

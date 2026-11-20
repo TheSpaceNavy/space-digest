@@ -4,7 +4,7 @@
   <title>Space Digest — Just The Funny Bits</title>
   <link>https://thespacenavy.github.io/space-digest/funny/</link>
   <description>Only the jokes from the shows on the list, with a link to each one.</description>
-  <lastBuildDate>Fri, 20 Nov 2026 07:00:21 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 20 Nov 2026 07:49:34 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/funny/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>The Michael Knowles Show: Ep. 2107 - Elon Musk&#39;s Shocking MAGA Comments</title>
@@ -12,6 +12,13 @@
     <guid isPermaLink="false">funny:the-michael-knowles-show/20261119-ep-2107-elon-musks-shocking-maga-comments</guid>
     <pubDate>Thu, 19 Nov 2026 19:33:01 +0000</pubDate>
     <description>4 funny bits: “Do you want to leave a a tip for the robot? And it wasn&#39;t even just you want to leave a 10% tip or 15% tip. No, no, no. The tipping has gotten insane.”</description>
+  </item>
+  <item>
+    <title>The Ben Shapiro Show: 3 Things Nobody Will Tell You About GTA 6</title>
+    <link>https://thespacenavy.github.io/space-digest/funny/2026-11-20/</link>
+    <guid isPermaLink="false">funny:the-ben-shapiro-show/20261119-3-things-nobody-will-tell-you-about-gta-6</guid>
+    <pubDate>Fri, 20 Nov 2026 07:48:02 +0000</pubDate>
+    <description>2 funny bits: “It&#39;s got lines in it for if I need snarks, if the dogs need walk. It&#39;s got lines in it to stop people for communicating with me. Ooky.”</description>
   </item>
   <item>
     <title>The Joe Rogan Experience: #2583 - Bob Gymlan</title>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">funny:the-white-house/20261104-president-trump-delivers-remarks-nov-4-2026</guid>
     <pubDate>Thu, 05 Nov 2026 02:05:52 +0000</pubDate>
     <description>2 funny bits: “We just opened up the reflecting pool two days ago, and it&#39;s magnificent. First time in Well, let&#39;s see. It opened in 1922 and it never worked. Ever worked. It always leaked, but now it&#39;s not leaking.”</description>
-  </item>
-  <item>
-    <title>The Michael Knowles Show: Ep. 2096 - Full Election RECAP And What Happens Next</title>
-    <link>https://thespacenavy.github.io/space-digest/funny/2026-11-05/</link>
-    <guid isPermaLink="false">funny:the-michael-knowles-show/20261104-ep-2096-full-election-recap-and-what-happens-next</guid>
-    <pubDate>Thu, 05 Nov 2026 02:05:25 +0000</pubDate>
-    <description>3 funny bits: “A horse walks into a bar. A bartender says, Do you want a drink? And the horse says, I think not. Poof, he disappears. You see, that is a joke about the French philosopher Rene Descartes, who famously said, I think, therefore I am.”</description>
   </item>
 </channel>
 </rss>
