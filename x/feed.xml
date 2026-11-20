@@ -4,8 +4,15 @@
   <title>Space Digest — Tightbeam</title>
   <link>https://thespacenavy.github.io/space-digest/tightbeam/</link>
   <description>A narrow beam on each person and subject worth following.</description>
-  <lastBuildDate>Fri, 20 Nov 2026 13:00:22 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 20 Nov 2026 19:00:33 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/tightbeam/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Peter Diamandis · Anthropic Is Public. What Does That Mean for You?</title>
+    <link>https://thespacenavy.github.io/space-digest/tightbeam/diamandis/2026-11-20-anthropic-is-public-what-does-that-mean-for-you/</link>
+    <guid isPermaLink="false">tightbeam:diamandis/2026-11-20-anthropic-is-public-what-does-that-mean-for-you</guid>
+    <pubDate>Fri, 20 Nov 2026 19:00:12 +0000</pubDate>
+    <description>Anthropic’s public debut may speed up AI’s impact by turning employees into investors in the next wave of technology.</description>
+  </item>
   <item>
     <title>Peter Diamandis · AI Didn’t Make You Irrelevant</title>
     <link>https://thespacenavy.github.io/space-digest/tightbeam/diamandis/2026-11-17-ai-didnt-make-you-irrelevant/</link>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">tightbeam:elonmusk/2026-10-08</guid>
     <pubDate>Thu, 08 Oct 2026 12:01:04 +0000</pubDate>
     <description>The day focused on Grok Bot updates, model selection, and Starlink’s status in India.</description>
-  </item>
-  <item>
-    <title>Elon Musk · 7 October 2026</title>
-    <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-10-07/</link>
-    <guid isPermaLink="false">tightbeam:elonmusk/2026-10-07</guid>
-    <pubDate>Wed, 07 Oct 2026 12:00:39 +0000</pubDate>
-    <description>Elon Musk highlighted Grok’s tools, AI performance, and plans for space-based connectivity.</description>
   </item>
 </channel>
 </rss>
