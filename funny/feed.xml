@@ -4,8 +4,15 @@
   <title>Space Digest — Just The Funny Bits</title>
   <link>https://thespacenavy.github.io/space-digest/funny/</link>
   <description>Only the jokes from the shows on the list, with a link to each one.</description>
-  <lastBuildDate>Sat, 21 Nov 2026 07:00:26 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 21 Nov 2026 08:23:46 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/funny/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>The White House: President Trump Hosts a Reception, Nov. 20, 2026</title>
+    <link>https://thespacenavy.github.io/space-digest/funny/2026-11-21/</link>
+    <guid isPermaLink="false">funny:the-white-house/20261120-president-trump-hosts-a-reception-nov-20-2026</guid>
+    <pubDate>Sat, 21 Nov 2026 08:23:12 +0000</pubDate>
+    <description>1 funny bit: “There were times, like the president said, a song would be playing, and I would go, is that the DJ? Is the DJ playing? And you&#39;d look over, and it was the band. And it sounded exactly like the artist.”</description>
+  </item>
   <item>
     <title>The White House: President Trump Hosts a News Conference</title>
     <link>https://thespacenavy.github.io/space-digest/funny/2026-11-20/</link>
@@ -19,6 +26,13 @@
     <guid isPermaLink="false">funny:the-michael-knowles-show/20261120-ep-2108-breaking-new-cyber-breach-targets-your-food</guid>
     <pubDate>Fri, 20 Nov 2026 20:08:11 +0000</pubDate>
     <description>2 funny bits: “Time flies like an arrow. Fruit flies like a banana. I love this comment so much. And I&#39;m going to use it. Do you get it? Time flies like an arrow. Fruit flies like a banana. Gather yourself, Michael. Compose yourself.”</description>
+  </item>
+  <item>
+    <title>The Andrew Klavan Show: Ep. 1305 - This Is Gonna Be Fun!</title>
+    <link>https://thespacenavy.github.io/space-digest/funny/2026-11-21/</link>
+    <guid isPermaLink="false">funny:the-andrew-klavan-show/20261120-ep-1305-this-is-gonna-be-fun</guid>
+    <pubDate>Sat, 21 Nov 2026 08:22:19 +0000</pubDate>
+    <description>7 funny bits: “Banking spokesman assured the nation that the glitch had not been caused by a hostile attack, though they did admit that their initial attempts to restore their customer savings were delayed when George Bailey turned out to be a fictional character.”</description>
   </item>
   <item>
     <title>The Joe Rogan Experience: #2584 - Mike Baker</title>
@@ -341,20 +355,6 @@
     <guid isPermaLink="false">funny:the-white-house/20261105-president-trump-participates-in-signing-time-nov-5-2026</guid>
     <pubDate>Fri, 06 Nov 2026 15:31:54 +0000</pubDate>
     <description>2 funny bits: “So, if they want to say let&#39;s not have oval anymore. Let&#39;s make it square. What happens is they have to go back to Congress”</description>
-  </item>
-  <item>
-    <title>The White House: First Lady Melania Trump Unites Russia and Ukraine at the White House Following Historic Ceasefire</title>
-    <link>https://thespacenavy.github.io/space-digest/funny/2026-11-06/</link>
-    <guid isPermaLink="false">funny:the-white-house/20261105-first-lady-melania-trump-unites-russia-and-ukraine-at-the</guid>
-    <pubDate>Fri, 06 Nov 2026 03:27:35 +0000</pubDate>
-    <description>2 funny bits: “I love Milania. And this message from children, frankly, overshadows any diplomatic statement anybody can make.”</description>
-  </item>
-  <item>
-    <title>The Matt Walsh Show: Ep. 1869 - This Is The Path Forward For Taking Back The Country</title>
-    <link>https://thespacenavy.github.io/space-digest/funny/2026-11-06/</link>
-    <guid isPermaLink="false">funny:the-matt-walsh-show/20261105-ep-1869-this-is-the-path-forward-for-taking-back-the-country</guid>
-    <pubDate>Fri, 06 Nov 2026 03:26:28 +0000</pubDate>
-    <description>1 funny bit: “We&#39;ve reached the point where ordinary household objects require more supervision than the children. Charge this, update that, download an app so you know you can use something that worked perfectly well before someone made it smart.”</description>
   </item>
 </channel>
 </rss>
