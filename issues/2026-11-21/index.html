@@ -132,10 +132,102 @@
 <a href="/space-digest/feed.xml">RSS</a>
   </nav>
   <h1>Saturday 21 November 2026</h1>
-  <p class="meta">A quiet day</p>
+  <p class="meta">1
+     episode</p>
 
-    <p class="quiet">Nothing new today. The shows on the list have not published
-       since the last issue.</p>
+      <div class="filters" id="filters" hidden>
+    <input type="search" id="q" placeholder="Search titles…" autocomplete="off"
+           aria-label="Search episode titles">
+    <div class="chips" data-role="show">
+      <button class="chip on" data-show="">All shows</button>
+      <button class="chip" data-show="the-a16z-show">The a16z Show <span class="at">1</span></button>
+    </div>
+    <div class="chips" data-role="sort">
+      <span class="at">Sort</span>
+      <button class="chip on" data-sort="released">Newest released</button>
+      <button class="chip" data-sort="done">Just written up</button>
+    </div>
+  </div>
+
+    <div id="list">
+<article class="entry" data-show="the-a16z-show" data-title="the professional network built for you and your ai agent"
+         data-released="2026-11-21" data-done="2026-11-21T14:28">
+  <h2 style="margin-top:0"><a href="/space-digest/episodes/the-a16z-show/20261121-the-professional-network-built-for-you-and-your-ai-agent/">The Professional Network Built for You and Your AI Agent</a></h2>
+  <p class="meta">The a16z Show · 21 November 2026 · 18 min<span class="done"> · written up 21 November at 14:28</span></p>
+  <p class="hook">The next professional network may be built around trusted proof of work, with AI agents searching it for you.</p>
+  <ul class="points">
+<li>Cosign aims to solve the talent problem by showing what people have done and who can vouch for it, not just their resumes. <span class="at">5:10</span></li><li>The network is designed to surface overlooked operators who may have more impact than people at the top of an organization chart. <span class="at">5:46</span></li><li>Its awards will identify five to ten people in each category rather than crown whoever gets the most votes. <span class="at">11:10</span></li><li>The planned gathering is meant to build relationships among emerging leaders, not hand out traditional prizes. <span class="at">12:16</span></li><li>The team says the value of these connections may take years to appear through companies, friendships, and unexpected partnerships. <span class="at">13:57</span></li><li>AI agents can search Cosign for people to know, track new lists, and find useful connections without constant human browsing. <span class="at">14:31</span></li>  </ul>
+<blockquote><p>“It&#39;s not actually about the votes, it&#39;s about identifying a pool of people.” [11:10]</p></blockquote><p class="for">Worth your time if you care about how hiring, reputation, and AI-assisted networking may change.</p>  <div class="standouts">
+    <h3>Most surprising</h3>
+    <ol>
+      <li>Cosign’s awards will not give a gold medal to whoever receives the most votes.
+<span class="at">11:10</span><span class="why">Readers would assume a voting contest rewards the top vote-getter.</span>      </li>
+      <li>“The most impactful in the organizations today, all around us aren&#39;t the ones who are sitting on top of the org chart.”
+<span class="at">5:10</span><span class="why">Traditional networks usually make senior titles the clearest signal of importance.</span>      </li>
+      <li>AI agents are already being connected to Cosign to find people, monitor feeds, and track new lists.
+<span class="at">14:31</span><span class="why">Most professional networks still expect people to search and browse themselves.</span>      </li>
+      <li>The network’s value may show up years later through companies started by people who met at its events.
+<span class="at">13:23</span><span class="why">People usually expect networking events to produce immediate contacts or job leads.</span>      </li>
+    </ol>
+  </div>
+</article>
+    </div>
+      <p class="quiet" id="none" hidden>Nothing matches that.</p>
+  <script>
+  (function () {
+    var box = document.getElementById('filters');
+    var list = document.getElementById('list');
+    var none = document.getElementById('none');
+    if (!box || !list) return;
+    box.hidden = false;              // only shown when scripting works
+    var items = [].slice.call(list.children);
+    var show = '', text = '', sort = 'released';
+
+    function apply() {
+      var key = sort === 'done' ? 'done' : 'released';
+      var other = key === 'done' ? 'released' : 'done';
+      items.sort(function (a, b) {
+        var x = a.dataset[key] || '', y = b.dataset[key] || '';
+        if (x !== y) return x < y ? 1 : -1;
+        x = a.dataset[other] || ''; y = b.dataset[other] || '';
+        return x === y ? 0 : (x < y ? 1 : -1);
+      });
+      items.forEach(function (el) { list.appendChild(el); });
+      list.classList.toggle('by-done', key === 'done');
+      var seen = 0;
+      items.forEach(function (el) {
+        var ok = (!show || el.dataset.show === show) &&
+                 (!text || (el.dataset.title || '').indexOf(text) !== -1);
+        el.hidden = !ok;
+        if (ok) seen++;
+      });
+      none.hidden = seen > 0;
+    }
+    box.querySelector('[data-role="show"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      show = b.dataset.show;
+      box.querySelectorAll('[data-role="show"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    box.querySelector('[data-role="sort"]').addEventListener('click', function (ev) {
+      var b = ev.target.closest('.chip');
+      if (!b) return;
+      sort = b.dataset.sort;
+      box.querySelectorAll('[data-role="sort"] .chip').forEach(function (c) {
+        c.classList.toggle('on', c === b);
+      });
+      apply();
+    });
+    document.getElementById('q').addEventListener('input', function (ev) {
+      text = ev.target.value.trim().toLowerCase();
+      apply();
+    });
+  })();
+  </script>
+
   <nav class="more">
 <a href="/space-digest/issues/2026-11-20/">Older</a>    <a href="/space-digest/archive/">All issues</a>
   </nav>

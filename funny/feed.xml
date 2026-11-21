@@ -4,8 +4,15 @@
   <title>Space Digest — Just The Funny Bits</title>
   <link>https://thespacenavy.github.io/space-digest/funny/</link>
   <description>Only the jokes from the shows on the list, with a link to each one.</description>
-  <lastBuildDate>Sat, 21 Nov 2026 19:00:28 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 21 Nov 2026 20:29:48 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/funny/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>The Michael Knowles Show: Real &#34;Gangsters&#34; Teach Me How To Play GTA 6</title>
+    <link>https://thespacenavy.github.io/space-digest/funny/2026-11-21/</link>
+    <guid isPermaLink="false">funny:the-michael-knowles-show/20261121-real-gangsters-teach-me-how-to-play-gta-6</guid>
+    <pubDate>Sat, 21 Nov 2026 20:29:28 +0000</pubDate>
+    <description>1 funny bit: “It&#39;s realistic in the sense that real life is kind of boring most of the time. Now you get to do everything you want. Wow, crazy. This sucks. We&#39;re watching paint dry. We&#39;re literally watching paint dry in this game.”</description>
+  </item>
   <item>
     <title>The White House: President Trump Hosts a Reception, Nov. 20, 2026</title>
     <link>https://thespacenavy.github.io/space-digest/funny/2026-11-21/</link>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">funny:the-joe-rogan-experience/20261106-2578-calley-means</guid>
     <pubDate>Sat, 07 Nov 2026 03:57:26 +0000</pubDate>
     <description>1 funny bit: “And I was like, &#34;Holy dude.&#34; I&#39;m like, &#34;You&#39;re high.&#34; And I talked to him and I said, &#34;Hey, man. You&#39;re not sober. This is not sober.”</description>
-  </item>
-  <item>
-    <title>The White House: President Trump Participates in Signing Time, Nov. 5, 2026</title>
-    <link>https://thespacenavy.github.io/space-digest/funny/2026-11-06/</link>
-    <guid isPermaLink="false">funny:the-white-house/20261105-president-trump-participates-in-signing-time-nov-5-2026</guid>
-    <pubDate>Fri, 06 Nov 2026 15:31:54 +0000</pubDate>
-    <description>2 funny bits: “So, if they want to say let&#39;s not have oval anymore. Let&#39;s make it square. What happens is they have to go back to Congress”</description>
   </item>
 </channel>
 </rss>
