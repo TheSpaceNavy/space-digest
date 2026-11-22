@@ -5,8 +5,22 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Nov 2026 19:00:18 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 20:37:45 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>When AI Labs Rival Nations</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261122-when-ai-labs-rival-nations/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261122-when-ai-labs-rival-nations/</guid>
+      <pubDate>Sun, 22 Nov 2026 20:36:31 +0000</pubDate>
+      <description>AI labs may soon need the accountability of governments, while AI itself could decide how people work and live.</description>
+    </item>
+    <item>
+      <title>Replay: How the Internet Happened | Chris Dixon &amp; Brian McCullough (2018)</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261122-replay-how-the-internet-happened-chris-dixon-brian/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261122-replay-how-the-internet-happened-chris-dixon-brian/</guid>
+      <pubDate>Sun, 22 Nov 2026 20:37:02 +0000</pubDate>
+      <description>The internet’s biggest breakthroughs often won because they were simple, timely, and convenient—not perfect.</description>
+    </item>
     <item>
       <title>The Professional Network Built for You and Your AI Agent</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261121-the-professional-network-built-for-you-and-your-ai-agent/</link>
@@ -342,20 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261107-mark-hymans-guide-to-living-longer-and-staying-strong/</guid>
       <pubDate>Sat, 07 Nov 2026 16:05:32 +0000</pubDate>
       <description>Longer life may depend less on extreme hacks than on building and keeping muscle.</description>
-    </item>
-    <item>
-      <title>Companies Are Spending 5x More on AI Now</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261107-companies-are-spending-5x-more-on-ai-now/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261107-companies-are-spending-5x-more-on-ai-now/</guid>
-      <pubDate>Sat, 07 Nov 2026 03:54:13 +0000</pubDate>
-      <description>AI spending is not slowing down—it is exploding because companies are paying for work, not employee seats.</description>
-    </item>
-    <item>
-      <title>Japan’s Defense Minister: “We Can’t Rule Out ALIENS!”</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/american-alchemy-with-jesse-michels/20261106-japans-defense-minister-we-cant-rule-out-aliens/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/american-alchemy-with-jesse-michels/20261106-japans-defense-minister-we-cant-rule-out-aliens/</guid>
-      <pubDate>Sat, 07 Nov 2026 03:54:26 +0000</pubDate>
-      <description>Japanese officials treat UFO reports near nuclear sites and alleged alien encounters as serious enough to investigate publicly.</description>
     </item>
   </channel>
 </rss>
