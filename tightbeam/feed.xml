@@ -4,8 +4,15 @@
   <title>Space Digest — Tightbeam</title>
   <link>https://thespacenavy.github.io/space-digest/tightbeam/</link>
   <description>A narrow beam on each person and subject worth following.</description>
-  <lastBuildDate>Wed, 25 Nov 2026 13:00:22 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 25 Nov 2026 19:00:25 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/tightbeam/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Peter Diamandis · Wisdom from Steve Jurvetson (VC &amp; SpaceX Board Member)</title>
+    <link>https://thespacenavy.github.io/space-digest/tightbeam/diamandis/2026-11-25-wisdom-from-steve-jurvetson-vc-spacex-board-member/</link>
+    <guid isPermaLink="false">tightbeam:diamandis/2026-11-25-wisdom-from-steve-jurvetson-vc-spacex-board-member</guid>
+    <pubDate>Wed, 25 Nov 2026 19:00:13 +0000</pubDate>
+    <description>The strongest companies win by embracing bold bets, owning bottlenecks, and pursuing missions rather than short-term gains.</description>
+  </item>
   <item>
     <title>Peter Diamandis · We&#39;re Getting the Biggest Security Upgrade of Our Lifetime</title>
     <link>https://thespacenavy.github.io/space-digest/tightbeam/diamandis/2026-11-23-were-getting-the-biggest-security-upgrade-of-our/</link>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">tightbeam:elonmusk/2026-10-10</guid>
     <pubDate>Sat, 10 Oct 2026 12:01:30 +0000</pubDate>
     <description>Elon Musk discussed SpaceX’s possible value, Starlink’s benefits, and new Grok @Bot features.</description>
-  </item>
-  <item>
-    <title>Elon Musk · 9 October 2026</title>
-    <link>https://thespacenavy.github.io/space-digest/tightbeam/elonmusk/2026-10-09/</link>
-    <guid isPermaLink="false">tightbeam:elonmusk/2026-10-09</guid>
-    <pubDate>Fri, 09 Oct 2026 12:01:13 +0000</pubDate>
-    <description>Elon Musk focused on Starlink’s expansion, SpaceX’s future value, and AI safety and tools.</description>
   </item>
 </channel>
 </rss>
