@@ -5,8 +5,22 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Nov 2026 19:00:25 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 21:45:01 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Replay: Principles and Algorithms for Work and Life | Ray Dalio (2019)</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261125-replay-principles-and-algorithms-for-work-and-life-ray-dalio/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261125-replay-principles-and-algorithms-for-work-and-life-ray-dalio/</guid>
+      <pubDate>Wed, 25 Nov 2026 21:38:21 +0000</pubDate>
+      <description>Better decisions come from testing your beliefs, knowing your limits, and spreading risk—not from being right alone.</description>
+    </item>
+    <item>
+      <title>#2586 - Jocko Willink</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261125-2586-jocko-willink/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261125-2586-jocko-willink/</guid>
+      <pubDate>Wed, 25 Nov 2026 21:39:35 +0000</pubDate>
+      <description>The conversation argues that freedom, resilience, and responsibility matter more than systems promising safety or equal results.</description>
+    </item>
     <item>
       <title>Why This Japanese Monk Has a Piece Of The Roswell UFO</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/american-alchemy-with-jesse-michels/20261124-why-this-japanese-monk-has-a-piece-of-the-roswell-ufo/</link>
@@ -342,20 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261111-jre-mma-show-188-with-paddy-pimblett/</guid>
       <pubDate>Thu, 12 Nov 2026 06:00:39 +0000</pubDate>
       <description>Fighters may gain 35 pounds overnight, start camps at cave raves, and still question whether their best wins would hold today.</description>
-    </item>
-    <item>
-      <title>HubSpot’s Co-Founder on Finding Your Next Startup Idea</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261110-hubspots-co-founder-on-finding-your-next-startup-idea/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261110-hubspots-co-founder-on-finding-your-next-startup-idea/</guid>
-      <pubDate>Tue, 10 Nov 2026 16:56:49 +0000</pubDate>
-      <description>The best startup ideas may come from testing fast, solving ignored problems, and knowing when not to use AI.</description>
-    </item>
-    <item>
-      <title>Fable 5.2 Is the Best AI Ever. So Why Am I Not Switching Yet?</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261110-fable-5-2-is-the-best-ai-ever-so-why-am-i-not-switching-yet/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261110-fable-5-2-is-the-best-ai-ever-so-why-am-i-not-switching-yet/</guid>
-      <pubDate>Wed, 11 Nov 2026 05:13:41 +0000</pubDate>
-      <description>Fable 5.2 may be the strongest AI yet, but its biggest weakness is knowing what people actually want.</description>
     </item>
   </channel>
 </rss>
