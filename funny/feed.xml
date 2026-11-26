@@ -4,7 +4,7 @@
   <title>Space Digest — Just The Funny Bits</title>
   <link>https://thespacenavy.github.io/space-digest/funny/</link>
   <description>Only the jokes from the shows on the list, with a link to each one.</description>
-  <lastBuildDate>Thu, 26 Nov 2026 07:00:26 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 26 Nov 2026 09:55:18 +0000</lastBuildDate>
   <atom:link href="https://thespacenavy.github.io/space-digest/funny/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>The Ben Shapiro Show: Watch This JLo Clip and Try Not to Roll Your Eyes</title>
@@ -26,6 +26,13 @@
     <guid isPermaLink="false">funny:the-matt-walsh-show/20261125-ep-1880-i-looked-into-why-thanksgiving-food-got-worse</guid>
     <pubDate>Wed, 25 Nov 2026 21:43:35 +0000</pubDate>
     <description>8 funny bits: “The floor for cake, though, is much lower than the ceiling is high, which is why, while a cake will never knock your socks off, it may do whatever the opposite of knocking your socks off is.”</description>
+  </item>
+  <item>
+    <title>The Andrew Klavan Show: A Corrupt Justice System Put Derek Chauvin Behind Bars w/TJ Harker</title>
+    <link>https://thespacenavy.github.io/space-digest/funny/2026-11-26/</link>
+    <guid isPermaLink="false">funny:the-andrew-klavan-show/20261125-a-corrupt-justice-system-put-derek-chauvin-behind-bars-w-tj</guid>
+    <pubDate>Thu, 26 Nov 2026 09:54:14 +0000</pubDate>
+    <description>1 funny bit: “People say it&#39;s always darkest before the dawn, and my experience is always darkest just before it goes pitch black, which is why I&#39;m here to cheer you up.”</description>
   </item>
   <item>
     <title>The Joe Rogan Experience: #2586 - Jocko Willink</title>
@@ -348,13 +355,6 @@
     <guid isPermaLink="false">funny:the-joe-rogan-experience/20261111-jre-mma-show-188-with-paddy-pimblett</guid>
     <pubDate>Thu, 12 Nov 2026 06:03:43 +0000</pubDate>
     <description>9 funny bits: “All them first 14 fights I always walked out to rap music and then when I lost I switched it up to dance music [laughter]”</description>
-  </item>
-  <item>
-    <title>The Michael Knowles Show: Ep. 2101 - Ole Miss Ring Cam Girls: Was This Racist?</title>
-    <link>https://thespacenavy.github.io/space-digest/funny/2026-11-11/</link>
-    <guid isPermaLink="false">funny:the-michael-knowles-show/20261111-ep-2101-ole-miss-ring-cam-girls-was-this-racist</guid>
-    <pubDate>Wed, 11 Nov 2026 17:29:47 +0000</pubDate>
-    <description>1 funny bit: “And I fear that the conservatives were a little bit too commander data. We&#39;re a little bit we&#39;re a little bit too into facts and logic.”</description>
   </item>
 </channel>
 </rss>

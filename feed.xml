@@ -5,7 +5,7 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Nov 2026 07:00:25 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 09:55:16 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Replay: Principles and Algorithms for Work and Life | Ray Dalio (2019)</title>
@@ -13,6 +13,13 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261125-replay-principles-and-algorithms-for-work-and-life-ray-dalio/</guid>
       <pubDate>Wed, 25 Nov 2026 21:38:21 +0000</pubDate>
       <description>Better decisions come from testing your beliefs, knowing your limits, and spreading risk—not from being right alone.</description>
+    </item>
+    <item>
+      <title>How to Talk About AI at Thanksgiving</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261125-how-to-talk-about-ai-at-thanksgiving/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261125-how-to-talk-about-ai-at-thanksgiving/</guid>
+      <pubDate>Thu, 26 Nov 2026 09:53:28 +0000</pubDate>
+      <description>AI arguments at Thanksgiving work better when skeptics are invited in, not pressured to agree.</description>
     </item>
     <item>
       <title>#2586 - Jocko Willink</title>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/american-alchemy-with-jesse-michels/20261111-kings-advisor-reveals-what-the-royal-family-knows-about-ufos/</guid>
       <pubDate>Thu, 12 Nov 2026 18:20:38 +0000</pubDate>
       <description>Royal insiders, alleged crash recoveries, psychic encounters, and nuclear shutdowns form a deeply unsettling case for UFO secrecy.</description>
-    </item>
-    <item>
-      <title>JRE MMA Show #188 with Paddy Pimblett</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261111-jre-mma-show-188-with-paddy-pimblett/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261111-jre-mma-show-188-with-paddy-pimblett/</guid>
-      <pubDate>Thu, 12 Nov 2026 06:00:39 +0000</pubDate>
-      <description>Fighters may gain 35 pounds overnight, start camps at cave raves, and still question whether their best wins would hold today.</description>
     </item>
   </channel>
 </rss>
