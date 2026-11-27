@@ -5,8 +5,29 @@
     <link>https://thespacenavy.github.io/space-digest/</link>
     <description>The podcasts worth your week, in a minute each.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Nov 2026 19:00:24 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 22:28:58 +0000</lastBuildDate>
     <atom:link href="https://thespacenavy.github.io/space-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Replay: From Swipe to Scale: How Tinder Became #1 (2024)</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261127-replay-from-swipe-to-scale-how-tinder-became-1-2024/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261127-replay-from-swipe-to-scale-how-tinder-became-1-2024/</guid>
+      <pubDate>Fri, 27 Nov 2026 22:23:03 +0000</pubDate>
+      <description>Tinder grew by making small, trusted communities—not by broadcasting to everyone at once.</description>
+    </item>
+    <item>
+      <title>AI is Too Big to Fail</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261127-ai-is-too-big-to-fail/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261127-ai-is-too-big-to-fail/</guid>
+      <pubDate>Fri, 27 Nov 2026 22:22:52 +0000</pubDate>
+      <description>AI may not get a bank-style bailout—but national security could make letting it fail impossible.</description>
+    </item>
+    <item>
+      <title>#2588 - Deric Poston &amp; Ehsan Ahmad</title>
+      <link>https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261127-2588-deric-poston-ehsan-ahmad/</link>
+      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-joe-rogan-experience/20261127-2588-deric-poston-ehsan-ahmad/</guid>
+      <pubDate>Fri, 27 Nov 2026 22:24:29 +0000</pubDate>
+      <description>Private empires, vanished civilizations, telepathy and million-dollar game skins collide in a wildly speculative tour of human behavior.</description>
+    </item>
     <item>
       <title>Replay: On Food as Medicine (2020)</title>
       <link>https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261126-replay-on-food-as-medicine-2020/</link>
@@ -335,27 +356,6 @@
       <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-a16z-show/20261112-the-next-era-of-games-mods-agents-and-infinite-worlds/</guid>
       <pubDate>Thu, 12 Nov 2026 18:19:52 +0000</pubDate>
       <description>AI could turn games from fixed products into worlds players build, remix, and reshape while playing.</description>
-    </item>
-    <item>
-      <title>Let&#39;s Talk About These Atheist TikToks | Ethan Muse | Last Call Ep. 40</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261112-lets-talk-about-these-atheist-tiktoks-ethan-muse-last-call/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/pints-with-aquinas/20261112-lets-talk-about-these-atheist-tiktoks-ethan-muse-last-call/</guid>
-      <pubDate>Fri, 13 Nov 2026 06:51:20 +0000</pubDate>
-      <description>The episode argues that disbelief may sometimes reflect resistance to God’s demands—not simply a lack of evidence.</description>
-    </item>
-    <item>
-      <title>Jensen Huang Is Out. Everything in AI Is Now Up for Grabs.</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261112-jensen-huang-is-out-everything-in-ai-is-now-up-for-grabs/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-ai-daily-brief-artificial/20261112-jensen-huang-is-out-everything-in-ai-is-now-up-for-grabs/</guid>
-      <pubDate>Fri, 13 Nov 2026 06:51:31 +0000</pubDate>
-      <description>NVIDIA’s CEO is out, and his removal could reshape chips, open AI, China policy, and the industry’s financial backbone.</description>
-    </item>
-    <item>
-      <title>#356 Joe Kent - Susie Wiles, Stephen Miller, Midterms and the AIPAC Problem</title>
-      <link>https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261112-356-joe-kent-susie-wiles-stephen-miller-midterms-and-the/</link>
-      <guid isPermaLink="true">https://thespacenavy.github.io/space-digest/episodes/the-shawn-ryan-show/20261112-356-joe-kent-susie-wiles-stephen-miller-midterms-and-the/</guid>
-      <pubDate>Thu, 12 Nov 2026 18:21:44 +0000</pubDate>
-      <description>The episode argues that voters did not abandon Trump—they felt betrayed by wars, lobbyists, and broken promises.</description>
     </item>
   </channel>
 </rss>
